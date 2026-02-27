@@ -1,0 +1,33 @@
+**RESEARCH BRIEF: [CEO NAME] for Cage and Mirror Analysis**
+
+I'm writing a series of LinkedIn articles examining how CEOs navigate or succumb to institutional constraints on organizational variance. Each article applies a framework called "The Cage and the Mirror" which analyzes how accountability structures (fiduciary duty, regulatory compliance, stakeholder management) compress linguistic and strategic variance over time.
+
+**The thesis for [CEO NAME]:** [INSERT THESIS FROM LIST]
+
+**Research objectives:**
+
+1. **Communication corpus**: Gather primary source communications—shareholder letters, earnings call transcripts (especially prepared remarks, not just Q&A), internal memos that became public, blog posts, conference keynotes, long-form interviews. Prioritize verbatim quotes over summaries. I need the actual language, not descriptions of it.
+
+2. **Structural factors**: Document the accountability architecture—ownership structure (dual-class shares, founder control percentage, major institutional holders), board composition, reporting relationships (number of direct reports if known), any unusual organizational design choices.
+
+3. **Concrete incidents**: Identify 3-5 specific moments where the CEO either (a) resisted institutional pressure to conform, or (b) capitulated to it. I need dates, details, and outcomes—not vague characterizations.
+
+4. **Trajectory evidence**: Find evidence of change over time. Has their communication style evolved? Have they become more or less conventional? Did any specific event mark an inflection point?
+
+5. **Counter-narrative**: What's the strongest argument against my thesis? Who has criticized this CEO, and on what grounds? What would a skeptic say?
+
+6. **Comparative anchors**: Identify the most useful comparison—predecessor, competitor, industry benchmark—that sharpens the contrast.
+
+**Output format:**
+
+Structure findings as:
+- **Background** (100 words max)
+- **Communication samples** (verbatim quotes with dates and sources)
+- **Structural factors** (bullet points with citations)
+- **Key incidents** (chronological, with specifics)
+- **Trajectory** (early period vs. recent, with evidence)
+- **Counter-narrative** (steelman the opposition)
+- **Comparison point** (who/what to contrast against)
+- **Source URLs** (for verification)
+
+Prioritize primary sources over journalism. Prioritize specificity over comprehensiveness. I'd rather have five well-documented quotes than fifty summarized claims.

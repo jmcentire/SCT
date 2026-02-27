@@ -1,0 +1,79 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ashby(1956)]{ashby1956introduction}
+W.~Ross Ashby.
+\newblock \emph{An Introduction to Cybernetics}.
+\newblock Chapman \& Hall, 1956.
+
+\bibitem[Baldwin and Clark(2000)]{baldwin2000design}
+Carliss~Y. Baldwin and Kim~B. Clark.
+\newblock \emph{Design Rules: The Power of Modularity}.
+\newblock MIT Press, 2000.
+
+\bibitem[Beer(1972)]{beer1972brain}
+Stafford Beer.
+\newblock \emph{Brain of the Firm}.
+\newblock Allen Lane / The Penguin Press, 1972.
+
+\bibitem[Bonabeau et~al.(1999)Bonabeau, Dorigo, and
+  Theraulaz]{bonabeau1999swarm}
+Eric Bonabeau, Marco Dorigo, and Guy Theraulaz.
+\newblock \emph{Swarm Intelligence: From Natural to Artificial Systems}.
+\newblock Oxford University Press, 1999.
+
+\bibitem[Cheng et~al.(2009)Cheng, de~Lemos, Giese, Inverardi, Magee,
+  et~al.]{cheng2009software}
+Betty H.~C. Cheng, Rog\'{e}rio de~Lemos, Holger Giese, Paola Inverardi, Jeff
+  Magee, et~al.
+\newblock Software engineering for self-adaptive systems: A research roadmap.
+\newblock In \emph{Software Engineering for Self-Adaptive Systems}, volume 5525
+  of \emph{Lecture Notes in Computer Science}, pages 1--26. Springer, 2009.
+
+\bibitem[Gamma et~al.(1994)Gamma, Helm, Johnson, and
+  Vlissides]{gamma1994design}
+Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+\newblock \emph{Design Patterns: Elements of Reusable Object-Oriented
+  Software}.
+\newblock Addison-Wesley, 1994.
+
+\bibitem[Kauffman(1993)]{kauffman1993origins}
+Stuart~A. Kauffman.
+\newblock \emph{The Origins of Order: Self-Organization and Selection in
+  Evolution}.
+\newblock Oxford University Press, 1993.
+
+\bibitem[Kay(2003)]{kay2003meaning}
+Alan Kay.
+\newblock Re: Prototypes vs classes was: Re: Sun's hotspot, 2003.
+\newblock Email to the Squeak mailing list, archived at
+  \url{http://lists.squeakfoundation.org/pipermail/squeak-dev/2003-July/066092.html}.
+
+\bibitem[Kephart and Chess(2003)]{kephart2003vision}
+Jeffrey~O. Kephart and David~M. Chess.
+\newblock The vision of autonomic computing.
+\newblock \emph{Computer}, 36\penalty0 (1):\penalty0 41--50, 2003.
+
+\bibitem[McEntire(2026)]{mcentire2026asd}
+Jeremy McEntire.
+\newblock Ambient structure discovery via stigmergic mesh.
+\newblock Working paper, 2026.
+
+\bibitem[Postel(1980)]{postel1980dod}
+Jon Postel.
+\newblock {DoD} standard internet protocol.
+\newblock Technical Report RFC 760, USC/Information Sciences Institute, 1980.
+\newblock The robustness principle: ``be conservative in what you do, be
+  liberal in what you accept from others''.
+
+\bibitem[Rao and Georgeff(1995)]{rao1995bdi}
+Anand~S. Rao and Michael~P. Georgeff.
+\newblock {BDI} agents: From theory to practice.
+\newblock In \emph{Proceedings of the First International Conference on
+  Multi-Agent Systems (ICMAS-95)}, pages 312--319, 1995.
+
+\end{thebibliography}

@@ -1,0 +1,114 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "seed": 42,
+  "domain_order": [
+    "medical",
+    "legal",
+    "code",
+    "science"
+  ],
+  "orthogonalization": {
+    "pairwise_cosine_similarity": {
+      "medical-legal": 0.9918004870414734,
+      "medical-code": 0.9207286834716797,
+      "medical-science": 0.97008216381073,
+      "legal-code": 0.9073840975761414,
+      "legal-science": 0.9761883020401001,
+      "code-science": 0.8284915685653687
+    },
+    "mean_off_diagonal_similarity": 0.9324459433555603,
+    "similarity_matrix": [
+      [
+        1.0,
+        0.9918004870414734,
+        0.9207286834716797,
+        0.97008216381073
+      ],
+      [
+        0.9918004870414734,
+        1.000000238418579,
+        0.9073840975761414,
+        0.9761883020401001
+      ],
+      [
+        0.9207286834716797,
+        0.9073840975761414,
+        1.0000001192092896,
+        0.8284915685653687
+      ],
+      [
+        0.97008216381073,
+        0.9761883020401001,
+        0.8284915685653687,
+        1.0
+      ]
+    ],
+    "domain_order": [
+      "medical",
+      "legal",
+      "code",
+      "science"
+    ],
+    "needs_orthogonalization": true,
+    "post_orthogonalization_mean_similarity": -5.549130488446963e-09,
+    "gram_schmidt_coefficients": [
+      [
+        30.608509063720703,
+        30.513832092285156,
+        32.64859390258789,
+        28.872758865356445
+      ],
+      [
+        0.0,
+        30.76609992980957,
+        -1.6079381704330444,
+        3.2746734619140625
+      ],
+      [
+        0.0,
+        0.0,
+        35.45951461791992,
+        -4.584880828857422
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        29.763214111328125
+      ]
+    ]
+  },
+  "single_domain": {
+    "n_probes": 160,
+    "win_rate_composed_vs_generalist": 0.96875,
+    "win_rate_blended_vs_generalist": 0.96875,
+    "win_rate_composed_vs_task_arithmetic": 0.90625,
+    "win_rate_blended_vs_task_arithmetic": 0.90625,
+    "mean_composed_loss": 6.083123643323779,
+    "mean_blended_loss": 6.083120660856366,
+    "mean_generalist_loss": 6.3471255104988815,
+    "mean_sparsity_gini": 0.46398777448024014,
+    "mean_residual_norm": 0.4204454404976999,
+    "mean_blend_ratio": 8.959471026847283e-05,
+    "medical_win_rate_vs_gen": 0.975,
+    "medical_mean_sparsity": 0.45649889219264034,
+    "legal_win_rate_vs_gen": 0.95,
+    "legal_mean_sparsity": 0.4280456100027096,
+    "code_win_rate_vs_gen": 1.0,
+    "code_mean_sparsity": 0.5487168861305645,
+    "science_win_rate_vs_gen": 0.95,
+    "science_mean_sparsity": 0.4226897095950461
+  },
+  "cross_domain": {
+    "n_probes": 150,
+    "win_rate_composed_vs_generalist": 1.0,
+    "win_rate_blended_vs_generalist": 1.0,
+    "win_rate_composed_vs_best_single": 0.48,
+    "win_rate_composed_vs_task_arithmetic": 0.84,
+    "win_rate_blended_vs_task_arithmetic": 0.84,
+    "mean_composed_loss": 4.191352133750915,
+    "mean_blended_loss": 4.191352133750915,
+    "mean_generalist_loss": 4.338703910509746,
+    "mean_sparsity_gini": 0.3766636718942127
+  }
+}

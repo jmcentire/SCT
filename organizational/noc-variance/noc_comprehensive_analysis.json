@@ -1,0 +1,210 @@
+{
+  "subject": "Northrop Grumman Corporation (NOC)",
+  "period": "2015-2024",
+  "document_types": [
+    "Annual Report Item 1 (Business)",
+    "Annual Report Item 7 (MD&A)",
+    "CEO Shareholder Letter"
+  ],
+  "methodology": {
+    "lexical_diversity": "Unique tokens / Total tokens",
+    "shannon_entropy": "Information unpredictability (base-2 log)",
+    "hedging_density": "Epistemic markers per 1000 words",
+    "nominalization": "Noun-from-verb derivatives per 1000 words"
+  },
+  "item1_item7_metrics": [
+    {
+      "year": "2015",
+      "ld": 0.1743,
+      "se": 8.96,
+      "hedge_per_1k": 10.9,
+      "nom_per_1k": 67.6,
+      "total_tokens": 10255
+    },
+    {
+      "year": "2017",
+      "ld": 0.168,
+      "se": 9.0,
+      "hedge_per_1k": 13.5,
+      "nom_per_1k": 66.9,
+      "total_tokens": 10350
+    },
+    {
+      "year": "2018",
+      "ld": 0.1581,
+      "se": 9.0,
+      "hedge_per_1k": 13.9,
+      "nom_per_1k": 66.2,
+      "total_tokens": 11376
+    },
+    {
+      "year": "2019",
+      "ld": 0.1812,
+      "se": 9.12,
+      "hedge_per_1k": 15.5,
+      "nom_per_1k": 68.9,
+      "total_tokens": 9936,
+      "note": "Orbital ATK acquisition effect"
+    },
+    {
+      "year": "2020",
+      "ld": 0.1754,
+      "se": 9.24,
+      "hedge_per_1k": 14.0,
+      "nom_per_1k": 69.8,
+      "total_tokens": 11851
+    },
+    {
+      "year": "2022",
+      "ld": 0.1688,
+      "se": 9.29,
+      "hedge_per_1k": 13.9,
+      "nom_per_1k": 69.1,
+      "total_tokens": 13252
+    },
+    {
+      "year": "2023",
+      "ld": 0.179,
+      "se": 9.27,
+      "hedge_per_1k": 15.4,
+      "nom_per_1k": 68.5,
+      "total_tokens": 12032
+    },
+    {
+      "year": "2024",
+      "ld": 0.1737,
+      "se": 9.23,
+      "hedge_per_1k": 15.5,
+      "nom_per_1k": 64.7,
+      "total_tokens": 12050
+    }
+  ],
+  "ceo_letter_metrics": [
+    {
+      "year": "2015",
+      "ceo": "Wes Bush",
+      "word_count": 2559,
+      "financial_density": 20.3,
+      "technology_density": 53.9,
+      "values_density": 2.3
+    },
+    {
+      "year": "2017",
+      "ceo": "Wes Bush",
+      "word_count": 1016,
+      "financial_density": 8.9,
+      "technology_density": 36.4,
+      "values_density": 2.0
+    },
+    {
+      "year": "2018",
+      "ceo": "Wes Bush",
+      "word_count": 1067,
+      "financial_density": 12.2,
+      "technology_density": 44.0,
+      "values_density": 9.4
+    },
+    {
+      "year": "2019",
+      "ceo": "Kathy Warden (transition)",
+      "word_count": 1445,
+      "financial_density": 20.1,
+      "technology_density": 27.7,
+      "values_density": 14.5
+    },
+    {
+      "year": "2020",
+      "ceo": "Kathy Warden",
+      "word_count": 1102,
+      "financial_density": 25.4,
+      "technology_density": 8.2,
+      "values_density": 22.7
+    },
+    {
+      "year": "2022",
+      "ceo": "Kathy Warden",
+      "word_count": 730,
+      "financial_density": 11.0,
+      "technology_density": 23.3,
+      "values_density": 13.7
+    },
+    {
+      "year": "2023",
+      "ceo": "Kathy Warden",
+      "word_count": 576,
+      "financial_density": 15.6,
+      "technology_density": 15.6,
+      "values_density": 19.1
+    },
+    {
+      "year": "2024",
+      "ceo": "Kathy Warden",
+      "word_count": 548,
+      "financial_density": 20.1,
+      "technology_density": 16.4,
+      "values_density": 21.9
+    }
+  ],
+  "trajectory_summary": {
+    "item1_item7": {
+      "ld_change_pct": -0.3,
+      "se_change_pct": 3.0,
+      "hedge_change_pct": 42.2,
+      "interpretation": "Minimal vocabulary compression, significant hedging increase"
+    },
+    "ceo_letter": {
+      "length_change_pct": -78.6,
+      "technology_change_pct": -64.5,
+      "values_change_pct": 323.7,
+      "interpretation": "Letters shortened dramatically, shifted from technology to values language"
+    }
+  },
+  "key_events": [
+    {
+      "year": "2018",
+      "event": "Orbital ATK acquisition completed (June)",
+      "linguistic_effect": "LD expansion in 2019 (+14.6%)"
+    },
+    {
+      "year": "2019",
+      "event": "CEO transition: Bush -> Warden",
+      "linguistic_effect": "Letter content shift begins"
+    }
+  ],
+  "comparative_benchmarks": {
+    "amazon_s1_1997": {
+      "ld": 0.1742,
+      "se": 11.61
+    },
+    "google_s1_2004": {
+      "ld": 0.1825,
+      "se": 12.05
+    },
+    "coinbase_s1_2021": {
+      "ld": 0.1944,
+      "se": 12.48
+    },
+    "blackstone_s1_2007": {
+      "ld": 0.1412,
+      "se": 10.85,
+      "note": "born caged - finance"
+    },
+    "noc_2024": {
+      "ld": 0.1737,
+      "se": 9.23
+    }
+  },
+  "hypothesis_findings": {
+    "extends_to_defense_contractors": true,
+    "pattern_differs_from_tech": true,
+    "manifestation": "Defense contractors 'born caged' on vocabulary but not hedging. The Fiduciary Trap manifests through hedging escalation (+42%) rather than vocabulary compression.",
+    "ceo_letter_pattern": "INVERSE of Jobs->Cook. Bush (metric-focused) to Warden (values-focused, shorter). CEO letter becoming PR document.",
+    "predictive_vs_symptomatic": "Preliminary evidence for PREDICTIVE: Hedging increase (2015-2017: +24%) preceded strategic necessity of Orbital ATK acquisition"
+  },
+  "gaps_for_correlation": [
+    "Need program-level cost/schedule data to correlate with linguistic metrics",
+    "Need to compare with other defense primes (Lockheed, Boeing, Raytheon)",
+    "Need earnings call transcripts for richer CEO voice data",
+    "Need contract win/loss data to test predictive power"
+  ]
+}

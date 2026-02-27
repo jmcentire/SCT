@@ -1,0 +1,103 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: asd.aux
+The style file: plainnat.bst
+I found no \bibdata command---while reading file asd.aux
+Warning--I didn't find a database entry for "armour2000"
+Warning--I didn't find a database entry for "flyvbjerg2022"
+Warning--I didn't find a database entry for "standish2015"
+Warning--I didn't find a database entry for "luhmann1995"
+Warning--I didn't find a database entry for "zheng2025"
+Warning--I didn't find a database entry for "smaldino2016"
+Warning--I didn't find a database entry for "mcentire2025c"
+Warning--I didn't find a database entry for "mcentire2025a"
+Warning--I didn't find a database entry for "crawford1982"
+Warning--I didn't find a database entry for "liberti2009"
+Warning--I didn't find a database entry for "cover2006"
+Warning--I didn't find a database entry for "spence1973"
+Warning--I didn't find a database entry for "elliott2007"
+Warning--I didn't find a database entry for "wilson1971"
+Warning--I didn't find a database entry for "grasse1959"
+Warning--I didn't find a database entry for "grossberg1976"
+Warning--I didn't find a database entry for "beer1972"
+Warning--I didn't find a database entry for "shannon1959"
+Warning--I didn't find a database entry for "simon1956"
+Warning--I didn't find a database entry for "wittgenstein1953"
+Warning--I didn't find a database entry for "gigerenzer2008"
+Warning--I didn't find a database entry for "carpenter1991"
+Warning--I didn't find a database entry for "carpenter1987"
+Warning--I didn't find a database entry for "bateson1972"
+Warning--I didn't find a database entry for "prigogine1977"
+Warning--I didn't find a database entry for "donnat2018"
+Warning--I didn't find a database entry for "tang2022"
+Warning--I didn't find a database entry for "ocasio1997"
+Warning--I didn't find a database entry for "conant1970"
+Warning--I didn't find a database entry for "burt2004"
+Warning--I didn't find a database entry for "granovetter1973"
+Warning--I didn't find a database entry for "estrada2008"
+Warning--I didn't find a database entry for "prendergast1993"
+Warning--I didn't find a database entry for "vaughan1996"
+Warning--I didn't find a database entry for "vuori2016"
+Warning--I didn't find a database entry for "kauffman1993"
+Warning--I didn't find a database entry for "rogers1986"
+Warning--I didn't find a database entry for "caib2003"
+Warning--I didn't find a database entry for "beer2000"
+Warning--I didn't find a database entry for "mcentire2026"
+Warning--I didn't find a database entry for "lawvere1969"
+Warning--I didn't find a database entry for "spencerbrown1969"
+Warning--I didn't find a database entry for "march1991"
+Warning--I didn't find a database entry for "alexander1977"
+Warning--I didn't find a database entry for "mcentire2026b"
+Warning--I didn't find a database entry for "ashby1956"
+Warning--I didn't find a database entry for "heylighen2016"
+Warning--I didn't find a database entry for "kohonen1982"
+Warning--I didn't find a database entry for "fritzke1995"
+Warning--I didn't find a database entry for "cottrell1987"
+Warning--I didn't find a database entry for "kamenica2011"
+Warning--I didn't find a database entry for "candes2006"
+Warning--I didn't find a database entry for "cataldo2008"
+Warning--I didn't find a database entry for "amrit2010"
+Warning--I didn't find a database entry for "tamburri2021"
+Warning--I didn't find a database entry for "tetlock2005"
+You've used 0 entries,
+            2773 wiz_defined-function locations,
+            647 strings with 5445 characters,
+and the built_in function-call counts, 33 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 10
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 8
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 7
+(There was 1 error message)

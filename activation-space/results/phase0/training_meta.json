@@ -1,0 +1,773 @@
+{
+  "config": {
+    "model_name": "gpt2",
+    "dataset_name": "wikitext",
+    "dataset_config": "wikitext-103-v1",
+    "max_steps": 2000,
+    "batch_size": 4,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 100,
+    "max_length": 256,
+    "checkpoint_interval": 50,
+    "num_probes": 100,
+    "probe_max_length": 128,
+    "capture_layers": [
+      "final_hidden"
+    ],
+    "output_dir": "results/phase0",
+    "seed": 42,
+    "gradient_accumulation_steps": 1
+  },
+  "checkpoint_logs": [
+    {
+      "step": 50,
+      "loss": 3.4616721653938294,
+      "learning_rate": 2.45e-05,
+      "elapsed_seconds": 64.45270991325378,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 183.57192993164062,
+          "std_norm": 15.489222526550293,
+          "mean_val": 0.3232223391532898,
+          "std_val": 6.639756679534912
+        }
+      }
+    },
+    {
+      "step": 100,
+      "loss": 1.8636878967285155,
+      "learning_rate": 4.9500000000000004e-05,
+      "elapsed_seconds": 129.60275197029114,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 188.79122924804688,
+          "std_norm": 14.561985969543457,
+          "mean_val": 0.33081671595573425,
+          "std_val": 6.8246378898620605
+        }
+      }
+    },
+    {
+      "step": 150,
+      "loss": 1.7056317746639251,
+      "learning_rate": 4.991799182719451e-05,
+      "elapsed_seconds": 193.2732229232788,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 172.61273193359375,
+          "std_norm": 13.655797004699707,
+          "mean_val": 0.3037392795085907,
+          "std_val": 6.240699768066406
+        }
+      }
+    },
+    {
+      "step": 200,
+      "loss": 1.786553807258606,
+      "learning_rate": 4.966580267822065e-05,
+      "elapsed_seconds": 256.8015899658203,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 144.99758911132812,
+          "std_norm": 14.983102798461914,
+          "mean_val": 0.2532540261745453,
+          "std_val": 5.253909587860107
+        }
+      }
+    },
+    {
+      "step": 250,
+      "loss": 1.6469518661499023,
+      "learning_rate": 4.9245121086159674e-05,
+      "elapsed_seconds": 319.1630139350891,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 126.5291976928711,
+          "std_norm": 20.075973510742188,
+          "mean_val": 0.21875694394111633,
+          "std_val": 4.617664813995361
+        }
+      }
+    },
+    {
+      "step": 300,
+      "loss": 1.854072585105896,
+      "learning_rate": 4.865882073285086e-05,
+      "elapsed_seconds": 381.505423784256,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 111.87537384033203,
+          "std_norm": 20.73651885986328,
+          "mean_val": 0.1905037760734558,
+          "std_val": 4.101294040679932
+        }
+      }
+    },
+    {
+      "step": 350,
+      "loss": 1.7137954974174499,
+      "learning_rate": 4.7910906644208054e-05,
+      "elapsed_seconds": 443.733610868454,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 100.39166259765625,
+          "std_norm": 24.22722053527832,
+          "mean_val": 0.16917864978313446,
+          "std_val": 3.7227237224578857
+        }
+      }
+    },
+    {
+      "step": 400,
+      "loss": 1.663557858467102,
+      "learning_rate": 4.700648783183159e-05,
+      "elapsed_seconds": 505.132524728775,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 91.72184753417969,
+          "std_norm": 28.45592498779297,
+          "mean_val": 0.15287557244300842,
+          "std_val": 3.461974620819092
+        }
+      }
+    },
+    {
+      "step": 450,
+      "loss": 1.7395721381902696,
+      "learning_rate": 4.595174239327862e-05,
+      "elapsed_seconds": 566.7379746437073,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 98.30845642089844,
+          "std_norm": 33.698673248291016,
+          "mean_val": 0.163786843419075,
+          "std_val": 3.746447801589966
+        }
+      }
+    },
+    {
+      "step": 500,
+      "loss": 1.7244671642780305,
+      "learning_rate": 4.4753875309392266e-05,
+      "elapsed_seconds": 628.3123228549957,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 101.25816345214844,
+          "std_norm": 37.966285705566406,
+          "mean_val": 0.16834688186645508,
+          "std_val": 3.8985986709594727
+        }
+      }
+    },
+    {
+      "step": 550,
+      "loss": 1.7085052597522736,
+      "learning_rate": 4.342106922697669e-05,
+      "elapsed_seconds": 690.2717127799988,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 83.42696380615234,
+          "std_norm": 33.022830963134766,
+          "mean_val": 0.1321353167295456,
+          "std_val": 3.2349729537963867
+        }
+      }
+    },
+    {
+      "step": 600,
+      "loss": 1.676723091006279,
+      "learning_rate": 4.1962428563022414e-05,
+      "elapsed_seconds": 752.0355868339539,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 77.14368438720703,
+          "std_norm": 33.10579299926758,
+          "mean_val": 0.12064384669065475,
+          "std_val": 3.026782274246216
+        }
+      }
+    },
+    {
+      "step": 650,
+      "loss": 1.6116223418712616,
+      "learning_rate": 4.0387917312306414e-05,
+      "elapsed_seconds": 812.7414636611938,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 70.97418212890625,
+          "std_norm": 31.33336067199707,
+          "mean_val": 0.10973113775253296,
+          "std_val": 2.797382354736328
+        }
+      }
+    },
+    {
+      "step": 700,
+      "loss": 1.723285871744156,
+      "learning_rate": 3.870829098320446e-05,
+      "elapsed_seconds": 875.7613840103149,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 73.1214828491211,
+          "std_norm": 31.87421989440918,
+          "mean_val": 0.11207267642021179,
+          "std_val": 2.876147747039795
+        }
+      }
+    },
+    {
+      "step": 750,
+      "loss": 1.7595589971542358,
+      "learning_rate": 3.693502312666304e-05,
+      "elapsed_seconds": 938.7891178131104,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 83.19515991210938,
+          "std_norm": 34.59381103515625,
+          "mean_val": 0.13245385885238647,
+          "std_val": 3.2485358715057373
+        }
+      }
+    },
+    {
+      "step": 800,
+      "loss": 1.6565794211626053,
+      "learning_rate": 3.508022696021226e-05,
+      "elapsed_seconds": 1006.3323698043823,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 90.16583251953125,
+          "std_norm": 35.35135269165039,
+          "mean_val": 0.143520787358284,
+          "std_val": 3.491764545440674
+        }
+      }
+    },
+    {
+      "step": 850,
+      "loss": 1.754230830669403,
+      "learning_rate": 3.3156572622407565e-05,
+      "elapsed_seconds": 1071.6437859535217,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 87.1177749633789,
+          "std_norm": 35.44295883178711,
+          "mean_val": 0.13757924735546112,
+          "std_val": 3.3910059928894043
+        }
+      }
+    },
+    {
+      "step": 900,
+      "loss": 1.7011380296945573,
+      "learning_rate": 3.117720062293599e-05,
+      "elapsed_seconds": 1139.796353816986,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 92.48785400390625,
+          "std_norm": 35.98120880126953,
+          "mean_val": 0.14769957959651947,
+          "std_val": 3.5779812335968018
+        }
+      }
+    },
+    {
+      "step": 950,
+      "loss": 1.7853283989429474,
+      "learning_rate": 2.915563207961074e-05,
+      "elapsed_seconds": 1203.9190368652344,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 83.73785400390625,
+          "std_norm": 34.738155364990234,
+          "mean_val": 0.13195787370204926,
+          "std_val": 3.268655300140381
+        }
+      }
+    },
+    {
+      "step": 1000,
+      "loss": 1.641862759590149,
+      "learning_rate": 2.7105676355426248e-05,
+      "elapsed_seconds": 1268.8962638378143,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 92.59386444091797,
+          "std_norm": 34.1768798828125,
+          "mean_val": 0.14806485176086426,
+          "std_val": 3.5584492683410645
+        }
+      }
+    },
+    {
+      "step": 1050,
+      "loss": 1.6747520661354065,
+      "learning_rate": 2.5041336726606457e-05,
+      "elapsed_seconds": 1333.8772678375244,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 84.37786865234375,
+          "std_norm": 33.449188232421875,
+          "mean_val": 0.13258479535579681,
+          "std_val": 3.272552490234375
+        }
+      }
+    },
+    {
+      "step": 1100,
+      "loss": 1.703998762369156,
+      "learning_rate": 2.2976714726029068e-05,
+      "elapsed_seconds": 1398.1543507575989,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 89.13845825195312,
+          "std_norm": 34.82217025756836,
+          "mean_val": 0.1421428918838501,
+          "std_val": 3.4503040313720703
+        }
+      }
+    },
+    {
+      "step": 1150,
+      "loss": 1.7473300337791442,
+      "learning_rate": 2.0925913815457153e-05,
+      "elapsed_seconds": 1463.371997833252,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 100.5458755493164,
+          "std_norm": 37.17686462402344,
+          "mean_val": 0.16182123124599457,
+          "std_val": 3.864818572998047
+        }
+      }
+    },
+    {
+      "step": 1200,
+      "loss": 1.7507946515083312,
+      "learning_rate": 1.8902943044594735e-05,
+      "elapsed_seconds": 1530.9927308559418,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 108.59349822998047,
+          "std_norm": 37.59856033325195,
+          "mean_val": 0.17682798206806183,
+          "std_val": 4.142982482910156
+        }
+      }
+    },
+    {
+      "step": 1250,
+      "loss": 1.5852113032341004,
+      "learning_rate": 1.6921621355072144e-05,
+      "elapsed_seconds": 1598.540278673172,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 102.53752136230469,
+          "std_norm": 36.20401382446289,
+          "mean_val": 0.16650593280792236,
+          "std_val": 3.920330286026001
+        }
+      }
+    },
+    {
+      "step": 1300,
+      "loss": 1.6756615591049195,
+      "learning_rate": 1.499548318306259e-05,
+      "elapsed_seconds": 1665.9973356723785,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 104.80036926269531,
+          "std_norm": 36.32033920288086,
+          "mean_val": 0.1702483892440796,
+          "std_val": 3.99870228767395
+        }
+      }
+    },
+    {
+      "step": 1350,
+      "loss": 1.6008459556102752,
+      "learning_rate": 1.3137686005359318e-05,
+      "elapsed_seconds": 1731.5970449447632,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 105.92793273925781,
+          "std_norm": 36.36214065551758,
+          "mean_val": 0.171936497092247,
+          "std_val": 4.037621021270752
+        }
+      }
+    },
+    {
+      "step": 1400,
+      "loss": 1.656509827375412,
+      "learning_rate": 1.1360920460467594e-05,
+      "elapsed_seconds": 1797.5202927589417,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 108.5975112915039,
+          "std_norm": 37.07489013671875,
+          "mean_val": 0.17450104653835297,
+          "std_val": 4.137068748474121
+        }
+      }
+    },
+    {
+      "step": 1450,
+      "loss": 1.6930717384815217,
+      "learning_rate": 9.677323658675594e-06,
+      "elapsed_seconds": 1865.1172647476196,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 111.36644744873047,
+          "std_norm": 37.08324432373047,
+          "mean_val": 0.17977063357830048,
+          "std_val": 4.2317047119140625
+        }
+      }
+    },
+    {
+      "step": 1500,
+      "loss": 1.7059248638153077,
+      "learning_rate": 8.098396273284236e-06,
+      "elapsed_seconds": 1932.4183008670807,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 113.22245025634766,
+          "std_norm": 37.67966079711914,
+          "mean_val": 0.18306663632392883,
+          "std_val": 4.301970958709717
+        }
+      }
+    },
+    {
+      "step": 1550,
+      "loss": 1.6932405638694763,
+      "learning_rate": 6.6349239793470765e-06,
+      "elapsed_seconds": 1998.1310338974,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 109.73273468017578,
+          "std_norm": 37.60371017456055,
+          "mean_val": 0.17705057561397552,
+          "std_val": 4.181936740875244
+        }
+      }
+    },
+    {
+      "step": 1600,
+      "loss": 1.6808598631620406,
+      "learning_rate": 5.296903776573065e-06,
+      "elapsed_seconds": 2066.0514438152313,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 110.64271545410156,
+          "std_norm": 37.42293930053711,
+          "mean_val": 0.17901679873466492,
+          "std_val": 4.210860729217529
+        }
+      }
+    },
+    {
+      "step": 1650,
+      "loss": 1.7070104110240936,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2133.582650899887,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 112.76692199707031,
+          "std_norm": 37.803749084472656,
+          "mean_val": 0.182204470038414,
+          "std_val": 4.287822723388672
+        }
+      }
+    },
+    {
+      "step": 1700,
+      "loss": 1.6004591989517212,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2201.9164838790894,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 114.28491973876953,
+          "std_norm": 37.92570877075195,
+          "mean_val": 0.18464358150959015,
+          "std_val": 4.341121196746826
+        }
+      }
+    },
+    {
+      "step": 1750,
+      "loss": 1.6067148041725159,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2269.5431859493256,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 112.51021575927734,
+          "std_norm": 38.259620666503906,
+          "mean_val": 0.18091821670532227,
+          "std_val": 4.284360408782959
+        }
+      }
+    },
+    {
+      "step": 1800,
+      "loss": 1.635876841545105,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2334.280017852783,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 113.3072738647461,
+          "std_norm": 38.29807662963867,
+          "mean_val": 0.18226636946201324,
+          "std_val": 4.312012672424316
+        }
+      }
+    },
+    {
+      "step": 1850,
+      "loss": 1.7326218974590302,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2397.7337679862976,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 114.1611328125,
+          "std_norm": 38.37562942504883,
+          "mean_val": 0.18379849195480347,
+          "std_val": 4.34206485748291
+        }
+      }
+    },
+    {
+      "step": 1900,
+      "loss": 1.741864349246025,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2461.0623087882996,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 114.12673950195312,
+          "std_norm": 38.523189544677734,
+          "mean_val": 0.18395555019378662,
+          "std_val": 4.3425822257995605
+        }
+      }
+    },
+    {
+      "step": 1950,
+      "loss": 1.5420680385828018,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2524.264897108078,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 112.97274780273438,
+          "std_norm": 37.88409423828125,
+          "mean_val": 0.18157385289669037,
+          "std_val": 4.295819282531738
+        }
+      }
+    },
+    {
+      "step": 2000,
+      "loss": 1.7560026037693024,
+      "learning_rate": 5e-06,
+      "elapsed_seconds": 2588.21350979805,
+      "activation_stats": {
+        "final_hidden": {
+          "mean_norm": 111.6470718383789,
+          "std_norm": 37.75367736816406,
+          "mean_val": 0.17914876341819763,
+          "std_val": 4.2490434646606445
+        }
+      }
+    }
+  ],
+  "steps": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000,
+    1050,
+    1100,
+    1150,
+    1200,
+    1250,
+    1300,
+    1350,
+    1400,
+    1450,
+    1500,
+    1550,
+    1600,
+    1650,
+    1700,
+    1750,
+    1800,
+    1850,
+    1900,
+    1950,
+    2000
+  ],
+  "losses": [
+    Infinity,
+    3.4616721653938294,
+    1.8636878967285155,
+    1.7056317746639251,
+    1.786553807258606,
+    1.6469518661499023,
+    1.854072585105896,
+    1.7137954974174499,
+    1.663557858467102,
+    1.7395721381902696,
+    1.7244671642780305,
+    1.7085052597522736,
+    1.676723091006279,
+    1.6116223418712616,
+    1.723285871744156,
+    1.7595589971542358,
+    1.6565794211626053,
+    1.754230830669403,
+    1.7011380296945573,
+    1.7853283989429474,
+    1.641862759590149,
+    1.6747520661354065,
+    1.703998762369156,
+    1.7473300337791442,
+    1.7507946515083312,
+    1.5852113032341004,
+    1.6756615591049195,
+    1.6008459556102752,
+    1.656509827375412,
+    1.6930717384815217,
+    1.7059248638153077,
+    1.6932405638694763,
+    1.6808598631620406,
+    1.7070104110240936,
+    1.6004591989517212,
+    1.6067148041725159,
+    1.635876841545105,
+    1.7326218974590302,
+    1.741864349246025,
+    1.5420680385828018,
+    1.7560026037693024
+  ],
+  "probe_texts": [
+    "The capital of Germany is",
+    "In the year 1945, the most significant event was",
+    "The chemical formula for ethanol is",
+    "If all cats are animals and all animals breathe, then cats",
+    "The number that comes after 15 is",
+    "To solve 43 + 8, you compute",
+    "The opposite of 'large' is",
+    "Translate 'good morning' to French:",
+    "The plural of 'simple' is",
+    "def fibonacci(n):\n    ",
+    "import numpy as np\nnp.array([1, 2, 3]).",
+    "for i in range(10):\n    print(",
+    "Once upon a time, in a land far away,",
+    "The sunset painted the sky in shades of",
+    "She opened the door and found",
+    "The gradient of the loss function with respect to",
+    "In quantum mechanics, the wave function",
+    "The Big O complexity of binary search is",
+    "Hello, how are you today?",
+    "Can you explain what machine learning is?",
+    "What do you think about",
+    "The capital of Japan is",
+    "In the year 2000, the most significant event was",
+    "The chemical formula for glucose is",
+    "If all cats are animals and all animals breathe, then cats",
+    "The number that comes after 11 is",
+    "To solve 24 + 36, you compute",
+    "The opposite of 'strong' is",
+    "Translate 'goodbye' to French:",
+    "The plural of 'bright' is",
+    "def fibonacci(n):\n    ",
+    "import numpy as np\nnp.array([1, 2, 3]).",
+    "for i in range(10):\n    print(",
+    "Once upon a time, in a land far away,",
+    "The sunset painted the sky in shades of",
+    "She opened the door and found",
+    "The gradient of the loss function with respect to",
+    "In quantum mechanics, the wave function",
+    "The Big O complexity of binary search is",
+    "Hello, how are you today?",
+    "Can you explain what machine learning is?",
+    "What do you think about",
+    "The capital of India is",
+    "In the year 1989, the most significant event was",
+    "The chemical formula for salt is",
+    "If all cats are animals and all animals breathe, then cats",
+    "The number that comes after 24 is",
+    "To solve 44 + 30, you compute",
+    "The opposite of 'quiet' is",
+    "Translate 'thank you' to French:",
+    "The plural of 'strong' is",
+    "def fibonacci(n):\n    ",
+    "import numpy as np\nnp.array([1, 2, 3]).",
+    "for i in range(10):\n    print(",
+    "Once upon a time, in a land far away,",
+    "The sunset painted the sky in shades of",
+    "She opened the door and found",
+    "The gradient of the loss function with respect to",
+    "In quantum mechanics, the wave function",
+    "The Big O complexity of binary search is",
+    "Hello, how are you today?",
+    "Can you explain what machine learning is?",
+    "What do you think about",
+    "The capital of Egypt is",
+    "In the year 1989, the most significant event was",
+    "The chemical formula for water is",
+    "If all cats are animals and all animals breathe, then cats",
+    "The number that comes after 12 is",
+    "To solve 22 + 44, you compute",
+    "The opposite of 'happy' is",
+    "Translate 'good morning' to French:",
+    "The plural of 'bright' is",
+    "def fibonacci(n):\n    ",
+    "import numpy as np\nnp.array([1, 2, 3]).",
+    "for i in range(10):\n    print(",
+    "Once upon a time, in a land far away,",
+    "The sunset painted the sky in shades of",
+    "She opened the door and found",
+    "The gradient of the loss function with respect to",
+    "In quantum mechanics, the wave function",
+    "The Big O complexity of binary search is",
+    "Hello, how are you today?",
+    "Can you explain what machine learning is?",
+    "What do you think about",
+    "The capital of Brazil is",
+    "In the year 1066, the most significant event was",
+    "The chemical formula for salt is",
+    "If all cats are animals and all animals breathe, then cats",
+    "The number that comes after 28 is",
+    "To solve 16 + 15, you compute",
+    "The opposite of 'quiet' is",
+    "Translate 'thank you' to French:",
+    "The plural of 'simple' is",
+    "def fibonacci(n):\n    ",
+    "import numpy as np\nnp.array([1, 2, 3]).",
+    "for i in range(10):\n    print(",
+    "Once upon a time, in a land far away,",
+    "The sunset painted the sky in shades of",
+    "She opened the door and found",
+    "The gradient of the loss function with respect to"
+  ],
+  "total_time": 2588.582739830017
+}

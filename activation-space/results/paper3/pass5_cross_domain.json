@@ -1,0 +1,1011 @@
+{
+  "evaluations": [
+    {
+      "probe_idx": 0,
+      "text_preview": "Medical malpractice claims require proving that the physician's treatment deviat",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9619134068489075,
+        "legal": 0.9778295755386353,
+        "code": 0.978156328201294,
+        "science": 0.9778919219970703
+      },
+      "weight_entropy": 1.5083373085046479,
+      "generalist_loss": 1.3151860237121582,
+      "composed_loss": 1.3023626804351807,
+      "specialist_losses": {
+        "medical": 1.353041172027588,
+        "legal": 1.3488094806671143
+      },
+      "best_single_specialist_loss": 1.3488094806671143,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 1,
+      "text_preview": "The FDA regulatory pathway for emergency use authorization of vaccines differs f",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 1,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9627327919006348,
+        "legal": 0.9784888625144958,
+        "code": 0.9788439869880676,
+        "science": 0.9783694744110107
+      },
+      "weight_entropy": 1.528195199992873,
+      "generalist_loss": 1.0275967121124268,
+      "composed_loss": 1.0111234188079834,
+      "specialist_losses": {
+        "medical": 1.154624342918396,
+        "legal": 1.0566741228103638
+      },
+      "best_single_specialist_loss": 1.0566741228103638,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 2,
+      "text_preview": "Informed consent doctrine requires physicians to disclose material risks of a pr",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.957389235496521,
+        "legal": 0.9739841222763062,
+        "code": 0.9742600917816162,
+        "science": 0.9740512371063232
+      },
+      "weight_entropy": 1.5135651634944975,
+      "generalist_loss": 1.2332762479782104,
+      "composed_loss": 1.2165889739990234,
+      "specialist_losses": {
+        "medical": 1.3145700693130493,
+        "legal": 1.2671678066253662
+      },
+      "best_single_specialist_loss": 1.2671678066253662,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 3,
+      "text_preview": "HIPAA privacy regulations govern the disclosure of protected health information ",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 1,
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.964539110660553,
+        "legal": 0.9781308174133301,
+        "code": 0.9778321981430054,
+        "science": 0.9782195091247559
+      },
+      "weight_entropy": 1.5233829097040161,
+      "generalist_loss": 1.153415322303772,
+      "composed_loss": 1.1150211095809937,
+      "specialist_losses": {
+        "medical": 1.3685914278030396,
+        "legal": 1.1744117736816406
+      },
+      "best_single_specialist_loss": 1.1744117736816406,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 4,
+      "text_preview": "Expert witness testimony in toxic tort litigation must establish both general ca",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9735249280929565,
+        "legal": 0.9856373071670532,
+        "code": 0.9853904843330383,
+        "science": 0.9856156706809998
+      },
+      "weight_entropy": 1.528021324371931,
+      "generalist_loss": 1.1570262908935547,
+      "composed_loss": 1.1466012001037598,
+      "specialist_losses": {
+        "medical": 1.3562904596328735,
+        "legal": 1.1876662969589233
+      },
+      "best_single_specialist_loss": 1.1876662969589233,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 5,
+      "text_preview": "The CRISPR-Cas9 system has shown therapeutic potential for treating sickle cell ",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9692018032073975,
+        "legal": 0.9835027456283569,
+        "code": 0.98381507396698,
+        "science": 0.9834651947021484
+      },
+      "weight_entropy": 1.5250758630746912,
+      "generalist_loss": 1.3162310123443604,
+      "composed_loss": 1.3094093799591064,
+      "specialist_losses": {
+        "medical": 1.3650660514831543,
+        "science": 1.3706698417663574
+      },
+      "best_single_specialist_loss": 1.3650660514831543,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 6,
+      "text_preview": "Phase III clinical trials of mRNA vaccines demonstrated that the spike protein e",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9713970422744751,
+        "legal": 0.9850932359695435,
+        "code": 0.9854990243911743,
+        "science": 0.9849879741668701
+      },
+      "weight_entropy": 1.524726589594704,
+      "generalist_loss": 1.1589324474334717,
+      "composed_loss": 1.1277103424072266,
+      "specialist_losses": {
+        "medical": 1.4333775043487549,
+        "science": 1.1432193517684937
+      },
+      "best_single_specialist_loss": 1.1432193517684937,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 7,
+      "text_preview": "Pharmacogenomics uses genome-wide association studies to identify single nucleot",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9791638851165771,
+        "legal": 0.9907721877098083,
+        "code": 0.9909640550613403,
+        "science": 0.9906027317047119
+      },
+      "weight_entropy": 1.519001753679882,
+      "generalist_loss": 0.9654417037963867,
+      "composed_loss": 0.9468966126441956,
+      "specialist_losses": {
+        "medical": 0.9343904256820679,
+        "science": 0.9995625019073486
+      },
+      "best_single_specialist_loss": 0.9343904256820679,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": false
+    },
+    {
+      "probe_idx": 8,
+      "text_preview": "Magnetic resonance spectroscopy detects metabolite concentrations in brain tissu",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 1,
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9699786901473999,
+        "legal": 0.9846557378768921,
+        "code": 0.9849121570587158,
+        "science": 0.984795093536377
+      },
+      "weight_entropy": 1.5199254681785492,
+      "generalist_loss": 1.5158135890960693,
+      "composed_loss": 1.5264241695404053,
+      "specialist_losses": {
+        "medical": 1.6668260097503662,
+        "science": 1.5620319843292236
+      },
+      "best_single_specialist_loss": 1.5620319843292236,
+      "composed_beats_generalist": false,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 9,
+      "text_preview": "Monoclonal antibody therapeutics are engineered using recombinant DNA technology",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9626089930534363,
+        "legal": 0.9788728356361389,
+        "code": 0.9793823957443237,
+        "science": 0.9787847995758057
+      },
+      "weight_entropy": 1.5215981993686,
+      "generalist_loss": 1.5212849378585815,
+      "composed_loss": 1.4950850009918213,
+      "specialist_losses": {
+        "medical": 1.8918105363845825,
+        "science": 1.5780408382415771
+      },
+      "best_single_specialist_loss": 1.5780408382415771,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 10,
+      "text_preview": "Software patent claims under the Alice framework must demonstrate that the abstr",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9450932741165161,
+        "legal": 0.9647784233093262,
+        "code": 0.9651175737380981,
+        "science": 0.9646443128585815
+      },
+      "weight_entropy": 1.5231887246588276,
+      "generalist_loss": 1.6599072217941284,
+      "composed_loss": 1.6218918561935425,
+      "specialist_losses": {
+        "legal": 1.6661221981048584,
+        "code": 1.6687573194503784
+      },
+      "best_single_specialist_loss": 1.6661221981048584,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 11,
+      "text_preview": "The Digital Millennium Copyright Act safe harbor provisions protect platform ope",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9637681841850281,
+        "legal": 0.9791700839996338,
+        "code": 0.9794309735298157,
+        "science": 0.9790463447570801
+      },
+      "weight_entropy": 1.5190780576071374,
+      "generalist_loss": 1.2451239824295044,
+      "composed_loss": 1.1954137086868286,
+      "specialist_losses": {
+        "legal": 1.2574613094329834,
+        "code": 1.2761176824569702
+      },
+      "best_single_specialist_loss": 1.2574613094329834,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 12,
+      "text_preview": "Data protection regulations under GDPR require implementing privacy by design, w",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9590914845466614,
+        "legal": 0.9751590490341187,
+        "code": 0.9753809571266174,
+        "science": 0.974899411201477
+      },
+      "weight_entropy": 1.5253795928731304,
+      "generalist_loss": 1.6806776523590088,
+      "composed_loss": 1.6480599641799927,
+      "specialist_losses": {
+        "legal": 1.8040200471878052,
+        "code": 1.7300702333450317
+      },
+      "best_single_specialist_loss": 1.7300702333450317,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 13,
+      "text_preview": "Open source license compliance in corporate software development requires tracki",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9580268263816833,
+        "legal": 0.9751825332641602,
+        "code": 0.9757120609283447,
+        "science": 0.9747850894927979
+      },
+      "weight_entropy": 1.530303046206831,
+      "generalist_loss": 1.4470162391662598,
+      "composed_loss": 1.4044573307037354,
+      "specialist_losses": {
+        "legal": 1.4649579524993896,
+        "code": 1.4016151428222656
+      },
+      "best_single_specialist_loss": 1.4016151428222656,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": false
+    },
+    {
+      "probe_idx": 14,
+      "text_preview": "Algorithmic fairness regulations require that automated decision systems used in",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 2,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9694887399673462,
+        "legal": 0.9832865595817566,
+        "code": 0.9833877086639404,
+        "science": 0.9833346009254456
+      },
+      "weight_entropy": 1.5233710489574595,
+      "generalist_loss": 1.7111968994140625,
+      "composed_loss": 1.685259222984314,
+      "specialist_losses": {
+        "legal": 1.7765856981277466,
+        "code": 1.7172560691833496
+      },
+      "best_single_specialist_loss": 1.7172560691833496,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 15,
+      "text_preview": "Implementing the Runge-Kutta method for solving ordinary differential equations ",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.960896909236908,
+        "legal": 0.9754626154899597,
+        "code": 0.9749267101287842,
+        "science": 0.9752461314201355
+      },
+      "weight_entropy": 1.5219407837810197,
+      "generalist_loss": 1.3610209226608276,
+      "composed_loss": 1.297824501991272,
+      "specialist_losses": {
+        "science": 1.3371661901474,
+        "code": 1.3203636407852173
+      },
+      "best_single_specialist_loss": 1.3203636407852173,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 16,
+      "text_preview": "Monte Carlo methods for estimating integrals in high-dimensional spaces use pseu",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9638766050338745,
+        "legal": 0.9786479473114014,
+        "code": 0.9784197807312012,
+        "science": 0.9784509539604187
+      },
+      "weight_entropy": 1.5207381253453491,
+      "generalist_loss": 1.5526236295700073,
+      "composed_loss": 1.5441908836364746,
+      "specialist_losses": {
+        "science": 1.58109712600708,
+        "code": 1.5733617544174194
+      },
+      "best_single_specialist_loss": 1.5733617544174194,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 17,
+      "text_preview": "Molecular dynamics simulations using the Verlet integration algorithm compute pa",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9483410716056824,
+        "legal": 0.9627076387405396,
+        "code": 0.9615859389305115,
+        "science": 0.9626656770706177
+      },
+      "weight_entropy": 1.5235723522038054,
+      "generalist_loss": 1.7632073163986206,
+      "composed_loss": 1.734912395477295,
+      "specialist_losses": {
+        "science": 1.8880099058151245,
+        "code": 1.8580073118209839
+      },
+      "best_single_specialist_loss": 1.8580073118209839,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 18,
+      "text_preview": "Finite element analysis of stress distributions in materials requires assembling",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9655507802963257,
+        "legal": 0.9801875352859497,
+        "code": 0.9800196886062622,
+        "science": 0.9800887107849121
+      },
+      "weight_entropy": 1.5140261344718269,
+      "generalist_loss": 1.4930400848388672,
+      "composed_loss": 1.4697829484939575,
+      "specialist_losses": {
+        "science": 1.5122337341308594,
+        "code": 1.5334203243255615
+      },
+      "best_single_specialist_loss": 1.5122337341308594,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 19,
+      "text_preview": "Training neural network potentials for quantum chemistry calculations involves f",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9702540040016174,
+        "legal": 0.9835414886474609,
+        "code": 0.9833343625068665,
+        "science": 0.9834167957305908
+      },
+      "weight_entropy": 1.5242573472741912,
+      "generalist_loss": 1.902364730834961,
+      "composed_loss": 1.9050718545913696,
+      "specialist_losses": {
+        "science": 1.8656480312347412,
+        "code": 1.934726595878601
+      },
+      "best_single_specialist_loss": 1.8656480312347412,
+      "composed_beats_generalist": false,
+      "composed_beats_best_single": false
+    },
+    {
+      "probe_idx": 20,
+      "text_preview": "Electronic health record systems implement HL7 FHIR APIs for interoperability, w",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9405665397644043,
+        "legal": 0.9585188031196594,
+        "code": 0.9581600427627563,
+        "science": 0.9585751295089722
+      },
+      "weight_entropy": 1.5217636462776962,
+      "generalist_loss": 2.0441226959228516,
+      "composed_loss": 2.0030934810638428,
+      "specialist_losses": {
+        "medical": 2.534022808074951,
+        "code": 2.1649301052093506
+      },
+      "best_single_specialist_loss": 2.1649301052093506,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 21,
+      "text_preview": "Medical image segmentation using U-Net architectures requires training on annota",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9564034342765808,
+        "legal": 0.973965048789978,
+        "code": 0.9743340611457825,
+        "science": 0.9739882946014404
+      },
+      "weight_entropy": 1.524536483226801,
+      "generalist_loss": 1.9952476024627686,
+      "composed_loss": 1.9769853353500366,
+      "specialist_losses": {
+        "medical": 2.2307047843933105,
+        "code": 2.0456936359405518
+      },
+      "best_single_specialist_loss": 2.0456936359405518,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 22,
+      "text_preview": "Clinical decision support systems use Bayesian networks to compute posterior pro",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9697503447532654,
+        "legal": 0.9834840297698975,
+        "code": 0.983491063117981,
+        "science": 0.9833170175552368
+      },
+      "weight_entropy": 1.5182307010814304,
+      "generalist_loss": 1.768021583557129,
+      "composed_loss": 1.72458016872406,
+      "specialist_losses": {
+        "medical": 2.2033281326293945,
+        "code": 1.6857749223709106
+      },
+      "best_single_specialist_loss": 1.6857749223709106,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": false
+    },
+    {
+      "probe_idx": 23,
+      "text_preview": "Implementing a drug interaction checker requires parsing SMILES molecular repres",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 1,
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9724937081336975,
+        "legal": 0.9853347539901733,
+        "code": 0.9852378964424133,
+        "science": 0.9851270318031311
+      },
+      "weight_entropy": 1.5218920491434647,
+      "generalist_loss": 1.9378188848495483,
+      "composed_loss": 1.8853930234909058,
+      "specialist_losses": {
+        "medical": 2.253464937210083,
+        "code": 1.8830770254135132
+      },
+      "best_single_specialist_loss": 1.8830770254135132,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": false
+    },
+    {
+      "probe_idx": 24,
+      "text_preview": "Wearable biosensor data pipelines process continuous glucose monitor readings at",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "both_in_top3": false,
+      "rank_domain_a": 3,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9653452634811401,
+        "legal": 0.9797596335411072,
+        "code": 0.9796250462532043,
+        "science": 0.9798340797424316
+      },
+      "weight_entropy": 1.5228812472955446,
+      "generalist_loss": 1.8465136289596558,
+      "composed_loss": 1.7888240814208984,
+      "specialist_losses": {
+        "medical": 1.964107632637024,
+        "code": 1.8902722597122192
+      },
+      "best_single_specialist_loss": 1.8902722597122192,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 25,
+      "text_preview": "Patent prosecution for biotechnology inventions requires demonstrating that gene",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.9775850772857666,
+        "legal": 0.9885486364364624,
+        "code": 0.9882720112800598,
+        "science": 0.9886389374732971
+      },
+      "weight_entropy": 1.5175610355785805,
+      "generalist_loss": 1.362609624862671,
+      "composed_loss": 1.3473387956619263,
+      "specialist_losses": {
+        "legal": 1.4467726945877075,
+        "science": 1.4111498594284058
+      },
+      "best_single_specialist_loss": 1.4111498594284058,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 26,
+      "text_preview": "Environmental impact assessments under NEPA must quantify the atmospheric disper",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 2,
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9591696262359619,
+        "legal": 0.9757388830184937,
+        "code": 0.975881814956665,
+        "science": 0.9755971431732178
+      },
+      "weight_entropy": 1.5239778007849718,
+      "generalist_loss": 1.628286361694336,
+      "composed_loss": 1.5699975490570068,
+      "specialist_losses": {
+        "legal": 1.6758625507354736,
+        "science": 1.6360222101211548
+      },
+      "best_single_specialist_loss": 1.6360222101211548,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 27,
+      "text_preview": "The Daubert standard for admissibility of scientific expert testimony requires c",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 1,
+      "rank_domain_b": 0,
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "medical": 0.946196436882019,
+        "legal": 0.9645295739173889,
+        "code": 0.9644755125045776,
+        "science": 0.9647626876831055
+      },
+      "weight_entropy": 1.5163796714057847,
+      "generalist_loss": 2.096055746078491,
+      "composed_loss": 2.086029052734375,
+      "specialist_losses": {
+        "legal": 2.216756820678711,
+        "science": 2.1337711811065674
+      },
+      "best_single_specialist_loss": 2.1337711811065674,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 28,
+      "text_preview": "Carbon credit trading under cap-and-trade regulations requires verified measurem",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 2,
+      "rank_domain_b": 1,
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9485524892807007,
+        "legal": 0.9669361114501953,
+        "code": 0.9670555591583252,
+        "science": 0.9669564366340637
+      },
+      "weight_entropy": 1.5249842545698966,
+      "generalist_loss": 2.182029962539673,
+      "composed_loss": 2.155658006668091,
+      "specialist_losses": {
+        "legal": 2.3116331100463867,
+        "science": 2.2156500816345215
+      },
+      "best_single_specialist_loss": 2.2156500816345215,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    },
+    {
+      "probe_idx": 29,
+      "text_preview": "Regulation of dual-use research of concern in gain-of-function virology requires",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "both_in_top3": true,
+      "rank_domain_a": 2,
+      "rank_domain_b": 1,
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9551067352294922,
+        "legal": 0.9725228548049927,
+        "code": 0.9728901386260986,
+        "science": 0.9725373387336731
+      },
+      "weight_entropy": 1.523844376113832,
+      "generalist_loss": 1.9405380487442017,
+      "composed_loss": 1.9091132879257202,
+      "specialist_losses": {
+        "legal": 2.006636381149292,
+        "science": 1.9635690450668335
+      },
+      "best_single_specialist_loss": 1.9635690450668335,
+      "composed_beats_generalist": true,
+      "composed_beats_best_single": true
+    }
+  ],
+  "summary": {
+    "n_probes": 30,
+    "both_domains_in_top3_rate": 0.5,
+    "win_rate_vs_generalist": 0.9333333333333333,
+    "win_rate_vs_best_single": 0.8333333333333334,
+    "mean_composed_loss": 1.538370011250178,
+    "mean_generalist_loss": 1.5660542368888855,
+    "mean_weight_entropy": 1.5217912086273988,
+    "by_pair": {
+      "legal+medical": {
+        "n": 5,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 1.0,
+        "win_vs_best_single": 1.0
+      },
+      "medical+science": {
+        "n": 5,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 0.8,
+        "win_vs_best_single": 0.8
+      },
+      "code+legal": {
+        "n": 5,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 1.0,
+        "win_vs_best_single": 0.8
+      },
+      "code+science": {
+        "n": 5,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 0.8,
+        "win_vs_best_single": 0.8
+      },
+      "code+medical": {
+        "n": 5,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 1.0,
+        "win_vs_best_single": 0.6
+      },
+      "legal+science": {
+        "n": 5,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 1.0,
+        "win_vs_best_single": 1.0
+      }
+    }
+  }
+}

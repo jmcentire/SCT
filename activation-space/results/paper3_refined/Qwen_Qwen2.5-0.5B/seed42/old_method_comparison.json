@@ -1,0 +1,94 @@
+{
+  "retrieval": {
+    "overall_top1_precision": 0.24375,
+    "overall_top3_recall": 0.74375,
+    "by_domain": {
+      "medical": {
+        "top1_precision": 0.125,
+        "top3_recall": 0.15,
+        "n": 40
+      },
+      "legal": {
+        "top1_precision": 0.725,
+        "top3_recall": 0.825,
+        "n": 40
+      },
+      "code": {
+        "top1_precision": 0.0,
+        "top3_recall": 1.0,
+        "n": 40
+      },
+      "science": {
+        "top1_precision": 0.125,
+        "top3_recall": 1.0,
+        "n": 40
+      }
+    }
+  },
+  "composition": {
+    "normalize": "two_stage",
+    "win_rate_vs_generalist": 0.20625,
+    "win_rate_vs_uniform": 0.00625,
+    "win_rate_vs_oracle": 0.0875,
+    "mean_composed_loss": 7.054998173192144,
+    "mean_generalist_loss": 6.738036306574941,
+    "mean_uniform_loss": 5.786108547449112,
+    "mean_weight_entropy": 1.4423704484714155
+  },
+  "cross_domain": {
+    "n_probes": 150,
+    "both_domains_in_top3_rate": 0.5,
+    "win_rate_vs_generalist": 0.9,
+    "win_rate_vs_best_single": 0.0,
+    "mean_composed_loss": 4.290911026000977,
+    "mean_generalist_loss": 4.302664980888367,
+    "mean_weight_entropy": 1.4719504761759636,
+    "mean_best_task_arithmetic_loss": 4.273261655966441,
+    "constellation_win_rate_vs_task_arithmetic": 0.13333333333333333,
+    "task_arithmetic_win_rate_vs_generalist": 0.9,
+    "by_pair": {
+      "legal+medical": {
+        "n": 25,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 0.88,
+        "win_vs_best_single": 0.0,
+        "constellation_vs_ta": 0.12
+      },
+      "medical+science": {
+        "n": 25,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 0.88,
+        "win_vs_best_single": 0.0,
+        "constellation_vs_ta": 0.04
+      },
+      "code+legal": {
+        "n": 25,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 0.84,
+        "win_vs_best_single": 0.0,
+        "constellation_vs_ta": 0.2
+      },
+      "code+science": {
+        "n": 25,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 0.92,
+        "win_vs_best_single": 0.0,
+        "constellation_vs_ta": 0.12
+      },
+      "code+medical": {
+        "n": 25,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 0.92,
+        "win_vs_best_single": 0.0,
+        "constellation_vs_ta": 0.04
+      },
+      "legal+science": {
+        "n": 25,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 0.96,
+        "win_vs_best_single": 0.0,
+        "constellation_vs_ta": 0.28
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+PTO/AIA/14
+OMB 0651-0032
+
+Application Data Sheet 37 CFR 1.76
+The Application Data Sheet is part of the provisional or non-provisional application for which it is being submitted. The
+following form contains the bibliographic data arranged in a format specified by the United States Patent and Trademark Office
+as outlined in 37 CFR 1.76.
+
+Inventor Information
+1.
+
+# of inventors: 1
+
+Jeremy McEntire
+
+Residence Information
+US Residency
+Oklahoma City, OK
+UNITED STATES
+
+Mailing Address
+11017 Bluff Creek Dr
+Oklahoma City, OK 73162
+UNITED STATES
+
+Application Information
+Customer number
+
+224349 -
+
+Correspondence address
+
+---
+
+Title of invention
+
+Ambient Structure Discovery via Stigmergic Mesh: A Self-Organizing
+Architecture for Surfacing Second-Order Organizational Ignorance
+
+Attorney docket number
+
+---
+
+Entity status
+
+Small
+
+Page 1 of 5
+
+Application type
+
+Provisional Application under 35 USC 111(b)
+
+Subject matter
+
+Utility
+
+Total number of drawing sheets
+
+38
+
+Filing by reference
+
+No
+
+Representative Information
+
+# of representatives: 0
+
+Representative information should be provided for all practitioners having a power of attorney in the application. Providing this
+information in the Application Data Sheet does not constitute a power of attorney in the application (see 37 CFR 1.32).
+
+Domestic Benefit/National Stage Information
+
+# of benefit claims: 0
+
+This section allows for the applicant to either claim benefit under 35 U.S.C. 119(e), 120, 121, or 365(c), 386(c), or indicate
+National Stage entry from a PCT application. Providing benefit claim information in the Application Data Sheet constitutes the
+specific reference required by 35 U.S.C. 119(e) or 120, and 37 CFR 1.78(a)(2) or CFR 1.78(a)(4), and need not otherwise be
+made part of the specification.
+
+Foreign Priority Information
+
+# of foreign priority claims: 0
+
+This section allows for the applicant to claim benefit of foreign priority and to identify any prior foreign application for which
+priority is not claimed. Providing this information in the Application Data Sheet constitutes the claim for priority as required by
+35 U.S.C. 119 (b) and 37 CFR 1.55. When priority is claimed to a foreign application that is eligible for retrieval under the
+priority document exchange program (PDX) the information will be used by the Office to automatically attempt retrieval
+pursuant to 37 CFR 1.55(i)(1) and (2). Under the PDX program, applicant bears the ultimate responsibility for ensuring that a
+
+Page 2 of 5
+
+copy of the foreign application is received by the Office from the participating foreign intellectual property office, or a certified
+copy of the foreign priority application is filed, within the time period specified in 37 CFR 1.55(g)(1).
+
+Statement under 37 CFR 1.55 or 1.78 for AIA (First Inventor to File) Transition Applications
+
+Checking this box will cause the application to be examined under the first inventor to file provisions of the AIA.
+
+This application (1) claims priority to or the benefit of an application filed before March 16, 2013 and (2) also contains,
+or contained at any time, a claim to a claimed invention that has an effective filing date on or after March 16, 2013.
+NOTE: By providing this statement under 37 CFR 1.55 or 1.78, this application, with a filing date on or after March
+2016, 2013, will be examined under the first inventor to file provisions of the AIA.
+
+Authorization or Opt-Out of Authorization to Permit Access
+
+When this Application Data Sheet is properly signed and filled with the application, applicant has provided written authority to
+permit a participating foreign intellectual property (IP) office access to the instant application-as-filed (see paragraph A in
+subsection 1 below) and the European Patent Office (EPO) access to any search results from the instant application (see
+paragraph B in subsection 1 below).
+Should applicant choose not to provide an authorization identified in subsection 1 below, applicant must opt-out of the
+authorization by checking the corresponding box A or B or both in subsection 2 below.
+NOTE:
+This section of the Application Data Sheet is ONLY reviewed and processed with the INITIAL filing of an application. After the
+initial filing of an application, an Application Data Sheet cannot be used to provide or rescind authorization for access by a
+foreign IP office(s). Instead, Form PTO/SB/39 or PTO/SB/69 must be used as appropriate.
+
+1. Authorization to Permit Access by a Foreign Intellectual Property Office(s)
+
+A.
+
+Priority Document Exchange (PDX)
+Unless box A in subsection 2 (opt-out of authorization) is checked, the undersigned hereby grants the USPTO
+authority to provide the European Patent Office (EPO), the Japan Patent Office (JPO), the Korean Intellectual
+Property Office (KIPO), the China National Intellectual Property Administration (CNIPA), the World Intellectual
+Property Organization (WIPO), and any other foreign intellectual property office participating with the USPTO in a
+bilateral or multilateral priority document exchange agreement in which a foreign application claiming priority to the
+instant patent application is filed, access to: (1) the instant patent application-as-filed and its related bibliographic
+data, (2) any foreign or domestic application to which priority or benefit is claimed by the instant application and its
+
+Page 3 of 5
+
+related bibliographic data, and (3) the date of filing of this Authorization. See 37 CFR 1.14(h) (1).
+
+B.
+
+Search Results from U.S. Application to EPO
+Unless box B in subsection 2 (opt-out of authorization) is checked, the undersigned hereby grants the USPTO
+authority to provide the EPO access to the bibliographic data and search results from the instant patent application
+when a European patent application claiming priority to the instant patent application is filed. See 37 CFR 1.14(h)(2).
+The applicant is reminded that the EPO's Rule 141(1) EPC (European Patent Convention) requires applicants to
+submit a copy of search results from the instant application without delay in a European patent application that
+claims priority to the instant application.
+
+2. Opt-Out of Authorizations to Permit Access by a Foreign Intellectual Property Office(s)
+
+A. Applicant DOES NOT authorize the USPTO to permit a participating foreign IP office access to the instant
+application-as-filed. If this box is checked, the USPTO will not be providing a participating foreign IP office
+with any documents and information identified in subsection 1A above.
+B. Applicant DOES NOT authorize the USPTO to transmit to the EPO any search results from the instant
+patent application. If this box is checked, the USPTO will not be providing the EPO with the search results
+from the instant application.
+NOTE:
+Once the application has published or is otherwise publicly available, the USPTO may provide access to the application in
+accordance with 37 CFR 1.14.
+
+Applicant Information
+
+# of applicants: 0
+
+The information to be provided in this section is the name and address of the legal representative who is the applicant under
+37 CFR 1.43; or the name and address of the assignee, person to whom the inventor is under an obligation to assign the
+invention, or person who otherwise shows sufficient proprietary interest in the matter who is the applicant under 37 CFR 1.46.
+
+Assignee Information including Non-Applicant Assignee Information
+
+# of assignees: 0
+
+An assignee-applicant identified in the "Applicant" section will appear on the patent application as an applicant.
+Providing assignment information in this section does not substitute for compliance with any requirement of part 3 of Title 37 of
+CFR to have an assignment recorded by the Office.
+
+Page 4 of 5
+
+Signature
+
+NOTE:
+This Application Data Sheet must be signed in accordance with 37 CFR 1.33(b). However, if this Application Data Sheet is
+submitted with the INITIAL filing of the application and either box A or B is not checked in subsection 2 of the
+"Authorization or Opt-Out of Authorization to Permit Access" section, then this form must also be signed in
+accordance with 37 CFR 1.14(c)
+This Application Data Sheet must be signed by a patent practitioner if one or more of the applicants is a juristic entity (e.g.,
+corporation or association). If the applicant is two or more joint inventors, this form must be signed by a patent practitioner, all
+joint inventors who are the applicant, or one or more joint inventor-applicants who have been given power of attorney (e.g.,
+see USPTO Form PTO/AIA/81) on behalf of all joint inventor-applicants.
+See CFR 1.4(d) for the manner of making signatures and certifications.
+Signature
+/JEREMY ANDREW
+MC ENTIRE/
+
+First name
+
+Last name
+
+Registration #
+
+Date
+
+JEREMY ANDREW
+
+MC ENTIRE
+
+---
+
+02/12/2026
+
+Page 5 of 5
+
+

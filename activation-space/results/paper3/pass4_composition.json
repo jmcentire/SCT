@@ -1,0 +1,4414 @@
+{
+  "evaluations": [
+    {
+      "probe_idx": 0,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9893686175346375,
+        "science": 0.989368200302124,
+        "code": 0.9891736507415771
+      },
+      "weight_entropy": 1.5221967747936178,
+      "generalist_loss": 0.38229289650917053,
+      "composed_loss": 0.37278181314468384,
+      "uniform_loss": 0.35512399673461914,
+      "oracle_loss": 0.37909701466560364,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 1,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9710036516189575,
+        "science": 0.9708377122879028,
+        "code": 0.969817042350769
+      },
+      "weight_entropy": 1.5208833466470697,
+      "generalist_loss": 0.39204561710357666,
+      "composed_loss": 0.3976181745529175,
+      "uniform_loss": 0.3645034730434418,
+      "oracle_loss": 0.4006582498550415,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 2,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.985160231590271,
+        "legal": 0.9847777485847473,
+        "science": 0.9844334125518799
+      },
+      "weight_entropy": 1.5260500780512818,
+      "generalist_loss": 0.3126946687698364,
+      "composed_loss": 0.31631264090538025,
+      "uniform_loss": 0.31073877215385437,
+      "oracle_loss": 0.44006118178367615,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 3,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9900168180465698,
+        "code": 0.9899592399597168,
+        "science": 0.9896847009658813
+      },
+      "weight_entropy": 1.5217165454362132,
+      "generalist_loss": 0.3649393618106842,
+      "composed_loss": 0.3558420240879059,
+      "uniform_loss": 0.32828569412231445,
+      "oracle_loss": 0.30454254150390625,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 4,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9838273525238037,
+        "science": 0.9837323427200317,
+        "code": 0.9836771488189697
+      },
+      "weight_entropy": 1.5210231620168893,
+      "generalist_loss": 0.3962608277797699,
+      "composed_loss": 0.3880365192890167,
+      "uniform_loss": 0.38111647963523865,
+      "oracle_loss": 0.4780633747577667,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 5,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9814857840538025,
+        "legal": 0.981217622756958,
+        "science": 0.9809964895248413
+      },
+      "weight_entropy": 1.5302339144689656,
+      "generalist_loss": 0.4033125042915344,
+      "composed_loss": 0.3833804428577423,
+      "uniform_loss": 0.39012888073921204,
+      "oracle_loss": 0.43411317467689514,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 6,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9899682998657227,
+        "legal": 0.9899258613586426,
+        "code": 0.9897085428237915
+      },
+      "weight_entropy": 1.5197964513157516,
+      "generalist_loss": 0.5002924799919128,
+      "composed_loss": 0.4987744987010956,
+      "uniform_loss": 0.467618852853775,
+      "oracle_loss": 0.49823999404907227,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 7,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9889714121818542,
+        "legal": 0.9887348413467407,
+        "science": 0.9885353446006775
+      },
+      "weight_entropy": 1.526046661549729,
+      "generalist_loss": 0.47155332565307617,
+      "composed_loss": 0.46549302339553833,
+      "uniform_loss": 0.42386171221733093,
+      "oracle_loss": 0.5006609559059143,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 8,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9864352941513062,
+        "science": 0.9864120483398438,
+        "code": 0.9863207340240479
+      },
+      "weight_entropy": 1.5213766703538543,
+      "generalist_loss": 0.559988796710968,
+      "composed_loss": 0.5648655295372009,
+      "uniform_loss": 0.530272901058197,
+      "oracle_loss": 0.49093788862228394,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 9,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.989247739315033,
+        "legal": 0.9890973567962646,
+        "science": 0.9889839887619019
+      },
+      "weight_entropy": 1.5224067701768424,
+      "generalist_loss": 0.41841182112693787,
+      "composed_loss": 0.41089513897895813,
+      "uniform_loss": 0.39975184202194214,
+      "oracle_loss": 0.5050366520881653,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 10,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9902634620666504,
+        "legal": 0.9902554750442505,
+        "code": 0.9900891780853271
+      },
+      "weight_entropy": 1.52151371586591,
+      "generalist_loss": 0.5132477879524231,
+      "composed_loss": 0.5139069557189941,
+      "uniform_loss": 0.49802759289741516,
+      "oracle_loss": 0.5819318294525146,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 11,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9937697649002075,
+        "legal": 0.9937663078308105,
+        "science": 0.9937359690666199
+      },
+      "weight_entropy": 1.5266064133755612,
+      "generalist_loss": 0.4053468406200409,
+      "composed_loss": 0.4048667848110199,
+      "uniform_loss": 0.402824729681015,
+      "oracle_loss": 0.41228899359703064,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 12,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9872731566429138,
+        "legal": 0.9871193170547485,
+        "science": 0.9869371056556702
+      },
+      "weight_entropy": 1.5124336537274354,
+      "generalist_loss": 0.46785518527030945,
+      "composed_loss": 0.4682043194770813,
+      "uniform_loss": 0.4715600609779358,
+      "oracle_loss": 0.5338717103004456,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 13,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9886549711227417,
+        "code": 0.9886107444763184,
+        "science": 0.9885103702545166
+      },
+      "weight_entropy": 1.5230673948908482,
+      "generalist_loss": 0.5068444013595581,
+      "composed_loss": 0.49256041646003723,
+      "uniform_loss": 0.5011845827102661,
+      "oracle_loss": 0.5686019659042358,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 14,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9712891578674316,
+        "science": 0.9711138010025024,
+        "code": 0.9701794385910034
+      },
+      "weight_entropy": 1.5194365132167327,
+      "generalist_loss": 0.5607401132583618,
+      "composed_loss": 0.5678594708442688,
+      "uniform_loss": 0.484404981136322,
+      "oracle_loss": 0.35102012753486633,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 15,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9940259456634521,
+        "legal": 0.9940253496170044,
+        "code": 0.9936619997024536
+      },
+      "weight_entropy": 1.5295054167645883,
+      "generalist_loss": 0.41758549213409424,
+      "composed_loss": 0.4211690425872803,
+      "uniform_loss": 0.4108523726463318,
+      "oracle_loss": 0.4323650896549225,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 16,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9904518127441406,
+        "science": 0.990424394607544,
+        "code": 0.9901912212371826
+      },
+      "weight_entropy": 1.5236222295501818,
+      "generalist_loss": 0.5122700929641724,
+      "composed_loss": 0.51667720079422,
+      "uniform_loss": 0.5123535990715027,
+      "oracle_loss": 0.6306878328323364,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 17,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9818391799926758,
+        "science": 0.9815951585769653,
+        "code": 0.9810075759887695
+      },
+      "weight_entropy": 1.521627553128053,
+      "generalist_loss": 0.6109715104103088,
+      "composed_loss": 0.6130821704864502,
+      "uniform_loss": 0.5615387558937073,
+      "oracle_loss": 0.5770033597946167,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 18,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9883021116256714,
+        "science": 0.9882195591926575,
+        "code": 0.9879453182220459
+      },
+      "weight_entropy": 1.5233632343571373,
+      "generalist_loss": 0.45817825198173523,
+      "composed_loss": 0.452121376991272,
+      "uniform_loss": 0.4506343901157379,
+      "oracle_loss": 0.606823205947876,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 19,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "code",
+        "legal"
+      ],
+      "correlation_scores": {
+        "science": 0.9783575534820557,
+        "code": 0.978335976600647,
+        "legal": 0.9783138036727905
+      },
+      "weight_entropy": 1.5210677921602418,
+      "generalist_loss": 0.506553590297699,
+      "composed_loss": 0.5065205097198486,
+      "uniform_loss": 0.48110517859458923,
+      "oracle_loss": 0.5431390404701233,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 20,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9884588718414307,
+        "science": 0.9884427785873413,
+        "code": 0.9882212281227112
+      },
+      "weight_entropy": 1.5180756421360526,
+      "generalist_loss": 0.6676285862922668,
+      "composed_loss": 0.6755402684211731,
+      "uniform_loss": 0.6351010203361511,
+      "oracle_loss": 0.662190318107605,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 21,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9893909692764282,
+        "legal": 0.9893661141395569,
+        "code": 0.989005446434021
+      },
+      "weight_entropy": 1.5306661197376836,
+      "generalist_loss": 0.4162629544734955,
+      "composed_loss": 0.44202327728271484,
+      "uniform_loss": 0.4042576253414154,
+      "oracle_loss": 0.4306424558162689,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 22,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9837347269058228,
+        "legal": 0.9837066531181335,
+        "code": 0.9833608865737915
+      },
+      "weight_entropy": 1.5262635215343823,
+      "generalist_loss": 0.40398842096328735,
+      "composed_loss": 0.4148203730583191,
+      "uniform_loss": 0.4104580581188202,
+      "oracle_loss": 0.487117737531662,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 23,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9901075959205627,
+        "legal": 0.9900718927383423,
+        "code": 0.9897136688232422
+      },
+      "weight_entropy": 1.5224861342275033,
+      "generalist_loss": 0.5060672760009766,
+      "composed_loss": 0.5065416097640991,
+      "uniform_loss": 0.4920334219932556,
+      "oracle_loss": 0.543950080871582,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 24,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9850589036941528,
+        "legal": 0.9849984645843506,
+        "code": 0.9848345518112183
+      },
+      "weight_entropy": 1.523697886361379,
+      "generalist_loss": 0.5345624685287476,
+      "composed_loss": 0.5451192855834961,
+      "uniform_loss": 0.5217189192771912,
+      "oracle_loss": 0.5577747225761414,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 25,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9886147975921631,
+        "legal": 0.98846435546875,
+        "science": 0.9883109927177429
+      },
+      "weight_entropy": 1.5210736284664754,
+      "generalist_loss": 0.6751267313957214,
+      "composed_loss": 0.670538604259491,
+      "uniform_loss": 0.625048041343689,
+      "oracle_loss": 0.6057062149047852,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 26,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9892275333404541,
+        "code": 0.9892054796218872,
+        "science": 0.9891262650489807
+      },
+      "weight_entropy": 1.522715500455016,
+      "generalist_loss": 0.561924934387207,
+      "composed_loss": 0.57905113697052,
+      "uniform_loss": 0.5695639848709106,
+      "oracle_loss": 0.6281699538230896,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 27,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9881311655044556,
+        "legal": 0.9881179332733154,
+        "science": 0.9880434274673462
+      },
+      "weight_entropy": 1.5202526627037234,
+      "generalist_loss": 0.5900362133979797,
+      "composed_loss": 0.5995252728462219,
+      "uniform_loss": 0.6027570366859436,
+      "oracle_loss": 0.736431896686554,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 28,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9797275066375732,
+        "legal": 0.9797062873840332,
+        "science": 0.9796820878982544
+      },
+      "weight_entropy": 1.5306896015306766,
+      "generalist_loss": 0.5431725382804871,
+      "composed_loss": 0.54267418384552,
+      "uniform_loss": 0.5380648374557495,
+      "oracle_loss": 0.6434693336486816,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 29,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.987907350063324,
+        "science": 0.9878442287445068,
+        "code": 0.9873561859130859
+      },
+      "weight_entropy": 1.5232710563533136,
+      "generalist_loss": 0.5935670137405396,
+      "composed_loss": 0.6087185740470886,
+      "uniform_loss": 0.5891461372375488,
+      "oracle_loss": 0.6137705445289612,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 30,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9590374231338501,
+        "science": 0.9588682055473328,
+        "code": 0.9575095176696777
+      },
+      "weight_entropy": 1.52126147100475,
+      "generalist_loss": 0.418466180562973,
+      "composed_loss": 0.4225645959377289,
+      "uniform_loss": 0.3976656198501587,
+      "oracle_loss": 0.4944916069507599,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 31,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9894450902938843,
+        "legal": 0.9893638491630554,
+        "science": 0.9893158078193665
+      },
+      "weight_entropy": 1.5154612436954988,
+      "generalist_loss": 0.5291648507118225,
+      "composed_loss": 0.5043348670005798,
+      "uniform_loss": 0.5200205445289612,
+      "oracle_loss": 0.6016732454299927,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 32,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9908652901649475,
+        "science": 0.9908384084701538,
+        "code": 0.9906429052352905
+      },
+      "weight_entropy": 1.5321067757626785,
+      "generalist_loss": 0.32810866832733154,
+      "composed_loss": 0.3196672201156616,
+      "uniform_loss": 0.33120495080947876,
+      "oracle_loss": 0.39639827609062195,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 33,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9901196956634521,
+        "legal": 0.990119218826294,
+        "code": 0.9897746443748474
+      },
+      "weight_entropy": 1.5292695137289234,
+      "generalist_loss": 0.42555567622184753,
+      "composed_loss": 0.4316658079624176,
+      "uniform_loss": 0.39879363775253296,
+      "oracle_loss": 0.43273767828941345,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 34,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9857962131500244,
+        "legal": 0.9856131076812744,
+        "science": 0.9854239225387573
+      },
+      "weight_entropy": 1.52898553552209,
+      "generalist_loss": 0.546732485294342,
+      "composed_loss": 0.5441619157791138,
+      "uniform_loss": 0.5372540950775146,
+      "oracle_loss": 0.6249313354492188,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 35,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9887378215789795,
+        "legal": 0.9887276291847229,
+        "code": 0.9886560440063477
+      },
+      "weight_entropy": 1.5258568517529445,
+      "generalist_loss": 0.6033798456192017,
+      "composed_loss": 0.5862290263175964,
+      "uniform_loss": 0.5574904084205627,
+      "oracle_loss": 0.5837981104850769,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 36,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9904603958129883,
+        "legal": 0.9903984665870667,
+        "science": 0.9901927709579468
+      },
+      "weight_entropy": 1.5295834137499058,
+      "generalist_loss": 0.34477856755256653,
+      "composed_loss": 0.3409695327281952,
+      "uniform_loss": 0.3241652250289917,
+      "oracle_loss": 0.34589993953704834,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 37,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9904609322547913,
+        "science": 0.9904274344444275,
+        "code": 0.9901764392852783
+      },
+      "weight_entropy": 1.5213112443935106,
+      "generalist_loss": 0.5987932085990906,
+      "composed_loss": 0.6036952137947083,
+      "uniform_loss": 0.5712065100669861,
+      "oracle_loss": 0.5419127941131592,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 38,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "code": 0.9858041405677795,
+        "science": 0.9856905937194824,
+        "legal": 0.9856663942337036
+      },
+      "weight_entropy": 1.5230351220304534,
+      "generalist_loss": 0.6317605972290039,
+      "composed_loss": 0.6308861970901489,
+      "uniform_loss": 0.6272174715995789,
+      "oracle_loss": 0.5653476715087891,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 39,
+      "true_domain": "medical",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9922524690628052,
+        "code": 0.9921305179595947,
+        "science": 0.9920303821563721
+      },
+      "weight_entropy": 1.5287759318924223,
+      "generalist_loss": 0.4705473780632019,
+      "composed_loss": 0.45759761333465576,
+      "uniform_loss": 0.45546218752861023,
+      "oracle_loss": 0.5940210819244385,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 40,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.991344690322876,
+        "legal": 0.9910024404525757,
+        "science": 0.9906464219093323
+      },
+      "weight_entropy": 1.5205693453355253,
+      "generalist_loss": 0.4554353654384613,
+      "composed_loss": 0.44432541728019714,
+      "uniform_loss": 0.44267264008522034,
+      "oracle_loss": 0.415420264005661,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 41,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9892947673797607,
+        "science": 0.9890249371528625,
+        "code": 0.9884734153747559
+      },
+      "weight_entropy": 1.5147693256533026,
+      "generalist_loss": 0.4083637595176697,
+      "composed_loss": 0.38231968879699707,
+      "uniform_loss": 0.39454466104507446,
+      "oracle_loss": 0.4097401797771454,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 42,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.975502073764801,
+        "science": 0.9754458069801331,
+        "code": 0.9753832817077637
+      },
+      "weight_entropy": 1.5110613664556751,
+      "generalist_loss": 0.6455426812171936,
+      "composed_loss": 0.6668913960456848,
+      "uniform_loss": 0.6609823703765869,
+      "oracle_loss": 0.6868255734443665,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 43,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9825319647789001,
+        "code": 0.9824104309082031,
+        "science": 0.9823311567306519
+      },
+      "weight_entropy": 1.5160217830474416,
+      "generalist_loss": 0.5932499766349792,
+      "composed_loss": 0.5960817337036133,
+      "uniform_loss": 0.587812066078186,
+      "oracle_loss": 0.6423304677009583,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 44,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9915347099304199,
+        "code": 0.9915213584899902,
+        "science": 0.991473376750946
+      },
+      "weight_entropy": 1.5211243544091808,
+      "generalist_loss": 0.32906296849250793,
+      "composed_loss": 0.3090125620365143,
+      "uniform_loss": 0.31680819392204285,
+      "oracle_loss": 0.3000478744506836,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 45,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9861056804656982,
+        "science": 0.9859557151794434,
+        "code": 0.9851886630058289
+      },
+      "weight_entropy": 1.5149353344235152,
+      "generalist_loss": 0.48120784759521484,
+      "composed_loss": 0.4880169630050659,
+      "uniform_loss": 0.478828102350235,
+      "oracle_loss": 0.4570655822753906,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 46,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9838383197784424,
+        "legal": 0.9835987091064453,
+        "science": 0.9835039973258972
+      },
+      "weight_entropy": 1.518789363043382,
+      "generalist_loss": 0.7595422267913818,
+      "composed_loss": 0.7512500286102295,
+      "uniform_loss": 0.7746022939682007,
+      "oracle_loss": 0.7529511451721191,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 47,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9868521690368652,
+        "legal": 0.9867782592773438,
+        "code": 0.9865980744361877
+      },
+      "weight_entropy": 1.5168811085155811,
+      "generalist_loss": 0.5293031334877014,
+      "composed_loss": 0.5272246599197388,
+      "uniform_loss": 0.5222193002700806,
+      "oracle_loss": 0.5375910401344299,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 48,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9837967157363892,
+        "legal": 0.9835960865020752,
+        "science": 0.9835106134414673
+      },
+      "weight_entropy": 1.5281776681517663,
+      "generalist_loss": 0.49828118085861206,
+      "composed_loss": 0.4875134527683258,
+      "uniform_loss": 0.4871479570865631,
+      "oracle_loss": 0.46162575483322144,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 49,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9797612428665161,
+        "science": 0.9791731834411621,
+        "code": 0.9785560369491577
+      },
+      "weight_entropy": 1.5233847326426224,
+      "generalist_loss": 0.4214291274547577,
+      "composed_loss": 0.420965313911438,
+      "uniform_loss": 0.44316792488098145,
+      "oracle_loss": 0.48985812067985535,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 50,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.983029842376709,
+        "science": 0.98295658826828,
+        "code": 0.9828692674636841
+      },
+      "weight_entropy": 1.5129694466286512,
+      "generalist_loss": 0.3607011139392853,
+      "composed_loss": 0.3675632178783417,
+      "uniform_loss": 0.36182326078414917,
+      "oracle_loss": 0.3443711996078491,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 51,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9902550578117371,
+        "science": 0.9897691011428833,
+        "code": 0.9893953800201416
+      },
+      "weight_entropy": 1.5132461040619394,
+      "generalist_loss": 0.34167686104774475,
+      "composed_loss": 0.34636107087135315,
+      "uniform_loss": 0.34179261326789856,
+      "oracle_loss": 0.37394848465919495,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 52,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9909945726394653,
+        "legal": 0.990958034992218,
+        "science": 0.9907790422439575
+      },
+      "weight_entropy": 1.5162217054201141,
+      "generalist_loss": 0.4632297456264496,
+      "composed_loss": 0.45395588874816895,
+      "uniform_loss": 0.47931984066963196,
+      "oracle_loss": 0.467850923538208,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 53,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9900022745132446,
+        "science": 0.9899283647537231,
+        "code": 0.9897797107696533
+      },
+      "weight_entropy": 1.5204051286068134,
+      "generalist_loss": 0.6387903094291687,
+      "composed_loss": 0.661170244216919,
+      "uniform_loss": 0.665232241153717,
+      "oracle_loss": 0.6361651420593262,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 54,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9801101088523865,
+        "legal": 0.9796955585479736,
+        "science": 0.9795352220535278
+      },
+      "weight_entropy": 1.518493530825059,
+      "generalist_loss": 0.448569655418396,
+      "composed_loss": 0.46532949805259705,
+      "uniform_loss": 0.46706318855285645,
+      "oracle_loss": 0.45850250124931335,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 55,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9907749891281128,
+        "code": 0.9903926849365234,
+        "science": 0.9902539253234863
+      },
+      "weight_entropy": 1.5147395355267175,
+      "generalist_loss": 0.4118918776512146,
+      "composed_loss": 0.4223251938819885,
+      "uniform_loss": 0.4180130362510681,
+      "oracle_loss": 0.38810092210769653,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 56,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9820551872253418,
+        "code": 0.9820449352264404,
+        "science": 0.981907069683075
+      },
+      "weight_entropy": 1.5126733633254457,
+      "generalist_loss": 0.46487513184547424,
+      "composed_loss": 0.46410709619522095,
+      "uniform_loss": 0.46626603603363037,
+      "oracle_loss": 0.45852765440940857,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 57,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.8969457745552063,
+        "legal": 0.8877354860305786,
+        "science": 0.8872793316841125
+      },
+      "weight_entropy": 1.4328732384725662,
+      "generalist_loss": 0.4643159508705139,
+      "composed_loss": 0.44898441433906555,
+      "uniform_loss": 0.4752197563648224,
+      "oracle_loss": 0.49917787313461304,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 58,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9782139658927917,
+        "science": 0.9780395030975342,
+        "code": 0.9779074192047119
+      },
+      "weight_entropy": 1.5223562513824003,
+      "generalist_loss": 0.5297675132751465,
+      "composed_loss": 0.5236275792121887,
+      "uniform_loss": 0.532338559627533,
+      "oracle_loss": 0.5166168212890625,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 59,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9918406009674072,
+        "science": 0.9917566776275635,
+        "code": 0.9915510416030884
+      },
+      "weight_entropy": 1.518175268485255,
+      "generalist_loss": 0.3573372960090637,
+      "composed_loss": 0.3629748225212097,
+      "uniform_loss": 0.3639904260635376,
+      "oracle_loss": 0.3888900578022003,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 60,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9937258362770081,
+        "legal": 0.9936815500259399,
+        "science": 0.9935139417648315
+      },
+      "weight_entropy": 1.5265451386384352,
+      "generalist_loss": 0.47434791922569275,
+      "composed_loss": 0.4672025442123413,
+      "uniform_loss": 0.483218252658844,
+      "oracle_loss": 0.5274185538291931,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 61,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9857392907142639,
+        "legal": 0.9857289791107178,
+        "code": 0.9855473637580872
+      },
+      "weight_entropy": 1.5150856336739107,
+      "generalist_loss": 0.35244277119636536,
+      "composed_loss": 0.35052528977394104,
+      "uniform_loss": 0.3417436480522156,
+      "oracle_loss": 0.3588505685329437,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 62,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "medical",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.931968629360199,
+        "medical": 0.9314558506011963,
+        "science": 0.9311426877975464
+      },
+      "weight_entropy": 1.4425591677314828,
+      "generalist_loss": 0.5621410608291626,
+      "composed_loss": 0.5728145837783813,
+      "uniform_loss": 0.555682897567749,
+      "oracle_loss": 0.5715991258621216,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 63,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9822688102722168,
+        "science": 0.9822142124176025,
+        "code": 0.9819937348365784
+      },
+      "weight_entropy": 1.523307931149537,
+      "generalist_loss": 0.5174381732940674,
+      "composed_loss": 0.5201915502548218,
+      "uniform_loss": 0.5054094195365906,
+      "oracle_loss": 0.5403376221656799,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 64,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9928751587867737,
+        "legal": 0.9927546977996826,
+        "science": 0.9926317930221558
+      },
+      "weight_entropy": 1.518925264016664,
+      "generalist_loss": 0.4536285698413849,
+      "composed_loss": 0.44283732771873474,
+      "uniform_loss": 0.4579184949398041,
+      "oracle_loss": 0.46824419498443604,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 65,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9838876724243164,
+        "legal": 0.9838672280311584,
+        "code": 0.9836323261260986
+      },
+      "weight_entropy": 1.5259780741500446,
+      "generalist_loss": 0.49755826592445374,
+      "composed_loss": 0.4998297691345215,
+      "uniform_loss": 0.5032024383544922,
+      "oracle_loss": 0.4965765178203583,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 66,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9866374731063843,
+        "legal": 0.986590564250946,
+        "code": 0.9864678978919983
+      },
+      "weight_entropy": 1.5214410713246398,
+      "generalist_loss": 0.5701665878295898,
+      "composed_loss": 0.5576081871986389,
+      "uniform_loss": 0.5691976547241211,
+      "oracle_loss": 0.5874713063240051,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 67,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9812270998954773,
+        "science": 0.981148362159729,
+        "code": 0.981060266494751
+      },
+      "weight_entropy": 1.522225791230307,
+      "generalist_loss": 0.46252375841140747,
+      "composed_loss": 0.4519943594932556,
+      "uniform_loss": 0.47586843371391296,
+      "oracle_loss": 0.4890804588794708,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 68,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.989928126335144,
+        "legal": 0.9898965358734131,
+        "science": 0.9898289442062378
+      },
+      "weight_entropy": 1.5176212422331161,
+      "generalist_loss": 0.6515217423439026,
+      "composed_loss": 0.6551597714424133,
+      "uniform_loss": 0.641214907169342,
+      "oracle_loss": 0.6123069524765015,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 69,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9898765087127686,
+        "legal": 0.9897801876068115,
+        "science": 0.9894183874130249
+      },
+      "weight_entropy": 1.5176827490914622,
+      "generalist_loss": 0.3891526758670807,
+      "composed_loss": 0.38822346925735474,
+      "uniform_loss": 0.389739990234375,
+      "oracle_loss": 0.41172412037849426,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 70,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9802701473236084,
+        "code": 0.9800689220428467,
+        "science": 0.9800392389297485
+      },
+      "weight_entropy": 1.5189774062461137,
+      "generalist_loss": 0.5342737436294556,
+      "composed_loss": 0.5370507836341858,
+      "uniform_loss": 0.5535572171211243,
+      "oracle_loss": 0.6069936752319336,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 71,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9808086156845093,
+        "science": 0.9806453585624695,
+        "code": 0.9802162647247314
+      },
+      "weight_entropy": 1.5236681757803645,
+      "generalist_loss": 0.3168836534023285,
+      "composed_loss": 0.3149434030056,
+      "uniform_loss": 0.32411378622055054,
+      "oracle_loss": 0.31014323234558105,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 72,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9824115633964539,
+        "legal": 0.9820083975791931,
+        "science": 0.9815455675125122
+      },
+      "weight_entropy": 1.5194741293083853,
+      "generalist_loss": 0.5646927356719971,
+      "composed_loss": 0.5707606673240662,
+      "uniform_loss": 0.5345134735107422,
+      "oracle_loss": 0.5275726914405823,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 73,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9892117381095886,
+        "science": 0.9890824556350708,
+        "code": 0.988908052444458
+      },
+      "weight_entropy": 1.5193553545587146,
+      "generalist_loss": 0.4406426250934601,
+      "composed_loss": 0.4311990439891815,
+      "uniform_loss": 0.4466763138771057,
+      "oracle_loss": 0.4472998380661011,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 74,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.977605402469635,
+        "legal": 0.9772009253501892,
+        "science": 0.9768818616867065
+      },
+      "weight_entropy": 1.5181547590838431,
+      "generalist_loss": 0.557075560092926,
+      "composed_loss": 0.5501448512077332,
+      "uniform_loss": 0.5648835897445679,
+      "oracle_loss": 0.5363855361938477,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 75,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9906408190727234,
+        "legal": 0.9903721809387207,
+        "science": 0.990052342414856
+      },
+      "weight_entropy": 1.522486719922936,
+      "generalist_loss": 0.5287177562713623,
+      "composed_loss": 0.49421486258506775,
+      "uniform_loss": 0.5328123569488525,
+      "oracle_loss": 0.5356875658035278,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 76,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9853067398071289,
+        "science": 0.985267162322998,
+        "code": 0.9851816892623901
+      },
+      "weight_entropy": 1.530097282963384,
+      "generalist_loss": 0.38462185859680176,
+      "composed_loss": 0.377263605594635,
+      "uniform_loss": 0.3904152810573578,
+      "oracle_loss": 0.3947383463382721,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 77,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9802489280700684,
+        "science": 0.980025053024292,
+        "code": 0.9799355268478394
+      },
+      "weight_entropy": 1.5196405770614296,
+      "generalist_loss": 0.3362346589565277,
+      "composed_loss": 0.3393726050853729,
+      "uniform_loss": 0.34351587295532227,
+      "oracle_loss": 0.35969430208206177,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 78,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9902454614639282,
+        "science": 0.990241527557373,
+        "code": 0.9900785088539124
+      },
+      "weight_entropy": 1.5242780810136984,
+      "generalist_loss": 0.414924681186676,
+      "composed_loss": 0.41230106353759766,
+      "uniform_loss": 0.3937456011772156,
+      "oracle_loss": 0.4110962748527527,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 79,
+      "true_domain": "legal",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9895318746566772,
+        "science": 0.9894070029258728,
+        "code": 0.9893767833709717
+      },
+      "weight_entropy": 1.5314793580832629,
+      "generalist_loss": 0.5071511268615723,
+      "composed_loss": 0.49473050236701965,
+      "uniform_loss": 0.5132831931114197,
+      "oracle_loss": 0.5118148922920227,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 80,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.7387512922286987,
+        "science": 0.7194198369979858,
+        "legal": 0.7193459868431091
+      },
+      "weight_entropy": 1.444221395528224,
+      "generalist_loss": 1.3716306686401367,
+      "composed_loss": 1.2259583473205566,
+      "uniform_loss": 1.3084383010864258,
+      "oracle_loss": 1.4634764194488525,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 81,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9965533018112183,
+        "science": 0.996487021446228,
+        "code": 0.9962510466575623
+      },
+      "weight_entropy": 1.5196029970163856,
+      "generalist_loss": 1.5223487615585327,
+      "composed_loss": 1.3507944345474243,
+      "uniform_loss": 1.3961282968521118,
+      "oracle_loss": 1.4853267669677734,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 82,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "medical"
+      ],
+      "correlation_scores": {
+        "legal": 0.8858803510665894,
+        "science": 0.8847582936286926,
+        "medical": 0.8831359148025513
+      },
+      "weight_entropy": 1.4565791501015959,
+      "generalist_loss": 1.2655844688415527,
+      "composed_loss": 1.2076735496520996,
+      "uniform_loss": 1.3358107805252075,
+      "oracle_loss": 1.5461256504058838,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 83,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.20305103063583374,
+        "science": 0.14380504190921783,
+        "legal": 0.14166520535945892
+      },
+      "weight_entropy": 1.3966769688460505,
+      "generalist_loss": 1.4827907085418701,
+      "composed_loss": 1.3108271360397339,
+      "uniform_loss": 1.3737176656723022,
+      "oracle_loss": 1.5655410289764404,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 84,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9761096239089966,
+        "science": 0.9757050275802612,
+        "code": 0.9746307730674744
+      },
+      "weight_entropy": 1.5126883678471963,
+      "generalist_loss": 0.7066547274589539,
+      "composed_loss": 0.6959036588668823,
+      "uniform_loss": 0.6771377921104431,
+      "oracle_loss": 0.7277687191963196,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 85,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9042081832885742,
+        "science": 0.8904988169670105,
+        "legal": 0.8899790644645691
+      },
+      "weight_entropy": 1.4414451089160938,
+      "generalist_loss": 0.7054898738861084,
+      "composed_loss": 0.6959009170532227,
+      "uniform_loss": 0.730949342250824,
+      "oracle_loss": 0.7794538736343384,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 86,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9498445987701416,
+        "science": 0.9494903683662415,
+        "code": 0.9480233788490295
+      },
+      "weight_entropy": 1.5139291193099584,
+      "generalist_loss": 1.5714385509490967,
+      "composed_loss": 1.5148578882217407,
+      "uniform_loss": 1.5703635215759277,
+      "oracle_loss": 1.6917188167572021,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 87,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.8256245851516724,
+        "legal": 0.8112319707870483,
+        "science": 0.8111287355422974
+      },
+      "weight_entropy": 1.4418623822632919,
+      "generalist_loss": 1.5102206468582153,
+      "composed_loss": 1.2656333446502686,
+      "uniform_loss": 1.3135591745376587,
+      "oracle_loss": 1.3417648077011108,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 88,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.659011721611023,
+        "science": -0.7376881837844849,
+        "legal": -0.7453433275222778
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.3033910989761353,
+      "composed_loss": 1.248393177986145,
+      "uniform_loss": 1.2446260452270508,
+      "oracle_loss": 1.3715168237686157,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 89,
+      "true_domain": "code",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9901047945022583,
+        "legal": 0.9898508787155151,
+        "science": 0.9896811246871948
+      },
+      "weight_entropy": 1.5155686699870508,
+      "generalist_loss": 1.3949016332626343,
+      "composed_loss": 1.2933177947998047,
+      "uniform_loss": 1.3422502279281616,
+      "oracle_loss": 1.5288746356964111,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 90,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.5474839806556702,
+        "science": -0.630425214767456,
+        "legal": -0.6379889845848083
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 0.9626878499984741,
+      "composed_loss": 0.8825924396514893,
+      "uniform_loss": 0.9102802872657776,
+      "oracle_loss": 0.9903600215911865,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 91,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.49273622035980225,
+        "legal": 0.47111737728118896,
+        "science": 0.4701986312866211
+      },
+      "weight_entropy": 1.4307399944085084,
+      "generalist_loss": 1.1500385999679565,
+      "composed_loss": 1.0868072509765625,
+      "uniform_loss": 1.136044979095459,
+      "oracle_loss": 1.3359336853027344,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 92,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "medical"
+      ],
+      "correlation_scores": {
+        "legal": 0.9748302698135376,
+        "science": 0.9741637706756592,
+        "medical": 0.9739454984664917
+      },
+      "weight_entropy": 1.4387289847321056,
+      "generalist_loss": 0.9839105606079102,
+      "composed_loss": 0.8970104455947876,
+      "uniform_loss": 0.8927135467529297,
+      "oracle_loss": 1.0758600234985352,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 93,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9953252077102661,
+        "science": 0.9952194690704346,
+        "code": 0.9947292804718018
+      },
+      "weight_entropy": 1.5112565388542685,
+      "generalist_loss": 1.4875251054763794,
+      "composed_loss": 1.3271667957305908,
+      "uniform_loss": 1.3753060102462769,
+      "oracle_loss": 1.4246647357940674,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 94,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.3936253786087036,
+        "science": 0.3137351870536804,
+        "legal": 0.309479683637619
+      },
+      "weight_entropy": 1.416969196089022,
+      "generalist_loss": 1.1927680969238281,
+      "composed_loss": 1.1455341577529907,
+      "uniform_loss": 1.2896000146865845,
+      "oracle_loss": 1.4742753505706787,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 95,
+      "true_domain": "code",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9761423468589783,
+        "legal": 0.9759292602539062,
+        "science": 0.9755064249038696
+      },
+      "weight_entropy": 1.5150155062306576,
+      "generalist_loss": 1.3429948091506958,
+      "composed_loss": 1.2790019512176514,
+      "uniform_loss": 1.2908624410629272,
+      "oracle_loss": 1.3995275497436523,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 96,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9589744806289673,
+        "science": 0.9584363698959351,
+        "code": 0.9575309753417969
+      },
+      "weight_entropy": 1.5176187783315747,
+      "generalist_loss": 1.4937583208084106,
+      "composed_loss": 1.3293787240982056,
+      "uniform_loss": 1.355620265007019,
+      "oracle_loss": 1.493168592453003,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 97,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9366017580032349,
+        "science": 0.9214743375778198,
+        "legal": 0.9213542342185974
+      },
+      "weight_entropy": 1.4344091501311969,
+      "generalist_loss": 1.3165110349655151,
+      "composed_loss": 1.1942211389541626,
+      "uniform_loss": 1.164954423904419,
+      "oracle_loss": 1.2501922845840454,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 98,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9880151152610779,
+        "science": 0.9879042506217957,
+        "code": 0.987328052520752
+      },
+      "weight_entropy": 1.5070420693351982,
+      "generalist_loss": 1.1224570274353027,
+      "composed_loss": 1.0766640901565552,
+      "uniform_loss": 1.0837258100509644,
+      "oracle_loss": 1.2558828592300415,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 99,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.12237390875816345,
+        "science": -0.20549729466438293,
+        "legal": -0.21369142830371857
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.2706167697906494,
+      "composed_loss": 1.182721495628357,
+      "uniform_loss": 1.1948658227920532,
+      "oracle_loss": 1.4474449157714844,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 100,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.705344557762146,
+        "science": -0.7651311159133911,
+        "legal": -0.7659248113632202
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.3922350406646729,
+      "composed_loss": 1.3651310205459595,
+      "uniform_loss": 1.4425963163375854,
+      "oracle_loss": 1.6004412174224854,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 101,
+      "true_domain": "code",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9954581260681152,
+        "legal": 0.9953751564025879,
+        "code": 0.9950143694877625
+      },
+      "weight_entropy": 1.5088981051680321,
+      "generalist_loss": 1.3540863990783691,
+      "composed_loss": 1.240411400794983,
+      "uniform_loss": 1.2215145826339722,
+      "oracle_loss": 1.3196983337402344,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 102,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.24640050530433655,
+        "science": 0.14868402481079102,
+        "legal": 0.13918453454971313
+      },
+      "weight_entropy": 1.3434391960357406,
+      "generalist_loss": 1.3325865268707275,
+      "composed_loss": 1.2847987413406372,
+      "uniform_loss": 1.3872696161270142,
+      "oracle_loss": 1.6395517587661743,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 103,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9204790592193604,
+        "legal": 0.9083804488182068,
+        "science": 0.9081301093101501
+      },
+      "weight_entropy": 1.4413061476005113,
+      "generalist_loss": 1.2738704681396484,
+      "composed_loss": 1.1703745126724243,
+      "uniform_loss": 1.149721622467041,
+      "oracle_loss": 1.2601028680801392,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 104,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.6770740747451782,
+        "science": -0.744012713432312,
+        "legal": -0.7516965270042419
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.4193617105484009,
+      "composed_loss": 1.3155778646469116,
+      "uniform_loss": 1.3242899179458618,
+      "oracle_loss": 1.4994534254074097,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 105,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.46535971760749817,
+        "science": -0.5442833304405212,
+        "legal": -0.5448818802833557
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.2042840719223022,
+      "composed_loss": 1.1209864616394043,
+      "uniform_loss": 1.1450495719909668,
+      "oracle_loss": 1.3363127708435059,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 106,
+      "true_domain": "code",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9955338835716248,
+        "legal": 0.9953066110610962,
+        "code": 0.9951679706573486
+      },
+      "weight_entropy": 1.5112954667216556,
+      "generalist_loss": 1.3008700609207153,
+      "composed_loss": 1.1709378957748413,
+      "uniform_loss": 1.2033636569976807,
+      "oracle_loss": 1.4735500812530518,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 107,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.9762128591537476,
+        "science": 0.9690237045288086,
+        "legal": 0.9688165187835693
+      },
+      "weight_entropy": 1.42691103147831,
+      "generalist_loss": 1.2437567710876465,
+      "composed_loss": 1.0969456434249878,
+      "uniform_loss": 1.0456160306930542,
+      "oracle_loss": 1.1868870258331299,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 108,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9098036289215088,
+        "legal": 0.8990575671195984,
+        "science": 0.8987439870834351
+      },
+      "weight_entropy": 1.4379588992448955,
+      "generalist_loss": 1.2964825630187988,
+      "composed_loss": 1.2717047929763794,
+      "uniform_loss": 1.3344826698303223,
+      "oracle_loss": 1.3584420680999756,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 109,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.785879373550415,
+        "legal": 0.7672809958457947,
+        "science": 0.7667550444602966
+      },
+      "weight_entropy": 1.4324056528905562,
+      "generalist_loss": 1.193002700805664,
+      "composed_loss": 1.1041333675384521,
+      "uniform_loss": 1.1376712322235107,
+      "oracle_loss": 1.3760581016540527,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 110,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.617519199848175,
+        "science": -0.6831814646720886,
+        "legal": -0.6848427057266235
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.2429312467575073,
+      "composed_loss": 1.1955232620239258,
+      "uniform_loss": 1.3534812927246094,
+      "oracle_loss": 1.4827953577041626,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 111,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.22131706774234772,
+        "science": -0.30194517970085144,
+        "legal": -0.3122681677341461
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.5486390590667725,
+      "composed_loss": 1.4135338068008423,
+      "uniform_loss": 1.4248086214065552,
+      "oracle_loss": 1.449639081954956,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 112,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.42509961128234863,
+        "science": -0.5075210928916931,
+        "legal": -0.5126104354858398
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 0.77215176820755,
+      "composed_loss": 0.7302543520927429,
+      "uniform_loss": 0.7866179943084717,
+      "oracle_loss": 0.8980358242988586,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 113,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.37228551506996155,
+        "science": 0.30063313245773315,
+        "legal": 0.29270824790000916
+      },
+      "weight_entropy": 1.4179218332508896,
+      "generalist_loss": 1.4001516103744507,
+      "composed_loss": 1.3115109205245972,
+      "uniform_loss": 1.3739560842514038,
+      "oracle_loss": 1.6820131540298462,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 114,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.7037747502326965,
+        "science": -0.766699492931366,
+        "legal": -0.7674834728240967
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.3695622682571411,
+      "composed_loss": 1.3190562725067139,
+      "uniform_loss": 1.4085745811462402,
+      "oracle_loss": 1.4878889322280884,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 115,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": 0.988291323184967,
+        "science": 0.9865648746490479,
+        "legal": 0.9865099191665649
+      },
+      "weight_entropy": 1.4328669617217307,
+      "generalist_loss": 1.4262421131134033,
+      "composed_loss": 1.2986695766448975,
+      "uniform_loss": 1.3436312675476074,
+      "oracle_loss": 1.4272406101226807,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 116,
+      "true_domain": "code",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9890496134757996,
+        "code": 0.9889326095581055,
+        "science": 0.9886050224304199
+      },
+      "weight_entropy": 1.5063198916112024,
+      "generalist_loss": 1.5461013317108154,
+      "composed_loss": 1.378879427909851,
+      "uniform_loss": 1.4433120489120483,
+      "oracle_loss": 1.614037036895752,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 117,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": -0.6602673530578613,
+        "legal": -0.695565938949585,
+        "science": -0.6967594623565674
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.238531231880188,
+      "composed_loss": 1.2135796546936035,
+      "uniform_loss": 1.2923403978347778,
+      "oracle_loss": 1.508158564567566,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 118,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9664624929428101,
+        "legal": 0.9624844193458557,
+        "science": 0.962236762046814
+      },
+      "weight_entropy": 1.4336368876247363,
+      "generalist_loss": 1.2731435298919678,
+      "composed_loss": 1.1365938186645508,
+      "uniform_loss": 1.1337474584579468,
+      "oracle_loss": 1.2127324342727661,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 119,
+      "true_domain": "code",
+      "selected_specialists": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "medical": -0.4200696647167206,
+        "science": -0.48654744029045105,
+        "legal": -0.48664987087249756
+      },
+      "weight_entropy": 1.5849625002883474,
+      "generalist_loss": 1.3371461629867554,
+      "composed_loss": 1.277079701423645,
+      "uniform_loss": 1.29347825050354,
+      "oracle_loss": 1.5039079189300537,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 120,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9759019613265991,
+        "code": 0.9757744073867798,
+        "science": 0.9756343960762024
+      },
+      "weight_entropy": 1.5243938915502466,
+      "generalist_loss": 0.4432182013988495,
+      "composed_loss": 0.4459076523780823,
+      "uniform_loss": 0.4248281717300415,
+      "oracle_loss": 0.4052366614341736,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 121,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9806331396102905,
+        "science": 0.9803371429443359,
+        "code": 0.979802131652832
+      },
+      "weight_entropy": 1.524628120766203,
+      "generalist_loss": 0.45336878299713135,
+      "composed_loss": 0.43858373165130615,
+      "uniform_loss": 0.4468494951725006,
+      "oracle_loss": 0.4405234456062317,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 122,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9867680668830872,
+        "legal": 0.9864948987960815,
+        "science": 0.9862217903137207
+      },
+      "weight_entropy": 1.5171052093283877,
+      "generalist_loss": 0.532720685005188,
+      "composed_loss": 0.5376510620117188,
+      "uniform_loss": 0.5141974091529846,
+      "oracle_loss": 0.4964292645454407,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 123,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9811123609542847,
+        "code": 0.9810742139816284,
+        "science": 0.9807964563369751
+      },
+      "weight_entropy": 1.5187437259635674,
+      "generalist_loss": 0.5734267234802246,
+      "composed_loss": 0.562183678150177,
+      "uniform_loss": 0.5564514994621277,
+      "oracle_loss": 0.5628602504730225,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 124,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9851085543632507,
+        "legal": 0.9847409725189209,
+        "science": 0.9841777682304382
+      },
+      "weight_entropy": 1.5227121708968185,
+      "generalist_loss": 0.5925748944282532,
+      "composed_loss": 0.5831722617149353,
+      "uniform_loss": 0.5785659551620483,
+      "oracle_loss": 0.5391132235527039,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 125,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9908057451248169,
+        "code": 0.9906485676765442,
+        "science": 0.990511417388916
+      },
+      "weight_entropy": 1.53200774315205,
+      "generalist_loss": 0.5700368881225586,
+      "composed_loss": 0.5511084198951721,
+      "uniform_loss": 0.54571133852005,
+      "oracle_loss": 0.600887656211853,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 126,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9809398055076599,
+        "science": 0.9808498620986938,
+        "code": 0.9807327389717102
+      },
+      "weight_entropy": 1.5236109654036412,
+      "generalist_loss": 0.3883376121520996,
+      "composed_loss": 0.385366827249527,
+      "uniform_loss": 0.3671312630176544,
+      "oracle_loss": 0.3646257817745209,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 127,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9903629422187805,
+        "code": 0.9900762438774109,
+        "science": 0.9898414015769958
+      },
+      "weight_entropy": 1.518754245491036,
+      "generalist_loss": 0.48726415634155273,
+      "composed_loss": 0.476963609457016,
+      "uniform_loss": 0.49438056349754333,
+      "oracle_loss": 0.5592041611671448,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 128,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9890741109848022,
+        "legal": 0.9888483881950378,
+        "science": 0.9882498979568481
+      },
+      "weight_entropy": 1.5242475382225618,
+      "generalist_loss": 0.34066203236579895,
+      "composed_loss": 0.3366219401359558,
+      "uniform_loss": 0.3541499376296997,
+      "oracle_loss": 0.37102210521698,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 129,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9897067546844482,
+        "legal": 0.9894980192184448,
+        "science": 0.988951563835144
+      },
+      "weight_entropy": 1.522117803820688,
+      "generalist_loss": 0.47733113169670105,
+      "composed_loss": 0.4906395971775055,
+      "uniform_loss": 0.46456286311149597,
+      "oracle_loss": 0.4487227201461792,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 130,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9803858995437622,
+        "legal": 0.9800782799720764,
+        "science": 0.9798187017440796
+      },
+      "weight_entropy": 1.5236962872010598,
+      "generalist_loss": 0.5708816647529602,
+      "composed_loss": 0.5672979950904846,
+      "uniform_loss": 0.5636215209960938,
+      "oracle_loss": 0.5394531488418579,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 131,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9802870154380798,
+        "code": 0.9802814722061157,
+        "science": 0.980029284954071
+      },
+      "weight_entropy": 1.5190792635466615,
+      "generalist_loss": 0.6325586438179016,
+      "composed_loss": 0.6368026733398438,
+      "uniform_loss": 0.5975154638290405,
+      "oracle_loss": 0.6140046715736389,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 132,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "correlation_scores": {
+        "code": 0.9849542379379272,
+        "science": 0.9849295616149902,
+        "legal": 0.9848968982696533
+      },
+      "weight_entropy": 1.5220078333140037,
+      "generalist_loss": 0.4323582649230957,
+      "composed_loss": 0.42613500356674194,
+      "uniform_loss": 0.44410911202430725,
+      "oracle_loss": 0.43561092019081116,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 133,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.98313307762146,
+        "code": 0.9830987453460693,
+        "science": 0.982953667640686
+      },
+      "weight_entropy": 1.528618243728653,
+      "generalist_loss": 0.428236186504364,
+      "composed_loss": 0.42616915702819824,
+      "uniform_loss": 0.4322865903377533,
+      "oracle_loss": 0.43549013137817383,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 134,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9763723611831665,
+        "science": 0.9762235879898071,
+        "code": 0.9757012128829956
+      },
+      "weight_entropy": 1.5284121605092225,
+      "generalist_loss": 0.5512299537658691,
+      "composed_loss": 0.5381375551223755,
+      "uniform_loss": 0.5510650277137756,
+      "oracle_loss": 0.535983145236969,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 135,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9877162575721741,
+        "code": 0.9876540303230286,
+        "science": 0.9875339269638062
+      },
+      "weight_entropy": 1.5202902755718142,
+      "generalist_loss": 0.44104403257369995,
+      "composed_loss": 0.43742650747299194,
+      "uniform_loss": 0.44132858514785767,
+      "oracle_loss": 0.4267209768295288,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 136,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9793517589569092,
+        "code": 0.9790853261947632,
+        "science": 0.9790183901786804
+      },
+      "weight_entropy": 1.5241322607345846,
+      "generalist_loss": 0.3012450337409973,
+      "composed_loss": 0.2814233899116516,
+      "uniform_loss": 0.29415982961654663,
+      "oracle_loss": 0.2835110127925873,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 137,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9885903596878052,
+        "legal": 0.9883918762207031,
+        "science": 0.9882991313934326
+      },
+      "weight_entropy": 1.5273844693771068,
+      "generalist_loss": 0.5890144109725952,
+      "composed_loss": 0.583024263381958,
+      "uniform_loss": 0.5725778341293335,
+      "oracle_loss": 0.5679033994674683,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 138,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9776196479797363,
+        "science": 0.9775561690330505,
+        "code": 0.9772932529449463
+      },
+      "weight_entropy": 1.525130811082936,
+      "generalist_loss": 0.5516816973686218,
+      "composed_loss": 0.5551471710205078,
+      "uniform_loss": 0.525952935218811,
+      "oracle_loss": 0.49304091930389404,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 139,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9886671304702759,
+        "legal": 0.9884372353553772,
+        "science": 0.9882957339286804
+      },
+      "weight_entropy": 1.5259728007946738,
+      "generalist_loss": 0.4951900839805603,
+      "composed_loss": 0.49540194869041443,
+      "uniform_loss": 0.4881703555583954,
+      "oracle_loss": 0.46788468956947327,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 140,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9910205602645874,
+        "science": 0.9908998012542725,
+        "code": 0.9908527731895447
+      },
+      "weight_entropy": 1.530083846093958,
+      "generalist_loss": 0.5782011151313782,
+      "composed_loss": 0.5711920857429504,
+      "uniform_loss": 0.5787578821182251,
+      "oracle_loss": 0.5284221768379211,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 141,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9847391843795776,
+        "code": 0.9847226142883301,
+        "science": 0.9846550226211548
+      },
+      "weight_entropy": 1.5215312574050361,
+      "generalist_loss": 0.44705480337142944,
+      "composed_loss": 0.441133588552475,
+      "uniform_loss": 0.4456651210784912,
+      "oracle_loss": 0.4571456015110016,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 142,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9939557313919067,
+        "legal": 0.9938883781433105,
+        "science": 0.9935056567192078
+      },
+      "weight_entropy": 1.5256856073436127,
+      "generalist_loss": 0.44454649090766907,
+      "composed_loss": 0.4288340210914612,
+      "uniform_loss": 0.4266062378883362,
+      "oracle_loss": 0.4347243010997772,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 143,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9867806434631348,
+        "code": 0.9867007732391357,
+        "science": 0.9864082336425781
+      },
+      "weight_entropy": 1.517976800537161,
+      "generalist_loss": 0.39637136459350586,
+      "composed_loss": 0.38728591799736023,
+      "uniform_loss": 0.41105273365974426,
+      "oracle_loss": 0.40694475173950195,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 144,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9903587102890015,
+        "code": 0.9900203943252563,
+        "science": 0.9898817539215088
+      },
+      "weight_entropy": 1.5238408578850964,
+      "generalist_loss": 0.5328991413116455,
+      "composed_loss": 0.5327617526054382,
+      "uniform_loss": 0.5241119265556335,
+      "oracle_loss": 0.5154647827148438,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 145,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9792411923408508,
+        "science": 0.9789435863494873,
+        "code": 0.9783473014831543
+      },
+      "weight_entropy": 1.516390636886227,
+      "generalist_loss": 0.32771363854408264,
+      "composed_loss": 0.32898053526878357,
+      "uniform_loss": 0.3269404470920563,
+      "oracle_loss": 0.3152133822441101,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 146,
+      "true_domain": "science",
+      "selected_specialists": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "correlation_scores": {
+        "science": 0.9887111186981201,
+        "legal": 0.9886527061462402,
+        "code": 0.9885909557342529
+      },
+      "weight_entropy": 1.517002046915355,
+      "generalist_loss": 0.3836599886417389,
+      "composed_loss": 0.387775182723999,
+      "uniform_loss": 0.36672577261924744,
+      "oracle_loss": 0.35897570848464966,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 147,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.975939929485321,
+        "code": 0.975820779800415,
+        "science": 0.9757769703865051
+      },
+      "weight_entropy": 1.5165722884330106,
+      "generalist_loss": 0.49862104654312134,
+      "composed_loss": 0.5090871453285217,
+      "uniform_loss": 0.5007564425468445,
+      "oracle_loss": 0.4885866641998291,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 148,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9846987724304199,
+        "code": 0.9845647215843201,
+        "science": 0.9845475554466248
+      },
+      "weight_entropy": 1.5235713884863038,
+      "generalist_loss": 0.421519935131073,
+      "composed_loss": 0.4145826995372772,
+      "uniform_loss": 0.4148061275482178,
+      "oracle_loss": 0.4045470058917999,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 149,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9874444007873535,
+        "legal": 0.987360954284668,
+        "science": 0.9871834516525269
+      },
+      "weight_entropy": 1.5298231723694988,
+      "generalist_loss": 0.4177515208721161,
+      "composed_loss": 0.4258953630924225,
+      "uniform_loss": 0.4064604640007019,
+      "oracle_loss": 0.4087376594543457,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 150,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.982094943523407,
+        "science": 0.9819506406784058,
+        "code": 0.9817385673522949
+      },
+      "weight_entropy": 1.5170306679530512,
+      "generalist_loss": 0.6028760075569153,
+      "composed_loss": 0.600822389125824,
+      "uniform_loss": 0.5811055302619934,
+      "oracle_loss": 0.5615602731704712,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 151,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9864374995231628,
+        "science": 0.9862992763519287,
+        "code": 0.9858189821243286
+      },
+      "weight_entropy": 1.5228013602120403,
+      "generalist_loss": 0.6062352061271667,
+      "composed_loss": 0.5922808051109314,
+      "uniform_loss": 0.5961438417434692,
+      "oracle_loss": 0.6243758797645569,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 152,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9848968982696533,
+        "legal": 0.9846515655517578,
+        "science": 0.984431266784668
+      },
+      "weight_entropy": 1.5340134044398541,
+      "generalist_loss": 0.43288373947143555,
+      "composed_loss": 0.4258631467819214,
+      "uniform_loss": 0.42857688665390015,
+      "oracle_loss": 0.412641316652298,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 153,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9777718782424927,
+        "code": 0.9777179956436157,
+        "science": 0.9776334762573242
+      },
+      "weight_entropy": 1.5180964315944554,
+      "generalist_loss": 0.6461581587791443,
+      "composed_loss": 0.655215859413147,
+      "uniform_loss": 0.641708254814148,
+      "oracle_loss": 0.641451358795166,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 154,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9899780750274658,
+        "legal": 0.989768385887146,
+        "science": 0.9897593855857849
+      },
+      "weight_entropy": 1.5325041227941172,
+      "generalist_loss": 0.3676947057247162,
+      "composed_loss": 0.36320334672927856,
+      "uniform_loss": 0.34898585081100464,
+      "oracle_loss": 0.3572172522544861,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 155,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9907263517379761,
+        "code": 0.9905903935432434,
+        "science": 0.9904018640518188
+      },
+      "weight_entropy": 1.5216715776517198,
+      "generalist_loss": 0.4420267939567566,
+      "composed_loss": 0.45698460936546326,
+      "uniform_loss": 0.4476920962333679,
+      "oracle_loss": 0.4510939121246338,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 156,
+      "true_domain": "science",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9903174042701721,
+        "legal": 0.9900273084640503,
+        "science": 0.9899278879165649
+      },
+      "weight_entropy": 1.5235033909682645,
+      "generalist_loss": 0.5050317645072937,
+      "composed_loss": 0.4990878701210022,
+      "uniform_loss": 0.49699950218200684,
+      "oracle_loss": 0.4713004529476166,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 157,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9824992418289185,
+        "science": 0.9822824001312256,
+        "code": 0.9819679260253906
+      },
+      "weight_entropy": 1.5159348830677428,
+      "generalist_loss": 0.5263631939888,
+      "composed_loss": 0.5404801368713379,
+      "uniform_loss": 0.5314001441001892,
+      "oracle_loss": 0.4879074990749359,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 158,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9779955148696899,
+        "science": 0.9778344035148621,
+        "code": 0.9777585864067078
+      },
+      "weight_entropy": 1.5268100213031734,
+      "generalist_loss": 0.5000808835029602,
+      "composed_loss": 0.5093093514442444,
+      "uniform_loss": 0.485317587852478,
+      "oracle_loss": 0.47595980763435364,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 159,
+      "true_domain": "science",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9796485304832458,
+        "science": 0.9794216156005859,
+        "code": 0.9789391160011292
+      },
+      "weight_entropy": 1.51803226599104,
+      "generalist_loss": 0.45072078704833984,
+      "composed_loss": 0.4569190740585327,
+      "uniform_loss": 0.43247267603874207,
+      "oracle_loss": 0.43255454301834106,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": false
+    },
+    {
+      "probe_idx": 160,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9893446564674377,
+        "science": 0.9892706871032715,
+        "code": 0.9890482425689697
+      },
+      "weight_entropy": 1.5227384770562447,
+      "generalist_loss": 0.5413968563079834,
+      "composed_loss": 0.5190823078155518,
+      "uniform_loss": 0.5380218029022217,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 161,
+      "true_domain": "general",
+      "selected_specialists": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "medical": 0.9141412973403931,
+        "legal": 0.9070661664009094,
+        "science": 0.9068002700805664
+      },
+      "weight_entropy": 1.4581173000890046,
+      "generalist_loss": 0.3869960606098175,
+      "composed_loss": 0.38806238770484924,
+      "uniform_loss": 0.38630935549736023,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 162,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9844976663589478,
+        "science": 0.9844649434089661,
+        "code": 0.9844388961791992
+      },
+      "weight_entropy": 1.5214229445008056,
+      "generalist_loss": 0.5333949327468872,
+      "composed_loss": 0.5198308229446411,
+      "uniform_loss": 0.522853672504425,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 163,
+      "true_domain": "general",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9839401245117188,
+        "legal": 0.9835274815559387,
+        "science": 0.983038067817688
+      },
+      "weight_entropy": 1.5199224001606806,
+      "generalist_loss": 0.4975799322128296,
+      "composed_loss": 0.49812451004981995,
+      "uniform_loss": 0.48962152004241943,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 164,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9750258922576904,
+        "science": 0.9748313426971436,
+        "code": 0.973885178565979
+      },
+      "weight_entropy": 1.5161669901150592,
+      "generalist_loss": 0.34291601181030273,
+      "composed_loss": 0.3509284555912018,
+      "uniform_loss": 0.3398160934448242,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 165,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9588591456413269,
+        "science": 0.9586910605430603,
+        "code": 0.9579053521156311
+      },
+      "weight_entropy": 1.5150993873066418,
+      "generalist_loss": 0.48936620354652405,
+      "composed_loss": 0.4884611666202545,
+      "uniform_loss": 0.48407799005508423,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 166,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9827371835708618,
+        "science": 0.9826579093933105,
+        "code": 0.9825559854507446
+      },
+      "weight_entropy": 1.5259890238179619,
+      "generalist_loss": 0.41321179270744324,
+      "composed_loss": 0.4004068374633789,
+      "uniform_loss": 0.4013541042804718,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 167,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9858121871948242,
+        "code": 0.9855506420135498,
+        "science": 0.9853878021240234
+      },
+      "weight_entropy": 1.5210285997047543,
+      "generalist_loss": 0.4120054244995117,
+      "composed_loss": 0.419159859418869,
+      "uniform_loss": 0.4196455776691437,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 168,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9888069033622742,
+        "code": 0.9885134696960449,
+        "science": 0.9884780645370483
+      },
+      "weight_entropy": 1.5260126273772237,
+      "generalist_loss": 0.4192107915878296,
+      "composed_loss": 0.42320552468299866,
+      "uniform_loss": 0.4278489947319031,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 169,
+      "true_domain": "general",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9797579646110535,
+        "legal": 0.9796711206436157,
+        "science": 0.9795483350753784
+      },
+      "weight_entropy": 1.5284215085643986,
+      "generalist_loss": 0.38554883003234863,
+      "composed_loss": 0.38200926780700684,
+      "uniform_loss": 0.3831716477870941,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 170,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9882265329360962,
+        "science": 0.9880817532539368,
+        "code": 0.9880161285400391
+      },
+      "weight_entropy": 1.5224374369332143,
+      "generalist_loss": 0.4567455053329468,
+      "composed_loss": 0.4497702121734619,
+      "uniform_loss": 0.45090895891189575,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 171,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9750730991363525,
+        "science": 0.9748320579528809,
+        "code": 0.9739978313446045
+      },
+      "weight_entropy": 1.5227377204178023,
+      "generalist_loss": 0.39042457938194275,
+      "composed_loss": 0.39241838455200195,
+      "uniform_loss": 0.36984992027282715,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 172,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9882177114486694,
+        "science": 0.987949013710022,
+        "code": 0.9876682162284851
+      },
+      "weight_entropy": 1.5263525054395988,
+      "generalist_loss": 0.4179989993572235,
+      "composed_loss": 0.4224860370159149,
+      "uniform_loss": 0.4296257197856903,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 173,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9841734170913696,
+        "code": 0.9841676950454712,
+        "science": 0.9840435981750488
+      },
+      "weight_entropy": 1.5241883861369345,
+      "generalist_loss": 0.37463003396987915,
+      "composed_loss": 0.37101006507873535,
+      "uniform_loss": 0.3792661428451538,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 174,
+      "true_domain": "general",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9819645285606384,
+        "legal": 0.9817769527435303,
+        "science": 0.9815610647201538
+      },
+      "weight_entropy": 1.527461350636349,
+      "generalist_loss": 0.39280417561531067,
+      "composed_loss": 0.4027458727359772,
+      "uniform_loss": 0.3916541039943695,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 175,
+      "true_domain": "general",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.989791989326477,
+        "legal": 0.9896777868270874,
+        "science": 0.989438533782959
+      },
+      "weight_entropy": 1.5295340929460848,
+      "generalist_loss": 0.49927428364753723,
+      "composed_loss": 0.4815390706062317,
+      "uniform_loss": 0.48835888504981995,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 176,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9855820536613464,
+        "science": 0.9853864908218384,
+        "code": 0.9848775863647461
+      },
+      "weight_entropy": 1.5148961001483776,
+      "generalist_loss": 0.5877880454063416,
+      "composed_loss": 0.5912205576896667,
+      "uniform_loss": 0.5940188765525818,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 177,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9828898906707764,
+        "code": 0.9828674793243408,
+        "science": 0.9824792146682739
+      },
+      "weight_entropy": 1.5254355081061848,
+      "generalist_loss": 0.47935283184051514,
+      "composed_loss": 0.4864251911640167,
+      "uniform_loss": 0.47303885221481323,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 178,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9776003360748291,
+        "science": 0.9775400161743164,
+        "code": 0.9774097800254822
+      },
+      "weight_entropy": 1.531904037464618,
+      "generalist_loss": 0.33746078610420227,
+      "composed_loss": 0.3545337915420532,
+      "uniform_loss": 0.35417819023132324,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 179,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9773330688476562,
+        "science": 0.9770686626434326,
+        "code": 0.9760158061981201
+      },
+      "weight_entropy": 1.5266727888358431,
+      "generalist_loss": 0.438632071018219,
+      "composed_loss": 0.43754997849464417,
+      "uniform_loss": 0.4361202120780945,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 180,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9852546453475952,
+        "science": 0.9850831031799316,
+        "code": 0.9848490357398987
+      },
+      "weight_entropy": 1.5244055346003,
+      "generalist_loss": 0.4388290047645569,
+      "composed_loss": 0.4320630431175232,
+      "uniform_loss": 0.43442535400390625,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 181,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9823641777038574,
+        "science": 0.9822030067443848,
+        "code": 0.9818387031555176
+      },
+      "weight_entropy": 1.526727834962683,
+      "generalist_loss": 0.36474737524986267,
+      "composed_loss": 0.35422879457473755,
+      "uniform_loss": 0.3507339060306549,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 182,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9825825095176697,
+        "code": 0.9824835658073425,
+        "science": 0.9824317693710327
+      },
+      "weight_entropy": 1.530102050195321,
+      "generalist_loss": 0.5030675530433655,
+      "composed_loss": 0.4947949945926666,
+      "uniform_loss": 0.5230897068977356,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 183,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9812989234924316,
+        "science": 0.9812261462211609,
+        "code": 0.9806995391845703
+      },
+      "weight_entropy": 1.5236983625268798,
+      "generalist_loss": 0.41723427176475525,
+      "composed_loss": 0.42437246441841125,
+      "uniform_loss": 0.4265247583389282,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 184,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.991100549697876,
+        "code": 0.9910279512405396,
+        "science": 0.9909578561782837
+      },
+      "weight_entropy": 1.5268655483146958,
+      "generalist_loss": 0.2817888855934143,
+      "composed_loss": 0.29069969058036804,
+      "uniform_loss": 0.29245057702064514,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 185,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9831383228302002,
+        "science": 0.9829409122467041,
+        "code": 0.9823895692825317
+      },
+      "weight_entropy": 1.5156068676230567,
+      "generalist_loss": 0.32927414774894714,
+      "composed_loss": 0.3401225507259369,
+      "uniform_loss": 0.3298315703868866,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 186,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9808989763259888,
+        "science": 0.9807727336883545,
+        "code": 0.9805024862289429
+      },
+      "weight_entropy": 1.5243891487043288,
+      "generalist_loss": 0.3123975992202759,
+      "composed_loss": 0.3242034614086151,
+      "uniform_loss": 0.30885958671569824,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 187,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9821302890777588,
+        "science": 0.9819774627685547,
+        "code": 0.9815900325775146
+      },
+      "weight_entropy": 1.5171499393458765,
+      "generalist_loss": 0.4573434889316559,
+      "composed_loss": 0.4722653925418854,
+      "uniform_loss": 0.47734108567237854,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 188,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9853559732437134,
+        "science": 0.9852395057678223,
+        "code": 0.9849773645401001
+      },
+      "weight_entropy": 1.5187194673989606,
+      "generalist_loss": 0.4192630648612976,
+      "composed_loss": 0.40594905614852905,
+      "uniform_loss": 0.4095233082771301,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 189,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9567145109176636,
+        "science": 0.9563775658607483,
+        "code": 0.9553006291389465
+      },
+      "weight_entropy": 1.5096762380244033,
+      "generalist_loss": 0.42137765884399414,
+      "composed_loss": 0.42843225598335266,
+      "uniform_loss": 0.41271060705184937,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 190,
+      "true_domain": "general",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9844949245452881,
+        "legal": 0.9844881296157837,
+        "science": 0.9842065572738647
+      },
+      "weight_entropy": 1.5256440920483112,
+      "generalist_loss": 0.31584951281547546,
+      "composed_loss": 0.308643102645874,
+      "uniform_loss": 0.30867359042167664,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 191,
+      "true_domain": "general",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9855765104293823,
+        "legal": 0.9855151176452637,
+        "science": 0.9853358268737793
+      },
+      "weight_entropy": 1.5180696407790968,
+      "generalist_loss": 0.363463431596756,
+      "composed_loss": 0.3684265911579132,
+      "uniform_loss": 0.3716440200805664,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 192,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9808436632156372,
+        "science": 0.9805251955986023,
+        "code": 0.9803687930107117
+      },
+      "weight_entropy": 1.5185551179511256,
+      "generalist_loss": 0.4199528694152832,
+      "composed_loss": 0.42918661236763,
+      "uniform_loss": 0.4179634749889374,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 193,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "correlation_scores": {
+        "legal": 0.9907450675964355,
+        "code": 0.990562379360199,
+        "science": 0.9905194044113159
+      },
+      "weight_entropy": 1.519521143926361,
+      "generalist_loss": 0.3092155158519745,
+      "composed_loss": 0.3040153384208679,
+      "uniform_loss": 0.3151991367340088,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 194,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9808064699172974,
+        "science": 0.9802407026290894,
+        "code": 0.9794508218765259
+      },
+      "weight_entropy": 1.5238076401510579,
+      "generalist_loss": 0.43641674518585205,
+      "composed_loss": 0.4335797131061554,
+      "uniform_loss": 0.43920713663101196,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 195,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9835702776908875,
+        "science": 0.9833126068115234,
+        "code": 0.9831370115280151
+      },
+      "weight_entropy": 1.5268873967412127,
+      "generalist_loss": 0.5179077982902527,
+      "composed_loss": 0.510447084903717,
+      "uniform_loss": 0.5200045108795166,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 196,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9700773358345032,
+        "science": 0.9699028730392456,
+        "code": 0.9690585136413574
+      },
+      "weight_entropy": 1.5191265489040617,
+      "generalist_loss": 0.42862647771835327,
+      "composed_loss": 0.40961796045303345,
+      "uniform_loss": 0.432586669921875,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": true,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 197,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9868327975273132,
+        "science": 0.9868106842041016,
+        "code": 0.9866259098052979
+      },
+      "weight_entropy": 1.5212206819340583,
+      "generalist_loss": 0.542966902256012,
+      "composed_loss": 0.5564800500869751,
+      "uniform_loss": 0.5480446219444275,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 198,
+      "true_domain": "general",
+      "selected_specialists": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "correlation_scores": {
+        "legal": 0.9803167581558228,
+        "science": 0.9802190065383911,
+        "code": 0.9796335697174072
+      },
+      "weight_entropy": 1.516734656775338,
+      "generalist_loss": 0.425675630569458,
+      "composed_loss": 0.4336797595024109,
+      "uniform_loss": 0.4256075918674469,
+      "oracle_loss": null,
+      "composed_beats_generalist": false,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    },
+    {
+      "probe_idx": 199,
+      "true_domain": "general",
+      "selected_specialists": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "correlation_scores": {
+        "code": 0.9797877669334412,
+        "legal": 0.9795112013816833,
+        "science": 0.9790825247764587
+      },
+      "weight_entropy": 1.5207754059681655,
+      "generalist_loss": 0.390675812959671,
+      "composed_loss": 0.3889225125312805,
+      "uniform_loss": 0.3668961822986603,
+      "oracle_loss": null,
+      "composed_beats_generalist": true,
+      "composed_beats_uniform": false,
+      "composed_beats_oracle": true
+    }
+  ],
+  "summary": {
+    "normalize": "two_stage",
+    "win_rate_vs_generalist": 0.68125,
+    "win_rate_vs_uniform": 0.48125,
+    "win_rate_vs_oracle": 0.65,
+    "mean_composed_loss": 0.6591535104438663,
+    "mean_generalist_loss": 0.6835835695266723,
+    "mean_uniform_loss": 0.6644840944558382,
+    "mean_weight_entropy": 1.5151778207130278
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "by_window": {
+    "10": {
+      "auc": 0.84676,
+      "tpr_at_1pct_fpr": 0.404,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.2665899603738914,
+      "attack_score_mean": 0.41368670527055124
+    },
+    "15": {
+      "auc": 0.868744,
+      "tpr_at_1pct_fpr": 0.404,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.27650011802754915,
+      "attack_score_mean": 0.4323899551912809
+    },
+    "20": {
+      "auc": 0.882576,
+      "tpr_at_1pct_fpr": 0.412,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.2815019089508262,
+      "attack_score_mean": 0.441833383935507
+    },
+    "25": {
+      "auc": 0.8839199999999999,
+      "tpr_at_1pct_fpr": 0.408,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.29064901782661834,
+      "attack_score_mean": 0.44696549492965143
+    },
+    "30": {
+      "auc": 0.8959119999999999,
+      "tpr_at_1pct_fpr": 0.412,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.2961583115183292,
+      "attack_score_mean": 0.45618810493139206
+    },
+    "40": {
+      "auc": 0.902312,
+      "tpr_at_1pct_fpr": 0.404,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.3069753253487837,
+      "attack_score_mean": 0.46666875099947785
+    },
+    "50": {
+      "auc": 0.909664,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.31836377369902163,
+      "attack_score_mean": 0.47886535961831367
+    },
+    "75": {
+      "auc": 0.915856,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.33850933735705635,
+      "attack_score_mean": 0.4971051651129408
+    },
+    "100": {
+      "auc": 0.9172480000000001,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.3557126077109607,
+      "attack_score_mean": 0.5096209133184533
+    }
+  },
+  "window_analysis": {
+    "window_sizes": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      75,
+      100
+    ],
+    "aucs": [
+      0.84676,
+      0.868744,
+      0.882576,
+      0.8839199999999999,
+      0.8959119999999999,
+      0.902312,
+      0.909664,
+      0.915856,
+      0.9172480000000001
+    ],
+    "tprs_at_1pct_fpr": [
+      0.404,
+      0.404,
+      0.412,
+      0.408,
+      0.412,
+      0.404,
+      0.4,
+      0.4,
+      0.4
+    ]
+  }
+}

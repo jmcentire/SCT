@@ -1,0 +1,104 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "model_short": "Qwen2.5-3B",
+  "hidden_dim": 2048,
+  "n_params": 3.085938688,
+  "baseline_domain_acc": 0.975,
+  "baseline_shape_acc": 0.96875,
+  "n_domain_dirs": 9,
+  "final_domain_acc": 0.33125,
+  "final_shape_acc": 0.95625,
+  "shape_survival": 0.9870967741935485,
+  "inlp_history": [
+    {
+      "iter": 0,
+      "domain_acc": 0.975,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 1,
+      "domain_acc": 0.8,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 2,
+      "domain_acc": 0.65,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 3,
+      "domain_acc": 0.65625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 4,
+      "domain_acc": 0.625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 5,
+      "domain_acc": 0.55625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 6,
+      "domain_acc": 0.5375,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 7,
+      "domain_acc": 0.4625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 8,
+      "domain_acc": 0.425,
+      "shape_acc": 0.975
+    },
+    {
+      "iter": 9,
+      "domain_acc": 0.33125,
+      "shape_acc": 0.95625
+    }
+  ],
+  "test1_cross_domain": 0.91875,
+  "test1_by_domain": {
+    "medical": 0.8,
+    "legal": 0.975,
+    "code": 0.95,
+    "science": 0.95
+  },
+  "test2_nearest_proto": 0.89375,
+  "test2_by_domain": {
+    "medical": 0.825,
+    "legal": 0.95,
+    "code": 0.975,
+    "science": 0.825
+  },
+  "test3_rehydrate": 0.9,
+  "test3_binom_p": 1.2767805405569007e-78,
+  "test3_by_shape": {
+    "hierarchical": 0.975,
+    "causal": 0.8166666666666667,
+    "constraint": 0.8083333333333333,
+    "evidence": 1.0
+  },
+  "test3_by_direction": {
+    "medical->legal": 0.825,
+    "medical->code": 0.825,
+    "medical->science": 0.975,
+    "legal->medical": 0.7,
+    "legal->code": 0.95,
+    "legal->science": 1.0,
+    "code->medical": 0.775,
+    "code->legal": 0.975,
+    "code->science": 1.0,
+    "science->medical": 0.95,
+    "science->legal": 0.925,
+    "science->code": 0.9
+  },
+  "rsa_domain_effect": 0.03659951686859131,
+  "rsa_shape_effect": 0.014068126678466797,
+  "rsa_ratio": 2.6015913486480713,
+  "total_time_s": 1470.2181684970856
+}

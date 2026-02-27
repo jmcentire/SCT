@@ -1,0 +1,44 @@
+{
+  "experiment": "Paper 4 Step 0+1: TDA Sanity Check + Confound Measurement",
+  "model": "Qwen/Qwen2.5-3B",
+  "hidden_dim": 2048,
+  "probes": 160,
+  "domains": ["code", "legal", "medical", "science"],
+  "probes_per_domain": 40,
+  "step0_geometry": {
+    "raw_cosine_similarities": {
+      "code_legal": 0.6204,
+      "code_medical": 0.6225,
+      "code_science": 0.6417,
+      "legal_medical": 0.9211,
+      "legal_science": 0.9367,
+      "medical_science": 0.9621
+    },
+    "masked_cosine_similarities": {
+      "code_legal": 0.7622,
+      "code_medical": 0.7719,
+      "code_science": 0.7893,
+      "legal_medical": 0.6952,
+      "legal_science": 0.6320,
+      "medical_science": 0.8459
+    },
+    "raw_between_within_ratio": 1.455,
+    "masked_between_within_ratio": 1.380,
+    "tda_note": "ripser not installed — persistent homology skipped"
+  },
+  "step1_confound": {
+    "raw_accuracy": 0.981,
+    "raw_accuracy_std": 0.015,
+    "raw_per_fold": [1.0, 0.969, 1.0, 0.969, 0.969],
+    "raw_per_domain": {"code": 1.0, "legal": 1.0, "medical": 1.0, "science": 1.0},
+    "raw_pca_explained_variance": [0.4216, 0.0852, 0.0413],
+    "masked_accuracy": 1.000,
+    "masked_accuracy_std": 0.000,
+    "masked_per_fold": [1.0, 1.0, 1.0, 1.0, 1.0],
+    "masked_per_domain": {"code": 1.0, "legal": 1.0, "medical": 1.0, "science": 1.0},
+    "masked_pca_explained_variance": [0.2388, 0.1286, 0.0727],
+    "chance": 0.250
+  },
+  "conclusion": "Naive centroid-projection masking is insufficient. Domain signal is distributed across multiple dimensions, not concentrated in the centroid direction. Need CCA/MCCA on shape-labeled probe grid to learn the decomposition empirically.",
+  "next_step": "Step 2b: Design 4x4 probe grid (4 shapes x 4 domains x 10 probes = 160) for CCA decomposition"
+}

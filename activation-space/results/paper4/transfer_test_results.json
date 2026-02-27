@@ -1,0 +1,18 @@
+{
+  "test1_cross_domain_accuracy": 0.925,
+  "test1_by_domain": {
+    "medical": 0.8,
+    "legal": 1.0,
+    "code": 0.975,
+    "science": 0.925
+  },
+  "test2_nearest_prototype_accuracy": 0.89375,
+  "test2_by_domain": {
+    "medical": 0.8,
+    "legal": 0.975,
+    "code": 0.975,
+    "science": 0.825
+  },
+  "test3_strip_rehydrate_rate": 0.8979166666666667,
+  "test3_n_transfers": 480
+}

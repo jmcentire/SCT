@@ -1,0 +1,220 @@
+{
+  "model": "Qwen/Qwen2.5-7B",
+  "seed": 42,
+  "collinearity": 0.989369809627533,
+  "centroid_mean_norm": 53.70541555847723,
+  "orthogonal_residual_norms": {
+    "medical": 54.30307591622024,
+    "legal": 2.9987819629875396,
+    "code": 8.958990424678458,
+    "science": 3.0330076157987653
+  },
+  "residual_to_centroid_ratio": 0.3225645644815571,
+  "jensen_gap_tests": [
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        54.30307591622024,
+        2.9987819629875396,
+        8.958990424678458,
+        3.0330076157987653
+      ],
+      "mean_noisy_norms": [
+        56.690053325590604,
+        22.219395423857208,
+        21.388147112950637,
+        19.489941246845788
+      ],
+      "std_noisy_norms": [
+        0.2291217448084405,
+        0.25182766754823466,
+        0.2715672398944519,
+        0.2211657639565737
+      ],
+      "jensen_gap": [
+        2.386977409370367,
+        19.220613460869668,
+        12.42915668827218,
+        16.456933631047022
+      ],
+      "noise_sigma": 0.26852707779238616,
+      "n_samples": 50
+    },
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        54.30307591622024,
+        2.9987819629875396,
+        8.958990424678458,
+        3.0330076157987653
+      ],
+      "mean_noisy_norms": [
+        84.36891829977785,
+        75.98967350936371,
+        73.17048892897364,
+        71.52220831088837
+      ],
+      "std_noisy_norms": [
+        0.8468696978582321,
+        0.764467280559565,
+        0.9783014982199036,
+        0.7580209450579416
+      ],
+      "jensen_gap": [
+        30.06584238355761,
+        72.99089154637618,
+        64.21149850429518,
+        68.48920069508961
+      ],
+      "noise_sigma": 1.0741083111695446,
+      "n_samples": 50
+    },
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        54.30307591622024,
+        2.9987819629875396,
+        8.958990424678458,
+        3.0330076157987653
+      ],
+      "mean_noisy_norms": [
+        170.06103058040696,
+        168.32016658856614,
+        167.74971529598488,
+        167.41759666978476
+      ],
+      "std_noisy_norms": [
+        1.8205699603117174,
+        1.6553029209370724,
+        2.3011521635835583,
+        1.720445967741966
+      ],
+      "jensen_gap": [
+        115.75795466418673,
+        165.3213846255786,
+        158.79072487130642,
+        164.384589053986
+      ],
+      "noise_sigma": 2.6852707779238614,
+      "n_samples": 50
+    }
+  ],
+  "condition_check": {
+    "C1_suboptimal": true,
+    "C1_collinearity": 0.989369809627533,
+    "C2_nonlinear": true,
+    "C2_jensen_gap_positive": true,
+    "C3_accessible": true,
+    "C5_robust": true
+  },
+  "baseline": {
+    "win_rate_vs_gen": 0.6733333333333333,
+    "win_rate_vs_ta": 0.08666666666666667,
+    "wins_gen": 101,
+    "wins_ta": 13,
+    "n": 150
+  },
+  "single_shot_sweep": [
+    {
+      "win_rate_vs_gen": 0.7,
+      "win_rate_vs_ta": 0.14,
+      "wins_gen": 105,
+      "wins_ta": 21,
+      "n": 150,
+      "noise_fraction": 0.001,
+      "noise_sigma": 0.05370541555847723
+    },
+    {
+      "win_rate_vs_gen": 0.8266666666666667,
+      "win_rate_vs_ta": 0.58,
+      "wins_gen": 124,
+      "wins_ta": 87,
+      "n": 150,
+      "noise_fraction": 0.005,
+      "noise_sigma": 0.26852707779238616
+    },
+    {
+      "win_rate_vs_gen": 0.9133333333333333,
+      "win_rate_vs_ta": 0.9533333333333334,
+      "wins_gen": 137,
+      "wins_ta": 143,
+      "n": 150,
+      "noise_fraction": 0.01,
+      "noise_sigma": 0.5370541555847723
+    },
+    {
+      "win_rate_vs_gen": 0.9533333333333334,
+      "win_rate_vs_ta": 0.9933333333333333,
+      "wins_gen": 143,
+      "wins_ta": 149,
+      "n": 150,
+      "noise_fraction": 0.02,
+      "noise_sigma": 1.0741083111695446
+    },
+    {
+      "win_rate_vs_gen": 0.9733333333333334,
+      "win_rate_vs_ta": 0.9933333333333333,
+      "wins_gen": 146,
+      "wins_ta": 149,
+      "n": 150,
+      "noise_fraction": 0.05,
+      "noise_sigma": 2.6852707779238614
+    },
+    {
+      "win_rate_vs_gen": 0.9733333333333334,
+      "win_rate_vs_ta": 0.9866666666666667,
+      "wins_gen": 146,
+      "wins_ta": 148,
+      "n": 150,
+      "noise_fraction": 0.1,
+      "noise_sigma": 5.370541555847723
+    }
+  ],
+  "ensemble_sweep": [
+    {
+      "win_rate_vs_gen": 0.9133333333333333,
+      "win_rate_vs_ta": 0.9533333333333334,
+      "wins_gen": 137,
+      "wins_ta": 143,
+      "n": 150,
+      "noise_fraction": 0.01,
+      "noise_sigma": 0.5370541555847723,
+      "n_ensemble": 5
+    },
+    {
+      "win_rate_vs_gen": 0.96,
+      "win_rate_vs_ta": 0.9933333333333333,
+      "wins_gen": 144,
+      "wins_ta": 149,
+      "n": 150,
+      "noise_fraction": 0.02,
+      "noise_sigma": 1.0741083111695446,
+      "n_ensemble": 5
+    },
+    {
+      "win_rate_vs_gen": 0.9733333333333334,
+      "win_rate_vs_ta": 0.9933333333333333,
+      "wins_gen": 146,
+      "wins_ta": 149,
+      "n": 150,
+      "noise_fraction": 0.04,
+      "noise_sigma": 2.1482166223390893,
+      "n_ensemble": 5
+    }
+  ]
+}

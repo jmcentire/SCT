@@ -1,0 +1,252 @@
+[
+  {
+    "iter": 0,
+    "domain": 0.98125,
+    "shape": 0.975
+  },
+  {
+    "iter": 1,
+    "domain": 0.85,
+    "shape": 0.9625
+  },
+  {
+    "iter": 2,
+    "domain": 0.7875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 3,
+    "domain": 0.78125,
+    "shape": 0.9625
+  },
+  {
+    "iter": 4,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 5,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 6,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 7,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 8,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 9,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 10,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 11,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 12,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 13,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 14,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 15,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 16,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 17,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 18,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 19,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 20,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 21,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 22,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 23,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 24,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 25,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 26,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 27,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 28,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 29,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 30,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 31,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 32,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 33,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 34,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 35,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 36,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 37,
+    "domain": 0.775,
+    "shape": 0.9625
+  },
+  {
+    "iter": 38,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 39,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 40,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 41,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 42,
+    "domain": 0.7625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 43,
+    "domain": 0.76875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 44,
+    "domain": 0.75625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 45,
+    "domain": 0.75625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 46,
+    "domain": 0.75625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 47,
+    "domain": 0.7625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 48,
+    "domain": 0.75625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 49,
+    "domain": 0.75625,
+    "shape": 0.9625
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "seed": 42,
+  "collinearity": 0.9122735857963562,
+  "centroid_mean_norm": 24.42483511480097,
+  "orthogonal_residual_norms": {
+    "medical": 23.623398796909385,
+    "legal": 3.509978617797666,
+    "code": 9.949459718757666,
+    "science": 3.4921052963535826
+  },
+  "residual_to_centroid_ratio": 0.41530415905684753,
+  "jensen_gap_tests": [
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        23.623398796909385,
+        3.509978617797666,
+        9.949459718757666,
+        3.4921052963535826
+      ],
+      "mean_noisy_norms": [
+        23.921601496789066,
+        6.148499576824504,
+        12.824275231330326,
+        6.135101048893565
+      ],
+      "std_noisy_norms": [
+        0.11151655246438082,
+        0.13873155700811576,
+        0.1515816099433817,
+        0.13410276769546597
+      ],
+      "jensen_gap": [
+        0.2982026998796812,
+        2.6385209590268377,
+        2.8748155125726598,
+        2.6429957525399828
+      ],
+      "noise_sigma": 0.12212417557400486,
+      "n_samples": 50
+    },
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        23.623398796909385,
+        3.509978617797666,
+        9.949459718757666,
+        3.4921052963535826
+      ],
+      "mean_noisy_norms": [
+        27.84022583642725,
+        19.260113519704195,
+        21.994026986652976,
+        17.996663137750602
+      ],
+      "std_noisy_norms": [
+        0.3648688068259394,
+        0.436324777622949,
+        0.43864209361696377,
+        0.3485877184476269
+      ],
+      "jensen_gap": [
+        4.216827039517867,
+        15.750134901906529,
+        12.04456726789531,
+        14.50455784139702
+      ],
+      "noise_sigma": 0.48849670229601944,
+      "n_samples": 50
+    },
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        23.623398796909385,
+        3.509978617797666,
+        9.949459718757666,
+        3.4921052963535826
+      ],
+      "mean_noisy_norms": [
+        43.6168440663835,
+        41.49678154825525,
+        43.18112479705574,
+        40.10932525079649
+      ],
+      "std_noisy_norms": [
+        0.6509340575286365,
+        0.9744245152706206,
+        0.9115332379910287,
+        0.6900975641508666
+      ],
+      "jensen_gap": [
+        19.993445269474115,
+        37.986802930457586,
+        33.23166507829807,
+        36.6172199544429
+      ],
+      "noise_sigma": 1.2212417557400486,
+      "n_samples": 50
+    }
+  ],
+  "condition_check": {
+    "C1_suboptimal": false,
+    "C1_collinearity": 0.9122735857963562,
+    "C2_nonlinear": true,
+    "C2_jensen_gap_positive": true,
+    "C3_accessible": true,
+    "C5_robust": true
+  },
+  "baseline": {
+    "win_rate_vs_gen": 1.0,
+    "win_rate_vs_ta": 0.17333333333333334,
+    "wins_gen": 150,
+    "wins_ta": 26,
+    "n": 150
+  },
+  "single_shot_sweep": [
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.17333333333333334,
+      "wins_gen": 150,
+      "wins_ta": 26,
+      "n": 150,
+      "noise_fraction": 0.001,
+      "noise_sigma": 0.02442483511480097
+    },
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.19333333333333333,
+      "wins_gen": 150,
+      "wins_ta": 29,
+      "n": 150,
+      "noise_fraction": 0.005,
+      "noise_sigma": 0.12212417557400486
+    },
+    {
+      "win_rate_vs_gen": 0.9933333333333333,
+      "win_rate_vs_ta": 0.18666666666666668,
+      "wins_gen": 149,
+      "wins_ta": 28,
+      "n": 150,
+      "noise_fraction": 0.01,
+      "noise_sigma": 0.24424835114800972
+    },
+    {
+      "win_rate_vs_gen": 0.9466666666666667,
+      "win_rate_vs_ta": 0.16666666666666666,
+      "wins_gen": 142,
+      "wins_ta": 25,
+      "n": 150,
+      "noise_fraction": 0.02,
+      "noise_sigma": 0.48849670229601944
+    },
+    {
+      "win_rate_vs_gen": 0.9133333333333333,
+      "win_rate_vs_ta": 0.12,
+      "wins_gen": 137,
+      "wins_ta": 18,
+      "n": 150,
+      "noise_fraction": 0.05,
+      "noise_sigma": 1.2212417557400486
+    },
+    {
+      "win_rate_vs_gen": 0.9133333333333333,
+      "win_rate_vs_ta": 0.1,
+      "wins_gen": 137,
+      "wins_ta": 15,
+      "n": 150,
+      "noise_fraction": 0.1,
+      "noise_sigma": 2.442483511480097
+    }
+  ],
+  "ensemble_sweep": [
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.18666666666666668,
+      "wins_gen": 150,
+      "wins_ta": 28,
+      "n": 150,
+      "noise_fraction": 0.0025,
+      "noise_sigma": 0.06106208778700243,
+      "n_ensemble": 5
+    },
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.19333333333333333,
+      "wins_gen": 150,
+      "wins_ta": 29,
+      "n": 150,
+      "noise_fraction": 0.005,
+      "noise_sigma": 0.12212417557400486,
+      "n_ensemble": 5
+    },
+    {
+      "win_rate_vs_gen": 0.9933333333333333,
+      "win_rate_vs_ta": 0.18666666666666668,
+      "wins_gen": 149,
+      "wins_ta": 28,
+      "n": 150,
+      "noise_fraction": 0.01,
+      "noise_sigma": 0.24424835114800972,
+      "n_ensemble": 5
+    }
+  ]
+}

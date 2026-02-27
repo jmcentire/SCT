@@ -1,0 +1,162 @@
+[
+  {
+    "iter": 0,
+    "domain": 0.98125,
+    "shape": 0.975
+  },
+  {
+    "iter": 1,
+    "domain": 0.875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 2,
+    "domain": 0.73125,
+    "shape": 0.9625
+  },
+  {
+    "iter": 3,
+    "domain": 0.71875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 4,
+    "domain": 0.7,
+    "shape": 0.96875
+  },
+  {
+    "iter": 5,
+    "domain": 0.69375,
+    "shape": 0.96875
+  },
+  {
+    "iter": 6,
+    "domain": 0.675,
+    "shape": 0.9625
+  },
+  {
+    "iter": 7,
+    "domain": 0.66875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 8,
+    "domain": 0.64375,
+    "shape": 0.9625
+  },
+  {
+    "iter": 9,
+    "domain": 0.6375,
+    "shape": 0.9625
+  },
+  {
+    "iter": 10,
+    "domain": 0.63125,
+    "shape": 0.9625
+  },
+  {
+    "iter": 11,
+    "domain": 0.625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 12,
+    "domain": 0.625,
+    "shape": 0.9625
+  },
+  {
+    "iter": 13,
+    "domain": 0.61875,
+    "shape": 0.9625
+  },
+  {
+    "iter": 14,
+    "domain": 0.6125,
+    "shape": 0.9625
+  },
+  {
+    "iter": 15,
+    "domain": 0.59375,
+    "shape": 0.95625
+  },
+  {
+    "iter": 16,
+    "domain": 0.59375,
+    "shape": 0.95625
+  },
+  {
+    "iter": 17,
+    "domain": 0.59375,
+    "shape": 0.95625
+  },
+  {
+    "iter": 18,
+    "domain": 0.60625,
+    "shape": 0.95625
+  },
+  {
+    "iter": 19,
+    "domain": 0.58125,
+    "shape": 0.95625
+  },
+  {
+    "iter": 20,
+    "domain": 0.5625,
+    "shape": 0.95625
+  },
+  {
+    "iter": 21,
+    "domain": 0.5375,
+    "shape": 0.95625
+  },
+  {
+    "iter": 22,
+    "domain": 0.53125,
+    "shape": 0.95625
+  },
+  {
+    "iter": 23,
+    "domain": 0.5375,
+    "shape": 0.95625
+  },
+  {
+    "iter": 24,
+    "domain": 0.5125,
+    "shape": 0.95625
+  },
+  {
+    "iter": 25,
+    "domain": 0.4,
+    "shape": 0.95625
+  },
+  {
+    "iter": 26,
+    "domain": 0.3625,
+    "shape": 0.95625
+  },
+  {
+    "iter": 27,
+    "domain": 0.3375,
+    "shape": 0.95625
+  },
+  {
+    "iter": 28,
+    "domain": 0.34375,
+    "shape": 0.95625
+  },
+  {
+    "iter": 29,
+    "domain": 0.33125,
+    "shape": 0.95625
+  },
+  {
+    "iter": 30,
+    "domain": 0.35625,
+    "shape": 0.95625
+  },
+  {
+    "iter": 31,
+    "domain": 0.29375,
+    "shape": 0.95625
+  }
+]

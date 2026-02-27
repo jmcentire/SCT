@@ -1,0 +1,111 @@
+{
+  "by_window": {
+    "10": {
+      "auc": 0.805816,
+      "tpr_at_1pct_fpr": 0.304,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.2259085049840887,
+      "attack_score_mean": 0.34070815009901906
+    },
+    "15": {
+      "auc": 0.83016,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.23591784930620566,
+      "attack_score_mean": 0.3587816280053103
+    },
+    "20": {
+      "auc": 0.8433279999999999,
+      "tpr_at_1pct_fpr": 0.408,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.23873559128257713,
+      "attack_score_mean": 0.36427825360962734
+    },
+    "25": {
+      "auc": 0.8467199999999998,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.24683068456109034,
+      "attack_score_mean": 0.3694546060100453
+    },
+    "30": {
+      "auc": 0.85168,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.2532486687964098,
+      "attack_score_mean": 0.3764507124348008
+    },
+    "40": {
+      "auc": 0.8609439999999999,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.2659856100142895,
+      "attack_score_mean": 0.3905573898605992
+    },
+    "50": {
+      "auc": 0.8570239999999999,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.2753762880298407,
+      "attack_score_mean": 0.40167028170816194
+    },
+    "75": {
+      "auc": 0.8767039999999999,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.29607375279472664,
+      "attack_score_mean": 0.4217630087355485
+    },
+    "100": {
+      "auc": 0.8757119999999998,
+      "tpr_at_1pct_fpr": 0.4,
+      "n_legit": 250,
+      "n_attack": 250,
+      "legit_score_mean": 0.31251490192380343,
+      "attack_score_mean": 0.43377051422035107
+    }
+  },
+  "window_analysis": {
+    "window_sizes": [
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      75,
+      100
+    ],
+    "aucs": [
+      0.805816,
+      0.83016,
+      0.8433279999999999,
+      0.8467199999999998,
+      0.85168,
+      0.8609439999999999,
+      0.8570239999999999,
+      0.8767039999999999,
+      0.8757119999999998
+    ],
+    "tprs_at_1pct_fpr": [
+      0.304,
+      0.4,
+      0.408,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ]
+  }
+}

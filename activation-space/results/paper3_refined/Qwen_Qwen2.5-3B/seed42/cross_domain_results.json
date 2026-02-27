@@ -1,0 +1,1216 @@
+{
+  "evaluations": [
+    {
+      "probe_idx": 0,
+      "text_preview": "Medical malpractice claims require proving that the physician's treatment deviat",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8061498497452867,
+        "legal": 0.17873594328092957,
+        "code": -0.11851963256258198,
+        "science": 0.32800305248077494
+      },
+      "decomposition_weights": {
+        "medical": 0.6140274955523597,
+        "legal": 0.13613943319924246,
+        "code": 0.0,
+        "science": 0.24983307124839788
+      },
+      "weight_on_domain_a": 0.6140274955523597,
+      "weight_on_domain_b": 0.13613943319924246,
+      "residual_norm": 0.4433316791085669,
+      "sparsity_gini": 0.3863603217809848,
+      "generalist_loss": 2.8656351566314697,
+      "composed_loss": 2.7730519771575928,
+      "blended_loss": 2.7730519771575928,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.7888476848602295,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 2.5777957439422607,
+        "legal": 5.058401107788086
+      },
+      "best_single_specialist_loss": 2.5777957439422607,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 1,
+      "text_preview": "The FDA regulatory pathway for emergency use authorization of vaccines differs f",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8810349883342391,
+        "legal": 0.04451339001673618,
+        "code": -0.020934620521647095,
+        "science": -0.017506938456766253
+      },
+      "decomposition_weights": {
+        "medical": 0.9519059283577975,
+        "legal": 0.048094071642202536,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "weight_on_domain_a": 0.9519059283577975,
+      "weight_on_domain_b": 0.048094071642202536,
+      "residual_norm": 0.4701607784496847,
+      "sparsity_gini": 0.6779538919176151,
+      "generalist_loss": 7.340330123901367,
+      "composed_loss": 6.462610721588135,
+      "blended_loss": 6.462610721588135,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 7.064798355102539,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 1.7981693744659424,
+        "legal": 7.636153697967529
+      },
+      "best_single_specialist_loss": 1.7981693744659424,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 2,
+      "text_preview": "Informed consent doctrine requires physicians to disclose material risks of a pr",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8129051387880176,
+        "legal": 0.12216868975716272,
+        "code": -0.09050835005830994,
+        "science": 0.2797285150048008
+      },
+      "decomposition_weights": {
+        "medical": 0.6691665875557079,
+        "legal": 0.10056672215510612,
+        "code": 0.0,
+        "science": 0.23026669028918598
+      },
+      "weight_on_domain_a": 0.6691665875557079,
+      "weight_on_domain_b": 0.10056672215510612,
+      "residual_norm": 0.48766817001492196,
+      "sparsity_gini": 0.445248438325901,
+      "generalist_loss": 2.4991650581359863,
+      "composed_loss": 2.500985622406006,
+      "blended_loss": 2.500985622406006,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.525632381439209,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 2.3348870277404785,
+        "legal": 3.075437068939209
+      },
+      "best_single_specialist_loss": 2.3348870277404785,
+      "composed_beats_generalist": false,
+      "blended_beats_generalist": false,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 3,
+      "text_preview": "HIPAA privacy regulations govern the disclosure of protected health information ",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.6795971243792138,
+        "legal": 0.15889472691830497,
+        "code": -0.13455965985335316,
+        "science": 0.3679857320573189
+      },
+      "decomposition_weights": {
+        "medical": 0.5632903037364907,
+        "legal": 0.1317013503694518,
+        "code": 0.0,
+        "science": 0.30500834589405745
+      },
+      "weight_on_domain_a": 0.5632903037364907,
+      "weight_on_domain_b": 0.1317013503694518,
+      "residual_norm": 0.5994834559079587,
+      "sparsity_gini": 0.34380167442342446,
+      "generalist_loss": 2.0588977336883545,
+      "composed_loss": 2.070956230163574,
+      "blended_loss": 2.070956230163574,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.104311466217041,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 1.9642882347106934,
+        "legal": 2.121933698654175
+      },
+      "best_single_specialist_loss": 1.9642882347106934,
+      "composed_beats_generalist": false,
+      "blended_beats_generalist": false,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 4,
+      "text_preview": "Expert witness testimony in toxic tort litigation must establish both general ca",
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8390134866951476,
+        "legal": 0.10241878826112977,
+        "code": -0.0538993424920163,
+        "science": 0.24715648056151296
+      },
+      "decomposition_weights": {
+        "medical": 0.7058904796130638,
+        "legal": 0.08616839742566183,
+        "code": 0.0,
+        "science": 0.2079411229612744
+      },
+      "weight_on_domain_a": 0.7058904796130638,
+      "weight_on_domain_b": 0.08616839742566183,
+      "residual_norm": 0.47071785292235596,
+      "sparsity_gini": 0.5030390490086698,
+      "generalist_loss": 2.6161141395568848,
+      "composed_loss": 2.5587375164031982,
+      "blended_loss": 2.5587375164031982,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.6303701400756836,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 2.223104476928711,
+        "legal": 7.1039509773254395
+      },
+      "best_single_specialist_loss": 2.223104476928711,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 5,
+      "text_preview": "The CRISPR-Cas9 system has shown therapeutic potential for treating sickle cell ",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8964412308379669,
+        "legal": 0.09568113843338703,
+        "code": -0.0718282292569763,
+        "science": 0.12347452169679715
+      },
+      "decomposition_weights": {
+        "medical": 0.8035530020704936,
+        "legal": 0.08576676683846962,
+        "code": 0.0,
+        "science": 0.11068023109103681
+      },
+      "weight_on_domain_a": 0.8035530020704936,
+      "weight_on_domain_b": 0.11068023109103681,
+      "residual_norm": 0.4084519417377702,
+      "sparsity_gini": 0.5266926615827552,
+      "generalist_loss": 3.8449935913085938,
+      "composed_loss": 3.6489126682281494,
+      "blended_loss": 3.6489126682281494,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.6980297565460205,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 3.200026512145996,
+        "science": 4.07356595993042
+      },
+      "best_single_specialist_loss": 3.200026512145996,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 6,
+      "text_preview": "Phase III clinical trials of mRNA vaccines demonstrated that the spike protein e",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8154392029457842,
+        "legal": 0.13337222503063204,
+        "code": -0.09628901354408245,
+        "science": 0.28516343067314714
+      },
+      "decomposition_weights": {
+        "medical": 0.6608231903834605,
+        "legal": 0.10808342171297708,
+        "code": 0.0,
+        "science": 0.2310933879035624
+      },
+      "weight_on_domain_a": 0.6608231903834605,
+      "weight_on_domain_b": 0.2310933879035624,
+      "residual_norm": 0.47611028198661204,
+      "sparsity_gini": 0.433981900530684,
+      "generalist_loss": 2.2561147212982178,
+      "composed_loss": 2.216299057006836,
+      "blended_loss": 2.216299057006836,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.23816180229187,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 2.070279359817505,
+        "science": 2.4238765239715576
+      },
+      "best_single_specialist_loss": 2.070279359817505,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 7,
+      "text_preview": "Pharmacogenomics uses genome-wide association studies to identify single nucleot",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.9030655022200045,
+        "legal": -0.013034159174128335,
+        "code": 0.11458944907282133,
+        "science": -0.07939961878285084
+      },
+      "decomposition_weights": {
+        "medical": 0.8873985244927592,
+        "legal": 0.0,
+        "code": 0.11260147550724066,
+        "science": 0.0
+      },
+      "weight_on_domain_a": 0.8873985244927592,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.4060391236417142,
+      "sparsity_gini": 0.6092494654134142,
+      "generalist_loss": 9.323083877563477,
+      "composed_loss": 8.343146324157715,
+      "blended_loss": 8.343146324157715,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 9.016143798828125,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 2.283754825592041,
+        "science": 9.295300483703613
+      },
+      "best_single_specialist_loss": 2.283754825592041,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 8,
+      "text_preview": "Magnetic resonance spectroscopy detects metabolite concentrations in brain tissu",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.7683606622590762,
+        "legal": 0.13929285316748619,
+        "code": -0.1585825110618836,
+        "science": 0.336890439683308
+      },
+      "decomposition_weights": {
+        "medical": 0.6173833066355973,
+        "legal": 0.11192280722233645,
+        "code": 0.0,
+        "science": 0.2706938861420662
+      },
+      "weight_on_domain_a": 0.6173833066355973,
+      "weight_on_domain_b": 0.2706938861420662,
+      "residual_norm": 0.5015733380401511,
+      "sparsity_gini": 0.36801945613848885,
+      "generalist_loss": 3.346900701522827,
+      "composed_loss": 3.2556564807891846,
+      "blended_loss": 3.2556564807891846,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.265803337097168,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 3.110253095626831,
+        "science": 3.1128718852996826
+      },
+      "best_single_specialist_loss": 3.110253095626831,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 9,
+      "text_preview": "Monoclonal antibody therapeutics are engineered using recombinant DNA technology",
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8779613187596468,
+        "legal": 0.122261260087755,
+        "code": -0.02358988814131968,
+        "science": 0.11206550601406144
+      },
+      "decomposition_weights": {
+        "medical": 0.7893290692482766,
+        "legal": 0.10991869979707891,
+        "code": 0.0,
+        "science": 0.10075223095464458
+      },
+      "weight_on_domain_a": 0.7893290692482766,
+      "weight_on_domain_b": 0.10075223095464458,
+      "residual_norm": 0.4484651023038056,
+      "sparsity_gini": 0.566370267557422,
+      "generalist_loss": 4.000293731689453,
+      "composed_loss": 3.8341732025146484,
+      "blended_loss": 3.8341732025146484,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.8646812438964844,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 3.5622122287750244,
+        "science": 3.8512277603149414
+      },
+      "best_single_specialist_loss": 3.5622122287750244,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 10,
+      "text_preview": "Software patent claims under the Alice framework must demonstrate that the abstr",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8669555691615893,
+        "legal": 0.16082761651348237,
+        "code": -0.05584829191525678,
+        "science": 0.18394310749987328
+      },
+      "decomposition_weights": {
+        "medical": 0.7154714509743012,
+        "legal": 0.13272602684231977,
+        "code": 0.0,
+        "science": 0.15180252218337908
+      },
+      "weight_on_domain_a": 0.13272602684231977,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.4307765333968671,
+      "sparsity_gini": 0.48447589428250226,
+      "generalist_loss": 3.2047677040100098,
+      "composed_loss": 3.0454533100128174,
+      "blended_loss": 3.0454533100128174,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.1381707191467285,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 6.598245620727539,
+        "code": 7.084954738616943
+      },
+      "best_single_specialist_loss": 6.598245620727539,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 11,
+      "text_preview": "The Digital Millennium Copyright Act safe harbor provisions protect platform ope",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.9316515820186786,
+        "legal": 0.004281965168120454,
+        "code": 0.09153737208451913,
+        "science": -0.0508356530669409
+      },
+      "decomposition_weights": {
+        "medical": 0.9067425311457044,
+        "legal": 0.004167480643790115,
+        "code": 0.08908998821050565,
+        "science": 0.0
+      },
+      "weight_on_domain_a": 0.004167480643790115,
+      "weight_on_domain_b": 0.08908998821050565,
+      "residual_norm": 0.34791326832563557,
+      "sparsity_gini": 0.6544545498429348,
+      "generalist_loss": 9.016420364379883,
+      "composed_loss": 7.900063514709473,
+      "blended_loss": 7.900063514709473,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 8.548492431640625,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 9.561473846435547,
+        "code": 8.616639137268066
+      },
+      "best_single_specialist_loss": 8.616639137268066,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 12,
+      "text_preview": "Data protection regulations under GDPR require implementing privacy by design, w",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8217305708884584,
+        "legal": -0.02296201167818,
+        "code": 0.1503808340382196,
+        "science": -0.00857587489377136
+      },
+      "decomposition_weights": {
+        "medical": 0.8453049380183312,
+        "legal": 0.0,
+        "code": 0.15469506198166882,
+        "science": 0.0
+      },
+      "weight_on_domain_a": 0.0,
+      "weight_on_domain_b": 0.15469506198166882,
+      "residual_norm": 0.5491299258095644,
+      "sparsity_gini": 0.6393874165225788,
+      "generalist_loss": 8.319202423095703,
+      "composed_loss": 7.849519729614258,
+      "blended_loss": 7.849519729614258,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 8.277402877807617,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 9.08030891418457,
+        "code": 7.7715044021606445
+      },
+      "best_single_specialist_loss": 7.7715044021606445,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 13,
+      "text_preview": "Open source license compliance in corporate software development requires tracki",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.821111783856875,
+        "legal": 0.11669939926703697,
+        "code": -0.08138630155753476,
+        "science": 0.24160045860730298
+      },
+      "decomposition_weights": {
+        "medical": 0.6962045776075223,
+        "legal": 0.09894713189004833,
+        "code": 0.0,
+        "science": 0.20484829050242928
+      },
+      "weight_on_domain_a": 0.09894713189004833,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.49715407870528044,
+      "sparsity_gini": 0.4648003906406759,
+      "generalist_loss": 2.819498300552368,
+      "composed_loss": 2.744473457336426,
+      "blended_loss": 2.744473457336426,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.731933355331421,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 3.8795342445373535,
+        "code": 4.103466510772705
+      },
+      "best_single_specialist_loss": 3.8795342445373535,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": false,
+      "blended_beats_task_arithmetic": false
+    },
+    {
+      "probe_idx": 14,
+      "text_preview": "Algorithmic fairness regulations require that automated decision systems used in",
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.7732614095348014,
+        "legal": 0.16981499157882016,
+        "code": -0.10326449612846747,
+        "science": 0.28166775791771137
+      },
+      "decomposition_weights": {
+        "medical": 0.6313656642758636,
+        "legal": 0.13865344066072477,
+        "code": 0.0,
+        "science": 0.2299808950634117
+      },
+      "weight_on_domain_a": 0.13865344066072477,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.532192991421784,
+      "sparsity_gini": 0.39944082787294977,
+      "generalist_loss": 2.773660898208618,
+      "composed_loss": 2.745452642440796,
+      "blended_loss": 2.745452642440796,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.7663583755493164,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 2.891979694366455,
+        "code": 2.6510655879974365
+      },
+      "best_single_specialist_loss": 2.6510655879974365,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 15,
+      "text_preview": "Implementing the Runge-Kutta method for solving ordinary differential equations ",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.7554741535668033,
+        "legal": 0.124366490144187,
+        "code": -0.09230194048027164,
+        "science": 0.27385778581890075
+      },
+      "decomposition_weights": {
+        "medical": 0.6548281025871239,
+        "legal": 0.10779809260454992,
+        "code": 0.0,
+        "science": 0.23737380480832612
+      },
+      "weight_on_domain_a": 0.23737380480832612,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.5746947408449167,
+      "sparsity_gini": 0.429174819369609,
+      "generalist_loss": 2.5608110427856445,
+      "composed_loss": 2.543419599533081,
+      "blended_loss": 2.543419599533081,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.5312657356262207,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "science": 2.4230709075927734,
+        "code": 2.5169191360473633
+      },
+      "best_single_specialist_loss": 2.4230709075927734,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": false,
+      "blended_beats_task_arithmetic": false
+    },
+    {
+      "probe_idx": 16,
+      "text_preview": "Monte Carlo methods for estimating integrals in high-dimensional spaces use pseu",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.7180351095263741,
+        "legal": 0.20041608489551638,
+        "code": -0.13427547250526464,
+        "science": 0.38207231305613193
+      },
+      "decomposition_weights": {
+        "medical": 0.5521123650573523,
+        "legal": 0.15410416170343866,
+        "code": 0.0,
+        "science": 0.2937834732392091
+      },
+      "weight_on_domain_a": 0.2937834732392091,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.5293862676165823,
+      "sparsity_gini": 0.3367954616273945,
+      "generalist_loss": 3.196781635284424,
+      "composed_loss": 3.1140024662017822,
+      "blended_loss": 3.1140024662017822,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.1311378479003906,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "science": 3.148559331893921,
+        "code": 3.1531145572662354
+      },
+      "best_single_specialist_loss": 3.148559331893921,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 17,
+      "text_preview": "Molecular dynamics simulations using the Verlet integration algorithm compute pa",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8126955647982591,
+        "legal": 0.09046463955225378,
+        "code": -0.03553060111722978,
+        "science": 0.2225594850914746
+      },
+      "decomposition_weights": {
+        "medical": 0.7219342189893715,
+        "legal": 0.08036160369291982,
+        "code": 0.0,
+        "science": 0.19770417731770862
+      },
+      "weight_on_domain_a": 0.19770417731770862,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.5296668017838027,
+      "sparsity_gini": 0.5303744069239222,
+      "generalist_loss": 3.5212690830230713,
+      "composed_loss": 3.424753189086914,
+      "blended_loss": 3.424753189086914,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.4786376953125,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "science": 3.8325486183166504,
+        "code": 4.590042591094971
+      },
+      "best_single_specialist_loss": 3.8325486183166504,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 18,
+      "text_preview": "Finite element analysis of stress distributions in materials requires assembling",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8676259014920573,
+        "legal": 0.008435334117710285,
+        "code": 0.09671433800236845,
+        "science": -0.015817916975643317
+      },
+      "decomposition_weights": {
+        "medical": 0.89190757357359,
+        "legal": 0.008671408232823918,
+        "code": 0.09942101819358623,
+        "science": 0.0
+      },
+      "weight_on_domain_a": 0.0,
+      "weight_on_domain_b": 0.09942101819358623,
+      "residual_norm": 0.4873912925449884,
+      "sparsity_gini": 0.6722854612286453,
+      "generalist_loss": 9.095041275024414,
+      "composed_loss": 8.193375587463379,
+      "blended_loss": 8.193375587463379,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 8.839228630065918,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "science": 8.967702865600586,
+        "code": 9.84896183013916
+      },
+      "best_single_specialist_loss": 8.967702865600586,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 19,
+      "text_preview": "Training neural network potentials for quantum chemistry calculations involves f",
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8267343483586775,
+        "legal": 0.12545000784008492,
+        "code": -0.06271219532475988,
+        "science": 0.24641534648830105
+      },
+      "decomposition_weights": {
+        "medical": 0.6897501697232822,
+        "legal": 0.10466380690638137,
+        "code": 0.0,
+        "science": 0.20558602337033655
+      },
+      "weight_on_domain_a": 0.20558602337033655,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.4859210547593167,
+      "sparsity_gini": 0.47827817242380233,
+      "generalist_loss": 2.6808457374572754,
+      "composed_loss": 2.576601266860962,
+      "blended_loss": 2.576601266860962,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.5782148838043213,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "science": 2.470688581466675,
+        "code": 2.7740423679351807
+      },
+      "best_single_specialist_loss": 2.470688581466675,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 20,
+      "text_preview": "Electronic health record systems implement HL7 FHIR APIs for interoperability, w",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.7682992267224826,
+        "legal": 0.012876065350183338,
+        "code": 0.10438836550495846,
+        "science": -0.014192642465168829
+      },
+      "decomposition_weights": {
+        "medical": 0.8675821553292876,
+        "legal": 0.014539965862425515,
+        "code": 0.11787787880828686,
+        "science": 0.0
+      },
+      "weight_on_domain_a": 0.8675821553292876,
+      "weight_on_domain_b": 0.11787787880828686,
+      "residual_norm": 0.6312306585454329,
+      "sparsity_gini": 0.6547509606336215,
+      "generalist_loss": 7.767816543579102,
+      "composed_loss": 7.424463748931885,
+      "blended_loss": 7.424463748931885,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 7.744297504425049,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 3.0041627883911133,
+        "code": 8.993325233459473
+      },
+      "best_single_specialist_loss": 3.0041627883911133,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 21,
+      "text_preview": "Medical image segmentation using U-Net architectures requires training on annota",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8569926767334279,
+        "legal": 0.09933723020864953,
+        "code": -0.04130290206235587,
+        "science": 0.1720848564809873
+      },
+      "decomposition_weights": {
+        "medical": 0.7594660265997641,
+        "legal": 0.08803255099863139,
+        "code": 0.0,
+        "science": 0.15250142240160441
+      },
+      "weight_on_domain_a": 0.7594660265997641,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.4736840089880646,
+      "sparsity_gini": 0.538552384185772,
+      "generalist_loss": 3.4021754264831543,
+      "composed_loss": 3.225492477416992,
+      "blended_loss": 3.225492477416992,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.279707431793213,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 3.008197069168091,
+        "code": 4.583690166473389
+      },
+      "best_single_specialist_loss": 3.008197069168091,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 22,
+      "text_preview": "Clinical decision support systems use Bayesian networks to compute posterior pro",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8401398327139292,
+        "legal": 0.15415397960151705,
+        "code": -0.09826282659452862,
+        "science": 0.2397437124838976
+      },
+      "decomposition_weights": {
+        "medical": 0.680805741989521,
+        "legal": 0.12491838903082197,
+        "code": 0.0,
+        "science": 0.19427586897965704
+      },
+      "weight_on_domain_a": 0.680805741989521,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.45085361535563706,
+      "sparsity_gini": 0.4336898862224552,
+      "generalist_loss": 2.7926909923553467,
+      "composed_loss": 2.6962852478027344,
+      "blended_loss": 2.6962852478027344,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 2.7059338092803955,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 2.752293348312378,
+        "code": 2.5726494789123535
+      },
+      "best_single_specialist_loss": 2.5726494789123535,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 23,
+      "text_preview": "Implementing a drug interaction checker requires parsing SMILES molecular repres",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.7207448439422421,
+        "legal": 0.13470346144685502,
+        "code": -0.09350753572585026,
+        "science": 0.3394310543898641
+      },
+      "decomposition_weights": {
+        "medical": 0.6031946556308175,
+        "legal": 0.11273394284070118,
+        "code": 0.0,
+        "science": 0.2840714015284814
+      },
+      "weight_on_domain_a": 0.6031946556308175,
+      "weight_on_domain_b": 0.0,
+      "residual_norm": 0.5817428540089767,
+      "sparsity_gini": 0.4048550021875772,
+      "generalist_loss": 3.5070512294769287,
+      "composed_loss": 3.4511806964874268,
+      "blended_loss": 3.4511806964874268,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.455545663833618,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 3.294677257537842,
+        "code": 3.2586066722869873
+      },
+      "best_single_specialist_loss": 3.2586066722869873,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 24,
+      "text_preview": "Wearable biosensor data pipelines process continuous glucose monitor readings at",
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8747347575177883,
+        "legal": 0.016658549913374225,
+        "code": 0.07109179112799471,
+        "science": 0.07533876410045903
+      },
+      "decomposition_weights": {
+        "medical": 0.8428547357507451,
+        "legal": 0.0160514230908929,
+        "code": 0.06850082531905637,
+        "science": 0.07259301583930579
+      },
+      "weight_on_domain_a": 0.8428547357507451,
+      "weight_on_domain_b": 0.06850082531905637,
+      "residual_norm": 0.47310847167023123,
+      "sparsity_gini": 0.6211255321249511,
+      "generalist_loss": 6.076405048370361,
+      "composed_loss": 5.404433727264404,
+      "blended_loss": 5.404433727264404,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 5.8069682121276855,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "medical": 3.0202267169952393,
+        "code": 5.981060028076172
+      },
+      "best_single_specialist_loss": 3.0202267169952393,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 25,
+      "text_preview": "Patent prosecution for biotechnology inventions requires demonstrating that gene",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8432261458910933,
+        "legal": 0.07190447857646586,
+        "code": -0.024529687584377156,
+        "science": 0.2687311758882871
+      },
+      "decomposition_weights": {
+        "medical": 0.7122673825928294,
+        "legal": 0.060737223343850386,
+        "code": 0.0,
+        "science": 0.22699539406332025
+      },
+      "weight_on_domain_a": 0.060737223343850386,
+      "weight_on_domain_b": 0.22699539406332025,
+      "residual_norm": 0.45932696792242916,
+      "sparsity_gini": 0.54885277219927,
+      "generalist_loss": 3.2274703979492188,
+      "composed_loss": 3.187810182571411,
+      "blended_loss": 3.187810182571411,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.2425382137298584,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 4.318432807922363,
+        "science": 3.412745714187622
+      },
+      "best_single_specialist_loss": 3.412745714187622,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 26,
+      "text_preview": "Environmental impact assessments under NEPA must quantify the atmospheric disper",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8661610759756053,
+        "legal": 0.12677151375269696,
+        "code": -0.052838974859624646,
+        "science": 0.22865012346126418
+      },
+      "decomposition_weights": {
+        "medical": 0.7090482425983655,
+        "legal": 0.1037764470501511,
+        "code": 0.0,
+        "science": 0.18717531035148335
+      },
+      "weight_on_domain_a": 0.1037764470501511,
+      "weight_on_domain_b": 0.18717531035148335,
+      "residual_norm": 0.42263594122018144,
+      "sparsity_gini": 0.4986271296409379,
+      "generalist_loss": 3.2383439540863037,
+      "composed_loss": 3.0975472927093506,
+      "blended_loss": 3.0975472927093506,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.107287883758545,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 3.679995536804199,
+        "science": 3.020103693008423
+      },
+      "best_single_specialist_loss": 3.020103693008423,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 27,
+      "text_preview": "The Daubert standard for admissibility of scientific expert testimony requires c",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.8268651775041209,
+        "legal": 0.19953697649588875,
+        "code": -0.13963788406775263,
+        "science": 0.2580158847736066
+      },
+      "decomposition_weights": {
+        "medical": 0.6437664004576155,
+        "legal": 0.15535205086843062,
+        "code": 0.0,
+        "science": 0.20088154867395389
+      },
+      "weight_on_domain_a": 0.15535205086843062,
+      "weight_on_domain_b": 0.20088154867395389,
+      "residual_norm": 0.4363576961080729,
+      "sparsity_gini": 0.37220462247657715,
+      "generalist_loss": 4.045588493347168,
+      "composed_loss": 3.9084343910217285,
+      "blended_loss": 3.9084343910217285,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.925480604171753,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 4.023110866546631,
+        "science": 3.788647174835205
+      },
+      "best_single_specialist_loss": 3.788647174835205,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 28,
+      "text_preview": "Carbon credit trading under cap-and-trade regulations requires verified measurem",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.7688761623712317,
+        "legal": 0.14237541676805607,
+        "code": -0.07614660402867665,
+        "science": 0.28919598681946557
+      },
+      "decomposition_weights": {
+        "medical": 0.6404912502422866,
+        "legal": 0.11860194547884818,
+        "code": 0.0,
+        "science": 0.24090680427886527
+      },
+      "weight_on_domain_a": 0.11860194547884818,
+      "weight_on_domain_b": 0.24090680427886527,
+      "residual_norm": 0.5469241852645832,
+      "sparsity_gini": 0.43573151464043236,
+      "generalist_loss": 3.6344101428985596,
+      "composed_loss": 3.5990264415740967,
+      "blended_loss": 3.5990264415740967,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.6269888877868652,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 3.6935811042785645,
+        "science": 3.5728049278259277
+      },
+      "best_single_specialist_loss": 3.5728049278259277,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": false,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    },
+    {
+      "probe_idx": 29,
+      "text_preview": "Regulation of dual-use research of concern in gain-of-function virology requires",
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "decomposition_coefficients": {
+        "medical": 0.810679992624711,
+        "legal": 0.14294496455060413,
+        "code": -0.10762725313107754,
+        "science": 0.2994629355082283
+      },
+      "decomposition_weights": {
+        "medical": 0.6469458346521917,
+        "legal": 0.11407417259812569,
+        "code": 0.0,
+        "science": 0.23897999274968262
+      },
+      "weight_on_domain_a": 0.11407417259812569,
+      "weight_on_domain_b": 0.23897999274968262,
+      "residual_norm": 0.4702159209526233,
+      "sparsity_gini": 0.41626570344414904,
+      "generalist_loss": 3.609816789627075,
+      "composed_loss": 3.5473103523254395,
+      "blended_loss": 3.5473103523254395,
+      "blend_ratio": 0.0,
+      "best_task_arithmetic_loss": 3.5513973236083984,
+      "best_task_arithmetic_alpha": 0.3,
+      "specialist_losses": {
+        "legal": 4.083110332489014,
+        "science": 3.8731510639190674
+      },
+      "best_single_specialist_loss": 3.8731510639190674,
+      "composed_beats_generalist": true,
+      "blended_beats_generalist": true,
+      "composed_beats_best_single": true,
+      "composed_beats_task_arithmetic": true,
+      "blended_beats_task_arithmetic": true
+    }
+  ],
+  "summary": {
+    "n_probes": 30,
+    "win_rate_composed_vs_generalist": 0.9333333333333333,
+    "win_rate_blended_vs_generalist": 0.9333333333333333,
+    "win_rate_composed_vs_best_single": 0.26666666666666666,
+    "win_rate_composed_vs_task_arithmetic": 0.9333333333333333,
+    "win_rate_blended_vs_task_arithmetic": 0.9333333333333333,
+    "mean_composed_loss": 4.044787637392679,
+    "mean_blended_loss": 4.044787637392679,
+    "mean_generalist_loss": 4.288053210576376,
+    "mean_sparsity_gini": 0.4958280011723372
+  }
+}

@@ -1,0 +1,816 @@
+{
+  "probes": [
+    [
+      "hierarchical",
+      "medical",
+      "Classify the subtypes of non-Hodgkin lymphoma by cell of origin and clinical behavior."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Break down the components of the renin-angiotensin-aldosterone system and their regulatory relationships."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Categorize the types of bone fractures by mechanism, location, and displacement pattern."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Decompose the differential diagnosis of chest pain by organ system and acuity."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Classify antibiotics by mechanism of action, spectrum, and bacterial target."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Organize the branches of the brachial plexus and the muscles each branch innervates."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Categorize types of anemia by MCV, reticulocyte count, and underlying mechanism."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Break down the WHO classification of brain tumors by grade, histology, and molecular markers."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Classify hypersensitivity reactions by Gell-Coombs type and provide the mechanism for each."
+    ],
+    [
+      "hierarchical",
+      "medical",
+      "Decompose the stages of wound healing and the cell types active in each stage."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Break down the elements of a negligence claim and the defenses available at each element."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Classify the types of intellectual property protection by scope, duration, and registration requirements."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Decompose the hierarchy of legal authority from constitutional provisions to agency guidance."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Categorize the exceptions to the hearsay rule by their reliability rationale."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Break down the types of business entities by liability, taxation, and governance structure."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Classify the categories of speech protection under First Amendment doctrine."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Decompose the elements of a breach of contract claim and available remedies at each stage."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Categorize the types of criminal intent from strict liability through specific intent."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Break down the taxonomy of regulatory takings from per se to Penn Central balancing."
+    ],
+    [
+      "hierarchical",
+      "legal",
+      "Classify the forms of alternative dispute resolution by formality, binding nature, and typical use."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Classify design patterns by creational, structural, and behavioral categories with examples."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Break down the layers of the OSI networking model and the protocols at each layer."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Decompose a compiler into its phases and the data structures each phase produces."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Categorize database index types by structure, use case, and performance characteristics."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Classify sorting algorithms by time complexity, space complexity, and stability."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Break down the components of a Kubernetes cluster by control plane and worker node roles."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Decompose the types of software testing from unit to end-to-end by scope and purpose."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Categorize concurrency primitives by mechanism: locks, semaphores, channels, and STM."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Classify memory management strategies from manual allocation through garbage collection approaches."
+    ],
+    [
+      "hierarchical",
+      "code",
+      "Break down the taxonomy of SQL joins by type and the result set each produces."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Classify the fundamental forces of nature by strength, range, and carrier particle."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Break down the taxonomic hierarchy from domain to species using Homo sapiens as example."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Decompose the electromagnetic spectrum by wavelength, energy, and common applications."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Categorize chemical bonds by type: ionic, covalent, metallic, and intermolecular forces."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Classify types of volcanic eruptions by explosivity, magma composition, and landform produced."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Break down the stages of stellar evolution by mass and the end states for each path."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Decompose the layers of Earth's atmosphere by temperature profile and key phenomena."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Categorize organic reaction mechanisms by type: substitution, elimination, addition, and rearrangement."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Classify types of spectrometry by the physical principle and the information each provides."
+    ],
+    [
+      "hierarchical",
+      "science",
+      "Break down the components of a eukaryotic cell by organelle function and membrane structure."
+    ],
+    [
+      "causal",
+      "medical",
+      "Trace the pathophysiological cascade from deep vein thrombosis to pulmonary embolism to right heart failure."
+    ],
+    [
+      "causal",
+      "medical",
+      "Explain the chain of events from H. pylori infection through chronic gastritis to gastric adenocarcinoma."
+    ],
+    [
+      "causal",
+      "medical",
+      "Follow the progression from insulin resistance through compensatory hyperinsulinemia to beta cell exhaustion in type 2 diabetes."
+    ],
+    [
+      "causal",
+      "medical",
+      "Trace how untreated streptococcal pharyngitis leads to rheumatic fever through molecular mimicry."
+    ],
+    [
+      "causal",
+      "medical",
+      "Describe the cascade from atherosclerotic plaque rupture through thrombus formation to myocardial infarction."
+    ],
+    [
+      "causal",
+      "medical",
+      "Follow the sequence from portal hypertension through varices formation to variceal hemorrhage."
+    ],
+    [
+      "causal",
+      "medical",
+      "Trace the chain from chronic hypertension through nephrosclerosis to end-stage renal disease."
+    ],
+    [
+      "causal",
+      "medical",
+      "Explain how a mutation in the CFTR gene leads through chloride channel dysfunction to the clinical manifestations of cystic fibrosis."
+    ],
+    [
+      "causal",
+      "medical",
+      "Follow the cascade from traumatic brain injury through secondary injury mechanisms to long-term neurological deficit."
+    ],
+    [
+      "causal",
+      "medical",
+      "Trace the progression from chronic hepatitis C through fibrosis stages to cirrhosis and hepatocellular carcinoma."
+    ],
+    [
+      "causal",
+      "legal",
+      "Trace how a single SEC filing omission cascades through materiality analysis to securities fraud liability."
+    ],
+    [
+      "causal",
+      "legal",
+      "Follow the chain from a police officer's warrantless search through the exclusionary rule to case dismissal."
+    ],
+    [
+      "causal",
+      "legal",
+      "Explain how a manufacturer's design defect leads through failure to warn to strict product liability."
+    ],
+    [
+      "causal",
+      "legal",
+      "Trace the sequence from a constitutional amendment's proposal through ratification to judicial enforcement."
+    ],
+    [
+      "causal",
+      "legal",
+      "Follow the chain from a breach of fiduciary duty through damages to disgorgement of profits."
+    ],
+    [
+      "causal",
+      "legal",
+      "Describe how precedent from a circuit court decision propagates through subsequent cases to a circuit split to Supreme Court review."
+    ],
+    [
+      "causal",
+      "legal",
+      "Trace how a zoning variance denial cascades through administrative appeal to judicial review under the arbitrary and capricious standard."
+    ],
+    [
+      "causal",
+      "legal",
+      "Follow the sequence from discriminatory intent through disparate impact evidence to a Title VII violation finding."
+    ],
+    [
+      "causal",
+      "legal",
+      "Explain how a contract clause's ambiguity leads through parol evidence consideration to reformation."
+    ],
+    [
+      "causal",
+      "legal",
+      "Trace the chain from an environmental violation through EPA enforcement action to consent decree to ongoing compliance monitoring."
+    ],
+    [
+      "causal",
+      "code",
+      "Trace how a buffer overflow in user input leads through stack corruption to arbitrary code execution."
+    ],
+    [
+      "causal",
+      "code",
+      "Follow the chain from a DNS misconfiguration through failed certificate validation to a man-in-the-middle vulnerability."
+    ],
+    [
+      "causal",
+      "code",
+      "Explain how a memory leak in a long-running service leads through heap exhaustion to cascading service failures."
+    ],
+    [
+      "causal",
+      "code",
+      "Trace the sequence from a race condition in a database write through inconsistent state to data corruption."
+    ],
+    [
+      "causal",
+      "code",
+      "Follow the cascade from a single microservice failure through timeout propagation to full system brownout."
+    ],
+    [
+      "causal",
+      "code",
+      "Describe how an N+1 query pattern leads through connection pool exhaustion to database lock contention to user-visible latency."
+    ],
+    [
+      "causal",
+      "code",
+      "Trace how a floating-point rounding error propagates through iterative computation to produce a catastrophically wrong result."
+    ],
+    [
+      "causal",
+      "code",
+      "Follow the chain from a misconfigured load balancer through uneven traffic distribution to hot-spot failure."
+    ],
+    [
+      "causal",
+      "code",
+      "Explain how a dependency version conflict leads through incompatible API calls to a runtime crash in production."
+    ],
+    [
+      "causal",
+      "code",
+      "Trace the sequence from a Git merge conflict through an incorrect resolution to a regression that passes CI but fails in production."
+    ],
+    [
+      "causal",
+      "science",
+      "Trace the chain from increased atmospheric CO2 through radiative forcing to ocean acidification and coral bleaching."
+    ],
+    [
+      "causal",
+      "science",
+      "Follow the sequence from a supernova explosion through nucleosynthesis to the formation of heavy elements found on Earth."
+    ],
+    [
+      "causal",
+      "science",
+      "Explain how a single base-pair mutation leads through protein misfolding to prion propagation and neurodegeneration."
+    ],
+    [
+      "causal",
+      "science",
+      "Trace the cascade from ozone depletion through increased UV radiation to increased mutation rates in surface organisms."
+    ],
+    [
+      "causal",
+      "science",
+      "Follow the chain from tectonic plate subduction through magma generation to volcanic eruption and atmospheric effects."
+    ],
+    [
+      "causal",
+      "science",
+      "Describe how a perturbation in initial conditions leads through chaotic amplification to divergent weather outcomes (butterfly effect)."
+    ],
+    [
+      "causal",
+      "science",
+      "Trace the sequence from photon absorption in a semiconductor through electron-hole pair generation to current flow in a solar cell."
+    ],
+    [
+      "causal",
+      "science",
+      "Follow the cascade from antibiotic overuse through selection pressure to resistance gene horizontal transfer to multi-drug resistant organisms."
+    ],
+    [
+      "causal",
+      "science",
+      "Explain how Milankovitch cycle variations lead through insolation changes to ice sheet advance and retreat."
+    ],
+    [
+      "causal",
+      "science",
+      "Trace the chain from quantum tunneling in hydrogen fusion through radiation pressure to stellar equilibrium."
+    ],
+    [
+      "constraint",
+      "medical",
+      "A patient has renal failure, a penicillin allergy, and a methicillin-resistant staph infection. Choose an antibiotic regimen that addresses all three constraints."
+    ],
+    [
+      "constraint",
+      "medical",
+      "Design a post-surgical pain management plan for a patient with a history of opioid addiction, hepatic impairment, and NSAID-induced gastric ulcers."
+    ],
+    [
+      "constraint",
+      "medical",
+      "A pregnant patient in her first trimester presents with new-onset epilepsy. Select an anticonvulsant that minimizes teratogenicity while controlling seizures."
+    ],
+    [
+      "constraint",
+      "medical",
+      "Choose an antihypertensive for a diabetic patient with bilateral renal artery stenosis and hyperkalemia."
+    ],
+    [
+      "constraint",
+      "medical",
+      "A patient needs anticoagulation for atrial fibrillation but has a recent GI bleed and thrombocytopenia. Design a management strategy."
+    ],
+    [
+      "constraint",
+      "medical",
+      "Select an anesthetic protocol for a patient with malignant hyperthermia susceptibility, difficult airway, and severe cardiac disease."
+    ],
+    [
+      "constraint",
+      "medical",
+      "Design a chemotherapy regimen for a cancer patient with pre-existing cardiomyopathy, neuropathy, and neutropenia."
+    ],
+    [
+      "constraint",
+      "medical",
+      "A patient with Parkinson's disease needs an antiemetic but cannot receive dopamine antagonists. Identify appropriate options."
+    ],
+    [
+      "constraint",
+      "medical",
+      "Choose a contraceptive method for a patient with a history of DVT, migraine with aura, and liver disease."
+    ],
+    [
+      "constraint",
+      "medical",
+      "Design a nutritional plan for a critically ill patient with diabetes, celiac disease, and severe nut allergy."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Draft a contract clause that satisfies consumer protection disclosure requirements, company IP protection needs, and GDPR data processing constraints simultaneously."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Structure a corporate transaction that achieves tax-free reorganization status while maintaining regulatory approval and satisfying minority shareholder rights."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Design a sentencing recommendation that accounts for mandatory minimums, mitigating factors, and proportionality requirements under the Eighth Amendment."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Construct a trust that satisfies the rule against perpetuities, achieves the desired estate tax treatment, and protects assets from the beneficiary's creditors."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Draft an employment agreement that complies with non-compete enforceability requirements, trade secret protection, and employee mobility rights in California."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Structure a plea agreement that satisfies the victim's restitution rights, the defendant's constitutional protections, and the prosecution's sentencing guidelines obligations."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Design a regulatory compliance program that simultaneously meets SEC, FINRA, and state blue sky law requirements for a multi-state securities offering."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Draft a licensing agreement that satisfies open-source copyleft obligations, proprietary code protection, and export control restrictions."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Structure a bankruptcy reorganization plan that satisfies absolute priority, feasibility, and best interests of creditors tests simultaneously."
+    ],
+    [
+      "constraint",
+      "legal",
+      "Design a class action settlement that meets adequacy of representation, commonality, and fairness hearing requirements."
+    ],
+    [
+      "constraint",
+      "code",
+      "Design a database schema that satisfies third normal form, supports the required query patterns without joins, and stays within the storage budget."
+    ],
+    [
+      "constraint",
+      "code",
+      "Architect a system that achieves sub-100ms latency, 99.99% availability, and strong consistency across three geographic regions."
+    ],
+    [
+      "constraint",
+      "code",
+      "Write a scheduling algorithm that respects task dependencies, meets all deadlines, and minimizes total resource usage."
+    ],
+    [
+      "constraint",
+      "code",
+      "Design an API rate limiting system that prevents abuse, allows burst traffic from legitimate users, and maintains fairness across tenants."
+    ],
+    [
+      "constraint",
+      "code",
+      "Architect a data pipeline that preserves exactly-once processing semantics, handles schema evolution, and scales horizontally."
+    ],
+    [
+      "constraint",
+      "code",
+      "Design a cache eviction policy that maximizes hit rate, respects memory limits, and guarantees freshness for time-sensitive data."
+    ],
+    [
+      "constraint",
+      "code",
+      "Build an authentication system that supports SSO, maintains backward compatibility with legacy tokens, and meets SOC 2 compliance requirements."
+    ],
+    [
+      "constraint",
+      "code",
+      "Design a feature flag system that supports gradual rollout, instant rollback, and audit logging without adding latency to the hot path."
+    ],
+    [
+      "constraint",
+      "code",
+      "Architect a message queue that guarantees ordered delivery, supports dead letter handling, and achieves at-least-once delivery within bounded memory."
+    ],
+    [
+      "constraint",
+      "code",
+      "Design a search index that supports fuzzy matching, real-time updates, and relevance ranking while staying within a 10GB memory footprint."
+    ],
+    [
+      "constraint",
+      "science",
+      "Design a chemical synthesis route that achieves the target molecule with high enantiomeric excess, avoids toxic reagents, and works at room temperature."
+    ],
+    [
+      "constraint",
+      "science",
+      "Select materials for a spacecraft heat shield that withstands 3000K reentry temperature, minimizes mass, and maintains structural integrity under vibration."
+    ],
+    [
+      "constraint",
+      "science",
+      "Design an ecological preserve that maintains viable populations of three competing predator species, supports their prey base, and fits within 500 square kilometers."
+    ],
+    [
+      "constraint",
+      "science",
+      "Choose experimental parameters for a particle detector that maximizes detection efficiency, minimizes background noise, and operates within the available beam energy."
+    ],
+    [
+      "constraint",
+      "science",
+      "Design a protein with specific binding affinity, thermal stability above 80C, and solubility in aqueous buffer at physiological pH."
+    ],
+    [
+      "constraint",
+      "science",
+      "Select a catalyst that achieves high selectivity for the desired product, operates at moderate pressure, and resists poisoning by sulfur compounds."
+    ],
+    [
+      "constraint",
+      "science",
+      "Design a telescope observation schedule that maximizes sky coverage, accounts for atmospheric seeing conditions, and avoids satellite interference windows."
+    ],
+    [
+      "constraint",
+      "science",
+      "Choose a battery chemistry that achieves 500 Wh/kg energy density, sustains 1000 charge cycles, and operates safely across -20C to 60C."
+    ],
+    [
+      "constraint",
+      "science",
+      "Design a gene therapy vector that achieves tissue-specific expression, avoids immune detection, and integrates at a safe genomic locus."
+    ],
+    [
+      "constraint",
+      "science",
+      "Select parameters for a climate model that resolves mesoscale convection, runs within available compute budget, and maintains energy balance closure."
+    ],
+    [
+      "evidence",
+      "medical",
+      "A patient has mildly elevated troponin, nonspecific ST changes, pleuritic chest pain, and a recent upper respiratory infection. Weigh the evidence for myocarditis vs acute MI."
+    ],
+    [
+      "evidence",
+      "medical",
+      "Given a positive ANA, joint pain, oral ulcers, and borderline low complement, assess the strength of evidence for systemic lupus vs other autoimmune conditions."
+    ],
+    [
+      "evidence",
+      "medical",
+      "A screening mammogram shows a 1cm lesion with irregular margins but no calcifications; family history is negative; patient is 35. Synthesize the evidence for biopsy vs watchful waiting."
+    ],
+    [
+      "evidence",
+      "medical",
+      "CT shows a 2cm adrenal incidentaloma; cortisol is borderline high; catecholamines are normal; patient is asymptomatic. Weigh the evidence for surgical removal vs monitoring."
+    ],
+    [
+      "evidence",
+      "medical",
+      "Child presents with fever, rash, and strawberry tongue; rapid strep is negative but ASO titer is elevated. Evaluate the evidence for Kawasaki disease vs scarlet fever."
+    ],
+    [
+      "evidence",
+      "medical",
+      "MRI shows a brain lesion with ring enhancement; patient is immunocompromised; CSF shows elevated protein. Weigh evidence for toxoplasmosis vs CNS lymphoma vs abscess."
+    ],
+    [
+      "evidence",
+      "medical",
+      "Pulmonary function tests show mixed obstructive-restrictive pattern; DLCO is reduced; CT shows ground glass and honeycombing. Assess evidence for IPF vs combined COPD-fibrosis."
+    ],
+    [
+      "evidence",
+      "medical",
+      "A patient with chronic fatigue has borderline TSH, low-normal B12, mildly positive celiac antibodies, and normal CBC. Synthesize the diagnostic evidence."
+    ],
+    [
+      "evidence",
+      "medical",
+      "An infant has mild jaundice, elevated direct bilirubin, pale stools, and normal liver enzymes. Weigh evidence for biliary atresia vs neonatal hepatitis."
+    ],
+    [
+      "evidence",
+      "medical",
+      "Post-surgical patient develops tachycardia, mild hypoxia, and elevated D-dimer but a negative CT angiogram. Evaluate the evidence for PE vs post-operative atelectasis."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Weigh the evidence for trade secret misappropriation given: departed employee, similar product launch 6 months later, no documented reverse engineering, but different implementation details."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Assess whether a contract was formed given: oral agreement, partial performance, emails referencing terms, but no signed document and a statute of frauds defense."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Evaluate the evidence for discriminatory termination given: statistical disparity in layoffs, protected class membership, positive performance reviews, but documented business restructuring."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Weigh whether a use constitutes fair use given: commercial purpose, transformative nature, small portion used, but significant market impact on the original."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Assess the strength of a medical malpractice claim given: bad outcome, deviation from one guideline, compliance with another guideline, and a pre-existing condition."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Evaluate evidence for actual malice in a defamation case: public figure plaintiff, factual errors in reporting, unnamed sources, but deadline pressure and partial correction."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Weigh the evidence for personal jurisdiction given: website accessible in the forum state, one contract with a forum resident, but no physical presence or targeted advertising."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Assess whether conduct rises to antitrust violation given: parallel pricing behavior, evidence of industry meetings, but also independent cost pressures explaining the price changes."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Evaluate the evidence for a hostile work environment given: three offensive comments over two years, one formal complaint, supervisor awareness, but no direct adverse action."
+    ],
+    [
+      "evidence",
+      "legal",
+      "Weigh the evidence for patent infringement given: similar functionality, different underlying algorithm, access to the patent, and a design-around memo."
+    ],
+    [
+      "evidence",
+      "code",
+      "Production latency spikes to 500ms intermittently; CPU is normal; memory shows minor growth; one dependency was recently updated; database connections are near the pool limit. Diagnose the root cause."
+    ],
+    [
+      "evidence",
+      "code",
+      "Test suite passes locally but fails in CI; the failing tests involve timestamps; CI runs in UTC; some tests use mocked time but others don't. Weigh the evidence for each possible cause."
+    ],
+    [
+      "evidence",
+      "code",
+      "Application memory grows 2% per hour; heap dumps show string accumulation; two recent PRs added caching; GC logs show full collections increasing. Identify the leak source."
+    ],
+    [
+      "evidence",
+      "code",
+      "Users report intermittent 403 errors; load balancer logs show normal routing; auth service shows no failures; CDN cache was recently purged; some users are on VPNs. Synthesize the evidence."
+    ],
+    [
+      "evidence",
+      "code",
+      "Deployment causes 5% error rate increase; rollback fixes it; diff shows only CSS changes and one config key rename; staging showed no issues. Evaluate the evidence for root cause."
+    ],
+    [
+      "evidence",
+      "code",
+      "ML model accuracy drops 3% after retraining; training data volume increased 20%; no code changes; feature distributions look similar; new data source was added. Diagnose the degradation."
+    ],
+    [
+      "evidence",
+      "code",
+      "Database replication lag spikes during peak hours; write volume is steady; one replica shows higher lag than others; network metrics are normal; a new index was added yesterday. Assess the evidence."
+    ],
+    [
+      "evidence",
+      "code",
+      "A distributed system shows split-brain behavior; network partition tests pass; clock synchronization is within bounds; one node's disk is 95% full; consensus logs show election churn. Diagnose."
+    ],
+    [
+      "evidence",
+      "code",
+      "API response times degrade linearly over a week; request volume is flat; no deployments; one downstream service added request tracing; connection pool metrics are stable. Weigh the evidence."
+    ],
+    [
+      "evidence",
+      "code",
+      "Builds that were taking 3 minutes now take 12; dependency cache hit rate dropped from 95% to 60%; no changes to build config; CI provider changed their runner images last week. Assess."
+    ],
+    [
+      "evidence",
+      "science",
+      "A galaxy's rotation curve is flat at large radii; lensing mass exceeds visible mass; but MOND predicts the rotation curve without dark matter. Weigh the evidence for dark matter vs modified gravity."
+    ],
+    [
+      "evidence",
+      "science",
+      "An exoplanet's atmosphere shows water absorption, methane, and no CO2; the star is quiet; but the detection is at 2.5 sigma and the instrument has known systematics. Assess biosignature strength."
+    ],
+    [
+      "evidence",
+      "science",
+      "A clinical trial shows p=0.03 for drug efficacy; effect size is small; prior probability from mechanism is moderate; the trial was stopped early; subgroup analysis shows benefit only in one group. Evaluate."
+    ],
+    [
+      "evidence",
+      "science",
+      "Fossil evidence shows a transitional form; dating places it in the expected period; but the geographic location is unexpected; and one morphological feature doesn't fit the predicted sequence. Weigh the evidence."
+    ],
+    [
+      "evidence",
+      "science",
+      "A new measurement of the Hubble constant disagrees with CMB-derived values by 4.4 sigma; systematic checks find no error; but three other methods give intermediate values. Assess the tension."
+    ],
+    [
+      "evidence",
+      "science",
+      "Seismic data suggests a subsurface ocean on an icy moon; thermal models support it; but gravity measurements are ambiguous; and the ice shell thickness estimate has large uncertainties. Evaluate."
+    ],
+    [
+      "evidence",
+      "science",
+      "A materials experiment shows superconductivity at 15C under 200GPa; two groups replicate partially; one group finds no signal; sample characterization shows possible impurity phases. Assess the claim."
+    ],
+    [
+      "evidence",
+      "science",
+      "Paleoclimate proxies from ice cores, tree rings, and ocean sediments give conflicting temperature reconstructions for the Medieval Warm Period. Weigh the evidence from each proxy's strengths and limitations."
+    ],
+    [
+      "evidence",
+      "science",
+      "A protein crystallography structure at 3.5A resolution shows an unexpected binding mode; MD simulations support it; but mutagenesis data partially contradicts the predicted contacts. Synthesize."
+    ],
+    [
+      "evidence",
+      "science",
+      "An astronomical transient shows properties of both a kilonova and a long gamma-ray burst; the host galaxy is unusual for either; gravitational wave data is ambiguous. Classify the event."
+    ]
+  ],
+  "shapes": [
+    "hierarchical",
+    "causal",
+    "constraint",
+    "evidence"
+  ],
+  "domains": [
+    "medical",
+    "legal",
+    "code",
+    "science"
+  ]
+}

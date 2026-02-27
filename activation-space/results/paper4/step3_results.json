@@ -1,0 +1,107 @@
+{
+  "baseline_domain": 0.975,
+  "baseline_shape": 0.96875,
+  "inlp": [
+    {
+      "iteration": 0,
+      "domain_acc": 0.975,
+      "shape_acc": 0.96875,
+      "dims_removed": 0
+    },
+    {
+      "iteration": 1,
+      "domain_acc": 0.79375,
+      "shape_acc": 0.96875,
+      "dims_removed": 1
+    },
+    {
+      "iteration": 2,
+      "domain_acc": 0.65,
+      "shape_acc": 0.96875,
+      "dims_removed": 2
+    },
+    {
+      "iteration": 3,
+      "domain_acc": 0.65625,
+      "shape_acc": 0.96875,
+      "dims_removed": 3
+    },
+    {
+      "iteration": 4,
+      "domain_acc": 0.61875,
+      "shape_acc": 0.96875,
+      "dims_removed": 4
+    },
+    {
+      "iteration": 5,
+      "domain_acc": 0.59375,
+      "shape_acc": 0.96875,
+      "dims_removed": 5
+    },
+    {
+      "iteration": 6,
+      "domain_acc": 0.5625,
+      "shape_acc": 0.96875,
+      "dims_removed": 6
+    },
+    {
+      "iteration": 7,
+      "domain_acc": 0.5125,
+      "shape_acc": 0.96875,
+      "dims_removed": 7
+    },
+    {
+      "iteration": 8,
+      "domain_acc": 0.425,
+      "shape_acc": 0.96875,
+      "dims_removed": 8
+    },
+    {
+      "iteration": 9,
+      "domain_acc": 0.41875,
+      "shape_acc": 0.96875,
+      "dims_removed": 9
+    },
+    {
+      "iteration": 10,
+      "domain_acc": 0.38125,
+      "shape_acc": 0.96875,
+      "dims_removed": 10
+    },
+    {
+      "iteration": 11,
+      "domain_acc": 0.36875,
+      "shape_acc": 0.975,
+      "dims_removed": 11
+    },
+    {
+      "iteration": 12,
+      "domain_acc": 0.35,
+      "shape_acc": 0.975,
+      "dims_removed": 12
+    },
+    {
+      "iteration": 13,
+      "domain_acc": 0.3125,
+      "shape_acc": 0.975,
+      "dims_removed": 13
+    },
+    {
+      "iteration": 13,
+      "domain_acc": 0.3125,
+      "shape_acc": 0.975,
+      "dims_removed": 13
+    }
+  ],
+  "rsa": {
+    "cka_domain": 0.6754662591427556,
+    "cka_shape": 0.29940252864252176,
+    "within_both": 0.9416500329971313,
+    "within_domain_only": 0.9179304838180542,
+    "within_shape_only": 0.8953965306282043,
+    "within_neither": 0.8813275694847107,
+    "domain_effect": 0.036602914333343506,
+    "shape_effect": 0.014068961143493652,
+    "interaction": 0.009650588035583496
+  }
+}

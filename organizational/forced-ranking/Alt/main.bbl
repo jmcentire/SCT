@@ -1,0 +1,118 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Adams(2013)]{forbes2013-msft}
+Susan Adams.
+\newblock Microsoft abandons stack ranking.
+\newblock
+  \url{https://www.forbes.com/sites/susanadams/2013/11/13/microsoft-abandons-stack-ranking/},
+  2013.
+\newblock Accessed 2025-11-14.
+
+\bibitem[Bradley and Terry(1952)]{bradley1952}
+Ralph~Allan Bradley and Milton~E. Terry.
+\newblock Rank analysis of incomplete block designs: I. the method of paired
+  comparisons.
+\newblock \emph{Biometrika}, 39\penalty0 (3/4):\penalty0 324--345, 1952.
+
+\bibitem[Elo(1978)]{elo1978}
+Arpad Elo.
+\newblock \emph{The Rating of Chessplayers, Past and Present}.
+\newblock Arco, 1978.
+
+\bibitem[Glickman(1999)]{glickman1999}
+Mark~E. Glickman.
+\newblock Parameter estimation in large dynamic paired comparison experiments.
+\newblock \emph{Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)}, 48\penalty0 (3):\penalty0 377--394, 1999.
+
+\bibitem[Grote(2005)]{grote2005}
+Dick Grote.
+\newblock \emph{Forced Ranking: Making Performance Management Work}.
+\newblock Harvard Business School Press, 2005.
+
+\bibitem[Herbrich et~al.(2007)Herbrich, Minka, and
+  Graepel]{herbrich2007trueskill}
+Ralf Herbrich, Tom Minka, and Thore Graepel.
+\newblock Trueskill: A bayesian skill rating system.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2007.
+\newblock Applied to Xbox Live matchmaking at scale.
+
+\bibitem[Jeremy(2025{\natexlab{a}})]{jeremy2025-analysis}
+Jeremy.
+\newblock An empirical analysis of linguistic variance compression in post-ipo
+  filings.
+\newblock Working paper / preprint, 2025{\natexlab{a}}.
+\newblock Project manuscript (analysis.pdf).
+
+\bibitem[Jeremy(2025{\natexlab{b}})]{jeremy2025-cage}
+Jeremy.
+\newblock The cage: Formalization, fiduciary duty, and organizational
+  incompleteness.
+\newblock Working paper / preprint, 2025{\natexlab{b}}.
+\newblock Project manuscript (cage.pdf).
+
+\bibitem[Jeremy(2025{\natexlab{c}})]{jeremy2025-mirror}
+Jeremy.
+\newblock The mirror: Meta-compliance and mode b governance.
+\newblock Working paper / preprint, 2025{\natexlab{c}}.
+\newblock Project manuscript (mirror.pdf).
+
+\bibitem[Jeremy(2025{\natexlab{d}})]{jeremy2025-rank}
+Jeremy.
+\newblock Forced ranking in the cage: The local frame problem and a 54\% error
+  rate.
+\newblock Working paper / preprint, 2025{\natexlab{d}}.
+\newblock Project manuscript (rank.pdf).
+
+\bibitem[Luce(1959)]{luce1959}
+R.~Duncan Luce.
+\newblock \emph{Individual Choice Behavior: A Theoretical Analysis}.
+\newblock Wiley, 1959.
+
+\bibitem[Page et~al.(1999)Page, Brin, Motwani, and Winograd]{page1999pagerank}
+Lawrence Page, Sergey Brin, Rajeev Motwani, and Terry Winograd.
+\newblock The pagerank citation ranking: Bringing order to the web.
+\newblock Technical report, Stanford InfoLab, 1999.
+
+\bibitem[Scott(1998)]{scott1998seeing}
+James~C. Scott.
+\newblock \emph{Seeing Like a State: How Certain Schemes to Improve the Human
+  Condition Have Failed}.
+\newblock Yale University Press, 1998.
+
+\bibitem[Thurstone(1927)]{thurstone1927}
+L.~L. Thurstone.
+\newblock A law of comparative judgment.
+\newblock \emph{Psychological Review}, 34\penalty0 (4):\penalty0 273--286,
+  1927.
+
+\bibitem[Tversky and Kahneman(1971)]{tversky1971law}
+Amos Tversky and Daniel Kahneman.
+\newblock Belief in the law of small numbers.
+\newblock \emph{Psychological Bulletin}, 76\penalty0 (2):\penalty0 105--110,
+  1971.
+
+\bibitem[{U.S. Army}(2019)]{adp6-0}
+{U.S. Army}.
+\newblock Adp 6-0: Mission command: Command and control of army forces.
+\newblock Department of the Army Doctrine Publication, 2019.
+
+\bibitem[Weber(1905)]{weber1905}
+Max Weber.
+\newblock \emph{The Protestant Ethic and the Spirit of Capitalism}.
+\newblock Routledge, 1905.
+\newblock Translated editions vary.
+
+\bibitem[Weick and Sutcliffe(2007)]{weick2007managing}
+Karl~E. Weick and Kathleen~M. Sutcliffe.
+\newblock \emph{Managing the Unexpected: Resilient Performance in an Age of
+  Uncertainty}.
+\newblock Wiley, 2007.
+
+\end{thebibliography}

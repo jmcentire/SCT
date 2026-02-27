@@ -1,0 +1,123 @@
+# CommunicativeVariance Research Session — Resume Point
+## Date: 2026-02-25 (Session 2)
+
+---
+
+## Session 2 Completed Work
+
+### 1. Kin Node Added: `communicative-variance` (weight 1.0)
+- 18 bidirectional edges to: `theoretical-foundations` (0.95), `emergence-architecture` (0.95), `framing-as-weapon` (0.95), `cage-and-mirror` (0.9), `asd-patent` (0.9), `normalized-deviance` (0.85), `context-engineering` (0.85), `organizational-complexity` (0.85), `stigmergy` (0.8)
+- Fixed 4 missing cross-links: `framing-as-weapon` <-> `emergence-architecture` (0.85), `framing-as-weapon` <-> `theoretical-foundations` (0.85)
+- SQL script preserved: `Projects/Conv/add_cv_node.sql`
+
+### 2. Section 2 Drafted: Formal Foundation
+- File: `section2_formal_foundation.md`
+- Four-part chain: Crawford-Sobel → Blau-Michaeli → Atlan → Kosko
+- Key Blau-Michaeli papers identified:
+  - "The Perception-Distortion Tradeoff" (CVPR 2018, arXiv:1711.06077)
+  - "Rethinking Lossy Compression: The Rate-Distortion-Perception Tradeoff" (ICML 2019, arXiv:1901.07821)
+- Kosko forbidden interval: necessary AND sufficient condition for SR — noise mean must fall outside (θ - s₁, θ - s₀)
+- Tolerance Location Principle stated as theorem with three conditions + three corollaries
+- Five testable predictions derived
+- Three open questions flagged
+
+### 3. Constellation Paper Scoped
+- File: `constellation_paper_scope.md`
+- Working title: "Domain Geometry as Rigid Core: How Lossy Interfaces Between Knowledge Domains Enable Generative Model Composition"
+- Six-section structure outlined
+- Key argument: domain boundaries are rigid cores; cross-domain interfaces are lossy/generative; Tishby bottleneck = each domain is a minimal sufficient statistic for different tasks
+- Four predictions, case evidence mapped, citation needs identified
+- Estimated 6-8K words
+
+### 4. Citation Gap Validated — THE GAP IS REAL
+Key findings from web research:
+
+| Search | Result |
+|--------|--------|
+| Crawford-Sobel + stochastic resonance | **Zero overlap.** Completely separate literatures. |
+| Blau-Michaeli applied to organizational communication | **Never done.** Papers are image processing only. |
+| Alan Kay messaging as designed lossy channel | **Genuinely novel.** Kay never used information-theoretic framing. |
+| Atlan formalization | **Remains phenomenological.** No rigorous theorem in English literature. |
+| Kosko forbidden interval applied to organizations | **Never done.** Physical/neural systems only. |
+| Organizational creativity + information theory | **Not unified.** Kocak & Puranam (2024) closest but no formal mechanism. |
+
+**Critical bridge papers found:**
+- Akyol, Langbort & Basar (2015) "Strategic Compression and Transmission of Information: Crawford-Sobel Meet Shannon" — merges CS + Shannon formally, but no generativity angle
+- Le Treust & Tomala (2018) "Information-Theoretic Limits of Strategic Communication" — Wyner-Ziv + Bayesian persuasion, but no creativity angle
+- Kocak & Puranam (2024) "The Power of Babel" — productive misunderstanding mechanisms (truce, search, resonance), but no information theory
+- Xu, Jain & Kankanhalli (2024) "Hallucination is Inevitable" (arXiv:2401.11817) — computability-theoretic proof, relevant but different angle from Blau-Michaeli
+
+---
+
+## What Kin Now Knows
+- `communicative-variance` node exists at weight 1.0 with rich edges to all core nodes
+- `framing-as-weapon` is now connected to `emergence-architecture` and `theoretical-foundations` (was isolated)
+- Still missing from kin: Blau-Michaeli, Atlan, stochastic resonance, Kosko, Alan Kay as named references (present in CV node content but not as separate nodes)
+
+---
+
+## Current Gaps (Updated)
+
+1. **Descriptive → Predictive**: Partially addressed. Kosko forbidden interval provides necessary-and-sufficient conditions for threshold systems. Open: do non-threshold nonlinearities (desirable difficulties, Bjork) have analogous theorems?
+2. **Taleb Problem**: Still needs explicit preemptive differentiation in paper. Farmed to Gemini/ChatGPT.
+3. **Alan Kay Connection**: Confirmed novel by citation search. Nobody has formalized this.
+4. **Inverted-U Unification**: Still the load-bearing question. May be a family of theorems, not one theorem.
+5. **Atlan Formalization**: Still open. Definition 2 in section2_formal_foundation.md proposes conditions but does not prove them sufficient.
+
+---
+
+## Pending: Results from Gemini/ChatGPT
+
+Four prompts farmed out (awaiting results):
+1. Citation gap validation (Crawford-Sobel + stochastic resonance)
+2. Organizational creativity literature survey (lossy communication as generative)
+3. Taleb disambiguation (antifragility vs. generative lossy channel)
+4. Alan Kay messaging as lossy channel
+
+---
+
+## Next Steps
+
+1. **Integrate Gemini/ChatGPT results** when they arrive — cross-validate with my findings
+2. **Write the constellation paper** (scope is done; ready to draft)
+3. **Formalize Atlan level-crossing** — attempt to prove that Definition 2 conditions are sufficient, or identify what additional conditions are needed
+4. **Draft Section 1** (The Symmetry) and **Section 3** (Four Instance Papers) of the main paper
+5. **Decide venue** — Organization Science, Complexity, or Philosophy of Science
+
+---
+
+## All Files in CommunicativeVariance/
+
+| File | Role | Status |
+|------|------|--------|
+| `gen_lossy.md` | Primary treatise (36K) | Existing |
+| `gen_dyn.md` | Extended theoretical treatment (36K) | Existing |
+| `noise_as_engine.md` | Research scaffolding & gap-mapping (22K) | Existing |
+| `noise_creativity.md` | Condensed overview (7K) | Existing |
+| `compass_artifact_wf-*.md` | Claude conversation artifact (22K) | Existing |
+| `conv.txt` | Claude conversation transcript (13K) | Existing |
+| `section2_formal_foundation.md` | **Section 2 draft — formal chain** | **NEW (Session 2)** |
+| `constellation_paper_scope.md` | **Constellation paper outline** | **NEW (Session 2)** |
+| `resume` | This file | Updated |
+
+## Key File Paths
+
+**CommunicativeVariance research**:
+- `/Users/jmcentire/Personal/Research/CommunicativeVariance/gen_lossy.md`
+- `/Users/jmcentire/Personal/Research/CommunicativeVariance/gen_dyn.md`
+- `/Users/jmcentire/Personal/Research/CommunicativeVariance/noise_as_engine.md`
+- `/Users/jmcentire/Personal/Research/CommunicativeVariance/noise_creativity.md`
+- `/Users/jmcentire/Personal/Research/CommunicativeVariance/section2_formal_foundation.md`
+- `/Users/jmcentire/Personal/Research/CommunicativeVariance/constellation_paper_scope.md`
+
+**Related papers**:
+- `/Users/jmcentire/Personal/Research/ASD/emergence.tex`
+- `/Users/jmcentire/Personal/Research/DysmemicPressure/DysmemicPressure.txt`
+- `/Users/jmcentire/Personal/Research/SupportingTheory/UnifiedTheory.txt`
+- `/Users/jmcentire/Personal/Research/SupportingTheory/RightingtheShip.txt`
+- `/Users/jmcentire/Personal/Research/ASD/asd.tex`
+
+**Kin graph**:
+- `/Users/jmcentire/Personal/Projects/Conv/conv.db`
+- `/Users/jmcentire/Personal/Projects/Conv/consolidated/`
+- `/Users/jmcentire/Personal/Projects/Conv/topics/`

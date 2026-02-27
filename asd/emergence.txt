@@ -1,0 +1,725 @@
+Emergence: A Programming Paradigm for
+Constraint-Shaped Agency
+Jeremy McEntire
+jeremy@wander.com
+February 2026
+telligence directly. The system does what it is
+told. This works when the problem is fully speciThe programmer does not write the program. The fiable in advance. It fails when the problem space
+programmer writes the conditions under which exceeds the programmer’s capacity to enumerate
+the program emerges. We propose Emergence its states—which is to say, it fails for every inas a programming paradigm in which the fun- teresting problem in every sufficiently complex
+damental unit of computation is an autonomous domain.
+agent that interprets messages within a constraint
+The arrival of large language model (LLM)
+architecture—schemas, thresholds, scoring func- agents creates a genuinely new possibility. For
+tions, and topological rules—and the system’s the first time, the computational unit itself posbehavior arises from the interaction of agents op- sesses contextual understanding. An LLM agent
+erating within those constraints. This paradigm assessing a code review comment does not patternrecovers Alan Kay’s original vision of object- match against a list of phrases; it understands
+oriented programming, which required a compu- what code review is for, recognizes when a comtational substrate with contextual understanding ment is substantive versus ceremonial, and disthat did not exist until large language model tinguishes a genuine technical concern from a
+agents. We ground the paradigm in convergent territorial objection. This capability is not increresults from cybernetics, modular design theory, mental improvement. It is a qualitative change
+organizational theory, and complex systems. We in what a computational unit can be.
+present a working stigmergic mesh as an existence
+We call the resulting paradigm Emergence.
+proof and address the paradigm’s real limitations— The taxonomy is clean:
+latency, cost, non-determinism, and the genuinely
+new discipline of designing constraint spaces—
+Procedural programming: you write the
+with equal honesty.
+steps. Object-oriented programming:
+you write the entities. Functional programming: you write the transforma1 Introduction
+tions. Emergence: you write the constraints, and the behavior writes itself.
+Every programming paradigm answers one question: where does the intelligence live? In proThe program is not the behavior. The program
+cedural programming, it lives in the sequence is the physics, the constraints, the container, the
+of instructions. In functional programming, it field equations. The behavior is the emergent
+lives in the composition of transformations. In property of the system the programmer designed—
+object-oriented programming—as practiced, not not the system itself. This shift implies not merely
+as conceived—it lives in the class hierarchy.
+a new tool but a new discipline: the skill of deIn each case, the programmer encodes the in- signing constraint spaces that reliably produce
+
+Abstract
+
+1
+
+useful behavior is neither programming as currently practiced nor management as currently understood, and its development is as much a part
+of the paradigm’s contribution as its technical
+architecture (Section 10.3).
+
+decide what a message means if the receiver has
+no capacity for meaning.
+Kay’s vision required a computational unit with
+genuine contextual understanding. It required
+exactly what an LLM agent provides.
+
+2
+
+3
+
+The Kay Recovery
+
+The Agent as Computational
+Primitive
+
+Alan Kay has spent decades clarifying what he
+meant—and what he did not mean—by “object- An LLM agent is not a better function. It is
+oriented programming.” The clarifications have a different kind of computational entity. The
+been largely ignored.
+distinction matters because it is the distinction
+In a 2003 email, Kay wrote: “I’m sorry that I Kay was trying to draw.
+long ago coined the term ‘objects’ for this topic
+A function computes: given inputs, it produces
+because it gets many people to focus on the lesser outputs according to a fixed algorithm. An agent
+idea. The big idea is messaging” [Kay, 2003]. In assesses: given a situation, it produces a judghis Smalltalk work and subsequent reflections, ment shaped by its understanding and context.
+Kay consistently described three properties:
+A function that detects scope creep by counting
+1. Each object is an autonomous entity—“a re- changed lines is doing something fundamentally
+cursion of the whole computer”—with its own different from an agent that reads a pull request
+state, behavior, and interpretation of incom- and recognizes that what was filed as a “bug fix”
+ing messages.
+is actually a feature rewrite touching authentica2. Communication happens exclusively through tion, database schema, and three API contracts
+messages, and the receiver decides what a simultaneously. The function applies a rule. The
+message means.
+agent understands a situation.
+3. The system’s behavior emerges from the
+This distinction enables three properties previinteraction of these autonomous message- ously unavailable:
+interpreting entities, not from a central controller.
+What the industry built was different. Method Genuine message interpretation. When an
+dispatch replaced message interpretation: a mes- agent receives a signal—a pull request, a customer
+sage became a function call, resolved at compile ticket, a deployment log—it does not merely parse
+time or through a vtable, with the caller knowing the text. It interprets meaning in context. A large
+exactly what would happen. Class hierarchies change touching authentication logic receives difreplaced autonomy: objects became instances of ferent attention than an identically sized change
+types, their behavior determined by inheritance adding stylesheets, not because of a rule about filechains. Design patterns replaced emergence: the names, but because the agent understands what
+Gang of Four catalog [Gamma et al., 1994] codi- authentication code is and why changes to it carry
+fied strategies for managing complexity that the risk.
+paradigm was supposed to dissolve.
+The misimplementation was not stupidity. It Judgment under ambiguity. Traditional
+was a technological constraint. In 1972—or 1995, computation requires the programmer to anticor 2015—there was no computational substrate ipate every case. An agent exercises judgment
+that could interpret a message. A function can in situations the programmer never considered,
+parse one. A pattern matcher can classify one. A because its training encompasses the breadth of
+rule engine can apply conditions to one. But none human knowledge about how to reason in conof these understands one. The receiver cannot text. This is the same capability that allows a
+2
+
+new employee to handle situations not covered by
+the employee handbook.
+
+overlap, semantic similarity, structural alignment, and temporal recency into a single
+number. The agent does not know it is being
+scored. The scoring function does not know
+what the agent is thinking. The decoupling is
+the point: the meta-system shapes selection
+pressure without micromanaging cognition.
+Topological rules. Rules governing how agents
+connect, communicate, and compete. Which
+agents see which signals. How routing priority is determined. When agents fork, merge,
+or decay. These rules define the structure of
+interaction without constraining the content.
+
+Compositional emergence. When multiple
+agents, each interpreting messages within their
+own context, interact through a shared environment, the system-level behavior is not the sum
+of the agents’ behaviors. Patterns, correlations,
+and structures arise that no individual agent was
+designed to detect. This is the property that Kay
+described and that class-hierarchy OOP could
+never deliver.
+
+4
+
+The Constraint Architecture
+
+4.2
+
+Flexible Interiors
+
+If the agents provide the flexibility, what provides Within the boundaries, agents operate with genthe reliability? This is the central engineering uine autonomy. They interpret signals, form asquestion of the paradigm, and its answer is the sessments, develop specializations, and generate
+paradigm’s central insight: the program is the insights without procedural instruction. The programmer does not specify how an agent should
+boundary, not the behavior.
+In Emergence, the programmer designs the con- assess whether a team’s communication patterns
+straint architecture within which agents operate: are degrading. The programmer specifies that
+communication health is a property to assess,
+rigid at the interfaces, flexible in the interiors.
+provides a schema for reporting it, and trusts the
+agent’s contextual understanding to do the rest.
+4.1 Rigid Boundaries
+This is the inversion that defines the paradigm.
+The boundaries are non-negotiable structural ele- In traditional programming, the interior is rigid
+ments that ensure coherence:
+(algorithms, control flow, explicit logic) and the
+Schemas. The data structures agents consume boundaries are flexible (APIs change, schemas
+and produce are strictly typed. A signal has evolve). In Emergence, the boundaries are rigid
+a source, timestamp, content, and metadata. and the interiors are flexible. The programmer’s
+An assessment has a confidence score, a set job shifts from writing behavior to shaping the
+of claims, and a provenance chain. The agent space in which behavior occurs.
+decides what to put in these fields; the schema
+decides what fields exist.
+4.3 Recursive Constraint Interaction
+Thresholds. Numerical parameters that gate behavior without prescribing it. A vigilance pa- The constraint architecture is not a thermostat
+rameter determines how similar a signal must with one feedback loop. It has many degrees of
+be to existing knowledge before an agent ac- freedom (one per agent per context) and many
+cepts it. An energy budget determines how feedback loops (scoring, routing, lifecycle, consenmany signals an agent can process before it sus) that interact. The vigilance threshold affects
+must yield. The agent exercises judgment which signals an agent accepts, which affects its
+within these bounds; the bounds themselves specialization, which affects the topology, which
+affects which signals it receives, which affects
+are fixed.
+Scoring functions. Mathematical functions whether the vigilance threshold should change.
+that evaluate outputs without understanding
+This recursive interaction is the mechanism
+them. A familiarity score combines lexical of emergence. The constraint architecture cre3
+
+ates conditions for self-organization; the self- ered, through its own methods, the same strucorganization produces capabilities that no indi- tural truth about where rigidity and flexibility
+vidual constraint was designed to produce.
+must live.
+
+4.4
+
+Well-Formedness
+
+5.1
+
+Ashby’s Law of Requisite Variety
+
+If the paradigm is to be engineering rather than as- Ashby’s Law [Ashby, 1956] states that a regupiration, constraint architectures must have well- lator must have at least as much variety as the
+formedness conditions. A constraint architecture system it regulates. But Ashby’s formulation is
+is well-formed when it satisfies three properties: more specific than the popular summary suggests.
+1. Completeness: every agent output passes The law constrains the channel capacity between
+through at least one scoring function. No regulator and regulated—the bandwidth through
+agent can produce assessments that bypass which the regulator observes and acts upon the
+evaluation. This is the analog of type safety: system. In traditional programming, the channel
+the system guarantees that all behavior is capacity is determined by the programmer’s abilbounded, even if the specific behavior is not ity to enumerate states. Every if branch, every
+predicted.
+case statement, every validation rule is an ex2. Liveness: the lifecycle rules guarantee that plicit expansion of the channel. This works until
+the system cannot freeze. There must ex- the state space exceeds enumerability.
+ist conditions under which new agents are
+Emergence achieves requisite variety through
+created (fork), idle agents are removed (de- a different channel. The agents’ contextual uncay), and redundant agents are consolidated derstanding already encompasses the variety of
+(merge). A system that can only grow or the problem space. The constraint architecture
+only shrink is not well-formed.
+does not need to enumerate states; it needs to
+3. Dissipation: the energy budget is finite and bound the agents that are already navigating them.
+monotonically decreasing absent external in- The channel capacity comes from the agents, not
+put. No agent can process signals indefinitely. the program. This is why the paradigm applies
+This prevents monopoly (one agent capturing precisely where traditional programming fails: in
+all signals) and guarantees that the system domains where the state space exceeds any promust continuously earn its computational grammer’s capacity to enumerate—organizations,
+expenditure.
+ecosystems, markets, complex social systems.
+These conditions do not specify what the system will do. They specify what the system cannot
+do: produce unscored outputs, freeze into a fixed 5.2 Beer’s Viable System Model
+topology, or consume resources without bound. Stafford Beer’s Viable System Model (VSM)
+The formal development of these conditions into [Beer, 1972] identifies the 3–4 homeostat as the
+a full design calculus—constraint typing, compo- central tension in any viable system: System 3
+sitional well-formedness, convergence guarantees— (internal stability) must be dynamically balanced
+is future work. But the conditions themselves are against System 4 (environmental intelligence).
+already enforced in the existence proof and are Beer’s specific contribution is not the observation
+sufficient to distinguish a well-formed constraint that stability and adaptability must coexist—that
+architecture from an ad hoc collection of agents. is platitude. It is that System 4 must be a genuine model of the environment, not a summary of
+internal reports. Organizations fail, Beer argues,
+5 Theoretical Convergence
+because System 4 degrades into a mirror of SysThe Emergence paradigm converges with results tem 3: the “intelligence” function reports what
+from four independent traditions. The conver- operations already believe rather than what the
+gence is not coincidental—each tradition discov- environment actually contains.
+4
+
+This is precisely the failure mode that Emergence is designed to avoid. The agents in the flexible interior are not summarizing internal state;
+they are interpreting environmental signals with
+contextual understanding independent of the system’s prior beliefs. The lifecycle rules—fork, decay, merge—are the homeostat, and the rigid
+boundaries are System 3. But the specific contribution of Emergence to Beer’s framework is a
+System 4 that cannot be captured by System 3,
+because the agents’ understanding comes from
+outside the system’s own training data.
+
+5.3
+
+turbations propagate everywhere and the system
+cannot maintain structure. At the edge of chaos,
+perturbations propagate just far enough to enable
+adaptation without dissolution.
+Kauffman showed that the position in this spectrum is controlled by two parameters: the connectivity of the network (how many other elements each element influences) and the bias of
+the Boolean functions (how likely each element is
+to be in a given state). The Emergence constraint
+architecture controls both: topological rules govern connectivity (which agents see which signals),
+and thresholds govern bias (how likely an agent is
+to accept, reject, or ignore). The lifecycle rules—
+fork, merge, decay—continuously adjust these
+parameters, maintaining the system at the edge
+without requiring the programmer to calculate
+the critical regime directly.
+
+Baldwin and Clark’s Design Rules
+
+Baldwin and Clark [Baldwin and Clark, 2000]
+demonstrated that modular systems outperform
+integral systems when design rules—the interfaces between modules—are well-specified. Their
+framework goes further than the popular summary “modularity is good.” They provide a formal option-pricing model showing that modularity creates option value: each module can be
+independently varied, creating a combinatorial
+space of possible designs that can be explored in
+parallel. The value of this optionality grows with
+the number of modules and the uncertainty of the
+design space.
+In Emergence, agents are modules and constraints are design rules. Each agent independently develops specialization within the rigid
+interface definitions. The system explores the
+space of possible specializations in parallel—an
+agent that absorbs deployment signals develops
+deployment expertise while another, absorbing
+customer tickets, develops support expertise. Neither was programmed to specialize. The option
+value is not financial but epistemic: the system
+discovers what specializations are useful rather
+than requiring the programmer to predict them.
+
+5.4
+
+5.5
+
+The Convergence
+
+Four traditions, developed independently over six
+decades, arrived at the same prescription: rigid
+constraints at the boundaries, flexible behavior in
+the interiors, with feedback loops that maintain
+the balance. Ashby specified the informationtheoretic requirement. Beer described the organizational architecture. Baldwin and Clark proved
+the economic value. Kauffman identified the computational regime. Even Postel’s Law—“be conservative in what you send, liberal in what you
+accept” [Postel, 1980]—is the same insight applied
+to protocol design: rigid outputs, flexible inputs.
+Emergence generalizes this principle from protocols to entire systems: rigid boundaries, flexible
+agents.
+The convergence across independent formalisms
+is the strongest evidence that the paradigm captures something real—not a framework imposed
+on recalcitrant material, but a pattern the material itself exhibits.
+
+Kauffman’s Edge of Chaos
+
+6
+
+Kauffman’s work on Boolean networks [Kauffman, 1993] identified the regime between order
+and chaos where adaptive computation occurs. In
+frozen networks, perturbations die out and the
+system cannot adapt. In chaotic networks, per-
+
+Related Work
+
+The Emergence paradigm did not arise in a vacuum. Several research traditions have explored
+adjacent territory, and the differences are as instructive as the similarities.
+5
+
+BDI Agents. The Belief-Desire-Intention ar- of the adaptation space—the programmer must
+chitecture [Rao and Georgeff, 1995] gave agents specify what can change and how. Emergence
+internal mental states—beliefs about the world, removes this requirement: the agents’ contextual
+desires about outcomes, intentions about plans. understanding replaces the explicit adaptation
+This was a genuine advance over reactive agents, model.
+but the beliefs, desires, and intentions were still
+In each case, the limitation was the same: the
+programmer-specified data structures. A BDI agents lacked understanding. The architectures
+agent does not understand its beliefs; it stores were right. The substrate was wrong. Emergence
+them. The architecture provided the right struc- inherits the architectural insights of these traditure but lacked the substrate: a computational tions and pairs them with the first computational
+unit that could actually form beliefs from evidence substrate capable of delivering on their promise.
+rather than retrieving them from a database.
+
+7
+
+Swarm Intelligence. Ant colony optimization, particle swarm optimization, and related
+approaches [Bonabeau et al., 1999] demonstrated
+that simple agents following simple rules can produce complex collective behavior. This is genuine emergence, and it inspired the stigmergic
+coordination in our existence proof. But swarm
+agents are simple—they follow fixed behavioral
+rules without contextual understanding. Emergence extends the principle to agents with genuine
+interpretive capacity, enabling coordination in domains (language, judgment, assessment) where
+simple rules are insufficient.
+
+The Chronicler Principle
+
+The paradigm is easiest to understand through
+analogy.
+Consider a system designed to write a novel.
+The traditional approach programs a plot generator: act structure, character arcs, conflict escalation, prose templates. The programmer encodes
+the intelligence of storytelling into explicit rules.
+The Emergence approach builds a world : a
+physics model that enforces conservation laws, an
+economy model that enforces scarcity, a character
+model that enforces psychological consistency, a
+geography model that enforces spatial constraints.
+Each model is an agent bound to a context, inAutonomic Computing. IBM’s autonomic terpreting events within its domain. No model
+computing initiative [Kephart and Chess, 2003] knows about stories. No model has a plot. But
+proposed self-managing systems organized around when a character model reports that a character’s
+the MAPE-K loop (Monitor, Analyze, Plan, Exe- motivation has shifted, and the economy model
+cute, Knowledge). The architecture anticipated reports that a resource has become scarce, and
+many elements of Emergence: self-organization, the geography model reports that two factions
+feedback loops, adaptive behavior. But the now share a border—a story emerges from the
+MAPE-K loop assumes that the Analyze and Plan interaction.
+phases can be implemented as traditional algoA chronicler agent observes the interactions,
+rithms. In domains where analysis requires judg- recognizes narrative structure in the convergence
+ment rather than computation, the loop stalls— of model outputs, and produces prose. The chronthe system can monitor, but it cannot understand icler does not invent events. It witnesses them.
+what it monitors.
+The story is not written; it is discovered.
+This is not metaphor. It is the literal archiSelf-Adaptive Systems. The SEAMS com- tecture. Replace “physics model” with “schema
+munity has explored systems that modify their validator” and “character model” with “domain
+own behavior at runtime, typically through mod- expert agent” and “chronicler” with “consensus
+els@runtime and feedback control [Cheng et al., layer,” and you have the architecture of any Emer2009]. These systems are the closest precursor gence system. The programmer builds the world.
+to Emergence, but they rely on explicit models The agents inhabit it. The behavior is what hap6
+
+pens when the world’s rules interact.
+
+system produced detections that no individual
+component was designed to generate:
+• A policy intervention flagged a pull request
+8 Existence Proof: A Stigmergic
+that modified security-sensitive code buried
+Mesh
+inside a large feature branch—not because
+of a rule about filenames, but because the
+Theory without implementation is speculation.
+agent recognized that a sensitive surface was
+We have built a working system that instantibeing modified incidentally, inside a change
+ates the Emergence paradigm: a stigmergic mesh
+scoped as something else, and that similar
+for ambient structure discovery in organizations
+modifications were accumulating faster than
+[McEntire, 2026].
+the budgeted rate.
+The system ingests work artifacts—pull re• A churn detector surfaced that a repository
+quests, issue tickets, deployment logs, chat
+had exceeded its weekly diff budget, flagging
+messages—as signals. No one formulates a query.
+not the volume itself but the pattern: a single
+No one specifies what to look for. The system
+large PR pushing cumulative churn past a
+processes the ambient exhaust of organizational
+threshold, suggesting scope creep in what
+work and surfaces structural patterns that no one
+had been filed as a contained change.
+asked about.
+• Workers self-organized into specializations
+that no one configured. Over successive runs,
+8.1 Architecture
+individual workers developed affinities for
+infrastructure concerns, product-facing beThe mesh consists of worker agents, each bound to
+havior, and cross-team coordination—not bea context representing a region of specialization.
+cause they were assigned these domains, but
+Signals arrive and are routed via breadth-first
+because the signals they accepted reinforced
+search through the worker topology. The first
+familiarity in those directions. Workers that
+worker whose familiarity score exceeds a vigilance
+received no signals decayed and were pruned.
+threshold accepts the signal; the remaining workWorkers
+that received too many forked, creers never see it. Accepted signals update the
+ating new specialists.
+worker’s context through one of three learning
+Cross-source correlations emerged. The
+•
+modes: full storage (indexed), compressed sumsame organizational pattern—a team unmary, or lossy weight shift. Workers that accept
+der sustained pressure—manifested differtoo many signals fork. Workers that accept too
+ently across version control (shorter review
+few decay. Redundant workers merge. The topolcomments, faster merges), project tracking
+ogy self-organizes.
+(tickets
+reclassified from feature work to deThe rigid boundaries are strict: immutable
+fects),
+and
+chat (reduced channel activity).
+typed signals, assessment schemas with required
+No individual source showed the pattern
+confidence scores, a five-component familiarity
+clearly. The convergence across sources—
+function, exponential energy decay with activitydetected by independently specialized agents
+based recharge. The flexible interiors are genuine:
+whose
+outputs were correlated by attention
+when an agent assesses a pull request, it brings
+mechanisms—surfaced
+it.
+the full weight of its contextual understanding
+The pattern across these detections is consisto bear on what the change means, what risks it
+tent:
+temporal accumulation invisible to any single
+carries, and what patterns it participates in.
+actor. Each individual action—a pull request, a
+code review, a ticket reclassification—is visible
+8.2 What Emerged
+to its author and unremarkable in isolation. The
+During live deployment against a real engineering trajectory across actions, across authors, across
+organization (dozens of repositories, multiple chat sources, is visible to no one. That is the mesh’s
+channels, several project tracking teams), the niche: it detects the structural patterns that arise
+7
+
+from the interaction of individually reasonable
+decisions, which is precisely the class of problem that traditional query-based systems cannot
+address because no one knows to ask.
+Equally important is what the system suppressed. The majority of ingested signals were
+filtered as retrieval rather than discovery: factual restatements of what an individual author
+did, adding no structural insight. The filtering
+machinery—bot detection, duplicate suppression,
+retrieval/discovery classification—is not auxiliary
+to the emergence; it is what makes the emergence
+legible. Without it, the genuine structural findings would be buried in noise and no one would
+read any of them.
+The system operates with over one thousand
+passing tests and several automated detectors for
+early indicators of organizational dysfunction. A
+full ingestion cycle costs under one dollar and
+completes in minutes.
+
+constraints, shaped by the same scoring functions, governed by the same lifecycle rules—but
+the specific trajectories vary because the agents
+are flexible.
+This is a feature, not a defect—but only if the
+constraints are designed well enough that every
+trajectory is acceptable. That is the engineering
+skill: not writing behavior, but designing the
+space of acceptable behaviors so thoroughly that
+whatever emerges within it is useful. This is what
+makes Emergence engineering rather than hope.
+Testing must therefore shift from input-output
+verification to property verification: does the system maintain its invariants? Do the constraints
+hold? Does the topology self-organize into useful specializations? Do cross-agent correlations
+converge on genuine patterns rather than noise?
+The discipline is not less rigorous; it is differently
+rigorous.
+
+9.3
+
+Failure Modes
+
+A traditional system fails by producing wrong
+outputs. An Emergence system fails by producing
+incoherent outputs—agents that contradict each
+9.1 The Programmer’s Role
+other, emergent patterns that are artifacts rather
+The programmer becomes an architect of con- than structure, consensus that converges on noise.
+straint spaces. The skills shift from algorithm deDebugging shifts accordingly. Where tradisign to boundary design: what schemas to enforce, tional debugging traces execution paths, Emerwhat thresholds to set, what scoring functions to gence debugging examines constraint interactions:
+use, what topological rules to apply. The question which boundaries are too tight (suppressing useful
+changes from “what should the system do?” to behavior), which are too loose (permitting inco“what should the system not be able to do?”—and herent behavior), which feedback loops are amplithen trusting that useful behavior emerges within fying noise. In the stigmergic mesh, this means
+those limits.
+monitoring energy landscapes, tracking spectral
+This is not deskilling. Designing constraint properties of the agent topology, and examining
+architectures that produce useful emergent be- whether worker specializations are converging or
+havior is at least as difficult as writing explicit drifting.
+algorithms. The difficulty shifts from “how do
+I make the system do X?” to “how do I create
+9.4 The Configuration Trap Dissolved
+conditions under which X naturally arises?”
+A pervasive pattern in traditional software is the
+configuration
+trap: flexibility implemented as con9.2 Testing and Verification
+figuration options accumulates until the combinaEmergence systems are not fully deterministic. torial space of configurations becomes the domiYou do not get the same novel twice. You do not nant source of complexity.
+get the same mesh findings twice. You get strucEmergence dissolves this trap by placing flexiturally consistent results—bounded by the same bility in the agents rather than in configuration.
+
+9
+
+What Changes
+
+8
+
+The constraints are few and well-defined. The to lossy impression (cheap). Cost management is
+flexibility comes from contextual interpretation, not an operational afterthought; it is a first-class
+which does not require configuration—it requires constraint in the architecture.
+understanding, which the agents already possess.
+
+10.3
+
+10
+
+Limitations
+
+The Space Between: A New Discipline
+
+The hardest limitation is human, not technical.
+The Emergence paradigm has real limitations
+Emergence requires a skill that does not yet have
+that must be acknowledged honestly. Some are
+a name, a training pipeline, or a professional idenfundamental; some are contingent on the current
+tity. It is not programming—the practitioner
+state of technology.
+does not write algorithms or control flow. It is
+not management—the practitioner does not di10.1 Latency
+rect agents through conversation or feedback. It
+Every agent assessment is an LLM inference call. is something in between: closer to designing a
+In the stigmergic mesh, processing a single sig- game’s rules than to playing it, closer to landnal through reflection, evaluation, and assessment scape architecture than to construction, closer to
+takes seconds, not microseconds. A backfill of sev- creating an ecosystem than to building a machine.
+The practitioner must think in terms of seleceral dozen signals from a version control system
+takes several minutes. This is not a network opti- tion pressures rather than instructions, in terms
+mization problem; it is a fundamental property of fitness landscapes rather than control flow, in
+of the computational substrate. LLM inference terms of what behaviors a constraint space peris slow in the same way that human judgment mits rather than what a specific agent will do.
+is slow—the richness of contextual interpretation The feedback loops are slower—you cannot step
+through a debugger; you observe emergent behavhas a temporal cost.
+This means Emergence systems operate on a dif- ior across many signals and many cycles. The
+ferent timescale than traditional software. They diagnostic intuition is ecological rather than meare not suitable for real-time control, latency- chanical: “the system isn’t specializing because
+sensitive APIs, or tight feedback loops. They are the vigilance threshold is too low” is a different
+suitable for problems where the cost of missing a kind of reasoning than “the function returns null
+pattern exceeds the cost of detecting it minutes or because the input is empty.”
+This is arguably the paradigm’s most imporhours later—organizational intelligence, risk monitoring, strategic assessment. The paradigm does tant implication. Every previous paradigm shift
+not replace traditional computing; it occupies a changed what programmers wrote—structured
+blocks instead of gotos, objects instead of prodifferent niche.
+cedures, pure functions instead of mutable state.
+Emergence changes what programmers are. The
+10.2 Cost
+practitioner becomes something closer to a constiAgent assessments cost money. Each LLM call tutional designer—defining the rules under which
+consumes tokens, and tokens have a price. The autonomous entities operate, the invariants that
+stigmergic mesh spends on the order of one dollar must hold regardless of what those entities do, and
+per session processing dozens of signals across the feedback mechanisms that keep the system
+multiple sources. At continuous operation, this within its viable envelope. The analogy to govis a meaningful operational cost. The constraint ernance is not decorative: the questions are the
+architecture must therefore include explicit eco- same. What freedoms do the agents need? What
+nomic boundaries: token budgets, energy decay constraints prevent pathological outcomes? How
+functions that limit processing, three-tier learning do you design accountability without destroying
+modes that range from full analysis (expensive) autonomy?
+9
+
+This discipline will develop. Training pipelines
+will emerge. But in the near term, the paradigm
+asks practitioners to operate in a genuinely unfamiliar cognitive mode—the space between writing
+code and herding cats, where the work product is
+neither an algorithm nor a directive but a set of
+conditions under which useful behavior reliably
+arises.
+
+profiles, their neighbor relationships) on restart.
+The system reconverges, but the reconvergence
+path may differ from the original. This is the “dice
+in a cube” problem: the agent can store what it
+has learned, but not the emergent structure of its
+relationships with other agents.
+
+11
+
+Objections
+
+10.4
+
+11.1
+
+“This is just multi-agent systems.”
+
+Non-Determinism
+
+Emergence systems do not produce identical outputs from identical inputs. This requires a precise Multi-agent systems have existed for decades (Secdistinction: the constraints are deterministic; the tion 6). The novelty is not the architecture; it is
+trajectories are not. The scoring functions pro- the nature of the agents. Traditional multi-agent
+duce the same scores for the same inputs. The systems use agents that follow rules, match patenergy budgets decay at the same rates. The terns, and execute programmed behaviors. The
+schemas enforce the same shapes. What varies is constraint architecture in such systems must comthe path the agents take through the space those pensate for the agents’ lack of understanding. In
+constraints define.
+Emergence, contextual understanding is a firstThis means the debugging methodology is dif- class capability. The constraint architecture does
+ferent but not absent: you debug the constraints, not compensate for a deficit; it channels a surplus.
+not the behavior. If the system produces pathological output, the question is not “what did agent A
+11.2 “You cannot rely on LLM judgdo wrong?” but “what constraint failed to prevent
+ment.”
+this trajectory?” The constraints guarantee what
+will not happen. The agents discover what will. If LLM judgment is unreliable in all contexts, then
+For many engineering contexts,
+non- LLMs are useless. If it is reliable in some contexts
+deterministic trajectories are disqualifying. and unreliable in others, the engineering question
+The paradigm does not apply where exact repro- is how to create the contexts in which it is reliducibility is required. It applies where structural able. That is what the constraint architecture
+consistency is sufficient: where the question is does: schemas ensure structural validity, scoring
+not “did the system produce output X?” but functions calibrate judgments, consensus mecha“did the system produce an output within the nisms prevent single-agent errors from propagatacceptable set?” This is a genuine restriction ing, and lifecycle rules ensure that consistently
+on the paradigm’s scope, not a limitation to be wrong agents decay. The paradigm does not asengineered around.
+sume perfect agents. It assumes bounded agents
+operating within a structure that compensates for
+individual limitations—the same assumption that
+10.5 State and Memory
+underpins every functioning human organization.
+Emergence systems must learn, but LLM agents
+are stateless between calls. All continuity must 11.3 “Emergent behavior is unprebe externalized—into context summaries, weight
+dictable.”
+vectors, learned term lists, communication graphs,
+finding registries. This externalization is lossy. Yes. That is the point. If behavior were fully
+The stigmergic mesh preserves semantic state predictable, the system would not be discovering
+(what agents have learned) but loses topological anything—it would be computing something the
+state (how many agents exist, their specialization programmer already knew. The question is not
+10
+
+whether behavior is predictable but whether it
+is bounded —whether the constraint architecture
+prevents pathological behavior while permitting
+useful surprise. This is the same question governing any adaptive system, from immune responses
+to market economies to scientific communities.
+
+11.4
+
+“This will be commoditized into
+frameworks.”
+
+It will. And the commoditization will produce a
+useful litmus test. When the paradigm attracts
+“emergence frameworks” that are orchestration
+with randomness, the name itself provides the
+criterion: did behavior emerge, or was it scripted?
+If you can read the source and predict the output,
+it is not Emergence. It is procedural programming with extra steps. A system in which the
+programmer specified the behavior, however indirectly, is not exhibiting emergence. A system in
+which the programmer specified the constraints,
+and behavior arose from agents operating within
+those constraints, is.
+
+12
+
+The programmer does not write the program.
+The programmer writes the conditions under
+which the program emerges. The constraints are
+the artifact. The computation is what arises
+within them.
+The name carries an honest admission. Emergence is not deterministic. The same constraints,
+the same agents, the same signals will not produce identical trajectories. They will produce
+structurally consistent trajectories—bounded by
+the same constraints, shaped by the same scoring
+functions, governed by the same lifecycle rules—
+but the specific paths will vary. This is the admission that distinguishes the paradigm from its
+predecessors and the commitment that makes it
+engineering: design the constraints well enough
+that every trajectory is acceptable, and the nondeterminism becomes a feature. Design them
+poorly, and it becomes noise.
+That is the skill. That is the discipline. And
+for the first time, the technology exists to practice
+it.
+
+References
+
+Conclusion
+
+Programming paradigms arrive when a new capability makes a new relationship between programmer and machine possible. Structured programming arrived when hardware supported abstraction. Object-oriented programming arrived
+when GUIs demanded encapsulation. Functional
+programming arrived (the second time) when multicore demanded immutability.
+Emergence arrives because large language models have created computational units with contextual understanding. For the first time, the
+receiver of a message can decide what it means.
+For the first time, the computational primitive
+can exercise judgment. For the first time, the
+programmer can specify what matters and trust
+the system to figure out how to assess it.
+This was Kay’s vision. Not classes and inheritance. Not design patterns and factories. Autonomous entities interpreting messages, coordinating through shared environments, producing behavior that emerges from their interaction
+rather than from central specification.
+
+W. Ross Ashby. An Introduction to Cybernetics.
+Chapman & Hall, 1956.
+Carliss Y. Baldwin and Kim B. Clark. Design
+Rules: The Power of Modularity. MIT Press,
+2000.
+Stafford Beer. Brain of the Firm. Allen Lane /
+The Penguin Press, 1972.
+Eric Bonabeau, Marco Dorigo, and Guy Theraulaz. Swarm Intelligence: From Natural to
+Artificial Systems. Oxford University Press,
+1999.
+Betty H. C. Cheng, Rogério de Lemos, Holger
+Giese, Paola Inverardi, Jeff Magee, et al. Software engineering for self-adaptive systems: A
+research roadmap. In Software Engineering
+for Self-Adaptive Systems, volume 5525 of Lecture Notes in Computer Science, pages 1–26.
+Springer, 2009.
+Erich Gamma, Richard Helm, Ralph Johnson,
+and John Vlissides. Design Patterns: Elements
+
+11
+
+of Reusable Object-Oriented Software. AddisonWesley, 1994.
+Stuart A. Kauffman. The Origins of Order: SelfOrganization and Selection in Evolution. Oxford University Press, 1993.
+Alan Kay. Re: Prototypes vs classes was:
+Re: Sun’s hotspot, 2003. Email to the
+Squeak mailing list, archived at http:
+//lists.squeakfoundation.org/pipermail/
+squeak-dev/2003-July/066092.html.
+Jeffrey O. Kephart and David M. Chess. The
+vision of autonomic computing. Computer, 36
+(1):41–50, 2003.
+Jeremy McEntire. Ambient structure discovery
+via stigmergic mesh. Working paper, 2026.
+Jon Postel. DoD standard internet protocol. Technical Report RFC 760, USC/Information Sciences Institute, 1980. The robustness principle:
+“be conservative in what you do, be liberal in
+what you accept from others”.
+Anand S. Rao and Michael P. Georgeff. BDI
+agents: From theory to practice. In Proceedings
+of the First International Conference on MultiAgent Systems (ICMAS-95), pages 312–319,
+1995.
+
+12
+
+

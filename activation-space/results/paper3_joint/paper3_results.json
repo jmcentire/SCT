@@ -1,0 +1,49 @@
+{
+  "pass5": {
+    "n_probes": 30,
+    "both_domains_in_top3_rate": 0.5,
+    "win_rate_vs_generalist": 0.0,
+    "win_rate_vs_best_single": 0.0,
+    "mean_composed_loss": 2.6362775286038715,
+    "mean_generalist_loss": 1.5660542368888855,
+    "mean_weight_entropy": 1.5217911879221597,
+    "by_pair": {
+      "legal+medical": {
+        "n": 5,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 0.0,
+        "win_vs_best_single": 0.0
+      },
+      "medical+science": {
+        "n": 5,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 0.0,
+        "win_vs_best_single": 0.0
+      },
+      "code+legal": {
+        "n": 5,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 0.0,
+        "win_vs_best_single": 0.0
+      },
+      "code+science": {
+        "n": 5,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 0.0,
+        "win_vs_best_single": 0.0
+      },
+      "code+medical": {
+        "n": 5,
+        "both_in_top3": 0.0,
+        "win_vs_generalist": 0.0,
+        "win_vs_best_single": 0.0
+      },
+      "legal+science": {
+        "n": 5,
+        "both_in_top3": 1.0,
+        "win_vs_generalist": 0.0,
+        "win_vs_best_single": 0.0
+      }
+    }
+  }
+}

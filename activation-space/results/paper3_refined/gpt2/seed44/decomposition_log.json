@@ -1,0 +1,6406 @@
+{
+  "single_domain": [
+    {
+      "probe_idx": 0,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.8995752370886845,
+        "legal": 0.05626054467080985,
+        "code": -0.16431890056147092,
+        "science": -0.10673830548093237
+      },
+      "weights": {
+        "medical": 0.9411399471076026,
+        "legal": 0.058860052892397395,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5272514999392846
+    },
+    {
+      "probe_idx": 1,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9454790753533648,
+        "legal": -0.07740198309770656,
+        "code": -0.03878696939245407,
+        "science": 0.004016686905712847
+      },
+      "weights": {
+        "medical": 0.9957696631566251,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.004230336843374832
+      },
+      "sparsity_gini": 0.6716344288849749
+    },
+    {
+      "probe_idx": 2,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9292411925236421,
+        "legal": 0.09337925016281097,
+        "code": -0.11664591284807399,
+        "science": -0.17909409276621427
+      },
+      "weights": {
+        "medical": 0.9086863060183884,
+        "legal": 0.0913136939816116,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4873542001190183
+    },
+    {
+      "probe_idx": 3,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9069731899221758,
+        "legal": 0.1321532711996445,
+        "code": -0.04420980046862388,
+        "science": 0.050862558191116874
+      },
+      "weights": {
+        "medical": 0.8320938778758309,
+        "legal": 0.12124275461320326,
+        "code": 0.0,
+        "science": 0.046663367510965885
+      },
+      "sparsity_gini": 0.5884287734233682
+    },
+    {
+      "probe_idx": 4,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.8782992016151135,
+        "legal": -0.007294916541835554,
+        "code": -0.23505895118666828,
+        "science": -0.03206622105951428
+      },
+      "weights": {
+        "medical": 1.0,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6107309925303168
+    },
+    {
+      "probe_idx": 5,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9114642906237751,
+        "legal": 0.039582656625000046,
+        "code": -0.16971839601452726,
+        "science": -0.08280174694251277
+      },
+      "weights": {
+        "medical": 0.9583799130636965,
+        "legal": 0.04162008693630347,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5613649569394152
+    },
+    {
+      "probe_idx": 6,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9359683132376613,
+        "legal": 0.04597197216343419,
+        "code": 0.10596513097436402,
+        "science": 0.06186286020003046
+      },
+      "weights": {
+        "medical": 0.8140495196348451,
+        "legal": 0.03998368462587846,
+        "code": 0.09216216270114382,
+        "science": 0.05380463303813267
+      },
+      "sparsity_gini": 0.5901387586724778
+    },
+    {
+      "probe_idx": 7,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9421136914727555,
+        "legal": -0.07891847735032524,
+        "code": 0.1317887871278225,
+        "science": 0.08947349003214783
+      },
+      "weights": {
+        "medical": 0.8098101704644871,
+        "legal": 0.0,
+        "code": 0.11328133869114482,
+        "science": 0.07690849084436807
+      },
+      "sparsity_gini": 0.5296451553762467
+    },
+    {
+      "probe_idx": 8,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9592843414675942,
+        "legal": 0.013177154950538294,
+        "code": -0.03232558967825155,
+        "science": 0.08172580134035935
+      },
+      "weights": {
+        "medical": 0.9099752420725531,
+        "legal": 0.012499823303275186,
+        "code": 0.0,
+        "science": 0.07752493462417175
+      },
+      "sparsity_gini": 0.6644471972223613
+    },
+    {
+      "probe_idx": 9,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.941312327318387,
+        "legal": -0.030823151682398214,
+        "code": -0.13906940339865229,
+        "science": 0.004312605411451596
+      },
+      "weights": {
+        "medical": 0.9954394123270397,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.00456058767296028
+      },
+      "sparsity_gini": 0.6542356909092113
+    },
+    {
+      "probe_idx": 10,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.961162262137143,
+        "legal": -0.01235689408759429,
+        "code": 0.0315924412111145,
+        "science": 0.0003424383765033064
+      },
+      "weights": {
+        "medical": 0.967843146208079,
+        "legal": 0.0,
+        "code": 0.03181203518141876,
+        "science": 0.0003448186105022685
+      },
+      "sparsity_gini": 0.7214887292339072
+    },
+    {
+      "probe_idx": 11,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9141294828020001,
+        "legal": -0.02292238589486096,
+        "code": 0.021140593281972465,
+        "science": -0.11544518192019218
+      },
+      "weights": {
+        "medical": 0.9773962689253469,
+        "legal": 0.0,
+        "code": 0.022603731074653105,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6453502912119546
+    },
+    {
+      "probe_idx": 12,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.8992697859612,
+        "legal": 0.10066316002457458,
+        "code": -0.16880141740196924,
+        "science": -0.028714561060017026
+      },
+      "weights": {
+        "medical": 0.899330089653825,
+        "legal": 0.100669910346175,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5594818863186202
+    },
+    {
+      "probe_idx": 13,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9510341367361597,
+        "legal": -0.06846945030828099,
+        "code": 0.07788493597591106,
+        "science": -0.027065867039565483
+      },
+      "weights": {
+        "medical": 0.9243041187188624,
+        "legal": 0.0,
+        "code": 0.07569588128113758,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6183710783078555
+    },
+    {
+      "probe_idx": 14,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.913271339515355,
+        "legal": 0.040489033311014326,
+        "code": 0.13935744927478866,
+        "science": -0.026409195977765115
+      },
+      "weights": {
+        "medical": 0.8354738355284451,
+        "legal": 0.037039953509483116,
+        "code": 0.12748621096207177,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.616209971267976
+    },
+    {
+      "probe_idx": 15,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9401077090627781,
+        "legal": 0.031226005975722185,
+        "code": 0.1869381739715676,
+        "science": 0.05276941051605884
+      },
+      "weights": {
+        "medical": 0.7762804698986209,
+        "legal": 0.025784426995132816,
+        "code": 0.15436151850867136,
+        "science": 0.043573584597574995
+      },
+      "sparsity_gini": 0.59056901565539
+    },
+    {
+      "probe_idx": 16,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9602406859865329,
+        "legal": 0.018290324756485496,
+        "code": 0.056523536768658886,
+        "science": 0.12119769959327853
+      },
+      "weights": {
+        "medical": 0.8304768171398584,
+        "legal": 0.015818628506263338,
+        "code": 0.04888512598369731,
+        "science": 0.10481942837018081
+      },
+      "sparsity_gini": 0.6249772170718173
+    },
+    {
+      "probe_idx": 17,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9439728291158287,
+        "legal": -0.0413975990374426,
+        "code": 0.21979318058981445,
+        "science": 0.04516213073063459
+      },
+      "weights": {
+        "medical": 0.7808345240232126,
+        "legal": 0.0,
+        "code": 0.1818083087308196,
+        "science": 0.037357167245967556
+      },
+      "sparsity_gini": 0.5763211635768535
+    },
+    {
+      "probe_idx": 18,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9274916718531303,
+        "legal": 0.006275961448954946,
+        "code": -0.16686584434267293,
+        "science": 0.12236551535750989
+      },
+      "weights": {
+        "medical": 0.8781957777106686,
+        "legal": 0.005942396048187829,
+        "code": 0.0,
+        "science": 0.1158618262411436
+      },
+      "sparsity_gini": 0.5740289804540504
+    },
+    {
+      "probe_idx": 19,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.933054385419342,
+        "legal": 0.10992932448629313,
+        "code": 0.17203328075634322,
+        "science": -0.08222028148174061
+      },
+      "weights": {
+        "medical": 0.7679352573588173,
+        "legal": 0.0904755450591685,
+        "code": 0.14158919758201427,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5038797304525
+    },
+    {
+      "probe_idx": 20,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9330117672082265,
+        "legal": -0.0388966992901136,
+        "code": 0.22674678948431365,
+        "science": 0.023969566430140112
+      },
+      "weights": {
+        "medical": 0.7881976857548482,
+        "legal": 0.0,
+        "code": 0.19155309826225517,
+        "science": 0.02024921598289672
+      },
+      "sparsity_gini": 0.59604889396403
+    },
+    {
+      "probe_idx": 21,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9208577845156317,
+        "legal": -0.026016915758601177,
+        "code": 0.15459553079195323,
+        "science": 0.13240195002336846
+      },
+      "weights": {
+        "medical": 0.7623908351828196,
+        "legal": 0.0,
+        "code": 0.12799176791235325,
+        "science": 0.10961739690482719
+      },
+      "sparsity_gini": 0.5484190802992144
+    },
+    {
+      "probe_idx": 22,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9446720893881924,
+        "legal": 0.008336037045441214,
+        "code": -0.04641398792877265,
+        "science": -0.06661450806721765
+      },
+      "weights": {
+        "medical": 0.9912529213400977,
+        "legal": 0.00874707865990241,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6634876836404073
+    },
+    {
+      "probe_idx": 23,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9396426976371777,
+        "legal": -0.11397649399682955,
+        "code": 0.09538221027454491,
+        "science": 0.13351216652217296
+      },
+      "weights": {
+        "medical": 0.8041188578397419,
+        "legal": 0.0,
+        "code": 0.08162531798210455,
+        "science": 0.11425582417815343
+      },
+      "sparsity_gini": 0.49752244292749315
+    },
+    {
+      "probe_idx": 24,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.935251739684031,
+        "legal": -0.10803794759982396,
+        "code": 0.0957577573112326,
+        "science": 0.035129234674635426
+      },
+      "weights": {
+        "medical": 0.877232682672677,
+        "legal": 0.0,
+        "code": 0.08981735159480293,
+        "science": 0.03294996573251992
+      },
+      "sparsity_gini": 0.5775637843113832
+    },
+    {
+      "probe_idx": 25,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9480064395468066,
+        "legal": -0.1369483736287975,
+        "code": 0.010019554697692114,
+        "science": -0.07967958051278964
+      },
+      "weights": {
+        "medical": 0.98954145841774,
+        "legal": 0.0,
+        "code": 0.010458541582260046,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6110798528384198
+    },
+    {
+      "probe_idx": 26,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9500278099989922,
+        "legal": -0.057909737235117054,
+        "code": 0.07233006872111425,
+        "science": 0.09749443950400355
+      },
+      "weights": {
+        "medical": 0.8483509785518596,
+        "legal": 0.0,
+        "code": 0.06458893511585267,
+        "science": 0.0870600863322877
+      },
+      "sparsity_gini": 0.573443204540401
+    },
+    {
+      "probe_idx": 27,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9544756402316146,
+        "legal": -0.05363642728780012,
+        "code": 0.04570874895583932,
+        "science": 0.07022081341363406
+      },
+      "weights": {
+        "medical": 0.8916956288256408,
+        "legal": 0.0,
+        "code": 0.04270228586778812,
+        "science": 0.06560208530657108
+      },
+      "sparsity_gini": 0.6100497052374065
+    },
+    {
+      "probe_idx": 28,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9448046603632172,
+        "legal": 0.13553282175002274,
+        "code": -0.09444910014491728,
+        "science": 0.003255500330366399
+      },
+      "weights": {
+        "medical": 0.8719184007934343,
+        "legal": 0.12507724205114654,
+        "code": 0.0,
+        "science": 0.0030043571554191247
+      },
+      "sparsity_gini": 0.6081555243355055
+    },
+    {
+      "probe_idx": 29,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9314845558522107,
+        "legal": -0.052529374110011504,
+        "code": -0.06263913276380675,
+        "science": -0.057627124424258755
+      },
+      "weights": {
+        "medical": 1.0,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5980994643179716
+    },
+    {
+      "probe_idx": 30,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9105092145954606,
+        "legal": 0.01751560757911026,
+        "code": -0.10156428419513622,
+        "science": -0.1270627065952562
+      },
+      "weights": {
+        "medical": 0.9811259277116454,
+        "legal": 0.018874072288354582,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5845491298968579
+    },
+    {
+      "probe_idx": 31,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.8919426070303575,
+        "legal": 0.1396651763459488,
+        "code": -0.23169219935113083,
+        "science": -0.11014597339048043
+      },
+      "weights": {
+        "medical": 0.8646140727158489,
+        "legal": 0.13538592728415097,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4436681532803515
+    },
+    {
+      "probe_idx": 32,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9392420192794725,
+        "legal": -0.06685234474137011,
+        "code": -0.017716895276682534,
+        "science": 0.022722336442490616
+      },
+      "weights": {
+        "medical": 0.9763792324452216,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.02362076755477836
+      },
+      "sparsity_gini": 0.6709544231881976
+    },
+    {
+      "probe_idx": 33,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9530241526594275,
+        "legal": -0.06481468516421754,
+        "code": 0.10958116780506169,
+        "science": 0.06564556610333358
+      },
+      "weights": {
+        "medical": 0.8446916940243311,
+        "legal": 0.0,
+        "code": 0.09712482313079435,
+        "science": 0.0581834828448747
+      },
+      "sparsity_gini": 0.5675639437518893
+    },
+    {
+      "probe_idx": 34,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.937947317408153,
+        "legal": 0.09554642311288619,
+        "code": -0.11338217122947447,
+        "science": -0.12419214424028827
+      },
+      "weights": {
+        "medical": 0.9075500708260544,
+        "legal": 0.09244992917394561,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.499188978106728
+    },
+    {
+      "probe_idx": 35,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9634620076184628,
+        "legal": -0.07086545148601386,
+        "code": 0.036884633977836756,
+        "science": 0.02144295474260148
+      },
+      "weights": {
+        "medical": 0.9429162432956575,
+        "legal": 0.0,
+        "code": 0.0360980715697198,
+        "science": 0.020985685134622775
+      },
+      "sparsity_gini": 0.6543780632847194
+    },
+    {
+      "probe_idx": 36,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9647005130350707,
+        "legal": -0.0915922995063711,
+        "code": 0.03567273033085505,
+        "science": 0.08305660593063316
+      },
+      "weights": {
+        "medical": 0.8904134528519996,
+        "legal": 0.0,
+        "code": 0.032925740742712935,
+        "science": 0.07666080640528734
+      },
+      "sparsity_gini": 0.5948013500291165
+    },
+    {
+      "probe_idx": 37,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.8744739992044607,
+        "legal": 0.112786106534407,
+        "code": -0.12784602701938644,
+        "science": -0.05150828413469435
+      },
+      "weights": {
+        "medical": 0.8857584684332022,
+        "legal": 0.11424153156679781,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5323003534256454
+    },
+    {
+      "probe_idx": 38,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9498342197875804,
+        "legal": -0.021134573547042235,
+        "code": 0.0895944285029507,
+        "science": -0.050522307787922445
+      },
+      "weights": {
+        "medical": 0.9138041570719647,
+        "legal": 0.0,
+        "code": 0.08619584292803534,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6356781238049467
+    },
+    {
+      "probe_idx": 39,
+      "true_domain": "medical",
+      "coefficients": {
+        "medical": 0.9695652278315171,
+        "legal": 0.02666039552630757,
+        "code": -0.0022639096538462945,
+        "science": 0.03305608115091954
+      },
+      "weights": {
+        "medical": 0.9419823781811718,
+        "legal": 0.025901942499825203,
+        "code": 0.0,
+        "science": 0.03211567931900291
+      },
+      "sparsity_gini": 0.7048402901985542
+    },
+    {
+      "probe_idx": 40,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.958984397419792,
+        "legal": 0.0769775030566877,
+        "code": 0.018269243816023347,
+        "science": -0.029136091025947664
+      },
+      "weights": {
+        "medical": 0.909652880785806,
+        "legal": 0.0730176711942498,
+        "code": 0.017329448019944318,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.662283937357222
+    },
+    {
+      "probe_idx": 41,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9114478894799508,
+        "legal": 0.0008178689397947136,
+        "code": -0.0022196736762048995,
+        "science": -0.029630812715455698
+      },
+      "weights": {
+        "medical": 0.9991034751307432,
+        "legal": 0.0008965248692567953,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.7306571663775654
+    },
+    {
+      "probe_idx": 42,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.92716117581061,
+        "legal": 0.03650389293861973,
+        "code": 0.04169520557660259,
+        "science": -0.12913016041219877
+      },
+      "weights": {
+        "medical": 0.9222178352256254,
+        "legal": 0.03630926531595677,
+        "code": 0.04147289945841781,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6080718530008475
+    },
+    {
+      "probe_idx": 43,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9186860909709907,
+        "legal": 0.10765466071909319,
+        "code": 0.1407510810636857,
+        "science": -0.09323921921946962
+      },
+      "weights": {
+        "medical": 0.7871583582273367,
+        "legal": 0.09224180796902717,
+        "code": 0.12059983380363612,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.49777338891838196
+    },
+    {
+      "probe_idx": 44,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.8519802875364983,
+        "legal": 0.15749896613507688,
+        "code": -0.2650130419068632,
+        "science": -0.2410603653066729
+      },
+      "weights": {
+        "medical": 0.8439799871446216,
+        "legal": 0.1560200128553783,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.34762840896166813
+    },
+    {
+      "probe_idx": 45,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9338980405548102,
+        "legal": 0.13346657010196278,
+        "code": 0.06738149333273998,
+        "science": 0.03338685896900332
+      },
+      "weights": {
+        "medical": 0.7994792289651154,
+        "legal": 0.11425631698974885,
+        "code": 0.05768306816895543,
+        "science": 0.02858138587618042
+      },
+      "sparsity_gini": 0.5923166945218996
+    },
+    {
+      "probe_idx": 46,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9366527124890633,
+        "legal": 0.09859753618210171,
+        "code": -0.008417822888614174,
+        "science": -0.08178663637776211
+      },
+      "weights": {
+        "medical": 0.9047597078014129,
+        "legal": 0.0952402921985871,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6223074879973669
+    },
+    {
+      "probe_idx": 47,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9600791638221936,
+        "legal": 0.09697676632731286,
+        "code": 0.013620392748977484,
+        "science": 0.017045035624354984
+      },
+      "weights": {
+        "medical": 0.8826517529507855,
+        "legal": 0.0891558904929572,
+        "code": 0.012521950260749152,
+        "science": 0.01567040629550816
+      },
+      "sparsity_gini": 0.6709687230668897
+    },
+    {
+      "probe_idx": 48,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.8585684785706325,
+        "legal": 0.17321612517665805,
+        "code": -0.2692002076866644,
+        "science": -0.20557765926444438
+      },
+      "weights": {
+        "medical": 0.8321198779788317,
+        "legal": 0.16788012202116845,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.35174107443774294
+    },
+    {
+      "probe_idx": 49,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9214422643447047,
+        "legal": 0.061611714335187306,
+        "code": 0.16060279350399131,
+        "science": -0.04985622485735881
+      },
+      "weights": {
+        "medical": 0.8056982538433745,
+        "legal": 0.05387255672655698,
+        "code": 0.14042918943006857,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5684372948510648
+    },
+    {
+      "probe_idx": 50,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.939707522575621,
+        "legal": 0.14612301769780342,
+        "code": -0.04488311591216081,
+        "science": 0.020692457306398356
+      },
+      "weights": {
+        "medical": 0.8492435535736184,
+        "legal": 0.1320560151188926,
+        "code": 0.0,
+        "science": 0.01870043130748906
+      },
+      "sparsity_gini": 0.6206075041856225
+    },
+    {
+      "probe_idx": 51,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.8817324818132649,
+        "legal": -0.03989027948851694,
+        "code": 0.20992368260378946,
+        "science": 0.2994447772056026
+      },
+      "weights": {
+        "medical": 0.6338378872670185,
+        "legal": 0.0,
+        "code": 0.15090470886959712,
+        "science": 0.2152574038633844
+      },
+      "sparsity_gini": 0.4568594941388695
+    },
+    {
+      "probe_idx": 52,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9348128152078787,
+        "legal": 0.07617015298739252,
+        "code": -0.19405589868057405,
+        "science": -0.10703296812083771
+      },
+      "weights": {
+        "medical": 0.9246573331266246,
+        "legal": 0.07534266687337532,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5073942687802471
+    },
+    {
+      "probe_idx": 53,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9418707386960058,
+        "legal": 0.03118595264947222,
+        "code": 0.11196816389536698,
+        "science": 0.015401813887169054
+      },
+      "weights": {
+        "medical": 0.8559141332355666,
+        "legal": 0.0283398735457622,
+        "code": 0.10174977309854855,
+        "science": 0.013996220120122645
+      },
+      "sparsity_gini": 0.6497909097247796
+    },
+    {
+      "probe_idx": 54,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9182224553451129,
+        "legal": 0.2216479527768952,
+        "code": 0.024263521725501305,
+        "science": 0.09622754258558695
+      },
+      "weights": {
+        "medical": 0.7285389750707845,
+        "legal": 0.17586062223007287,
+        "code": 0.01925124042284566,
+        "science": 0.07634916227629687
+      },
+      "sparsity_gini": 0.5568436659743983
+    },
+    {
+      "probe_idx": 55,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9230171180490484,
+        "legal": 0.09580949080285163,
+        "code": 0.041644373819816116,
+        "science": 0.11256902616766232
+      },
+      "weights": {
+        "medical": 0.7868590253475617,
+        "legal": 0.08167623446846185,
+        "code": 0.03550123909330222,
+        "science": 0.09596350109067434
+      },
+      "sparsity_gini": 0.5670901563462476
+    },
+    {
+      "probe_idx": 56,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.8042967376577559,
+        "legal": 0.243290673599437,
+        "code": -0.30314006114334574,
+        "science": -0.22100432151929578
+      },
+      "weights": {
+        "medical": 0.7677609801482173,
+        "legal": 0.23223901985178286,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.28785551118837915
+    },
+    {
+      "probe_idx": 57,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.935478448200612,
+        "legal": 0.04134902500625528,
+        "code": 0.245511130568204,
+        "science": 0.08475809180844832
+      },
+      "weights": {
+        "medical": 0.7156918469470935,
+        "legal": 0.03163425104352825,
+        "code": 0.18782935600537334,
+        "science": 0.0648445460040049
+      },
+      "sparsity_gini": 0.5437893994280161
+    },
+    {
+      "probe_idx": 58,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9392654972451147,
+        "legal": 0.12007764413531001,
+        "code": 0.08990717799139017,
+        "science": -0.042899541803830266
+      },
+      "weights": {
+        "medical": 0.8172853915398702,
+        "legal": 0.10448345509352998,
+        "code": 0.07823115336659973,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5702446523346802
+    },
+    {
+      "probe_idx": 59,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9445991174484212,
+        "legal": 0.17017842480154305,
+        "code": 0.044983822306565585,
+        "science": 0.02547605797888668
+      },
+      "weights": {
+        "medical": 0.7969703786670602,
+        "legal": 0.14358171752415952,
+        "code": 0.03795342726382858,
+        "science": 0.02149447654495184
+      },
+      "sparsity_gini": 0.608013999156664
+    },
+    {
+      "probe_idx": 60,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9531829706269977,
+        "legal": 0.1035981071302412,
+        "code": 0.030886351955640788,
+        "science": -0.008424007735109589
+      },
+      "weights": {
+        "medical": 0.8763551657316954,
+        "legal": 0.09524796302633502,
+        "code": 0.028396871241969716,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.66303515941575
+    },
+    {
+      "probe_idx": 61,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9291443033453122,
+        "legal": 0.19396714283705527,
+        "code": -0.008153835401533803,
+        "science": 0.07320141524467938
+      },
+      "weights": {
+        "medical": 0.7766733379736158,
+        "legal": 0.162137471802884,
+        "code": 0.0,
+        "science": 0.06118919022350018
+      },
+      "sparsity_gini": 0.5985506155995701
+    },
+    {
+      "probe_idx": 62,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.943980658012865,
+        "legal": -0.01891768638593431,
+        "code": -0.015836144868351193,
+        "science": 0.04120707391940853
+      },
+      "weights": {
+        "medical": 0.9581733789573404,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.04182662104265962
+      },
+      "sparsity_gini": 0.6879617000306602
+    },
+    {
+      "probe_idx": 63,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.927939947138749,
+        "legal": 0.18491140482114177,
+        "code": 0.13925756415462298,
+        "science": -0.029325753454709558
+      },
+      "weights": {
+        "medical": 0.7411016207905373,
+        "legal": 0.14767996812525722,
+        "code": 0.1112184110842055,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5348490420194889
+    },
+    {
+      "probe_idx": 64,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.8897275104667315,
+        "legal": 0.13621631646963367,
+        "code": -0.2508500522186212,
+        "science": -0.16318144423383435
+      },
+      "weights": {
+        "medical": 0.8672282898017938,
+        "legal": 0.13277171019820616,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.40768097755485333
+    },
+    {
+      "probe_idx": 65,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.943915184080812,
+        "legal": 0.03987171461379411,
+        "code": 0.13894213328499339,
+        "science": 0.11272721961098411
+      },
+      "weights": {
+        "medical": 0.7640215368739863,
+        "legal": 0.03227286645112801,
+        "code": 0.11246220423111936,
+        "science": 0.09124339244376632
+      },
+      "sparsity_gini": 0.5541162057639819
+    },
+    {
+      "probe_idx": 66,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9387373486393018,
+        "legal": 0.1290435498200695,
+        "code": -0.05694837388753536,
+        "science": 0.06748631896243597
+      },
+      "weights": {
+        "medical": 0.8268866873221047,
+        "legal": 0.11366799625653552,
+        "code": 0.0,
+        "science": 0.059445316421359765
+      },
+      "sparsity_gini": 0.5676247179715357
+    },
+    {
+      "probe_idx": 67,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9512600493292793,
+        "legal": 0.16362347511945197,
+        "code": 0.09043334520884604,
+        "science": 0.09389134207882893
+      },
+      "weights": {
+        "medical": 0.7321844495255381,
+        "legal": 0.12594091820029937,
+        "code": 0.06960650678768483,
+        "science": 0.07226812548647772
+      },
+      "sparsity_gini": 0.5103516552318454
+    },
+    {
+      "probe_idx": 68,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9585009459713354,
+        "legal": -0.013621727478825212,
+        "code": 0.015066490975120372,
+        "science": -0.07869910302409741
+      },
+      "weights": {
+        "medical": 0.9845244505892928,
+        "legal": 0.0,
+        "code": 0.015475549410707128,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6797781615661125
+    },
+    {
+      "probe_idx": 69,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.8963814339238269,
+        "legal": 0.11787831849621491,
+        "code": 0.024934496244760535,
+        "science": 0.08054006720176801
+      },
+      "weights": {
+        "medical": 0.8005304662205612,
+        "legal": 0.10527347141717991,
+        "code": 0.022268225499067203,
+        "science": 0.07192783686319149
+      },
+      "sparsity_gini": 0.5920330891796177
+    },
+    {
+      "probe_idx": 70,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9610857905827033,
+        "legal": -0.02026421498066906,
+        "code": 0.06140017216587133,
+        "science": 0.027783931254492727
+      },
+      "weights": {
+        "medical": 0.9150845854674156,
+        "legal": 0.0,
+        "code": 0.05846132743255803,
+        "science": 0.026454087100026488
+      },
+      "sparsity_gini": 0.6669757048723961
+    },
+    {
+      "probe_idx": 71,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9344882918222743,
+        "legal": 0.13077492433139287,
+        "code": -0.2222823118749509,
+        "science": -0.036461866405334054
+      },
+      "weights": {
+        "medical": 0.8772369848612812,
+        "legal": 0.12276301513871875,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5259764174099064
+    },
+    {
+      "probe_idx": 72,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9508529551360876,
+        "legal": 0.1241113964408431,
+        "code": 0.04659698461090336,
+        "science": 0.11944546392922782
+      },
+      "weights": {
+        "medical": 0.7661947984865155,
+        "legal": 0.10000863527027887,
+        "code": 0.03754772706040608,
+        "science": 0.09624883918279961
+      },
+      "sparsity_gini": 0.5474252525914516
+    },
+    {
+      "probe_idx": 73,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9387026861339045,
+        "legal": 0.03637270705311975,
+        "code": 0.06364695656605651,
+        "science": 0.16000366660699333
+      },
+      "weights": {
+        "medical": 0.7830836015257855,
+        "legal": 0.030342802739499474,
+        "code": 0.05309549946977892,
+        "science": 0.1334780962649361
+      },
+      "sparsity_gini": 0.5846512482885038
+    },
+    {
+      "probe_idx": 74,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9486969155684357,
+        "legal": 0.1104875402451818,
+        "code": -0.05119319193937244,
+        "science": -0.06111107837456112
+      },
+      "weights": {
+        "medical": 0.8956862143900043,
+        "legal": 0.10431378560999584,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5851288987264389
+    },
+    {
+      "probe_idx": 75,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.882643973331666,
+        "legal": 0.12194181282630079,
+        "code": -0.1286754129644434,
+        "science": -0.08002017710243942
+      },
+      "weights": {
+        "medical": 0.8786148335896065,
+        "legal": 0.12138516641039351,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4975360695675797
+    },
+    {
+      "probe_idx": 76,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9717816008096926,
+        "legal": 0.07372294450289055,
+        "code": 0.0007315984375523207,
+        "science": 0.0673501275889936
+      },
+      "weights": {
+        "medical": 0.8726594659263256,
+        "legal": 0.06620317293803915,
+        "code": 0.0006569750870514472,
+        "science": 0.060480386048583884
+      },
+      "sparsity_gini": 0.6554325648518193
+    },
+    {
+      "probe_idx": 77,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9350395797526052,
+        "legal": 0.18831595727237488,
+        "code": 0.07798162056663599,
+        "science": 0.02814305201117652
+      },
+      "weights": {
+        "medical": 0.7605161697191433,
+        "legal": 0.15316713176962318,
+        "code": 0.06342649516239832,
+        "science": 0.02289020334883526
+      },
+      "sparsity_gini": 0.5756546339295374
+    },
+    {
+      "probe_idx": 78,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9464024445828298,
+        "legal": 0.126328212993406,
+        "code": -0.0896760496509795,
+        "science": -0.03754474741317704
+      },
+      "weights": {
+        "medical": 0.8822367832025643,
+        "legal": 0.11776321679743566,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5756952175368379
+    },
+    {
+      "probe_idx": 79,
+      "true_domain": "legal",
+      "coefficients": {
+        "medical": 0.9394134871528478,
+        "legal": 0.14148654791605844,
+        "code": 0.019753681458917295,
+        "science": 0.1537612918551149
+      },
+      "weights": {
+        "medical": 0.7488857203357622,
+        "legal": 0.11279086025800045,
+        "code": 0.015747325507833084,
+        "science": 0.12257609389840449
+      },
+      "sparsity_gini": 0.5523001045310478
+    },
+    {
+      "probe_idx": 80,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8444966125749174,
+        "legal": -0.04912451772646009,
+        "code": 0.5174752869492545,
+        "science": 0.006109211450419661
+      },
+      "weights": {
+        "medical": 0.6172854853418129,
+        "legal": 0.0,
+        "code": 0.37824898158312864,
+        "science": 0.0044655330750583856
+      },
+      "sparsity_gini": 0.5263020609314901
+    },
+    {
+      "probe_idx": 81,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8415334939578138,
+        "legal": -0.013710941404914207,
+        "code": 0.5193180620339617,
+        "science": -0.0033601919559709155
+      },
+      "weights": {
+        "medical": 0.618387428263263,
+        "legal": 0.0,
+        "code": 0.38161257173673707,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5479492880789658
+    },
+    {
+      "probe_idx": 82,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8860737988313355,
+        "legal": -0.04587673002893633,
+        "code": 0.4445944618265906,
+        "science": 0.015932307860568533
+      },
+      "weights": {
+        "medical": 0.6580078900502603,
+        "legal": 0.0,
+        "code": 0.3301606075480314,
+        "science": 0.01183150240170845
+      },
+      "sparsity_gini": 0.5402497778328155
+    },
+    {
+      "probe_idx": 83,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8431971869347581,
+        "legal": -0.05322549864275862,
+        "code": 0.5132846851904821,
+        "science": 0.00991354525979639
+      },
+      "weights": {
+        "medical": 0.6170960296020618,
+        "legal": 0.0,
+        "code": 0.3756487168061422,
+        "science": 0.007255253591796007
+      },
+      "sparsity_gini": 0.5212500883430657
+    },
+    {
+      "probe_idx": 84,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8965032840371251,
+        "legal": -0.18517300205971582,
+        "code": 0.13819818721702512,
+        "science": -0.0918468051653613
+      },
+      "weights": {
+        "medical": 0.8664366572809482,
+        "legal": 0.0,
+        "code": 0.13356334271905174,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4690295666910145
+    },
+    {
+      "probe_idx": 85,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8935917722800215,
+        "legal": -0.060178535588130924,
+        "code": 0.39985079751817154,
+        "science": 0.010969393455082837
+      },
+      "weights": {
+        "medical": 0.6850533400900081,
+        "legal": 0.0,
+        "code": 0.3065372051026897,
+        "science": 0.008409454807302258
+      },
+      "sparsity_gini": 0.5473325882272742
+    },
+    {
+      "probe_idx": 86,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8808255692763745,
+        "legal": -0.1080912908126179,
+        "code": 0.43625524197997484,
+        "science": 0.009421526938871074
+      },
+      "weights": {
+        "medical": 0.6640211207428298,
+        "legal": 0.0,
+        "code": 0.3288763460255367,
+        "science": 0.007102533231633486
+      },
+      "sparsity_gini": 0.5127542773584612
+    },
+    {
+      "probe_idx": 87,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8186610850617116,
+        "legal": -0.022246162856588793,
+        "code": 0.536736039748001,
+        "science": -0.02275586036187781
+      },
+      "weights": {
+        "medical": 0.6040009013422138,
+        "legal": 0.0,
+        "code": 0.39599909865778604,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5182852599720151
+    },
+    {
+      "probe_idx": 88,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8668108768288041,
+        "legal": -0.08855618873588603,
+        "code": 0.46593390051092903,
+        "science": 0.038032395587836484
+      },
+      "weights": {
+        "medical": 0.6323499500488147,
+        "legal": 0.0,
+        "code": 0.33990491650501714,
+        "science": 0.02774513344616811
+      },
+      "sparsity_gini": 0.49058584397633354
+    },
+    {
+      "probe_idx": 89,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8449680648340274,
+        "legal": -0.08276903190904301,
+        "code": 0.5062499195078168,
+        "science": -0.011306361120501408
+      },
+      "weights": {
+        "medical": 0.6253380835850829,
+        "legal": 0.0,
+        "code": 0.37466191641491714,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.50586027109219
+    },
+    {
+      "probe_idx": 90,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8918616930950236,
+        "legal": -0.05400555575021234,
+        "code": 0.4052022293988521,
+        "science": -0.016647818637513738
+      },
+      "weights": {
+        "medical": 0.6876004163158232,
+        "legal": 0.0,
+        "code": 0.3123995836841768,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5441252925236026
+    },
+    {
+      "probe_idx": 91,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8825544962164957,
+        "legal": -0.06085241274215257,
+        "code": 0.4370538463808742,
+        "science": 0.01582552152725051
+      },
+      "weights": {
+        "medical": 0.6608747313705512,
+        "legal": 0.0,
+        "code": 0.3272747966949032,
+        "science": 0.011850471934545534
+      },
+      "sparsity_gini": 0.5329115538515117
+    },
+    {
+      "probe_idx": 92,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8498394328245936,
+        "legal": -0.07085410017450704,
+        "code": 0.5001022499683299,
+        "science": -0.010902809990758475
+      },
+      "weights": {
+        "medical": 0.6295378857154351,
+        "legal": 0.0,
+        "code": 0.37046211428456494,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5144340493148343
+    },
+    {
+      "probe_idx": 93,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8269472848738973,
+        "legal": -0.015460912779163588,
+        "code": 0.5393550824016613,
+        "science": 0.0050918613719204715
+      },
+      "weights": {
+        "medical": 0.6029974952493887,
+        "legal": 0.0,
+        "code": 0.3932895961897067,
+        "science": 0.003712908560904663
+      },
+      "sparsity_gini": 0.5388919777614996
+    },
+    {
+      "probe_idx": 94,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.9122925520289233,
+        "legal": -0.06168844792597203,
+        "code": 0.3282177641650227,
+        "science": -0.03824454696925168
+      },
+      "weights": {
+        "medical": 0.735417142541757,
+        "legal": 0.0,
+        "code": 0.2645828574582429,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5387533563562061
+    },
+    {
+      "probe_idx": 95,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8589697287745579,
+        "legal": -0.05214195993600691,
+        "code": 0.49547779346127796,
+        "science": 0.022204233304086517
+      },
+      "weights": {
+        "medical": 0.623955713794641,
+        "legal": 0.0,
+        "code": 0.35991512847557566,
+        "science": 0.01612915772978332
+      },
+      "sparsity_gini": 0.516805240662896
+    },
+    {
+      "probe_idx": 96,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8644397445760414,
+        "legal": -0.07330840386298211,
+        "code": 0.4846268069365342,
+        "science": 0.0026687169397050904
+      },
+      "weights": {
+        "medical": 0.6395037288372402,
+        "legal": 0.0,
+        "code": 0.35852198152040937,
+        "science": 0.0019742896423504113
+      },
+      "sparsity_gini": 0.5257087105818212
+    },
+    {
+      "probe_idx": 97,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8514456753047774,
+        "legal": -0.01073449575699957,
+        "code": 0.5047935719815352,
+        "science": -0.025805947600677892
+      },
+      "weights": {
+        "medical": 0.6277990236666781,
+        "legal": 0.0,
+        "code": 0.3722009763333219,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5386927277846327
+    },
+    {
+      "probe_idx": 98,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8659892660288986,
+        "legal": -0.03889001324411531,
+        "code": 0.4708325749091065,
+        "science": 0.04252494288832191
+      },
+      "weights": {
+        "medical": 0.6278256318013317,
+        "legal": 0.0,
+        "code": 0.3413445990739258,
+        "science": 0.03082976912474261
+      },
+      "sparsity_gini": 0.5128913232940568
+    },
+    {
+      "probe_idx": 99,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8614127793122136,
+        "legal": -0.06303478734208198,
+        "code": 0.4903782956587647,
+        "science": 0.017453836821087743
+      },
+      "weights": {
+        "medical": 0.629115194727872,
+        "legal": 0.0,
+        "code": 0.35813775273917814,
+        "science": 0.012747052532949846
+      },
+      "sparsity_gini": 0.5165227744237018
+    },
+    {
+      "probe_idx": 100,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8685892168218681,
+        "legal": -0.05129532499366873,
+        "code": 0.4622688682862789,
+        "science": 0.021448305708194813
+      },
+      "weights": {
+        "medical": 0.6423020868055871,
+        "legal": 0.0,
+        "code": 0.3418373760751236,
+        "science": 0.01586053711928936
+      },
+      "sparsity_gini": 0.5258607629532961
+    },
+    {
+      "probe_idx": 101,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8579323457038511,
+        "legal": -0.07186876906271744,
+        "code": 0.4984461023313681,
+        "science": 0.018128684927192454
+      },
+      "weights": {
+        "medical": 0.6241745314589887,
+        "legal": 0.0,
+        "code": 0.36263624275058526,
+        "science": 0.013189225790426083
+      },
+      "sparsity_gini": 0.5092017074319737
+    },
+    {
+      "probe_idx": 102,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8777504223362209,
+        "legal": -0.06385295977362813,
+        "code": 0.4578057118779646,
+        "science": -0.01486026850076401
+      },
+      "weights": {
+        "medical": 0.6572171695745845,
+        "legal": 0.0,
+        "code": 0.34278283042541546,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5272374719979829
+    },
+    {
+      "probe_idx": 103,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8398609183287382,
+        "legal": -0.018892269093580757,
+        "code": 0.5272225893297509,
+        "science": -0.011414177302184329
+      },
+      "weights": {
+        "medical": 0.6143450005970986,
+        "legal": 0.0,
+        "code": 0.3856549994029013,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5355825220136801
+    },
+    {
+      "probe_idx": 104,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8695101783387874,
+        "legal": -0.07332744318012886,
+        "code": 0.47145503390315135,
+        "science": 0.0065973960586231195
+      },
+      "weights": {
+        "medical": 0.6452465903868793,
+        "legal": 0.0,
+        "code": 0.3498576103248462,
+        "science": 0.004895799288274425
+      },
+      "sparsity_gini": 0.5255272803217501
+    },
+    {
+      "probe_idx": 105,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8553817921838344,
+        "legal": -0.12239358449879029,
+        "code": 0.46966519368483484,
+        "science": 0.009118730265910053
+      },
+      "weights": {
+        "medical": 0.6411360911462296,
+        "legal": 0.0,
+        "code": 0.3520291280198501,
+        "science": 0.006834780833920208
+      },
+      "sparsity_gini": 0.4953558694254405
+    },
+    {
+      "probe_idx": 106,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8568391033822349,
+        "legal": -0.11203916714888901,
+        "code": 0.48811790351948814,
+        "science": 0.003874022629200599
+      },
+      "weights": {
+        "medical": 0.6352456939548711,
+        "legal": 0.0,
+        "code": 0.3618821726611957,
+        "science": 0.002872133383933085
+      },
+      "sparsity_gini": 0.5022646750717745
+    },
+    {
+      "probe_idx": 107,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8394195587552404,
+        "legal": -0.003818448121893074,
+        "code": 0.5263652590439939,
+        "science": 0.015091345607064608
+      },
+      "weights": {
+        "medical": 0.6078890931715328,
+        "legal": 0.0,
+        "code": 0.38118208786048835,
+        "science": 0.01092881896797884
+      },
+      "sparsity_gini": 0.5448994349024956
+    },
+    {
+      "probe_idx": 108,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8766572680027551,
+        "legal": -0.11210760383422502,
+        "code": 0.41524057720905816,
+        "science": -0.0034624455283125393
+      },
+      "weights": {
+        "medical": 0.67858095069353,
+        "legal": 0.0,
+        "code": 0.32141904930647,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5191446021726227
+    },
+    {
+      "probe_idx": 109,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.88296504196348,
+        "legal": -0.10581542478314726,
+        "code": 0.43201011250193566,
+        "science": 0.019037319094825457
+      },
+      "weights": {
+        "medical": 0.6618866460873518,
+        "legal": 0.0,
+        "code": 0.3238426334567756,
+        "science": 0.01427072045587269
+      },
+      "sparsity_gini": 0.5066539305985922
+    },
+    {
+      "probe_idx": 110,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.9024108854347486,
+        "legal": -0.10234693531055265,
+        "code": 0.35309935790427993,
+        "science": -0.02184166026566456
+      },
+      "weights": {
+        "medical": 0.7187602731418482,
+        "legal": 0.0,
+        "code": 0.2812397268581517,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5241107726768666
+    },
+    {
+      "probe_idx": 111,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8251245300450327,
+        "legal": 0.0010051297637804074,
+        "code": 0.5442006096612138,
+        "science": -0.012644219431091999
+      },
+      "weights": {
+        "medical": 0.6021355204859836,
+        "legal": 0.000733494534984723,
+        "code": 0.39713098497903176,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5430169925731465
+    },
+    {
+      "probe_idx": 112,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.9020549980856741,
+        "legal": -0.06547893332603781,
+        "code": 0.3728669469143193,
+        "science": -0.037702644735991754
+      },
+      "weights": {
+        "medical": 0.7075374313097096,
+        "legal": 0.0,
+        "code": 0.2924625686902905,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.526166036349867
+    },
+    {
+      "probe_idx": 113,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8454609771610004,
+        "legal": -0.14006548355416434,
+        "code": 0.4864400859895988,
+        "science": -0.019271530499198372
+      },
+      "weights": {
+        "medical": 0.6347776126562064,
+        "legal": 0.0,
+        "code": 0.36522238734379375,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4735901975688459
+    },
+    {
+      "probe_idx": 114,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.870304838891547,
+        "legal": -0.13869395916744054,
+        "code": 0.42562581218820317,
+        "science": 0.022344927869737567
+      },
+      "weights": {
+        "medical": 0.6601842989347331,
+        "legal": 0.0,
+        "code": 0.32286558211703914,
+        "science": 0.016950118948227712
+      },
+      "sparsity_gini": 0.48573623401641197
+    },
+    {
+      "probe_idx": 115,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8334568446651986,
+        "legal": -0.020393594534887073,
+        "code": 0.5359468839399202,
+        "science": -0.006621463960271091
+      },
+      "weights": {
+        "medical": 0.6086275561073299,
+        "legal": 0.0,
+        "code": 0.3913724438926702,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.536382684620933
+    },
+    {
+      "probe_idx": 116,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8450140817028753,
+        "legal": -0.047949522788426124,
+        "code": 0.516128682046575,
+        "science": 0.0026541885199820626
+      },
+      "weights": {
+        "medical": 0.6196040255821996,
+        "legal": 0.0,
+        "code": 0.37844979869452616,
+        "science": 0.0019461757232741635
+      },
+      "sparsity_gini": 0.5304172689158073
+    },
+    {
+      "probe_idx": 117,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.875895481975563,
+        "legal": -0.09128337585315435,
+        "code": 0.45285976372906656,
+        "science": 0.01995616797940249
+      },
+      "weights": {
+        "medical": 0.649431355802823,
+        "legal": 0.0,
+        "code": 0.33577217419112,
+        "science": 0.01479647000605698
+      },
+      "sparsity_gini": 0.5085772447145278
+    },
+    {
+      "probe_idx": 118,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8474091874370144,
+        "legal": -0.02741852779610273,
+        "code": 0.5138863468410606,
+        "science": -0.010483397280161483
+      },
+      "weights": {
+        "medical": 0.6225019961491419,
+        "legal": 0.0,
+        "code": 0.377498003850858,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5355293438887812
+    },
+    {
+      "probe_idx": 119,
+      "true_domain": "code",
+      "coefficients": {
+        "medical": 0.8720396176904208,
+        "legal": -0.11942658023227297,
+        "code": 0.44853293575842357,
+        "science": 0.028733724067505913
+      },
+      "weights": {
+        "medical": 0.6462873790934793,
+        "legal": 0.0,
+        "code": 0.33241743793264794,
+        "science": 0.021295182973872832
+      },
+      "sparsity_gini": 0.48664806899898183
+    },
+    {
+      "probe_idx": 120,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9611822583050702,
+        "legal": -0.05182781460970516,
+        "code": -0.10158345595789864,
+        "science": 0.042618950450693575
+      },
+      "weights": {
+        "medical": 0.9575424395996487,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.04245756040035139
+      },
+      "sparsity_gini": 0.606078316436687
+    },
+    {
+      "probe_idx": 121,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9359983006746624,
+        "legal": 0.06443626203508292,
+        "code": -0.011315923434138571,
+        "science": 0.03892387660514298
+      },
+      "weights": {
+        "medical": 0.9005539044755748,
+        "legal": 0.061996188800426955,
+        "code": 0.0,
+        "science": 0.03744990672399827
+      },
+      "sparsity_gini": 0.6661339651009068
+    },
+    {
+      "probe_idx": 122,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.8838062584515266,
+        "legal": 0.13627362040255245,
+        "code": 0.010176329329036175,
+        "science": 0.07743455592354304
+      },
+      "weights": {
+        "medical": 0.7978817618510232,
+        "legal": 0.12302496763386467,
+        "code": 0.009186976779790417,
+        "science": 0.06990629373532174
+      },
+      "sparsity_gini": 0.6048007572780603
+    },
+    {
+      "probe_idx": 123,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9398907384471527,
+        "legal": -0.01652130106949213,
+        "code": 0.13281696790543998,
+        "science": 0.10756164237634977
+      },
+      "weights": {
+        "medical": 0.796335802043272,
+        "legal": 0.0,
+        "code": 0.11253106593717226,
+        "science": 0.09113313201955574
+      },
+      "sparsity_gini": 0.5839291187086211
+    },
+    {
+      "probe_idx": 124,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9241270204094921,
+        "legal": 0.011227736752619332,
+        "code": -0.043516845835235914,
+        "science": 0.20697970747702427
+      },
+      "weights": {
+        "medical": 0.8089811250695518,
+        "legal": 0.009828764779644622,
+        "code": 0.0,
+        "science": 0.18119011015080358
+      },
+      "sparsity_gini": 0.6118306500524644
+    },
+    {
+      "probe_idx": 125,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.954542942895751,
+        "legal": -0.04697309056693309,
+        "code": 0.0641509100330249,
+        "science": 0.10664035069670953
+      },
+      "weights": {
+        "medical": 0.8482306321273301,
+        "legal": 0.0,
+        "code": 0.05700609634573456,
+        "science": 0.09476327152693544
+      },
+      "sparsity_gini": 0.5896915875532094
+    },
+    {
+      "probe_idx": 126,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9048704661908047,
+        "legal": 0.049552285909905514,
+        "code": 0.12760213071437854,
+        "science": 0.18343997635489395
+      },
+      "weights": {
+        "medical": 0.7150498566861102,
+        "legal": 0.03915737805821555,
+        "code": 0.10083419526803192,
+        "science": 0.1449585699876424
+      },
+      "sparsity_gini": 0.5179504526508238
+    },
+    {
+      "probe_idx": 127,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9287563371984973,
+        "legal": -0.021179084569033262,
+        "code": -0.015382096808359582,
+        "science": 0.0854294502560806
+      },
+      "weights": {
+        "medical": 0.9157654827026387,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.08423451729736127
+      },
+      "sparsity_gini": 0.6672332088606574
+    },
+    {
+      "probe_idx": 128,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9627807604051131,
+        "legal": 0.011896395233966125,
+        "code": 0.08980841688255761,
+        "science": 0.1283005408146929
+      },
+      "weights": {
+        "medical": 0.8071696590364629,
+        "legal": 0.009973619830877172,
+        "code": 0.07529297656841041,
+        "science": 0.10756374456424947
+      },
+      "sparsity_gini": 0.6059647214031489
+    },
+    {
+      "probe_idx": 129,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9486357332020163,
+        "legal": 0.047307445409899805,
+        "code": 0.1789249653603325,
+        "science": 0.07944149470676726
+      },
+      "weights": {
+        "medical": 0.7563010790549917,
+        "legal": 0.037715922728395794,
+        "code": 0.14264816265684482,
+        "science": 0.06333483555976782
+      },
+      "sparsity_gini": 0.5587671990192158
+    },
+    {
+      "probe_idx": 130,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9696252964197349,
+        "legal": 0.1347659134619637,
+        "code": -0.004381449984093816,
+        "science": 0.015625097145768124
+      },
+      "weights": {
+        "medical": 0.8657242669913702,
+        "legal": 0.1203249565353505,
+        "code": 0.0,
+        "science": 0.013950776473279457
+      },
+      "sparsity_gini": 0.6703304806557262
+    },
+    {
+      "probe_idx": 131,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.914344443812884,
+        "legal": 0.11697527494384152,
+        "code": 0.2144120609173321,
+        "science": 0.13910541578898677
+      },
+      "weights": {
+        "medical": 0.660254105542823,
+        "legal": 0.08446861142022459,
+        "code": 0.1548283521122782,
+        "science": 0.1004489309246741
+      },
+      "sparsity_gini": 0.4454339758888497
+    },
+    {
+      "probe_idx": 132,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9196997704216665,
+        "legal": 0.1351487777109482,
+        "code": -0.10768901933234733,
+        "science": 0.005125520603480333
+      },
+      "weights": {
+        "medical": 0.8676625188749282,
+        "legal": 0.1275019660359225,
+        "code": 0.0,
+        "science": 0.00483551508914927
+      },
+      "sparsity_gini": 0.5933180846748505
+    },
+    {
+      "probe_idx": 133,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9464872558610129,
+        "legal": 0.14129274276490839,
+        "code": -0.029246420765477683,
+        "science": 0.0506892167405939
+      },
+      "weights": {
+        "medical": 0.8313683348533089,
+        "legal": 0.12410765338035165,
+        "code": 0.0,
+        "science": 0.04452401176633939
+      },
+      "sparsity_gini": 0.6085227309120396
+    },
+    {
+      "probe_idx": 134,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.91332186625136,
+        "legal": 0.003347142097888431,
+        "code": 0.24018098262025292,
+        "science": 0.08493782468712674
+      },
+      "weights": {
+        "medical": 0.7354894731097172,
+        "legal": 0.00269542191966068,
+        "code": 0.19341547693737912,
+        "science": 0.06839962803324305
+      },
+      "sparsity_gini": 0.5808495006185765
+    },
+    {
+      "probe_idx": 135,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9657189938479371,
+        "legal": 0.02455874256984355,
+        "code": 0.059982510818421236,
+        "science": 0.07673527656988438
+      },
+      "weights": {
+        "medical": 0.8568969205720655,
+        "legal": 0.02179133993975755,
+        "code": 0.05322337981951203,
+        "science": 0.06808835966866507
+      },
+      "sparsity_gini": 0.6300454304365193
+    },
+    {
+      "probe_idx": 136,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9467516901564319,
+        "legal": -0.08285622047283867,
+        "code": -0.1065035725774269,
+        "science": 0.029101218262658983
+      },
+      "weights": {
+        "medical": 0.9701786836811259,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.029821316318874094
+      },
+      "sparsity_gini": 0.5957278796147174
+    },
+    {
+      "probe_idx": 137,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9570617498222038,
+        "legal": 0.08614110373847886,
+        "code": 0.03670964045583141,
+        "science": 0.07710494714121928
+      },
+      "weights": {
+        "medical": 0.8271800543166833,
+        "legal": 0.07445099846747724,
+        "code": 0.0317278194346829,
+        "science": 0.06664112778115654
+      },
+      "sparsity_gini": 0.5985416438330806
+    },
+    {
+      "probe_idx": 138,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9691417094691734,
+        "legal": 0.051470093278328244,
+        "code": 0.08148933968102451,
+        "science": 0.09133094731267835
+      },
+      "weights": {
+        "medical": 0.8120627204513425,
+        "legal": 0.04312779396562859,
+        "code": 0.06828150540069308,
+        "science": 0.07652798018233566
+      },
+      "sparsity_gini": 0.578762813559696
+    },
+    {
+      "probe_idx": 139,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.8947493059136569,
+        "legal": 0.09157987086495692,
+        "code": -0.002522747183138871,
+        "science": 0.16150210282786814
+      },
+      "weights": {
+        "medical": 0.7795129143199593,
+        "legal": 0.0797851326166628,
+        "code": 0.0,
+        "science": 0.14070195306337782
+      },
+      "sparsity_gini": 0.5969036149287914
+    },
+    {
+      "probe_idx": 140,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.8600318166726353,
+        "legal": 0.00948922160459226,
+        "code": -0.1441996771419041,
+        "science": 0.18248426356523853
+      },
+      "weights": {
+        "medical": 0.8175166181828063,
+        "legal": 0.009020127168535159,
+        "code": 0.0,
+        "science": 0.17346325464865847
+      },
+      "sparsity_gini": 0.5412768750190313
+    },
+    {
+      "probe_idx": 141,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9560522756040135,
+        "legal": 0.00289369884567188,
+        "code": 0.0956282297476567,
+        "science": 0.04262980626553562
+      },
+      "weights": {
+        "medical": 0.8713532456016848,
+        "legal": 0.0026373389251932414,
+        "code": 0.08715628892690065,
+        "science": 0.03885312654622122
+      },
+      "sparsity_gini": 0.6636127206025384
+    },
+    {
+      "probe_idx": 142,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9500832311069392,
+        "legal": -0.08733854644009494,
+        "code": 0.07119662020679582,
+        "science": 0.044336191135999056
+      },
+      "weights": {
+        "medical": 0.8915812011639789,
+        "legal": 0.0,
+        "code": 0.06681263923459958,
+        "science": 0.04160615960142176
+      },
+      "sparsity_gini": 0.592690959489149
+    },
+    {
+      "probe_idx": 143,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.8575932021786814,
+        "legal": 0.14915420770358498,
+        "code": -0.1211461617195452,
+        "science": 0.10732500191917074
+      },
+      "weights": {
+        "medical": 0.7697822808411232,
+        "legal": 0.13388196864367644,
+        "code": 0.0,
+        "science": 0.09633575051520031
+      },
+      "sparsity_gini": 0.46121647933669574
+    },
+    {
+      "probe_idx": 144,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9408513660523496,
+        "legal": -0.05098517186291185,
+        "code": 0.14035626812083554,
+        "science": 0.13599873346344873
+      },
+      "weights": {
+        "medical": 0.7729596156148413,
+        "legal": 0.0,
+        "code": 0.11531016584587517,
+        "science": 0.11173021853928365
+      },
+      "sparsity_gini": 0.5271199250944572
+    },
+    {
+      "probe_idx": 145,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9335811288784802,
+        "legal": 0.18770694556099413,
+        "code": 0.04604052237031806,
+        "science": 0.04950623477741459
+      },
+      "weights": {
+        "medical": 0.7672209116998581,
+        "legal": 0.15425836004065907,
+        "code": 0.037836295588501545,
+        "science": 0.04068443267098129
+      },
+      "sparsity_gini": 0.5754319439259368
+    },
+    {
+      "probe_idx": 146,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9464718408817444,
+        "legal": 0.03513401410388866,
+        "code": 0.0058636245468416705,
+        "science": 0.1034531886017644
+      },
+      "weights": {
+        "medical": 0.867588389652272,
+        "legal": 0.03220577876888098,
+        "code": 0.005374922272785835,
+        "science": 0.09483090930606128
+      },
+      "sparsity_gini": 0.6623163831689096
+    },
+    {
+      "probe_idx": 147,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9429873361218466,
+        "legal": -0.050559925679229414,
+        "code": 0.08757476416987978,
+        "science": 0.17431266700868883
+      },
+      "weights": {
+        "medical": 0.7826434428821669,
+        "legal": 0.0,
+        "code": 0.07268370667774511,
+        "science": 0.144672850440088
+      },
+      "sparsity_gini": 0.5504109751034807
+    },
+    {
+      "probe_idx": 148,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9435937087468943,
+        "legal": -0.04526981572458971,
+        "code": -0.05943861066848487,
+        "science": 0.05266542901439476
+      },
+      "weights": {
+        "medical": 0.9471368171008798,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.052863182899120155
+      },
+      "sparsity_gini": 0.6134932918746276
+    },
+    {
+      "probe_idx": 149,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9456080493379261,
+        "legal": 0.0332628193423764,
+        "code": 0.15728510750855712,
+        "science": 0.13389531382152056
+      },
+      "weights": {
+        "medical": 0.7445431981965056,
+        "legal": 0.026190138621964267,
+        "code": 0.12384153990133077,
+        "science": 0.10542512328019936
+      },
+      "sparsity_gini": 0.5433688988361889
+    },
+    {
+      "probe_idx": 150,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9459746713322119,
+        "legal": 0.062208362655626015,
+        "code": 0.0657285686312577,
+        "science": 0.13971222557880453
+      },
+      "weights": {
+        "medical": 0.7794628363031416,
+        "legal": 0.05125835634588577,
+        "code": 0.05415893055499536,
+        "science": 0.11511987679597725
+      },
+      "sparsity_gini": 0.5613935965281875
+    },
+    {
+      "probe_idx": 151,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9381233853031299,
+        "legal": -0.057386824155957826,
+        "code": 0.047328651673047006,
+        "science": -0.004776586282619082
+      },
+      "weights": {
+        "medical": 0.9519726481886697,
+        "legal": 0.0,
+        "code": 0.04802735181133039,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6705940086314701
+    },
+    {
+      "probe_idx": 152,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.955271901429846,
+        "legal": -0.055669780525704454,
+        "code": 0.040803771417754944,
+        "science": 0.08759635031949112
+      },
+      "weights": {
+        "medical": 0.8815138538300643,
+        "legal": 0.0,
+        "code": 0.037653247980420905,
+        "science": 0.08083289818951485
+      },
+      "sparsity_gini": 0.6089768124970816
+    },
+    {
+      "probe_idx": 153,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9316471220686118,
+        "legal": 0.0404416979757762,
+        "code": 0.10068275985039105,
+        "science": 0.009643415197363257
+      },
+      "weights": {
+        "medical": 0.8607115813184978,
+        "legal": 0.037362470179317445,
+        "code": 0.0930167822017472,
+        "science": 0.008909166300437612
+      },
+      "sparsity_gini": 0.6527653892691527
+    },
+    {
+      "probe_idx": 154,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9483201936870589,
+        "legal": 0.04489367575407818,
+        "code": 0.02285587899629937,
+        "science": 0.041166658005254826
+      },
+      "weights": {
+        "medical": 0.8969802665781201,
+        "legal": 0.04246323289710862,
+        "code": 0.021618512999569413,
+        "science": 0.03893798752520193
+      },
+      "sparsity_gini": 0.6574026265268897
+    },
+    {
+      "probe_idx": 155,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9325423813053775,
+        "legal": 0.04518436665347561,
+        "code": 0.025841683458811788,
+        "science": -0.009533886262047679
+      },
+      "weights": {
+        "medical": 0.9292265002676954,
+        "legal": 0.04502370265836988,
+        "code": 0.025749797073934662,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6880766433124927
+    },
+    {
+      "probe_idx": 156,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9146356098453874,
+        "legal": 0.13832111042724698,
+        "code": 0.0036640137343046213,
+        "science": 0.07536108604933396
+      },
+      "weights": {
+        "medical": 0.8079949639119814,
+        "legal": 0.12219375609792989,
+        "code": 0.003236813232674069,
+        "science": 0.06657446675741455
+      },
+      "sparsity_gini": 0.6174734353446094
+    },
+    {
+      "probe_idx": 157,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9598861040760371,
+        "legal": -0.03369651895243747,
+        "code": 0.04742271102964791,
+        "science": 0.10874862503842947
+      },
+      "weights": {
+        "medical": 0.8600687290361048,
+        "legal": 0.0,
+        "code": 0.042491281652604095,
+        "science": 0.09743998931129114
+      },
+      "sparsity_gini": 0.6175005197657895
+    },
+    {
+      "probe_idx": 158,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9168642671723616,
+        "legal": 0.015530283570997595,
+        "code": 0.1106339520701957,
+        "science": 0.11209852893513272
+      },
+      "weights": {
+        "medical": 0.7937345780787138,
+        "legal": 0.013444654262386273,
+        "code": 0.095776437594671,
+        "science": 0.09704433006422897
+      },
+      "sparsity_gini": 0.585534415979635
+    },
+    {
+      "probe_idx": 159,
+      "true_domain": "science",
+      "coefficients": {
+        "medical": 0.9459026400703585,
+        "legal": 0.13986974827740958,
+        "code": 0.05743742828740062,
+        "science": 0.03689916340399406
+      },
+      "weights": {
+        "medical": 0.801538379988404,
+        "legal": 0.1185227386989021,
+        "code": 0.0486712916001152,
+        "science": 0.03126758971257852
+      },
+      "sparsity_gini": 0.5951659544815657
+    },
+    {
+      "probe_idx": 160,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9176908207894456,
+        "legal": 0.06941938159480535,
+        "code": -0.19876529235182333,
+        "science": 0.05273615222815342
+      },
+      "weights": {
+        "medical": 0.8825254007179826,
+        "legal": 0.0667592681234921,
+        "code": 0.0,
+        "science": 0.0507153311585253
+      },
+      "sparsity_gini": 0.5498515057398725
+    },
+    {
+      "probe_idx": 161,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9518785669739765,
+        "legal": 0.003757688435421354,
+        "code": 0.14811788174066673,
+        "science": 0.1564072531817076
+      },
+      "weights": {
+        "medical": 0.755362427604109,
+        "legal": 0.0029819104634145623,
+        "code": 0.11753881913623035,
+        "science": 0.12411684279624619
+      },
+      "sparsity_gini": 0.5659298937705246
+    },
+    {
+      "probe_idx": 162,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9300006175633027,
+        "legal": 0.09409147711995328,
+        "code": 0.1275000438976402,
+        "science": -0.05500035224743409
+      },
+      "weights": {
+        "medical": 0.8075781228494143,
+        "legal": 0.08170555700032996,
+        "code": 0.11071632015025577,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5508092796309974
+    },
+    {
+      "probe_idx": 163,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.920092034012703,
+        "legal": 0.0204039453475813,
+        "code": 0.2276070399242642,
+        "science": 0.07654758552351404
+      },
+      "weights": {
+        "medical": 0.7392372047692777,
+        "legal": 0.016393311720382598,
+        "code": 0.1828682194384692,
+        "science": 0.061501264071870544
+      },
+      "sparsity_gini": 0.5724746586283211
+    },
+    {
+      "probe_idx": 164,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.8873182502823952,
+        "legal": 0.10031265916430102,
+        "code": 0.004004948069181575,
+        "science": 0.25925767090872454
+      },
+      "weights": {
+        "medical": 0.7093475424722195,
+        "legal": 0.08019280369180307,
+        "code": 0.0032016698289465757,
+        "science": 0.20725798400703077
+      },
+      "sparsity_gini": 0.5613756995612615
+    },
+    {
+      "probe_idx": 165,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9433765774455852,
+        "legal": 0.1039732699875924,
+        "code": 0.10132690451364643,
+        "science": -0.06731352277223564
+      },
+      "weights": {
+        "medical": 0.8212724561951064,
+        "legal": 0.09051569104308438,
+        "code": 0.08821185276180915,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5408833409670606
+    },
+    {
+      "probe_idx": 166,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9108158994793907,
+        "legal": 0.18069451294552674,
+        "code": -0.10480310739541987,
+        "science": -0.14987328650530402
+      },
+      "weights": {
+        "medical": 0.8344546136357117,
+        "legal": 0.16554538636428842,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.45477707684867896
+    },
+    {
+      "probe_idx": 167,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9080223912390053,
+        "legal": 0.12055121211497272,
+        "code": -0.06860921526686042,
+        "science": 0.038889515634982115
+      },
+      "weights": {
+        "medical": 0.8506358440739685,
+        "legal": 0.11293243763695733,
+        "code": 0.0,
+        "science": 0.03643171828907403
+      },
+      "sparsity_gini": 0.5852049520689568
+    },
+    {
+      "probe_idx": 168,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9493470025221493,
+        "legal": -0.027979054009964106,
+        "code": -0.07875559829206089,
+        "science": -0.0683634925739845
+      },
+      "weights": {
+        "medical": 1.0,
+        "legal": 0.0,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6168588920665692
+    },
+    {
+      "probe_idx": 169,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9460000875324988,
+        "legal": 0.0942140954748521,
+        "code": -0.1156571243767136,
+        "science": -0.002871058236961363
+      },
+      "weights": {
+        "medical": 0.9094281764141392,
+        "legal": 0.0905718235858608,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6150698812286408
+    },
+    {
+      "probe_idx": 170,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.912376116818727,
+        "legal": 0.06847529026227114,
+        "code": -0.14948832214153057,
+        "science": -0.01214201473434803
+      },
+      "weights": {
+        "medical": 0.9301879063761016,
+        "legal": 0.06981209362389842,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6087001724198653
+    },
+    {
+      "probe_idx": 171,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.8768529016678676,
+        "legal": 0.06329130382306922,
+        "code": -0.2359151175422424,
+        "science": 0.0656504028150731
+      },
+      "weights": {
+        "medical": 0.8718011554513004,
+        "legal": 0.06292666842752953,
+        "code": 0.0,
+        "science": 0.06527217612117003
+      },
+      "sparsity_gini": 0.5256763021804352
+    },
+    {
+      "probe_idx": 172,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9602375642921013,
+        "legal": 0.08809627156851385,
+        "code": 0.045149319281617646,
+        "science": 0.08221293081572556
+      },
+      "weights": {
+        "medical": 0.8167396113339093,
+        "legal": 0.0749311600342132,
+        "code": 0.038402202593734024,
+        "science": 0.0699270260381435
+      },
+      "sparsity_gini": 0.5850040900541489
+    },
+    {
+      "probe_idx": 173,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9024944578664215,
+        "legal": 0.13562658986797285,
+        "code": -0.07106666923305174,
+        "science": -0.010858692079271955
+      },
+      "weights": {
+        "medical": 0.8693537808871464,
+        "legal": 0.13064621911285362,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6114628813300595
+    },
+    {
+      "probe_idx": 174,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9009685038254741,
+        "legal": 0.03821584731437255,
+        "code": -0.1262780846724947,
+        "science": 0.20492905561852337
+      },
+      "weights": {
+        "medical": 0.787481816490726,
+        "legal": 0.03340214972451897,
+        "code": 0.0,
+        "science": 0.17911603378475502
+      },
+      "sparsity_gini": 0.5248202932852506
+    },
+    {
+      "probe_idx": 175,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.8939050395001812,
+        "legal": 0.05053935107716627,
+        "code": 0.06783866355471814,
+        "science": 0.1970434619149829
+      },
+      "weights": {
+        "medical": 0.7391759195209807,
+        "legal": 0.04179131971931396,
+        "code": 0.05609623427133958,
+        "science": 0.16293652648836568
+      },
+      "sparsity_gini": 0.5497485229055064
+    },
+    {
+      "probe_idx": 176,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9442826157312306,
+        "legal": 0.06310933276509169,
+        "code": 0.13800113918994156,
+        "science": 0.05631523713754967
+      },
+      "weights": {
+        "medical": 0.7857835351766204,
+        "legal": 0.05251634815323789,
+        "code": 0.11483746624637418,
+        "science": 0.04686265042376754
+      },
+      "sparsity_gini": 0.5697709430879234
+    },
+    {
+      "probe_idx": 177,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9422258985060545,
+        "legal": -0.0010974775650686719,
+        "code": 0.0537083557565366,
+        "science": 0.03227021881816951
+      },
+      "weights": {
+        "medical": 0.9163798866609746,
+        "legal": 0.0,
+        "code": 0.052235092496352185,
+        "science": 0.031385020842673216
+      },
+      "sparsity_gini": 0.690959391939449
+    },
+    {
+      "probe_idx": 178,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9280233374930901,
+        "legal": 0.07769822685460298,
+        "code": 0.05458186020225282,
+        "science": 0.2150207661568318
+      },
+      "weights": {
+        "medical": 0.7276764169107344,
+        "legal": 0.06092429471720681,
+        "code": 0.04279841988412676,
+        "science": 0.16860086848793207
+      },
+      "sparsity_gini": 0.5405776412126371
+    },
+    {
+      "probe_idx": 179,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9453860393740667,
+        "legal": 0.1044099068422445,
+        "code": 0.026702139764228843,
+        "science": -0.04391195493865439
+      },
+      "weights": {
+        "medical": 0.8782050350911229,
+        "legal": 0.09699033207954252,
+        "code": 0.024804632829334674,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6284640327799949
+    },
+    {
+      "probe_idx": 180,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9653251692934444,
+        "legal": 0.01983718150753988,
+        "code": 0.0007598340040278831,
+        "science": -0.03171589490198667
+      },
+      "weights": {
+        "medical": 0.9791088832070035,
+        "legal": 0.020120433248454715,
+        "code": 0.0007706835445417602,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.7138035558032767
+    },
+    {
+      "probe_idx": 181,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.8883116121785586,
+        "legal": 0.14026779488230412,
+        "code": -0.17973412278478632,
+        "science": -0.038175299389206
+      },
+      "weights": {
+        "medical": 0.8636295905601343,
+        "legal": 0.1363704094398657,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5194341107453624
+    },
+    {
+      "probe_idx": 182,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9329911538526208,
+        "legal": 0.14517412055573875,
+        "code": -0.008357663428572304,
+        "science": -0.015398411501565783
+      },
+      "weights": {
+        "medical": 0.8653507732055249,
+        "legal": 0.1346492267944752,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6587757334199591
+    },
+    {
+      "probe_idx": 183,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9225787207343328,
+        "legal": 0.09533643994947671,
+        "code": 0.1611901736026835,
+        "science": 0.06851201084615072
+      },
+      "weights": {
+        "medical": 0.7394725027939126,
+        "legal": 0.07641480805105412,
+        "code": 0.12919840705288219,
+        "science": 0.054914282102151026
+      },
+      "sparsity_gini": 0.5266145652692782
+    },
+    {
+      "probe_idx": 184,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9404155342382952,
+        "legal": 0.12388965094982576,
+        "code": -0.011248320935030295,
+        "science": 0.11329407678113165
+      },
+      "weights": {
+        "medical": 0.7985870614980478,
+        "legal": 0.10520527224401449,
+        "code": 0.0,
+        "science": 0.09620766625793775
+      },
+      "sparsity_gini": 0.5884053713687389
+    },
+    {
+      "probe_idx": 185,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9397698984726761,
+        "legal": 0.006795744735644316,
+        "code": 0.18919694442947926,
+        "science": 0.0976803760138065
+      },
+      "weights": {
+        "medical": 0.7619078677870021,
+        "legal": 0.00550957355622308,
+        "code": 0.15338929322630532,
+        "science": 0.07919326543046942
+      },
+      "sparsity_gini": 0.5858477276220433
+    },
+    {
+      "probe_idx": 186,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.8675359181998428,
+        "legal": 0.1889361632510143,
+        "code": -0.1536867023845149,
+        "science": 0.009455109264686953
+      },
+      "weights": {
+        "medical": 0.8138791521187075,
+        "legal": 0.17725053352301087,
+        "code": 0.0,
+        "science": 0.008870314358281688
+      },
+      "sparsity_gini": 0.5349012303063931
+    },
+    {
+      "probe_idx": 187,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9248127512597532,
+        "legal": 0.034493219056254014,
+        "code": 0.19497887623846555,
+        "science": 0.03687064503200861
+      },
+      "weights": {
+        "medical": 0.7763996873556864,
+        "legal": 0.02895778032330022,
+        "code": 0.1636888530638231,
+        "science": 0.030953679257190152
+      },
+      "sparsity_gini": 0.5937652237259481
+    },
+    {
+      "probe_idx": 188,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9245701598298774,
+        "legal": 0.011176859418088072,
+        "code": 0.09247539354912157,
+        "science": -0.04520633792771775
+      },
+      "weights": {
+        "medical": 0.8991927702827999,
+        "legal": 0.010870079546003586,
+        "code": 0.08993715017119645,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.649192821362065
+    },
+    {
+      "probe_idx": 189,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9419034532307319,
+        "legal": 0.10829759988776472,
+        "code": 0.04738712750517312,
+        "science": 0.05228395072946629
+      },
+      "weights": {
+        "medical": 0.8191375610802283,
+        "legal": 0.09418229813111763,
+        "code": 0.0412107800624834,
+        "science": 0.04546936072617053
+      },
+      "sparsity_gini": 0.5956233201145456
+    },
+    {
+      "probe_idx": 190,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.8937345875775589,
+        "legal": 0.17330065704211503,
+        "code": -0.05756190586768281,
+        "science": 0.12629670078494606
+      },
+      "weights": {
+        "medical": 0.7489404695979397,
+        "legal": 0.14522418318681182,
+        "code": 0.0,
+        "science": 0.10583534721524863
+      },
+      "sparsity_gini": 0.5107391803843981
+    },
+    {
+      "probe_idx": 191,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.875587823013626,
+        "legal": 0.14881891011814685,
+        "code": -0.1470571564528949,
+        "science": 0.031761030542306654
+      },
+      "weights": {
+        "medical": 0.8290234308683385,
+        "legal": 0.140904613108482,
+        "code": 0.0,
+        "science": 0.0300719560231794
+      },
+      "sparsity_gini": 0.5263442621375978
+    },
+    {
+      "probe_idx": 192,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.8703089848662954,
+        "legal": 0.06234822341078949,
+        "code": -0.25444844931977795,
+        "science": -0.061529190481071167
+      },
+      "weights": {
+        "medical": 0.9331499045335568,
+        "legal": 0.06685009546644316,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5242604779722657
+    },
+    {
+      "probe_idx": 193,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9371861433599928,
+        "legal": 0.13737050753096464,
+        "code": -0.11979176769054892,
+        "science": 0.04742191369794735
+      },
+      "weights": {
+        "medical": 0.8352977257666055,
+        "legal": 0.12243594652033077,
+        "code": 0.0,
+        "science": 0.0422663277130636
+      },
+      "sparsity_gini": 0.5409356623729287
+    },
+    {
+      "probe_idx": 194,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9399521442776828,
+        "legal": -0.06701986992342615,
+        "code": 0.17822871168064738,
+        "science": 0.07578048465777998
+      },
+      "weights": {
+        "medical": 0.7872550913521595,
+        "legal": 0.0,
+        "code": 0.14927511102551902,
+        "science": 0.06346979762232133
+      },
+      "sparsity_gini": 0.5395094366476121
+    },
+    {
+      "probe_idx": 195,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9384833358679399,
+        "legal": 0.1543784679095988,
+        "code": -0.06846803658487326,
+        "science": 0.04956131974582925
+      },
+      "weights": {
+        "medical": 0.8214848916691623,
+        "legal": 0.1351324782655636,
+        "code": 0.0,
+        "science": 0.04338263006527414
+      },
+      "sparsity_gini": 0.5683162472350112
+    },
+    {
+      "probe_idx": 196,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9540366151953743,
+        "legal": 0.10409093556425904,
+        "code": 0.005354691560143475,
+        "science": 0.06339765320785566
+      },
+      "weights": {
+        "medical": 0.8466178329933478,
+        "legal": 0.09237092256004899,
+        "code": 0.00475178551094505,
+        "science": 0.056259458935658216
+      },
+      "sparsity_gini": 0.6404274015178997
+    },
+    {
+      "probe_idx": 197,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9424729036306008,
+        "legal": 0.1498726430756809,
+        "code": -0.014906278038496272,
+        "science": -0.09488469554554238
+      },
+      "weights": {
+        "medical": 0.8627974055210024,
+        "legal": 0.1372025944789976,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5901342685315685
+    },
+    {
+      "probe_idx": 198,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.9363019394072574,
+        "legal": -0.028974713304877442,
+        "code": 0.10551299666180954,
+        "science": 0.08063260607435581
+      },
+      "weights": {
+        "medical": 0.8341609779101995,
+        "legal": 0.0,
+        "code": 0.09400260831817779,
+        "science": 0.07183641377162268
+      },
+      "sparsity_gini": 0.5964063261538046
+    },
+    {
+      "probe_idx": 199,
+      "true_domain": "general",
+      "coefficients": {
+        "medical": 0.939200207458365,
+        "legal": 0.13887756889744618,
+        "code": -0.10157473885298325,
+        "science": -0.03373920331164522
+      },
+      "weights": {
+        "medical": 0.8711803805409205,
+        "legal": 0.12881961945907947,
+        "code": 0.0,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.567353023853326
+    }
+  ],
+  "cross_domain": [
+    {
+      "probe_idx": 0,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8897993027218262,
+        "legal": 0.026893764549148307,
+        "code": 0.21091806065950336,
+        "science": 0.03771355683375742
+      },
+      "weights": {
+        "medical": 0.7635634208691354,
+        "legal": 0.023078344516995596,
+        "code": 0.18099510240974226,
+        "science": 0.03236313220412688
+      },
+      "sparsity_gini": 0.5925217998155088
+    },
+    {
+      "probe_idx": 1,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9474378172050932,
+        "legal": 0.04125957017249504,
+        "code": 0.17681650377018857,
+        "science": 0.04152317142655022
+      },
+      "weights": {
+        "medical": 0.7849285217343951,
+        "legal": 0.03418252135895318,
+        "code": 0.14648804850538757,
+        "science": 0.03440090840126402
+      },
+      "sparsity_gini": 0.5910812853076124
+    },
+    {
+      "probe_idx": 2,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9140903232881109,
+        "legal": -0.007871780192456131,
+        "code": 0.2640113573918468,
+        "science": 0.046010877874684566
+      },
+      "weights": {
+        "medical": 0.7467371500276194,
+        "legal": 0.0,
+        "code": 0.21567571997102566,
+        "science": 0.037587130001354954
+      },
+      "sparsity_gini": 0.5959199351086402
+    },
+    {
+      "probe_idx": 3,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9204573189413535,
+        "legal": -0.0007870629431159654,
+        "code": 0.2533451314252415,
+        "science": 0.06142297127403442
+      },
+      "weights": {
+        "medical": 0.745173555219419,
+        "legal": 0.0,
+        "code": 0.2051003217604993,
+        "science": 0.049726123020081864
+      },
+      "sparsity_gini": 0.5968655181382958
+    },
+    {
+      "probe_idx": 4,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9355491912274152,
+        "legal": 0.09704299604667543,
+        "code": 0.14254243636966346,
+        "science": 0.02709253551899323
+      },
+      "weights": {
+        "medical": 0.7781800503317098,
+        "legal": 0.08071935100373039,
+        "code": 0.1185653104600736,
+        "science": 0.022535288204486213
+      },
+      "sparsity_gini": 0.5761950614595033
+    },
+    {
+      "probe_idx": 5,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8951301089665666,
+        "legal": 0.10051557801343,
+        "code": 0.23899055215699158,
+        "science": 0.0313628936239714
+      },
+      "weights": {
+        "medical": 0.707054282900193,
+        "legal": 0.0793962455520962,
+        "code": 0.18877623686501901,
+        "science": 0.024773234682691683
+      },
+      "sparsity_gini": 0.5390557839913566
+    },
+    {
+      "probe_idx": 6,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9011954169927558,
+        "legal": 0.08645020497799612,
+        "code": 0.2352881187758787,
+        "science": 0.08365414383591371
+      },
+      "weights": {
+        "medical": 0.6897319557502924,
+        "legal": 0.06616486039560746,
+        "code": 0.18007829519332594,
+        "science": 0.06402488866077406
+      },
+      "sparsity_gini": 0.49775865901656835
+    },
+    {
+      "probe_idx": 7,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9118275415470563,
+        "legal": -0.03471788632319181,
+        "code": 0.2631923629594824,
+        "science": 0.01338191400586173
+      },
+      "weights": {
+        "medical": 0.7672720853696184,
+        "legal": 0.0,
+        "code": 0.22146748587858722,
+        "science": 0.011260428751794355
+      },
+      "sparsity_gini": 0.5976134935322794
+    },
+    {
+      "probe_idx": 8,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8746254398940713,
+        "legal": 0.0850531683527826,
+        "code": 0.2551724023272128,
+        "science": 0.05027392130204448
+      },
+      "weights": {
+        "medical": 0.6913352332698476,
+        "legal": 0.06722906663980877,
+        "code": 0.20169739438207582,
+        "science": 0.03973830570826788
+      },
+      "sparsity_gini": 0.5223147776067516
+    },
+    {
+      "probe_idx": 9,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8992739711601014,
+        "legal": 0.01772472230007667,
+        "code": 0.24109681493715857,
+        "science": -0.032289774799276624
+      },
+      "weights": {
+        "medical": 0.7765110603050237,
+        "legal": 0.015305060913849436,
+        "code": 0.2081838787811268,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5992712668320719
+    },
+    {
+      "probe_idx": 10,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8859926772871188,
+        "legal": 0.015911220134371778,
+        "code": 0.212324459969352,
+        "science": 0.004605143126916875
+      },
+      "weights": {
+        "medical": 0.7918896572878007,
+        "legal": 0.014221258236376178,
+        "code": 0.18977306263272883,
+        "science": 0.004116021843094407
+      },
+      "sparsity_gini": 0.6347181776826178
+    },
+    {
+      "probe_idx": 11,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.877078691573342,
+        "legal": 0.11546125247532568,
+        "code": 0.23745744185026005,
+        "science": 0.08148844321215917
+      },
+      "weights": {
+        "medical": 0.6687671891718554,
+        "legal": 0.08803850557316678,
+        "code": 0.18105986094505233,
+        "science": 0.0621344443099254
+      },
+      "sparsity_gini": 0.4782298974894188
+    },
+    {
+      "probe_idx": 12,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9070081820621111,
+        "legal": -0.012857700619891405,
+        "code": 0.24800891734622732,
+        "science": 0.04202841404753275
+      },
+      "weights": {
+        "medical": 0.7577056777428437,
+        "legal": 0.0,
+        "code": 0.20718420023163986,
+        "science": 0.035110122025516555
+      },
+      "sparsity_gini": 0.5968311998063018
+    },
+    {
+      "probe_idx": 13,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8998473789096016,
+        "legal": -0.015091040248975875,
+        "code": 0.24793001834312778,
+        "science": 0.03855679176359355
+      },
+      "weights": {
+        "medical": 0.7585108709171834,
+        "legal": 0.0,
+        "code": 0.20898834463221935,
+        "science": 0.032500784450597196
+      },
+      "sparsity_gini": 0.5958844072869607
+    },
+    {
+      "probe_idx": 14,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8552561044386597,
+        "legal": -0.04839220399635317,
+        "code": 0.2295696312970109,
+        "science": 0.06959278062228233
+      },
+      "weights": {
+        "medical": 0.7408544581707566,
+        "legal": 0.0,
+        "code": 0.19886170227178496,
+        "science": 0.060283839557458696
+      },
+      "sparsity_gini": 0.5363621450018135
+    },
+    {
+      "probe_idx": 15,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9236443458490555,
+        "legal": -0.05716041483103265,
+        "code": 0.14722368396005964,
+        "science": 0.03684289235601476
+      },
+      "weights": {
+        "medical": 0.8338315776860825,
+        "legal": 0.0,
+        "code": 0.1329080367577278,
+        "science": 0.03326038555618979
+      },
+      "sparsity_gini": 0.590294297372949
+    },
+    {
+      "probe_idx": 16,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8723057709845278,
+        "legal": -0.014150774625518201,
+        "code": 0.25780170580295514,
+        "science": 0.026980901108380792
+      },
+      "weights": {
+        "medical": 0.7538799867394692,
+        "legal": 0.0,
+        "code": 0.22280208731485238,
+        "science": 0.02331792594567831
+      },
+      "sparsity_gini": 0.5987858644693811
+    },
+    {
+      "probe_idx": 17,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8912125525222574,
+        "legal": -0.004822536443836567,
+        "code": 0.23086317972049591,
+        "science": 0.10151449461100402
+      },
+      "weights": {
+        "medical": 0.7283586718519733,
+        "legal": 0.0,
+        "code": 0.1886768745400322,
+        "science": 0.08296445360799451
+      },
+      "sparsity_gini": 0.5675044286130582
+    },
+    {
+      "probe_idx": 18,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9034562432282257,
+        "legal": -0.046434497933896736,
+        "code": 0.21319950856204983,
+        "science": 0.09658550828906004
+      },
+      "weights": {
+        "medical": 0.7446633023090126,
+        "legal": 0.0,
+        "code": 0.17572721566369115,
+        "science": 0.07960948202729617
+      },
+      "sparsity_gini": 0.5334069539440451
+    },
+    {
+      "probe_idx": 19,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8852328561019642,
+        "legal": -0.036567326314640866,
+        "code": 0.26199406086868726,
+        "science": 0.030459912262835058
+      },
+      "weights": {
+        "medical": 0.7516708467208808,
+        "legal": 0.0,
+        "code": 0.2224649663775298,
+        "science": 0.025864186901589366
+      },
+      "sparsity_gini": 0.5743743089790194
+    },
+    {
+      "probe_idx": 20,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.891609808843008,
+        "legal": -0.006402147200903027,
+        "code": 0.2724204444452262,
+        "science": 0.013040319355478482
+      },
+      "weights": {
+        "medical": 0.7574820317191714,
+        "legal": 0.0,
+        "code": 0.23143934677881464,
+        "science": 0.011078621502013927
+      },
+      "sparsity_gini": 0.615773194670425
+    },
+    {
+      "probe_idx": 21,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.7930900397868426,
+        "legal": -0.023748701345745422,
+        "code": 0.25254453122094644,
+        "science": 0.02726807644532997
+      },
+      "weights": {
+        "medical": 0.739200375420359,
+        "legal": 0.0,
+        "code": 0.235384386291191,
+        "science": 0.025415238288450083
+      },
+      "sparsity_gini": 0.5775081736035725
+    },
+    {
+      "probe_idx": 22,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.9264452336563592,
+        "legal": -0.0550743091904813,
+        "code": 0.19816406649288532,
+        "science": 0.05920291761234568
+      },
+      "weights": {
+        "medical": 0.7825947559555746,
+        "legal": 0.0,
+        "code": 0.167394848202854,
+        "science": 0.05001039584157143
+      },
+      "sparsity_gini": 0.5555540928052811
+    },
+    {
+      "probe_idx": 23,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8520533747418517,
+        "legal": -0.021088114176792627,
+        "code": 0.28747973953680156,
+        "science": 0.00527731990702569
+      },
+      "weights": {
+        "medical": 0.7442746408473557,
+        "legal": 0.0,
+        "code": 0.25111558294041075,
+        "science": 0.004609776212233361
+      },
+      "sparsity_gini": 0.6018361961695946
+    },
+    {
+      "probe_idx": 24,
+      "expected_domains": [
+        "medical",
+        "legal"
+      ],
+      "coefficients": {
+        "medical": 0.8202065348022918,
+        "legal": -0.0838736048011093,
+        "code": 0.2591849467169509,
+        "science": -0.03995100570340468
+      },
+      "weights": {
+        "medical": 0.7598786435185237,
+        "legal": 0.0,
+        "code": 0.2401213564814763,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5227818065873293
+    },
+    {
+      "probe_idx": 25,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8849283421672987,
+        "legal": -0.05832327165088523,
+        "code": 0.22033592688941284,
+        "science": 0.07549452111883367
+      },
+      "weights": {
+        "medical": 0.7494573400852981,
+        "legal": 0.0,
+        "code": 0.18660536658520677,
+        "science": 0.06393729332949517
+      },
+      "sparsity_gini": 0.5295566569358259
+    },
+    {
+      "probe_idx": 26,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.9374034173294601,
+        "legal": -0.005996349170795411,
+        "code": 0.19017922340806384,
+        "science": 0.06451340278436976
+      },
+      "weights": {
+        "medical": 0.7863489040363081,
+        "legal": 0.0,
+        "code": 0.15953347420414543,
+        "science": 0.05411762175954653
+      },
+      "sparsity_gini": 0.6092783500897834
+    },
+    {
+      "probe_idx": 27,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.9208310378828397,
+        "legal": -0.015272167350619772,
+        "code": 0.22641410914672033,
+        "science": -0.022569380339503998
+      },
+      "weights": {
+        "medical": 0.8026453982107048,
+        "legal": 0.0,
+        "code": 0.1973546017892953,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6160986688604004
+    },
+    {
+      "probe_idx": 28,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.9072037491899736,
+        "legal": -0.08972843033828533,
+        "code": 0.250417298473346,
+        "science": 0.029887737589422078
+      },
+      "weights": {
+        "medical": 0.7639554001252212,
+        "legal": 0.0,
+        "code": 0.2108761649456335,
+        "science": 0.02516843492914536
+      },
+      "sparsity_gini": 0.5466167264873452
+    },
+    {
+      "probe_idx": 29,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8660331851174086,
+        "legal": -0.05661428889158349,
+        "code": 0.20539442354177673,
+        "science": 0.008179506254517847
+      },
+      "weights": {
+        "medical": 0.8021743958093809,
+        "legal": 0.0,
+        "code": 0.19024923113645345,
+        "science": 0.007576373054165789
+      },
+      "sparsity_gini": 0.5989900300508222
+    },
+    {
+      "probe_idx": 30,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.805938528716579,
+        "legal": -0.16742378991236567,
+        "code": 0.2645945676062449,
+        "science": 0.031452375316621685
+      },
+      "weights": {
+        "medical": 0.7313513194666427,
+        "legal": 0.0,
+        "code": 0.2401071288286608,
+        "science": 0.028541551704696584
+      },
+      "sparsity_gini": 0.4767235656794031
+    },
+    {
+      "probe_idx": 31,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8933306742453256,
+        "legal": -0.12206783249667008,
+        "code": 0.21380880948700093,
+        "science": 0.016133187557505715
+      },
+      "weights": {
+        "medical": 0.7952928056368819,
+        "legal": 0.0,
+        "code": 0.19034453071976587,
+        "science": 0.01436266364335232
+      },
+      "sparsity_gini": 0.546704581753624
+    },
+    {
+      "probe_idx": 32,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.6958112273897669,
+        "legal": -0.22051212813236487,
+        "code": 0.2132476284933791,
+        "science": -0.07943101060872655
+      },
+      "weights": {
+        "medical": 0.7654193376883061,
+        "legal": 0.0,
+        "code": 0.23458066231169394,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.3838713993518028
+    },
+    {
+      "probe_idx": 33,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.9102421753807144,
+        "legal": -0.10349042056461408,
+        "code": 0.15412858692551276,
+        "science": 0.030732639548864165
+      },
+      "weights": {
+        "medical": 0.8311929027329984,
+        "legal": 0.0,
+        "code": 0.14074340985921596,
+        "science": 0.028063687407785847
+      },
+      "sparsity_gini": 0.5609003491332021
+    },
+    {
+      "probe_idx": 34,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.7826949365870325,
+        "legal": -0.10387147067520677,
+        "code": 0.26333421173577576,
+        "science": -0.03712469751379548
+      },
+      "weights": {
+        "medical": 0.7482534667814918,
+        "legal": 0.0,
+        "code": 0.2517465332185083,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.504659299374016
+    },
+    {
+      "probe_idx": 35,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8705611749853066,
+        "legal": -0.12616273021892227,
+        "code": 0.2411237680441165,
+        "science": 0.04087530376173937
+      },
+      "weights": {
+        "medical": 0.7553281291880679,
+        "legal": 0.0,
+        "code": 0.20920708372115737,
+        "science": 0.03546478709077474
+      },
+      "sparsity_gini": 0.5091053141128001
+    },
+    {
+      "probe_idx": 36,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8631155912328388,
+        "legal": -0.08090563009151278,
+        "code": 0.24574288919041964,
+        "science": 0.0057080812043056525
+      },
+      "weights": {
+        "medical": 0.7743957345826527,
+        "legal": 0.0,
+        "code": 0.22048291923594907,
+        "science": 0.005121346181398385
+      },
+      "sparsity_gini": 0.5723804803122694
+    },
+    {
+      "probe_idx": 37,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.7537731646725897,
+        "legal": -0.13603181943310602,
+        "code": 0.23054395658955126,
+        "science": -0.027922544664608265
+      },
+      "weights": {
+        "medical": 0.7657828441570373,
+        "legal": 0.0,
+        "code": 0.23421715584296268,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.49467047343519766
+    },
+    {
+      "probe_idx": 38,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8509971861769394,
+        "legal": -0.052592990391595845,
+        "code": 0.2439241742955039,
+        "science": 0.05949425572672889
+      },
+      "weights": {
+        "medical": 0.7371670776412265,
+        "legal": 0.0,
+        "code": 0.2112966689575858,
+        "science": 0.051536253401187795
+      },
+      "sparsity_gini": 0.5343049112986618
+    },
+    {
+      "probe_idx": 39,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.863103373991193,
+        "legal": -0.12833987614603543,
+        "code": 0.16268622393392984,
+        "science": -0.10548064083227693
+      },
+      "weights": {
+        "medical": 0.8414039055738163,
+        "legal": 0.0,
+        "code": 0.15859609442618375,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4579223602538154
+    },
+    {
+      "probe_idx": 40,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.843025458487705,
+        "legal": -0.13906122802017412,
+        "code": 0.26666777757314863,
+        "science": -0.028868684905363234
+      },
+      "weights": {
+        "medical": 0.759692346580614,
+        "legal": 0.0,
+        "code": 0.24030765341938612,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5029019848965213
+    },
+    {
+      "probe_idx": 41,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8539360299998009,
+        "legal": -0.18880466677568875,
+        "code": 0.19240005474799785,
+        "science": -0.032271417757970405
+      },
+      "weights": {
+        "medical": 0.8161202145729567,
+        "legal": 0.0,
+        "code": 0.18387978542704334,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4869349696431693
+    },
+    {
+      "probe_idx": 42,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8619488763988536,
+        "legal": -0.09841679475118424,
+        "code": 0.28806075825399424,
+        "science": -0.005789866502520478
+      },
+      "weights": {
+        "medical": 0.7495144826843553,
+        "legal": 0.0,
+        "code": 0.2504855173156448,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5497698048960185
+    },
+    {
+      "probe_idx": 43,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8728714930090056,
+        "legal": -0.12108278762270976,
+        "code": 0.17102379432535963,
+        "science": -0.06087365045644565
+      },
+      "weights": {
+        "medical": 0.8361676727537714,
+        "legal": 0.0,
+        "code": 0.16383232724622868,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5069810815663167
+    },
+    {
+      "probe_idx": 44,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.7600640199869759,
+        "legal": -0.1226775439289532,
+        "code": 0.20252449944647744,
+        "science": -0.09008509035521792
+      },
+      "weights": {
+        "medical": 0.7896042853641383,
+        "legal": 0.0,
+        "code": 0.21039571463586165,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.44450199793543255
+    },
+    {
+      "probe_idx": 45,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.7854616287964689,
+        "legal": -0.14491893165903263,
+        "code": 0.24940099381454492,
+        "science": -0.04169967012147549
+      },
+      "weights": {
+        "medical": 0.7590008679748305,
+        "legal": 0.0,
+        "code": 0.24099913202516954,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.47806054885208127
+    },
+    {
+      "probe_idx": 46,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8099756600937509,
+        "legal": -0.06876563396332226,
+        "code": 0.29218921194891034,
+        "science": -0.002439476445877973
+      },
+      "weights": {
+        "medical": 0.7348951873167658,
+        "legal": 0.0,
+        "code": 0.26510481268323405,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5637676454361153
+    },
+    {
+      "probe_idx": 47,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.7651325158774551,
+        "legal": -0.12190976178777184,
+        "code": 0.26673351980638726,
+        "science": -0.042152883178090544
+      },
+      "weights": {
+        "medical": 0.7415037315094719,
+        "legal": 0.0,
+        "code": 0.258496268490528,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4836748824477821
+    },
+    {
+      "probe_idx": 48,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8894311892554491,
+        "legal": -0.09550229207651884,
+        "code": 0.2643762723163282,
+        "science": -0.048979614805775534
+      },
+      "weights": {
+        "medical": 0.7708662137128313,
+        "legal": 0.0,
+        "code": 0.22913378628716868,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5180333385137783
+    },
+    {
+      "probe_idx": 49,
+      "expected_domains": [
+        "medical",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8211293262082886,
+        "legal": -0.10619963763955749,
+        "code": 0.24602224600599537,
+        "science": -0.02990944165875195
+      },
+      "weights": {
+        "medical": 0.7694589480897152,
+        "legal": 0.0,
+        "code": 0.2305410519102849,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5222231481714712
+    },
+    {
+      "probe_idx": 50,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8895129818381837,
+        "legal": 0.04102769147363344,
+        "code": 0.22414615894646378,
+        "science": 0.1143647219816924
+      },
+      "weights": {
+        "medical": 0.7009273806617788,
+        "legal": 0.03232941273075755,
+        "code": 0.17662494340563137,
+        "science": 0.0901182632018324
+      },
+      "sparsity_gini": 0.5230751459992156
+    },
+    {
+      "probe_idx": 51,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.889700364217553,
+        "legal": 0.10341718914789377,
+        "code": 0.04981489335127157,
+        "science": -0.19250069429687083
+      },
+      "weights": {
+        "medical": 0.853075735651375,
+        "legal": 0.09916000741319728,
+        "code": 0.04776425693542767,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5278998577793388
+    },
+    {
+      "probe_idx": 52,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9314214121025608,
+        "legal": 0.021393666469009514,
+        "code": 0.15911555322375845,
+        "science": -0.0006769222980486864
+      },
+      "weights": {
+        "medical": 0.837661438104896,
+        "legal": 0.019240108921603494,
+        "code": 0.1430984529735004,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6583532857989167
+    },
+    {
+      "probe_idx": 53,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9428659329340241,
+        "legal": -0.01174481106957027,
+        "code": 0.15398176241536965,
+        "science": -0.0491614688841556
+      },
+      "weights": {
+        "medical": 0.8596142718189149,
+        "legal": 0.0,
+        "code": 0.1403857281810851,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6258202780875317
+    },
+    {
+      "probe_idx": 54,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9221627977959784,
+        "legal": 0.011866464663756276,
+        "code": 0.21539505745538956,
+        "science": 0.06249445447053297
+      },
+      "weights": {
+        "medical": 0.760911388853959,
+        "legal": 0.009791468631857437,
+        "code": 0.17773060539026392,
+        "science": 0.051566537123919454
+      },
+      "sparsity_gini": 0.5948809572331626
+    },
+    {
+      "probe_idx": 55,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8956679738958696,
+        "legal": 0.05601997959282064,
+        "code": 0.24954342305654698,
+        "science": 0.03374682122353122
+      },
+      "weights": {
+        "medical": 0.7252500291212188,
+        "legal": 0.0453611081507607,
+        "code": 0.2020630190131262,
+        "science": 0.027325843714894323
+      },
+      "sparsity_gini": 0.5626186167703346
+    },
+    {
+      "probe_idx": 56,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8787319489283422,
+        "legal": 0.05309692103970024,
+        "code": 0.25600227870505055,
+        "science": -0.023327449814009103
+      },
+      "weights": {
+        "medical": 0.7397785029546997,
+        "legal": 0.04470073132786083,
+        "code": 0.21552076571743933,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5715846913994884
+    },
+    {
+      "probe_idx": 57,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8637868340207333,
+        "legal": -0.032808074933654174,
+        "code": 0.25148185902163156,
+        "science": -0.00832862835193051
+      },
+      "weights": {
+        "medical": 0.7745100704516247,
+        "legal": 0.0,
+        "code": 0.2254899295483754,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6020917080502284
+    },
+    {
+      "probe_idx": 58,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8924626621953715,
+        "legal": 0.0026936871022061708,
+        "code": 0.2276379077547992,
+        "science": 0.032362261649766196
+      },
+      "weights": {
+        "medical": 0.7725902488072205,
+        "legal": 0.002331880622751121,
+        "code": 0.1970623929046065,
+        "science": 0.028015477665421715
+      },
+      "sparsity_gini": 0.6199555049481484
+    },
+    {
+      "probe_idx": 59,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.903441180497351,
+        "legal": 0.01046189639220128,
+        "code": 0.22232295536847774,
+        "science": -0.004025699212979645
+      },
+      "weights": {
+        "medical": 0.7951245217484905,
+        "legal": 0.009207583786309032,
+        "code": 0.19566789446520053,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6380405796611102
+    },
+    {
+      "probe_idx": 60,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8990723959714444,
+        "legal": -0.059680229008272655,
+        "code": 0.13773587010894364,
+        "science": 0.01882043817769116
+      },
+      "weights": {
+        "medical": 0.8516937748517683,
+        "legal": 0.0,
+        "code": 0.13047757185207243,
+        "science": 0.017828653296159284
+      },
+      "sparsity_gini": 0.6094301393514971
+    },
+    {
+      "probe_idx": 61,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9023142629530448,
+        "legal": 0.017359843047536315,
+        "code": 0.1947121251452595,
+        "science": 0.00893630540251035
+      },
+      "weights": {
+        "medical": 0.8032548387443542,
+        "legal": 0.015454014748852227,
+        "code": 0.17333590203180127,
+        "science": 0.007955244474992072
+      },
+      "sparsity_gini": 0.6359451675227592
+    },
+    {
+      "probe_idx": 62,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8649931336364189,
+        "legal": -0.024772261401562225,
+        "code": 0.23459536140841436,
+        "science": 0.02027087343640954
+      },
+      "weights": {
+        "medical": 0.7724122849546061,
+        "legal": 0.0,
+        "code": 0.2094864480408584,
+        "science": 0.01810126700453555
+      },
+      "sparsity_gini": 0.5993172407982095
+    },
+    {
+      "probe_idx": 63,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.913957298176157,
+        "legal": 0.025746259527225597,
+        "code": 0.21185369353275912,
+        "science": 0.014562452253647034
+      },
+      "weights": {
+        "medical": 0.78375941632836,
+        "legal": 0.022078573451915818,
+        "code": 0.18167405361452607,
+        "science": 0.012487956605198166
+      },
+      "sparsity_gini": 0.6183524648330239
+    },
+    {
+      "probe_idx": 64,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8653538295666421,
+        "legal": 0.05640795134416408,
+        "code": 0.25373201185667116,
+        "science": 0.04873250594614608
+      },
+      "weights": {
+        "medical": 0.7068577357600693,
+        "legal": 0.04607640875174442,
+        "code": 0.20725907630254667,
+        "science": 0.03980677918563961
+      },
+      "sparsity_gini": 0.5405838843185227
+    },
+    {
+      "probe_idx": 65,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8752580114014318,
+        "legal": -0.029508774657373896,
+        "code": 0.1541475511501188,
+        "science": -0.008060919656675145
+      },
+      "weights": {
+        "medical": 0.8502557623954947,
+        "legal": 0.0,
+        "code": 0.14974423760450528,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6387753685440944
+    },
+    {
+      "probe_idx": 66,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.857523855920354,
+        "legal": 0.06599037918458647,
+        "code": 0.1706106445250178,
+        "science": 0.015567105079955984
+      },
+      "weights": {
+        "medical": 0.7727584480521594,
+        "legal": 0.0594672937119908,
+        "code": 0.15374594651110984,
+        "science": 0.014028311724739903
+      },
+      "sparsity_gini": 0.5926172654453443
+    },
+    {
+      "probe_idx": 67,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8799114573983915,
+        "legal": -0.011878086868672984,
+        "code": 0.22592706388033565,
+        "science": 0.06551267465963305
+      },
+      "weights": {
+        "medical": 0.7511935450695479,
+        "legal": 0.0,
+        "code": 0.19287730670676206,
+        "science": 0.05592914822368996
+      },
+      "sparsity_gini": 0.584103719579071
+    },
+    {
+      "probe_idx": 68,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8398893249807653,
+        "legal": -0.042523757944101584,
+        "code": 0.20754300391306976,
+        "science": 0.0035868385493819793
+      },
+      "weights": {
+        "medical": 0.799118941878043,
+        "legal": 0.0,
+        "code": 0.19746833392006868,
+        "science": 0.00341272420188832
+      },
+      "sparsity_gini": 0.611298981317091
+    },
+    {
+      "probe_idx": 69,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8934778908574523,
+        "legal": 0.012174252500883697,
+        "code": 0.19808651583766007,
+        "science": -0.035752397009041904
+      },
+      "weights": {
+        "medical": 0.8095013103086328,
+        "legal": 0.011030013671671038,
+        "code": 0.17946867601969616,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6156794778285151
+    },
+    {
+      "probe_idx": 70,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8716599716904412,
+        "legal": 0.06254747344009436,
+        "code": 0.21313556547481727,
+        "science": -0.024202833543188428
+      },
+      "weights": {
+        "medical": 0.7597204703679175,
+        "legal": 0.05451506032802998,
+        "code": 0.18576446930405252,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5746594381958812
+    },
+    {
+      "probe_idx": 71,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8699501215891317,
+        "legal": -0.010052522711046338,
+        "code": 0.2786774251874844,
+        "science": 0.02092134490101994
+      },
+      "weights": {
+        "medical": 0.7438339070556077,
+        "legal": 0.0,
+        "code": 0.23827770448120483,
+        "science": 0.01788838846318749
+      },
+      "sparsity_gini": 0.6013575522862531
+    },
+    {
+      "probe_idx": 72,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.891581387657155,
+        "legal": 0.02327679805363015,
+        "code": 0.18890807851254332,
+        "science": 0.1064989101994212
+      },
+      "weights": {
+        "medical": 0.7366826762427544,
+        "legal": 0.01923280826842952,
+        "code": 0.15608817183609808,
+        "science": 0.0879963436527182
+      },
+      "sparsity_gini": 0.5551103580265884
+    },
+    {
+      "probe_idx": 73,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8699005119133004,
+        "legal": -0.01594864530694506,
+        "code": 0.24828829360943383,
+        "science": -0.04749839983553184
+      },
+      "weights": {
+        "medical": 0.7779549460850099,
+        "legal": 0.0,
+        "code": 0.22204505391499002,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5844959536471654
+    },
+    {
+      "probe_idx": 74,
+      "expected_domains": [
+        "legal",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8340188071854041,
+        "legal": -0.04080772135314538,
+        "code": 0.2041919968852042,
+        "science": -0.01844312128102161
+      },
+      "weights": {
+        "medical": 0.8033231824552297,
+        "legal": 0.0,
+        "code": 0.1966768175447702,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5945791684571153
+    },
+    {
+      "probe_idx": 75,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9251209675375858,
+        "legal": -0.1197677279281199,
+        "code": 0.12051387860656171,
+        "science": 0.06006955528602071
+      },
+      "weights": {
+        "medical": 0.8366801889736466,
+        "legal": 0.0,
+        "code": 0.10899285419383663,
+        "science": 0.05432695683251693
+      },
+      "sparsity_gini": 0.5295714862141474
+    },
+    {
+      "probe_idx": 76,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9149251033621703,
+        "legal": -0.06475628276727947,
+        "code": 0.21660493361664268,
+        "science": -0.006426056996124092
+      },
+      "weights": {
+        "medical": 0.808573412514105,
+        "legal": 0.0,
+        "code": 0.19142658748589492,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.598095156745073
+    },
+    {
+      "probe_idx": 77,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9137058036459847,
+        "legal": -0.10094778511447558,
+        "code": 0.21801194267534263,
+        "science": 0.01766172865965196
+      },
+      "weights": {
+        "medical": 0.7949557335370943,
+        "legal": 0.0,
+        "code": 0.1896779500773236,
+        "science": 0.015366316385582087
+      },
+      "sparsity_gini": 0.5608924303357397
+    },
+    {
+      "probe_idx": 78,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.922466948318021,
+        "legal": -0.048126615654791934,
+        "code": 0.21298745619369955,
+        "science": 0.0009196539539319329
+      },
+      "weights": {
+        "medical": 0.8117634694719696,
+        "legal": 0.0,
+        "code": 0.18742724247091497,
+        "science": 0.0008092880571153322
+      },
+      "sparsity_gini": 0.6182990832416555
+    },
+    {
+      "probe_idx": 79,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9163659416252248,
+        "legal": 0.05874694804608687,
+        "code": 0.25528110172518426,
+        "science": 0.018676312317028532
+      },
+      "weights": {
+        "medical": 0.7336384020185578,
+        "legal": 0.04703253921851347,
+        "code": 0.2043768881272941,
+        "science": 0.014952170635634584
+      },
+      "sparsity_gini": 0.5783507607643876
+    },
+    {
+      "probe_idx": 80,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8868419719770724,
+        "legal": -0.07551586481596384,
+        "code": 0.17919605826572663,
+        "science": -0.04728373906169943
+      },
+      "weights": {
+        "medical": 0.8319046289325033,
+        "legal": 0.0,
+        "code": 0.16809537106749675,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5514535410329557
+    },
+    {
+      "probe_idx": 81,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8431739288608258,
+        "legal": -0.17456375656208636,
+        "code": 0.2706741506533472,
+        "science": -0.01785427243060561
+      },
+      "weights": {
+        "medical": 0.7569918594541123,
+        "legal": 0.0,
+        "code": 0.24300814054588768,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.49225600867841934
+    },
+    {
+      "probe_idx": 82,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.893407379976732,
+        "legal": -0.04104198685211628,
+        "code": 0.2756445394474736,
+        "science": 0.001655345129290435
+      },
+      "weights": {
+        "medical": 0.7631347366051193,
+        "legal": 0.0,
+        "code": 0.2354512932424687,
+        "science": 0.001413970152411908
+      },
+      "sparsity_gini": 0.6003425737136387
+    },
+    {
+      "probe_idx": 83,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8499605733080755,
+        "legal": -0.08319395640215388,
+        "code": 0.21935274736629706,
+        "science": -0.030763231921513444
+      },
+      "weights": {
+        "medical": 0.7948657861776564,
+        "legal": 0.0,
+        "code": 0.20513421382234365,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5480046184283218
+    },
+    {
+      "probe_idx": 84,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9079086240591882,
+        "legal": -0.12653427870622952,
+        "code": 0.25932860277562086,
+        "science": 0.040143366260462506
+      },
+      "weights": {
+        "medical": 0.7519655601980901,
+        "legal": 0.0,
+        "code": 0.21478612813445966,
+        "science": 0.033248311667450244
+      },
+      "sparsity_gini": 0.5127932365298502
+    },
+    {
+      "probe_idx": 85,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8600856568675386,
+        "legal": -0.06787547290929391,
+        "code": 0.21645030318601952,
+        "science": 0.026428458046781508
+      },
+      "weights": {
+        "medical": 0.7797945634083858,
+        "legal": 0.0,
+        "code": 0.19624413955149772,
+        "science": 0.02396129704011652
+      },
+      "sparsity_gini": 0.565736281938227
+    },
+    {
+      "probe_idx": 86,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8745269794923392,
+        "legal": -0.08370823288743659,
+        "code": 0.2158337559935463,
+        "science": 0.01694103134259798
+      },
+      "weights": {
+        "medical": 0.7897819778587961,
+        "legal": 0.0,
+        "code": 0.1949186413851158,
+        "science": 0.015299380756088034
+      },
+      "sparsity_gini": 0.5677709188420965
+    },
+    {
+      "probe_idx": 87,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8718761356443666,
+        "legal": 0.009965790262153927,
+        "code": 0.2978163484543235,
+        "science": 0.006615406329258212
+      },
+      "weights": {
+        "medical": 0.7349704792718336,
+        "legal": 0.008400919976877875,
+        "code": 0.2510519733364327,
+        "science": 0.005576627414855709
+      },
+      "sparsity_gini": 0.6077081522326224
+    },
+    {
+      "probe_idx": 88,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8511931387419784,
+        "legal": -0.07934692728248341,
+        "code": 0.15800068590541658,
+        "science": -0.046735123698826424
+      },
+      "weights": {
+        "medical": 0.843438711131015,
+        "legal": 0.0,
+        "code": 0.15656128886898496,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.548771416985393
+    },
+    {
+      "probe_idx": 89,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8914648174537197,
+        "legal": -0.09773751553937474,
+        "code": 0.25513553134202976,
+        "science": 0.050257051901084614
+      },
+      "weights": {
+        "medical": 0.7448379539072001,
+        "legal": 0.0,
+        "code": 0.21317120251208274,
+        "science": 0.04199084358071727
+      },
+      "sparsity_gini": 0.5177336321262418
+    },
+    {
+      "probe_idx": 90,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8575776611266714,
+        "legal": -0.05808878249118347,
+        "code": 0.22978938037660518,
+        "science": -0.01278308407989892
+      },
+      "weights": {
+        "medical": 0.7886735834305562,
+        "legal": 0.0,
+        "code": 0.21132641656944387,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5840945918326912
+    },
+    {
+      "probe_idx": 91,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8774582143113722,
+        "legal": -0.08125052412472576,
+        "code": 0.2812024517730571,
+        "science": 0.028424926012389887
+      },
+      "weights": {
+        "medical": 0.739170132426143,
+        "legal": 0.0,
+        "code": 0.23688473151826622,
+        "science": 0.023945136055590795
+      },
+      "sparsity_gini": 0.5414676278258403
+    },
+    {
+      "probe_idx": 92,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8289968828144042,
+        "legal": -0.07230950127614079,
+        "code": 0.22982753890182234,
+        "science": -0.029655716201885143
+      },
+      "weights": {
+        "medical": 0.7829408406265321,
+        "legal": 0.0,
+        "code": 0.2170591593734678,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5503885999613882
+    },
+    {
+      "probe_idx": 93,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8277375714691775,
+        "legal": -0.10408171879559147,
+        "code": 0.2801706646552763,
+        "science": -0.006179708551379531
+      },
+      "weights": {
+        "medical": 0.747117445723362,
+        "legal": 0.0,
+        "code": 0.2528825542766378,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.541952942558035
+    },
+    {
+      "probe_idx": 94,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8641403089783766,
+        "legal": -0.03702290619005292,
+        "code": 0.22745091410095203,
+        "science": 0.04143857967530164
+      },
+      "weights": {
+        "medical": 0.7626810052811254,
+        "legal": 0.0,
+        "code": 0.20074574697679773,
+        "science": 0.036573247742076924
+      },
+      "sparsity_gini": 0.5699240133370624
+    },
+    {
+      "probe_idx": 95,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8892144594326449,
+        "legal": -0.0692570038659337,
+        "code": 0.22860577810615107,
+        "science": -0.050366173247415595
+      },
+      "weights": {
+        "medical": 0.795489676757425,
+        "legal": 0.0,
+        "code": 0.20451032324257493,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5406092919303542
+    },
+    {
+      "probe_idx": 96,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8195508365501976,
+        "legal": -0.06660027079838153,
+        "code": 0.29169426631773465,
+        "science": 0.0005909610848142156
+      },
+      "weights": {
+        "medical": 0.7371148167622568,
+        "legal": 0.0,
+        "code": 0.26235366505446595,
+        "science": 0.0005315181832771812
+      },
+      "sparsity_gini": 0.5689687136305726
+    },
+    {
+      "probe_idx": 97,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8890639791278199,
+        "legal": -0.06582661370286019,
+        "code": 0.23543127670925562,
+        "science": 0.010205685503477517
+      },
+      "weights": {
+        "medical": 0.7835227298546752,
+        "legal": 0.0,
+        "code": 0.20748310689785232,
+        "science": 0.008994163247472382
+      },
+      "sparsity_gini": 0.5843638349013045
+    },
+    {
+      "probe_idx": 98,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8758616118254201,
+        "legal": -0.05419546981610513,
+        "code": 0.2552607991544803,
+        "science": 0.019132928577540086
+      },
+      "weights": {
+        "medical": 0.7614497248605748,
+        "legal": 0.0,
+        "code": 0.22191663918090712,
+        "science": 0.0166336359585181
+      },
+      "sparsity_gini": 0.5752105767863172
+    },
+    {
+      "probe_idx": 99,
+      "expected_domains": [
+        "science",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8337514093578027,
+        "legal": -0.08599215899879697,
+        "code": 0.280616108926221,
+        "science": 0.019233252155674643
+      },
+      "weights": {
+        "medical": 0.7354894519297205,
+        "legal": 0.0,
+        "code": 0.24754403511685713,
+        "science": 0.0169665129534223
+      },
+      "sparsity_gini": 0.5407907749080743
+    },
+    {
+      "probe_idx": 100,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8911661197661968,
+        "legal": 0.051809975095112204,
+        "code": 0.21363515183793103,
+        "science": 0.01847782181473063
+      },
+      "weights": {
+        "medical": 0.7583817632591667,
+        "legal": 0.04409025365254365,
+        "code": 0.18180336926127327,
+        "science": 0.015724613827016422
+      },
+      "sparsity_gini": 0.5914211409762951
+    },
+    {
+      "probe_idx": 101,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9042080358310417,
+        "legal": -0.011122210232751504,
+        "code": 0.21078935002139382,
+        "science": -0.022757448729573318
+      },
+      "weights": {
+        "medical": 0.810950812355276,
+        "legal": 0.0,
+        "code": 0.189049187644724,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.623933037705745
+    },
+    {
+      "probe_idx": 102,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.902708277249617,
+        "legal": 0.012806010321630274,
+        "code": 0.218341400270243,
+        "science": -0.016749849182732323
+      },
+      "weights": {
+        "medical": 0.7961403615376254,
+        "legal": 0.011294215356461234,
+        "code": 0.19256542310591337,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6238667943701683
+    },
+    {
+      "probe_idx": 103,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.9036012479132844,
+        "legal": -0.08075093784159058,
+        "code": 0.20220393027776973,
+        "science": 0.004136645999465869
+      },
+      "weights": {
+        "medical": 0.8140978456886967,
+        "legal": 0.0,
+        "code": 0.1821752508742852,
+        "science": 0.0037269034370181727
+      },
+      "sparsity_gini": 0.5920601199769426
+    },
+    {
+      "probe_idx": 104,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8961465481554711,
+        "legal": -0.07020447158341414,
+        "code": 0.22760977776966587,
+        "science": -0.03275569858194951
+      },
+      "weights": {
+        "medical": 0.7974562878813739,
+        "legal": 0.0,
+        "code": 0.20254371211862604,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5599455668166289
+    },
+    {
+      "probe_idx": 105,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8551462285250923,
+        "legal": -0.06145716994092359,
+        "code": 0.2634595000990371,
+        "science": -0.020214682704330342
+      },
+      "weights": {
+        "medical": 0.7644751020334136,
+        "legal": 0.0,
+        "code": 0.23552489796658643,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5637856213138961
+    },
+    {
+      "probe_idx": 106,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.7430095822591798,
+        "legal": -0.11762297531616608,
+        "code": 0.2680879697491283,
+        "science": -0.09153776833653939
+      },
+      "weights": {
+        "medical": 0.7348544962683032,
+        "legal": 0.0,
+        "code": 0.26514550373169676,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4312366577808575
+    },
+    {
+      "probe_idx": 107,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8659314580943556,
+        "legal": 0.0063061652403516265,
+        "code": 0.16640837228883612,
+        "science": -0.01203123995281483
+      },
+      "weights": {
+        "medical": 0.8337118341986194,
+        "legal": 0.006071525107614522,
+        "code": 0.160216640693766,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6503550563267615
+    },
+    {
+      "probe_idx": 108,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8689047402432868,
+        "legal": -0.10606255759652661,
+        "code": 0.19113972183424519,
+        "science": 0.001378714734025708
+      },
+      "weights": {
+        "medical": 0.8186223546139411,
+        "legal": 0.0,
+        "code": 0.18007871507801043,
+        "science": 0.0012989303080485509
+      },
+      "sparsity_gini": 0.5755220731087016
+    },
+    {
+      "probe_idx": 109,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8646436781579794,
+        "legal": 0.01357338379894766,
+        "code": 0.2649398738434259,
+        "science": -0.015900138735381084
+      },
+      "weights": {
+        "medical": 0.756364809659857,
+        "legal": 0.011873596156283294,
+        "code": 0.2317615941838596,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6044246395949902
+    },
+    {
+      "probe_idx": 110,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8824388722164449,
+        "legal": -0.06157983169191587,
+        "code": 0.21242056476952476,
+        "science": 0.06950447081568051
+      },
+      "weights": {
+        "medical": 0.7578720589875659,
+        "legal": 0.0,
+        "code": 0.18243485850620397,
+        "science": 0.0596930825062302
+      },
+      "sparsity_gini": 0.5313239775186898
+    },
+    {
+      "probe_idx": 111,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8681477531301938,
+        "legal": -0.055262016902937305,
+        "code": 0.2387660332420886,
+        "science": 0.01597972027142419
+      },
+      "weights": {
+        "medical": 0.7731345385770909,
+        "legal": 0.0,
+        "code": 0.21263461924875915,
+        "science": 0.014230842174149775
+      },
+      "sparsity_gini": 0.5814190189991035
+    },
+    {
+      "probe_idx": 112,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8435882178232346,
+        "legal": -0.08168095883445628,
+        "code": 0.24937823426762648,
+        "science": 0.004935832648489874
+      },
+      "weights": {
+        "medical": 0.7683636599986745,
+        "legal": 0.0,
+        "code": 0.22714064606107498,
+        "science": 0.004495693940250496
+      },
+      "sparsity_gini": 0.5687717347583463
+    },
+    {
+      "probe_idx": 113,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8375762408894496,
+        "legal": -0.11232745468659293,
+        "code": 0.27472319570518267,
+        "science": 0.02577176262989065
+      },
+      "weights": {
+        "medical": 0.7359611959780467,
+        "legal": 0.0,
+        "code": 0.24139368072259274,
+        "science": 0.022645123299360734
+      },
+      "sparsity_gini": 0.5193961877021367
+    },
+    {
+      "probe_idx": 114,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8071388505688443,
+        "legal": -0.054989520528152584,
+        "code": 0.30269239540613047,
+        "science": 0.02589392664064974
+      },
+      "weights": {
+        "medical": 0.710681483540572,
+        "legal": 0.0,
+        "code": 0.26651905117944746,
+        "science": 0.022799465279980453
+      },
+      "sparsity_gini": 0.5440929010081614
+    },
+    {
+      "probe_idx": 115,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8302360850374916,
+        "legal": -0.007025820847798018,
+        "code": 0.24954951954506246,
+        "science": 0.0022607183956311616
+      },
+      "weights": {
+        "medical": 0.7672833107111161,
+        "legal": 0.0,
+        "code": 0.23062739020101414,
+        "science": 0.0020892990878697707
+      },
+      "sparsity_gini": 0.6258652868130128
+    },
+    {
+      "probe_idx": 116,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.79496790424813,
+        "legal": -0.09288464106954854,
+        "code": 0.2613837448199355,
+        "science": -0.026263165732378073
+      },
+      "weights": {
+        "medical": 0.7525599121745742,
+        "legal": 0.0,
+        "code": 0.24744008782542576,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5262897628196204
+    },
+    {
+      "probe_idx": 117,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8477824026889735,
+        "legal": -0.0931967859286046,
+        "code": 0.22236665642285552,
+        "science": -0.014248546454703118
+      },
+      "weights": {
+        "medical": 0.792209641704111,
+        "legal": 0.0,
+        "code": 0.20779035829588907,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.558293130934957
+    },
+    {
+      "probe_idx": 118,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8892827581029006,
+        "legal": -0.03741623634609863,
+        "code": 0.16402536410401247,
+        "science": -0.010741840687208643
+      },
+      "weights": {
+        "medical": 0.8442759904287617,
+        "legal": 0.0,
+        "code": 0.15572400957123841,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6269443133866357
+    },
+    {
+      "probe_idx": 119,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8291087282397296,
+        "legal": -0.08926063869903864,
+        "code": 0.29635841079278297,
+        "science": 0.02250620234171643
+      },
+      "weights": {
+        "medical": 0.7222369181911582,
+        "legal": 0.0,
+        "code": 0.2581579206691463,
+        "science": 0.019605161139695498
+      },
+      "sparsity_gini": 0.5308020536326161
+    },
+    {
+      "probe_idx": 120,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8504575242097858,
+        "legal": -0.15418273209649852,
+        "code": 0.21809782915887638,
+        "science": -0.01754137083915324
+      },
+      "weights": {
+        "medical": 0.7958946829742469,
+        "legal": 0.0,
+        "code": 0.20410531702575305,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5165496260032993
+    },
+    {
+      "probe_idx": 121,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8522075721604965,
+        "legal": -0.13355994908885144,
+        "code": 0.2156191132950238,
+        "science": -0.07108952030283913
+      },
+      "weights": {
+        "medical": 0.7980766764570567,
+        "legal": 0.0,
+        "code": 0.20192332354294334,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.4765144931282368
+    },
+    {
+      "probe_idx": 122,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.8153499886919622,
+        "legal": -0.10271959420723459,
+        "code": 0.24747260411764152,
+        "science": -0.002082637086149749
+      },
+      "weights": {
+        "medical": 0.7671553034420916,
+        "legal": 0.0,
+        "code": 0.2328446965579083,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5533787504717953
+    },
+    {
+      "probe_idx": 123,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.7883540759564566,
+        "legal": 0.024085034503531527,
+        "code": 0.3301895817822808,
+        "science": 0.023506151634762384
+      },
+      "weights": {
+        "medical": 0.6760402367666397,
+        "legal": 0.020653730252546413,
+        "code": 0.28314871433264477,
+        "science": 0.020157318648169224
+      },
+      "sparsity_gini": 0.5575359346088773
+    },
+    {
+      "probe_idx": 124,
+      "expected_domains": [
+        "medical",
+        "code"
+      ],
+      "coefficients": {
+        "medical": 0.7691611229033894,
+        "legal": -0.08096284732647718,
+        "code": 0.2479734011708457,
+        "science": -0.02717766492534074
+      },
+      "weights": {
+        "medical": 0.7562039284857197,
+        "legal": 0.0,
+        "code": 0.24379607151428032,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5316391216656173
+    },
+    {
+      "probe_idx": 125,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.9029892290109851,
+        "legal": -0.05264128892830031,
+        "code": 0.19016562555387845,
+        "science": -0.011914375695548225
+      },
+      "weights": {
+        "medical": 0.8260396276339321,
+        "legal": 0.0,
+        "code": 0.1739603723660679,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6069628050329834
+    },
+    {
+      "probe_idx": 126,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.9048398697296327,
+        "legal": 0.0012686741919315514,
+        "code": 0.20311840171345297,
+        "science": 0.059277959158747284
+      },
+      "weights": {
+        "medical": 0.7743569291130469,
+        "legal": 0.0010857243189368265,
+        "code": 0.17382759873763848,
+        "science": 0.05072974783037779
+      },
+      "sparsity_gini": 0.6107278663223974
+    },
+    {
+      "probe_idx": 127,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8846855856631951,
+        "legal": -0.02358963316753364,
+        "code": 0.21870632225091838,
+        "science": -0.05337002921059398
+      },
+      "weights": {
+        "medical": 0.8017872700694646,
+        "legal": 0.0,
+        "code": 0.19821272993053543,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5821621751743808
+    },
+    {
+      "probe_idx": 128,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8885728548173815,
+        "legal": -0.07390385222841753,
+        "code": 0.22551867477677698,
+        "science": 0.0025451707983128458
+      },
+      "weights": {
+        "medical": 0.7957582394569954,
+        "legal": 0.0,
+        "code": 0.20196244194509505,
+        "science": 0.002279318597909489
+      },
+      "sparsity_gini": 0.5900046555365583
+    },
+    {
+      "probe_idx": 129,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8833813409124263,
+        "legal": -0.08496441009328938,
+        "code": 0.21842083482431174,
+        "science": -0.051609540578973004
+      },
+      "weights": {
+        "medical": 0.8017603889026076,
+        "legal": 0.0,
+        "code": 0.1982396110973924,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5306892973934751
+    },
+    {
+      "probe_idx": 130,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8251282964229631,
+        "legal": -0.04870632740128947,
+        "code": 0.2372494471408345,
+        "science": 0.0103446097077085
+      },
+      "weights": {
+        "medical": 0.7691909224288561,
+        "legal": 0.0,
+        "code": 0.2211657531115012,
+        "science": 0.009643324459642614
+      },
+      "sparsity_gini": 0.5869508746436101
+    },
+    {
+      "probe_idx": 131,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8142849276029481,
+        "legal": 0.0004285062786403178,
+        "code": 0.28036160599471316,
+        "science": -0.030926022538346122
+      },
+      "weights": {
+        "medical": 0.743588245509576,
+        "legal": 0.00039130311899787375,
+        "code": 0.2560204513714261,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5974694290382325
+    },
+    {
+      "probe_idx": 132,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8944518089730162,
+        "legal": -0.011353173999006426,
+        "code": 0.23265613466592822,
+        "science": 0.05788918375538843
+      },
+      "weights": {
+        "medical": 0.7548134829151939,
+        "legal": 0.0,
+        "code": 0.1963347668002464,
+        "science": 0.04885175028455961
+      },
+      "sparsity_gini": 0.590141293177989
+    },
+    {
+      "probe_idx": 133,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8202936661676419,
+        "legal": 0.06012203286860042,
+        "code": 0.2925066897572211,
+        "science": 0.05641847940622451
+      },
+      "weights": {
+        "medical": 0.6672629922154328,
+        "legal": 0.04890590919396206,
+        "code": 0.23793782288030774,
+        "science": 0.045893275710297284
+      },
+      "sparsity_gini": 0.5132852658004383
+    },
+    {
+      "probe_idx": 134,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.7898570520330912,
+        "legal": -0.07673109947917992,
+        "code": 0.2361473583439241,
+        "science": 0.040692713260259375
+      },
+      "weights": {
+        "medical": 0.740469843342034,
+        "legal": 0.0,
+        "code": 0.2213818272413612,
+        "science": 0.03814832941660461
+      },
+      "sparsity_gini": 0.526248440112647
+    },
+    {
+      "probe_idx": 135,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8698379729930956,
+        "legal": 0.017721464597476526,
+        "code": 0.23209254127945944,
+        "science": 0.0005609289651441821
+      },
+      "weights": {
+        "medical": 0.7764934388000112,
+        "legal": 0.015819728976095678,
+        "code": 0.20718609797844675,
+        "science": 0.0005007342454464159
+      },
+      "sparsity_gini": 0.6298361206665111
+    },
+    {
+      "probe_idx": 136,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8381024415204359,
+        "legal": -0.018861515310849578,
+        "code": 0.2512422699777396,
+        "science": 0.019782750250154506
+      },
+      "weights": {
+        "medical": 0.7556412318917122,
+        "legal": 0.0,
+        "code": 0.2265224499821721,
+        "science": 0.017836318126115764
+      },
+      "sparsity_gini": 0.5960125393617337
+    },
+    {
+      "probe_idx": 137,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8240089804493864,
+        "legal": -0.05460632275211803,
+        "code": 0.25747172447279904,
+        "science": 0.02096893139227693
+      },
+      "weights": {
+        "medical": 0.7474345796004656,
+        "legal": 0.0,
+        "code": 0.23354511262168703,
+        "science": 0.01902030777784733
+      },
+      "sparsity_gini": 0.5643602473209566
+    },
+    {
+      "probe_idx": 138,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8367419931471394,
+        "legal": -0.1374718463553779,
+        "code": 0.31660669342626113,
+        "science": 0.03976157429278996
+      },
+      "weights": {
+        "medical": 0.7013115389181801,
+        "legal": 0.0,
+        "code": 0.265362476387058,
+        "science": 0.03332598469476183
+      },
+      "sparsity_gini": 0.48288566516962095
+    },
+    {
+      "probe_idx": 139,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8509042601299603,
+        "legal": -0.12931578008020028,
+        "code": 0.24091286019414457,
+        "science": 0.015750319537922827
+      },
+      "weights": {
+        "medical": 0.7682640618579032,
+        "legal": 0.0,
+        "code": 0.21751529660727084,
+        "science": 0.01422064153482598
+      },
+      "sparsity_gini": 0.5289624072214945
+    },
+    {
+      "probe_idx": 140,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.827357827188834,
+        "legal": -0.05294980871798709,
+        "code": 0.2194080206150157,
+        "science": -0.017397731564401907
+      },
+      "weights": {
+        "medical": 0.7903943646276373,
+        "legal": 0.0,
+        "code": 0.20960563537236257,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.58103736971996
+    },
+    {
+      "probe_idx": 141,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.80891527074833,
+        "legal": -0.08404037455671268,
+        "code": 0.23751389565958114,
+        "science": -0.0016561957094954685
+      },
+      "weights": {
+        "medical": 0.77302439258751,
+        "legal": 0.0,
+        "code": 0.2269756074124899,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5686759568298405
+    },
+    {
+      "probe_idx": 142,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8602848431312035,
+        "legal": 0.020518955257292904,
+        "code": 0.23587164812073555,
+        "science": -0.011223795420411175
+      },
+      "weights": {
+        "medical": 0.7703982798408304,
+        "legal": 0.018375039337916763,
+        "code": 0.21122668082125287,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.6123188431418729
+    },
+    {
+      "probe_idx": 143,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8317853522335007,
+        "legal": -0.10399554470369375,
+        "code": 0.2610846177567616,
+        "science": 0.04282156833049455
+      },
+      "weights": {
+        "medical": 0.7324042877552699,
+        "legal": 0.0,
+        "code": 0.2298904314659274,
+        "science": 0.037705280778802745
+      },
+      "sparsity_gini": 0.508995467348978
+    },
+    {
+      "probe_idx": 144,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8441697524759433,
+        "legal": -0.1236979997078772,
+        "code": 0.2687920981558101,
+        "science": 0.02978041496286816
+      },
+      "weights": {
+        "medical": 0.7387227880616482,
+        "legal": 0.0,
+        "code": 0.23521672930855075,
+        "science": 0.026060482629801072
+      },
+      "sparsity_gini": 0.5109325291329339
+    },
+    {
+      "probe_idx": 145,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8397297926455644,
+        "legal": -0.13324415790325433,
+        "code": 0.2050578563152805,
+        "science": -0.006100457346853473
+      },
+      "weights": {
+        "medical": 0.8037325034237982,
+        "legal": 0.0,
+        "code": 0.19626749657620174,
+        "science": 0.0
+      },
+      "sparsity_gini": 0.5431618118315695
+    },
+    {
+      "probe_idx": 146,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8060244703465678,
+        "legal": -0.03648016576322606,
+        "code": 0.24636557196438322,
+        "science": 0.04056454373348572
+      },
+      "weights": {
+        "medical": 0.737472975216371,
+        "legal": 0.0,
+        "code": 0.22541245090156625,
+        "science": 0.03711457388206291
+      },
+      "sparsity_gini": 0.5565691019238974
+    },
+    {
+      "probe_idx": 147,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8482694341530854,
+        "legal": -0.08310923077656895,
+        "code": 0.26717907459244045,
+        "science": 0.012865744700489266
+      },
+      "weights": {
+        "medical": 0.7518024624455135,
+        "legal": 0.0,
+        "code": 0.23679491221212673,
+        "science": 0.01140262534235976
+      },
+      "sparsity_gini": 0.5551900196775768
+    },
+    {
+      "probe_idx": 148,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8390429622491105,
+        "legal": -0.10898998062841724,
+        "code": 0.1865125304095373,
+        "science": 0.002286590478106025
+      },
+      "weights": {
+        "medical": 0.8163150507406071,
+        "legal": 0.0,
+        "code": 0.18146029771454875,
+        "science": 0.002224651544844166
+      },
+      "sparsity_gini": 0.5690795825470047
+    },
+    {
+      "probe_idx": 149,
+      "expected_domains": [
+        "legal",
+        "science"
+      ],
+      "coefficients": {
+        "medical": 0.8348945672255561,
+        "legal": -0.0887665801834043,
+        "code": 0.24846239504441817,
+        "science": 0.020333167716991188
+      },
+      "weights": {
+        "medical": 0.7564574009875545,
+        "legal": 0.0,
+        "code": 0.2251197037046553,
+        "science": 0.01842289530779017
+      },
+      "sparsity_gini": 0.5458017870130387
+    }
+  ]
+}

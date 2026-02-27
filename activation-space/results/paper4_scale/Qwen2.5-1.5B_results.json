@@ -1,0 +1,139 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B",
+  "model_short": "Qwen2.5-1.5B",
+  "hidden_dim": 1536,
+  "n_params": 1.543714304,
+  "baseline_domain_acc": 0.98125,
+  "baseline_shape_acc": 0.96875,
+  "n_domain_dirs": 16,
+  "final_domain_acc": 0.3125,
+  "final_shape_acc": 0.96875,
+  "shape_survival": 1.0,
+  "inlp_history": [
+    {
+      "iter": 0,
+      "domain_acc": 0.98125,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 1,
+      "domain_acc": 0.88125,
+      "shape_acc": 0.975
+    },
+    {
+      "iter": 2,
+      "domain_acc": 0.68125,
+      "shape_acc": 0.975
+    },
+    {
+      "iter": 3,
+      "domain_acc": 0.6625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 4,
+      "domain_acc": 0.64375,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 5,
+      "domain_acc": 0.64375,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 6,
+      "domain_acc": 0.575,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 7,
+      "domain_acc": 0.53125,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 8,
+      "domain_acc": 0.4875,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 9,
+      "domain_acc": 0.4875,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 10,
+      "domain_acc": 0.45625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 11,
+      "domain_acc": 0.44375,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 12,
+      "domain_acc": 0.45,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 13,
+      "domain_acc": 0.3875,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 14,
+      "domain_acc": 0.3625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 15,
+      "domain_acc": 0.3625,
+      "shape_acc": 0.96875
+    },
+    {
+      "iter": 16,
+      "domain_acc": 0.3125,
+      "shape_acc": 0.96875
+    }
+  ],
+  "test1_cross_domain": 0.9375,
+  "test1_by_domain": {
+    "medical": 0.825,
+    "legal": 0.975,
+    "code": 0.975,
+    "science": 0.975
+  },
+  "test2_nearest_proto": 0.8937499999999999,
+  "test2_by_domain": {
+    "medical": 0.825,
+    "legal": 0.875,
+    "code": 0.975,
+    "science": 0.9
+  },
+  "test3_rehydrate": 0.8770833333333333,
+  "test3_binom_p": 1.015994043077474e-68,
+  "test3_by_shape": {
+    "hierarchical": 1.0,
+    "causal": 0.8,
+    "constraint": 0.7083333333333334,
+    "evidence": 1.0
+  },
+  "test3_by_direction": {
+    "medical->legal": 0.825,
+    "medical->code": 0.8,
+    "medical->science": 0.875,
+    "legal->medical": 0.75,
+    "legal->code": 0.95,
+    "legal->science": 1.0,
+    "code->medical": 0.75,
+    "code->legal": 0.925,
+    "code->science": 1.0,
+    "science->medical": 0.9,
+    "science->legal": 0.85,
+    "science->code": 0.9
+  },
+  "rsa_domain_effect": 0.02824169397354126,
+  "rsa_shape_effect": 0.010632634162902832,
+  "rsa_ratio": 2.6561334133148193,
+  "total_time_s": 80.55276226997375
+}

@@ -1,0 +1,3630 @@
+{
+  "evaluations": [
+    {
+      "probe_idx": 0,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9786626100540161,
+        "legal": 0.9893686175346375,
+        "code": 0.9891736507415771,
+        "science": 0.989368200302124
+      }
+    },
+    {
+      "probe_idx": 1,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9592949748039246,
+        "legal": 0.9710036516189575,
+        "code": 0.969817042350769,
+        "science": 0.9708377122879028
+      }
+    },
+    {
+      "probe_idx": 2,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9709173440933228,
+        "legal": 0.9847777485847473,
+        "code": 0.985160231590271,
+        "science": 0.9844334125518799
+      }
+    },
+    {
+      "probe_idx": 3,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9784679412841797,
+        "legal": 0.9900168180465698,
+        "code": 0.9899592399597168,
+        "science": 0.9896847009658813
+      }
+    },
+    {
+      "probe_idx": 4,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9709204435348511,
+        "legal": 0.9838273525238037,
+        "code": 0.9836771488189697,
+        "science": 0.9837323427200317
+      }
+    },
+    {
+      "probe_idx": 5,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9662383794784546,
+        "legal": 0.981217622756958,
+        "code": 0.9814857840538025,
+        "science": 0.9809964895248413
+      }
+    },
+    {
+      "probe_idx": 6,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9792373180389404,
+        "legal": 0.9899258613586426,
+        "code": 0.9897085428237915,
+        "science": 0.9899682998657227
+      }
+    },
+    {
+      "probe_idx": 7,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9765733480453491,
+        "legal": 0.9887348413467407,
+        "code": 0.9889714121818542,
+        "science": 0.9885353446006775
+      }
+    },
+    {
+      "probe_idx": 8,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9745140075683594,
+        "legal": 0.9864352941513062,
+        "code": 0.9863207340240479,
+        "science": 0.9864120483398438
+      }
+    },
+    {
+      "probe_idx": 9,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9769105911254883,
+        "legal": 0.9890973567962646,
+        "code": 0.989247739315033,
+        "science": 0.9889839887619019
+      }
+    },
+    {
+      "probe_idx": 10,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.979803204536438,
+        "legal": 0.9902554750442505,
+        "code": 0.9900891780853271,
+        "science": 0.9902634620666504
+      }
+    },
+    {
+      "probe_idx": 11,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9840846061706543,
+        "legal": 0.9937663078308105,
+        "code": 0.9937697649002075,
+        "science": 0.9937359690666199
+      }
+    },
+    {
+      "probe_idx": 12,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.974342942237854,
+        "legal": 0.9871193170547485,
+        "code": 0.9872731566429138,
+        "science": 0.9869371056556702
+      }
+    },
+    {
+      "probe_idx": 13,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9769426584243774,
+        "legal": 0.9886549711227417,
+        "code": 0.9886107444763184,
+        "science": 0.9885103702545166
+      }
+    },
+    {
+      "probe_idx": 14,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.960506021976471,
+        "legal": 0.9712891578674316,
+        "code": 0.9701794385910034,
+        "science": 0.9711138010025024
+      }
+    },
+    {
+      "probe_idx": 15,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9864054918289185,
+        "legal": 0.9940253496170044,
+        "code": 0.9936619997024536,
+        "science": 0.9940259456634521
+      }
+    },
+    {
+      "probe_idx": 16,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9803768396377563,
+        "legal": 0.9904518127441406,
+        "code": 0.9901912212371826,
+        "science": 0.990424394607544
+      }
+    },
+    {
+      "probe_idx": 17,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9720808267593384,
+        "legal": 0.9818391799926758,
+        "code": 0.9810075759887695,
+        "science": 0.9815951585769653
+      }
+    },
+    {
+      "probe_idx": 18,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9775073528289795,
+        "legal": 0.9883021116256714,
+        "code": 0.9879453182220459,
+        "science": 0.9882195591926575
+      }
+    },
+    {
+      "probe_idx": 19,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "code",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9633890390396118,
+        "legal": 0.9783138036727905,
+        "code": 0.978335976600647,
+        "science": 0.9783575534820557
+      }
+    },
+    {
+      "probe_idx": 20,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9774753451347351,
+        "legal": 0.9884588718414307,
+        "code": 0.9882212281227112,
+        "science": 0.9884427785873413
+      }
+    },
+    {
+      "probe_idx": 21,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9784542322158813,
+        "legal": 0.9893661141395569,
+        "code": 0.989005446434021,
+        "science": 0.9893909692764282
+      }
+    },
+    {
+      "probe_idx": 22,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9717154502868652,
+        "legal": 0.9837066531181335,
+        "code": 0.9833608865737915,
+        "science": 0.9837347269058228
+      }
+    },
+    {
+      "probe_idx": 23,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9801101684570312,
+        "legal": 0.9900718927383423,
+        "code": 0.9897136688232422,
+        "science": 0.9901075959205627
+      }
+    },
+    {
+      "probe_idx": 24,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9724254608154297,
+        "legal": 0.9849984645843506,
+        "code": 0.9848345518112183,
+        "science": 0.9850589036941528
+      }
+    },
+    {
+      "probe_idx": 25,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9759995937347412,
+        "legal": 0.98846435546875,
+        "code": 0.9886147975921631,
+        "science": 0.9883109927177429
+      }
+    },
+    {
+      "probe_idx": 26,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9773768782615662,
+        "legal": 0.9892275333404541,
+        "code": 0.9892054796218872,
+        "science": 0.9891262650489807
+      }
+    },
+    {
+      "probe_idx": 27,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.976436972618103,
+        "legal": 0.9881179332733154,
+        "code": 0.9881311655044556,
+        "science": 0.9880434274673462
+      }
+    },
+    {
+      "probe_idx": 28,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9653085470199585,
+        "legal": 0.9797062873840332,
+        "code": 0.9797275066375732,
+        "science": 0.9796820878982544
+      }
+    },
+    {
+      "probe_idx": 29,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9783041477203369,
+        "legal": 0.987907350063324,
+        "code": 0.9873561859130859,
+        "science": 0.9878442287445068
+      }
+    },
+    {
+      "probe_idx": 30,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9462815523147583,
+        "legal": 0.9590374231338501,
+        "code": 0.9575095176696777,
+        "science": 0.9588682055473328
+      }
+    },
+    {
+      "probe_idx": 31,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9773555994033813,
+        "legal": 0.9893638491630554,
+        "code": 0.9894450902938843,
+        "science": 0.9893158078193665
+      }
+    },
+    {
+      "probe_idx": 32,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9808965921401978,
+        "legal": 0.9908652901649475,
+        "code": 0.9906429052352905,
+        "science": 0.9908384084701538
+      }
+    },
+    {
+      "probe_idx": 33,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9804112911224365,
+        "legal": 0.990119218826294,
+        "code": 0.9897746443748474,
+        "science": 0.9901196956634521
+      }
+    },
+    {
+      "probe_idx": 34,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9725475311279297,
+        "legal": 0.9856131076812744,
+        "code": 0.9857962131500244,
+        "science": 0.9854239225387573
+      }
+    },
+    {
+      "probe_idx": 35,
+      "true_domain": "medical",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9773033857345581,
+        "legal": 0.9887276291847229,
+        "code": 0.9886560440063477,
+        "science": 0.9887378215789795
+      }
+    },
+    {
+      "probe_idx": 36,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9790956974029541,
+        "legal": 0.9903984665870667,
+        "code": 0.9904603958129883,
+        "science": 0.9901927709579468
+      }
+    },
+    {
+      "probe_idx": 37,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9807941913604736,
+        "legal": 0.9904609322547913,
+        "code": 0.9901764392852783,
+        "science": 0.9904274344444275
+      }
+    },
+    {
+      "probe_idx": 38,
+      "true_domain": "medical",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9725754261016846,
+        "legal": 0.9856663942337036,
+        "code": 0.9858041405677795,
+        "science": 0.9856905937194824
+      }
+    },
+    {
+      "probe_idx": 39,
+      "true_domain": "medical",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9822574257850647,
+        "legal": 0.9922524690628052,
+        "code": 0.9921305179595947,
+        "science": 0.9920303821563721
+      }
+    },
+    {
+      "probe_idx": 40,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.979516863822937,
+        "legal": 0.9910024404525757,
+        "code": 0.991344690322876,
+        "science": 0.9906464219093323
+      }
+    },
+    {
+      "probe_idx": 41,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9840047359466553,
+        "legal": 0.9892947673797607,
+        "code": 0.9884734153747559,
+        "science": 0.9890249371528625
+      }
+    },
+    {
+      "probe_idx": 42,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9599770307540894,
+        "legal": 0.975502073764801,
+        "code": 0.9753832817077637,
+        "science": 0.9754458069801331
+      }
+    },
+    {
+      "probe_idx": 43,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9691904783248901,
+        "legal": 0.9825319647789001,
+        "code": 0.9824104309082031,
+        "science": 0.9823311567306519
+      }
+    },
+    {
+      "probe_idx": 44,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9809035658836365,
+        "legal": 0.9915347099304199,
+        "code": 0.9915213584899902,
+        "science": 0.991473376750946
+      }
+    },
+    {
+      "probe_idx": 45,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9777536392211914,
+        "legal": 0.9861056804656982,
+        "code": 0.9851886630058289,
+        "science": 0.9859557151794434
+      }
+    },
+    {
+      "probe_idx": 46,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9695180058479309,
+        "legal": 0.9835987091064453,
+        "code": 0.9838383197784424,
+        "science": 0.9835039973258972
+      }
+    },
+    {
+      "probe_idx": 47,
+      "true_domain": "legal",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9742527008056641,
+        "legal": 0.9867782592773438,
+        "code": 0.9865980744361877,
+        "science": 0.9868521690368652
+      }
+    },
+    {
+      "probe_idx": 48,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9694268107414246,
+        "legal": 0.9835960865020752,
+        "code": 0.9837967157363892,
+        "science": 0.9835106134414673
+      }
+    },
+    {
+      "probe_idx": 49,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9733706712722778,
+        "legal": 0.9797612428665161,
+        "code": 0.9785560369491577,
+        "science": 0.9791731834411621
+      }
+    },
+    {
+      "probe_idx": 50,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9695792198181152,
+        "legal": 0.983029842376709,
+        "code": 0.9828692674636841,
+        "science": 0.98295658826828
+      }
+    },
+    {
+      "probe_idx": 51,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9863986968994141,
+        "legal": 0.9902550578117371,
+        "code": 0.9893953800201416,
+        "science": 0.9897691011428833
+      }
+    },
+    {
+      "probe_idx": 52,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.980092465877533,
+        "legal": 0.990958034992218,
+        "code": 0.9909945726394653,
+        "science": 0.9907790422439575
+      }
+    },
+    {
+      "probe_idx": 53,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9788805246353149,
+        "legal": 0.9900022745132446,
+        "code": 0.9897797107696533,
+        "science": 0.9899283647537231
+      }
+    },
+    {
+      "probe_idx": 54,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9642142057418823,
+        "legal": 0.9796955585479736,
+        "code": 0.9801101088523865,
+        "science": 0.9795352220535278
+      }
+    },
+    {
+      "probe_idx": 55,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9815340638160706,
+        "legal": 0.9907749891281128,
+        "code": 0.9903926849365234,
+        "science": 0.9902539253234863
+      }
+    },
+    {
+      "probe_idx": 56,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9677005410194397,
+        "legal": 0.9820551872253418,
+        "code": 0.9820449352264404,
+        "science": 0.981907069683075
+      }
+    },
+    {
+      "probe_idx": 57,
+      "true_domain": "legal",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.8969457745552063,
+        "legal": 0.8877354860305786,
+        "code": 0.8838052749633789,
+        "science": 0.8872793316841125
+      }
+    },
+    {
+      "probe_idx": 58,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9638755321502686,
+        "legal": 0.9782139658927917,
+        "code": 0.9779074192047119,
+        "science": 0.9780395030975342
+      }
+    },
+    {
+      "probe_idx": 59,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9826952219009399,
+        "legal": 0.9918406009674072,
+        "code": 0.9915510416030884,
+        "science": 0.9917566776275635
+      }
+    },
+    {
+      "probe_idx": 60,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9841621518135071,
+        "legal": 0.9936815500259399,
+        "code": 0.9937258362770081,
+        "science": 0.9935139417648315
+      }
+    },
+    {
+      "probe_idx": 61,
+      "true_domain": "legal",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9737569093704224,
+        "legal": 0.9857289791107178,
+        "code": 0.9855473637580872,
+        "science": 0.9857392907142639
+      }
+    },
+    {
+      "probe_idx": 62,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "medical",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9314558506011963,
+        "legal": 0.931968629360199,
+        "code": 0.9293287992477417,
+        "science": 0.9311426877975464
+      }
+    },
+    {
+      "probe_idx": 63,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.969455361366272,
+        "legal": 0.9822688102722168,
+        "code": 0.9819937348365784,
+        "science": 0.9822142124176025
+      }
+    },
+    {
+      "probe_idx": 64,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9821181297302246,
+        "legal": 0.9927546977996826,
+        "code": 0.9928751587867737,
+        "science": 0.9926317930221558
+      }
+    },
+    {
+      "probe_idx": 65,
+      "true_domain": "legal",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9716107845306396,
+        "legal": 0.9838672280311584,
+        "code": 0.9836323261260986,
+        "science": 0.9838876724243164
+      }
+    },
+    {
+      "probe_idx": 66,
+      "true_domain": "legal",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.974982500076294,
+        "legal": 0.986590564250946,
+        "code": 0.9864678978919983,
+        "science": 0.9866374731063843
+      }
+    },
+    {
+      "probe_idx": 67,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9676703214645386,
+        "legal": 0.9812270998954773,
+        "code": 0.981060266494751,
+        "science": 0.981148362159729
+      }
+    },
+    {
+      "probe_idx": 68,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9782967567443848,
+        "legal": 0.9898965358734131,
+        "code": 0.989928126335144,
+        "science": 0.9898289442062378
+      }
+    },
+    {
+      "probe_idx": 69,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9785670638084412,
+        "legal": 0.9897801876068115,
+        "code": 0.9898765087127686,
+        "science": 0.9894183874130249
+      }
+    },
+    {
+      "probe_idx": 70,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9668281078338623,
+        "legal": 0.9802701473236084,
+        "code": 0.9800689220428467,
+        "science": 0.9800392389297485
+      }
+    },
+    {
+      "probe_idx": 71,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9693654775619507,
+        "legal": 0.9808086156845093,
+        "code": 0.9802162647247314,
+        "science": 0.9806453585624695
+      }
+    },
+    {
+      "probe_idx": 72,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9670505523681641,
+        "legal": 0.9820083975791931,
+        "code": 0.9824115633964539,
+        "science": 0.9815455675125122
+      }
+    },
+    {
+      "probe_idx": 73,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9788281917572021,
+        "legal": 0.9892117381095886,
+        "code": 0.988908052444458,
+        "science": 0.9890824556350708
+      }
+    },
+    {
+      "probe_idx": 74,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9607664346694946,
+        "legal": 0.9772009253501892,
+        "code": 0.977605402469635,
+        "science": 0.9768818616867065
+      }
+    },
+    {
+      "probe_idx": 75,
+      "true_domain": "legal",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9789186716079712,
+        "legal": 0.9903721809387207,
+        "code": 0.9906408190727234,
+        "science": 0.990052342414856
+      }
+    },
+    {
+      "probe_idx": 76,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9727941751480103,
+        "legal": 0.9853067398071289,
+        "code": 0.9851816892623901,
+        "science": 0.985267162322998
+      }
+    },
+    {
+      "probe_idx": 77,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9660043716430664,
+        "legal": 0.9802489280700684,
+        "code": 0.9799355268478394,
+        "science": 0.980025053024292
+      }
+    },
+    {
+      "probe_idx": 78,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9797650575637817,
+        "legal": 0.9902454614639282,
+        "code": 0.9900785088539124,
+        "science": 0.990241527557373
+      }
+    },
+    {
+      "probe_idx": 79,
+      "true_domain": "legal",
+      "top1_retrieved": "legal",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9786264300346375,
+        "legal": 0.9895318746566772,
+        "code": 0.9893767833709717,
+        "science": 0.9894070029258728
+      }
+    },
+    {
+      "probe_idx": 80,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.7387512922286987,
+        "legal": 0.7193459868431091,
+        "code": 0.7143598794937134,
+        "science": 0.7194198369979858
+      }
+    },
+    {
+      "probe_idx": 81,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.990585446357727,
+        "legal": 0.9965533018112183,
+        "code": 0.9962510466575623,
+        "science": 0.996487021446228
+      }
+    },
+    {
+      "probe_idx": 82,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "medical"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.8831359148025513,
+        "legal": 0.8858803510665894,
+        "code": 0.882840633392334,
+        "science": 0.8847582936286926
+      }
+    },
+    {
+      "probe_idx": 83,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.20305103063583374,
+        "legal": 0.14166520535945892,
+        "code": 0.13444775342941284,
+        "science": 0.14380504190921783
+      }
+    },
+    {
+      "probe_idx": 84,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.972583532333374,
+        "legal": 0.9761096239089966,
+        "code": 0.9746307730674744,
+        "science": 0.9757050275802612
+      }
+    },
+    {
+      "probe_idx": 85,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9042081832885742,
+        "legal": 0.8899790644645691,
+        "code": 0.8863779306411743,
+        "science": 0.8904988169670105
+      }
+    },
+    {
+      "probe_idx": 86,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9415297508239746,
+        "legal": 0.9498445987701416,
+        "code": 0.9480233788490295,
+        "science": 0.9494903683662415
+      }
+    },
+    {
+      "probe_idx": 87,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.8256245851516724,
+        "legal": 0.8112319707870483,
+        "code": 0.8067150712013245,
+        "science": 0.8111287355422974
+      }
+    },
+    {
+      "probe_idx": 88,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.659011721611023,
+        "legal": -0.7453433275222778,
+        "code": -0.7548863887786865,
+        "science": -0.7376881837844849
+      }
+    },
+    {
+      "probe_idx": 89,
+      "true_domain": "code",
+      "top1_retrieved": "code",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9787262678146362,
+        "legal": 0.9898508787155151,
+        "code": 0.9901047945022583,
+        "science": 0.9896811246871948
+      }
+    },
+    {
+      "probe_idx": 90,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.5474839806556702,
+        "legal": -0.6379889845848083,
+        "code": -0.6479183435440063,
+        "science": -0.630425214767456
+      }
+    },
+    {
+      "probe_idx": 91,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.49273622035980225,
+        "legal": 0.47111737728118896,
+        "code": 0.46423086524009705,
+        "science": 0.4701986312866211
+      }
+    },
+    {
+      "probe_idx": 92,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "medical"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9739454984664917,
+        "legal": 0.9748302698135376,
+        "code": 0.9734196662902832,
+        "science": 0.9741637706756592
+      }
+    },
+    {
+      "probe_idx": 93,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9920361042022705,
+        "legal": 0.9953252077102661,
+        "code": 0.9947292804718018,
+        "science": 0.9952194690704346
+      }
+    },
+    {
+      "probe_idx": 94,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.3936253786087036,
+        "legal": 0.309479683637619,
+        "code": 0.3027089536190033,
+        "science": 0.3137351870536804
+      }
+    },
+    {
+      "probe_idx": 95,
+      "true_domain": "code",
+      "top1_retrieved": "code",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9609492421150208,
+        "legal": 0.9759292602539062,
+        "code": 0.9761423468589783,
+        "science": 0.9755064249038696
+      }
+    },
+    {
+      "probe_idx": 96,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.951137125492096,
+        "legal": 0.9589744806289673,
+        "code": 0.9575309753417969,
+        "science": 0.9584363698959351
+      }
+    },
+    {
+      "probe_idx": 97,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9366017580032349,
+        "legal": 0.9213542342185974,
+        "code": 0.918430507183075,
+        "science": 0.9214743375778198
+      }
+    },
+    {
+      "probe_idx": 98,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9822373390197754,
+        "legal": 0.9880151152610779,
+        "code": 0.987328052520752,
+        "science": 0.9879042506217957
+      }
+    },
+    {
+      "probe_idx": 99,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.12237390875816345,
+        "legal": -0.21369142830371857,
+        "code": -0.2214023470878601,
+        "science": -0.20549729466438293
+      }
+    },
+    {
+      "probe_idx": 100,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.705344557762146,
+        "legal": -0.7659248113632202,
+        "code": -0.7708807587623596,
+        "science": -0.7651311159133911
+      }
+    },
+    {
+      "probe_idx": 101,
+      "true_domain": "code",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9893701076507568,
+        "legal": 0.9953751564025879,
+        "code": 0.9950143694877625,
+        "science": 0.9954581260681152
+      }
+    },
+    {
+      "probe_idx": 102,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.24640050530433655,
+        "legal": 0.13918453454971313,
+        "code": 0.12600106000900269,
+        "science": 0.14868402481079102
+      }
+    },
+    {
+      "probe_idx": 103,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9204790592193604,
+        "legal": 0.9083804488182068,
+        "code": 0.9051452279090881,
+        "science": 0.9081301093101501
+      }
+    },
+    {
+      "probe_idx": 104,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.6770740747451782,
+        "legal": -0.7516965270042419,
+        "code": -0.7586266994476318,
+        "science": -0.744012713432312
+      }
+    },
+    {
+      "probe_idx": 105,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.46535971760749817,
+        "legal": -0.5448818802833557,
+        "code": -0.5515314340591431,
+        "science": -0.5442833304405212
+      }
+    },
+    {
+      "probe_idx": 106,
+      "true_domain": "code",
+      "top1_retrieved": "science",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9887915253639221,
+        "legal": 0.9953066110610962,
+        "code": 0.9951679706573486,
+        "science": 0.9955338835716248
+      }
+    },
+    {
+      "probe_idx": 107,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9762128591537476,
+        "legal": 0.9688165187835693,
+        "code": 0.9669304490089417,
+        "science": 0.9690237045288086
+      }
+    },
+    {
+      "probe_idx": 108,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9098036289215088,
+        "legal": 0.8990575671195984,
+        "code": 0.8960352540016174,
+        "science": 0.8987439870834351
+      }
+    },
+    {
+      "probe_idx": 109,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.785879373550415,
+        "legal": 0.7672809958457947,
+        "code": 0.7623613476753235,
+        "science": 0.7667550444602966
+      }
+    },
+    {
+      "probe_idx": 110,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.617519199848175,
+        "legal": -0.6848427057266235,
+        "code": -0.6903196573257446,
+        "science": -0.6831814646720886
+      }
+    },
+    {
+      "probe_idx": 111,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.22131706774234772,
+        "legal": -0.3122681677341461,
+        "code": -0.32057592272758484,
+        "science": -0.30194517970085144
+      }
+    },
+    {
+      "probe_idx": 112,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.42509961128234863,
+        "legal": -0.5126104354858398,
+        "code": -0.5189241766929626,
+        "science": -0.5075210928916931
+      }
+    },
+    {
+      "probe_idx": 113,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.37228551506996155,
+        "legal": 0.29270824790000916,
+        "code": 0.2856207489967346,
+        "science": 0.30063313245773315
+      }
+    },
+    {
+      "probe_idx": 114,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.7037747502326965,
+        "legal": -0.7674834728240967,
+        "code": -0.7725000381469727,
+        "science": -0.766699492931366
+      }
+    },
+    {
+      "probe_idx": 115,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.988291323184967,
+        "legal": 0.9865099191665649,
+        "code": 0.985373854637146,
+        "science": 0.9865648746490479
+      }
+    },
+    {
+      "probe_idx": 116,
+      "true_domain": "code",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9779475331306458,
+        "legal": 0.9890496134757996,
+        "code": 0.9889326095581055,
+        "science": 0.9886050224304199
+      }
+    },
+    {
+      "probe_idx": 117,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.6602673530578613,
+        "legal": -0.695565938949585,
+        "code": -0.7007122039794922,
+        "science": -0.6967594623565674
+      }
+    },
+    {
+      "probe_idx": 118,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9664624929428101,
+        "legal": 0.9624844193458557,
+        "code": 0.9604083299636841,
+        "science": 0.962236762046814
+      }
+    },
+    {
+      "probe_idx": 119,
+      "true_domain": "code",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "science",
+        "legal"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": -0.4200696647167206,
+        "legal": -0.48664987087249756,
+        "code": -0.4937986135482788,
+        "science": -0.48654744029045105
+      }
+    },
+    {
+      "probe_idx": 120,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9601544141769409,
+        "legal": 0.9759019613265991,
+        "code": 0.9757744073867798,
+        "science": 0.9756343960762024
+      }
+    },
+    {
+      "probe_idx": 121,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9710102677345276,
+        "legal": 0.9806331396102905,
+        "code": 0.979802131652832,
+        "science": 0.9803371429443359
+      }
+    },
+    {
+      "probe_idx": 122,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9731547236442566,
+        "legal": 0.9864948987960815,
+        "code": 0.9867680668830872,
+        "science": 0.9862217903137207
+      }
+    },
+    {
+      "probe_idx": 123,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9664198160171509,
+        "legal": 0.9811123609542847,
+        "code": 0.9810742139816284,
+        "science": 0.9807964563369751
+      }
+    },
+    {
+      "probe_idx": 124,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9711196422576904,
+        "legal": 0.9847409725189209,
+        "code": 0.9851085543632507,
+        "science": 0.9841777682304382
+      }
+    },
+    {
+      "probe_idx": 125,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9802852869033813,
+        "legal": 0.9908057451248169,
+        "code": 0.9906485676765442,
+        "science": 0.990511417388916
+      }
+    },
+    {
+      "probe_idx": 126,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9670983552932739,
+        "legal": 0.9809398055076599,
+        "code": 0.9807327389717102,
+        "science": 0.9808498620986938
+      }
+    },
+    {
+      "probe_idx": 127,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.979497492313385,
+        "legal": 0.9903629422187805,
+        "code": 0.9900762438774109,
+        "science": 0.9898414015769958
+      }
+    },
+    {
+      "probe_idx": 128,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9770053625106812,
+        "legal": 0.9888483881950378,
+        "code": 0.9890741109848022,
+        "science": 0.9882498979568481
+      }
+    },
+    {
+      "probe_idx": 129,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9772017002105713,
+        "legal": 0.9894980192184448,
+        "code": 0.9897067546844482,
+        "science": 0.988951563835144
+      }
+    },
+    {
+      "probe_idx": 130,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9646390676498413,
+        "legal": 0.9800782799720764,
+        "code": 0.9803858995437622,
+        "science": 0.9798187017440796
+      }
+    },
+    {
+      "probe_idx": 131,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9651516675949097,
+        "legal": 0.9802870154380798,
+        "code": 0.9802814722061157,
+        "science": 0.980029284954071
+      }
+    },
+    {
+      "probe_idx": 132,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "science",
+        "legal"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9714745283126831,
+        "legal": 0.9848968982696533,
+        "code": 0.9849542379379272,
+        "science": 0.9849295616149902
+      }
+    },
+    {
+      "probe_idx": 133,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9692719578742981,
+        "legal": 0.98313307762146,
+        "code": 0.9830987453460693,
+        "science": 0.982953667640686
+      }
+    },
+    {
+      "probe_idx": 134,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9628118276596069,
+        "legal": 0.9763723611831665,
+        "code": 0.9757012128829956,
+        "science": 0.9762235879898071
+      }
+    },
+    {
+      "probe_idx": 135,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9759319424629211,
+        "legal": 0.9877162575721741,
+        "code": 0.9876540303230286,
+        "science": 0.9875339269638062
+      }
+    },
+    {
+      "probe_idx": 136,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9651128053665161,
+        "legal": 0.9793517589569092,
+        "code": 0.9790853261947632,
+        "science": 0.9790183901786804
+      }
+    },
+    {
+      "probe_idx": 137,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9754514694213867,
+        "legal": 0.9883918762207031,
+        "code": 0.9885903596878052,
+        "science": 0.9882991313934326
+      }
+    },
+    {
+      "probe_idx": 138,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9635388255119324,
+        "legal": 0.9776196479797363,
+        "code": 0.9772932529449463,
+        "science": 0.9775561690330505
+      }
+    },
+    {
+      "probe_idx": 139,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9755904078483582,
+        "legal": 0.9884372353553772,
+        "code": 0.9886671304702759,
+        "science": 0.9882957339286804
+      }
+    },
+    {
+      "probe_idx": 140,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9805463552474976,
+        "legal": 0.9910205602645874,
+        "code": 0.9908527731895447,
+        "science": 0.9908998012542725
+      }
+    },
+    {
+      "probe_idx": 141,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9714858531951904,
+        "legal": 0.9847391843795776,
+        "code": 0.9847226142883301,
+        "science": 0.9846550226211548
+      }
+    },
+    {
+      "probe_idx": 142,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9843786954879761,
+        "legal": 0.9938883781433105,
+        "code": 0.9939557313919067,
+        "science": 0.9935056567192078
+      }
+    },
+    {
+      "probe_idx": 143,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9744486808776855,
+        "legal": 0.9867806434631348,
+        "code": 0.9867007732391357,
+        "science": 0.9864082336425781
+      }
+    },
+    {
+      "probe_idx": 144,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9801899790763855,
+        "legal": 0.9903587102890015,
+        "code": 0.9900203943252563,
+        "science": 0.9898817539215088
+      }
+    },
+    {
+      "probe_idx": 145,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9683574438095093,
+        "legal": 0.9792411923408508,
+        "code": 0.9783473014831543,
+        "science": 0.9789435863494873
+      }
+    },
+    {
+      "probe_idx": 146,
+      "true_domain": "science",
+      "top1_retrieved": "science",
+      "top1_correct": true,
+      "top3_retrieved": [
+        "science",
+        "legal",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.976747453212738,
+        "legal": 0.9886527061462402,
+        "code": 0.9885909557342529,
+        "science": 0.9887111186981201
+      }
+    },
+    {
+      "probe_idx": 147,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.960037350654602,
+        "legal": 0.975939929485321,
+        "code": 0.975820779800415,
+        "science": 0.9757769703865051
+      }
+    },
+    {
+      "probe_idx": 148,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9718625545501709,
+        "legal": 0.9846987724304199,
+        "code": 0.9845647215843201,
+        "science": 0.9845475554466248
+      }
+    },
+    {
+      "probe_idx": 149,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9747039079666138,
+        "legal": 0.987360954284668,
+        "code": 0.9874444007873535,
+        "science": 0.9871834516525269
+      }
+    },
+    {
+      "probe_idx": 150,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9690709114074707,
+        "legal": 0.982094943523407,
+        "code": 0.9817385673522949,
+        "science": 0.9819506406784058
+      }
+    },
+    {
+      "probe_idx": 151,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9764320850372314,
+        "legal": 0.9864374995231628,
+        "code": 0.9858189821243286,
+        "science": 0.9862992763519287
+      }
+    },
+    {
+      "probe_idx": 152,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9706137180328369,
+        "legal": 0.9846515655517578,
+        "code": 0.9848968982696533,
+        "science": 0.984431266784668
+      }
+    },
+    {
+      "probe_idx": 153,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9623865485191345,
+        "legal": 0.9777718782424927,
+        "code": 0.9777179956436157,
+        "science": 0.9776334762573242
+      }
+    },
+    {
+      "probe_idx": 154,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9775853157043457,
+        "legal": 0.989768385887146,
+        "code": 0.9899780750274658,
+        "science": 0.9897593855857849
+      }
+    },
+    {
+      "probe_idx": 155,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9799240827560425,
+        "legal": 0.9907263517379761,
+        "code": 0.9905903935432434,
+        "science": 0.9904018640518188
+      }
+    },
+    {
+      "probe_idx": 156,
+      "true_domain": "science",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9777662754058838,
+        "legal": 0.9900273084640503,
+        "code": 0.9903174042701721,
+        "science": 0.9899278879165649
+      }
+    },
+    {
+      "probe_idx": 157,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9704100489616394,
+        "legal": 0.9824992418289185,
+        "code": 0.9819679260253906,
+        "science": 0.9822824001312256
+      }
+    },
+    {
+      "probe_idx": 158,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9632413983345032,
+        "legal": 0.9779955148696899,
+        "code": 0.9777585864067078,
+        "science": 0.9778344035148621
+      }
+    },
+    {
+      "probe_idx": 159,
+      "true_domain": "science",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": true,
+      "scores": {
+        "medical": 0.9681541323661804,
+        "legal": 0.9796485304832458,
+        "code": 0.9789391160011292,
+        "science": 0.9794216156005859
+      }
+    },
+    {
+      "probe_idx": 160,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9783457517623901,
+        "legal": 0.9893446564674377,
+        "code": 0.9890482425689697,
+        "science": 0.9892706871032715
+      }
+    },
+    {
+      "probe_idx": 161,
+      "true_domain": "general",
+      "top1_retrieved": "medical",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "medical",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9141412973403931,
+        "legal": 0.9070661664009094,
+        "code": 0.9036150574684143,
+        "science": 0.9068002700805664
+      }
+    },
+    {
+      "probe_idx": 162,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.971196174621582,
+        "legal": 0.9844976663589478,
+        "code": 0.9844388961791992,
+        "science": 0.9844649434089661
+      }
+    },
+    {
+      "probe_idx": 163,
+      "true_domain": "general",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9696487188339233,
+        "legal": 0.9835274815559387,
+        "code": 0.9839401245117188,
+        "science": 0.983038067817688
+      }
+    },
+    {
+      "probe_idx": 164,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9648133516311646,
+        "legal": 0.9750258922576904,
+        "code": 0.973885178565979,
+        "science": 0.9748313426971436
+      }
+    },
+    {
+      "probe_idx": 165,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9430656433105469,
+        "legal": 0.9588591456413269,
+        "code": 0.9579053521156311,
+        "science": 0.9586910605430603
+      }
+    },
+    {
+      "probe_idx": 166,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9693604707717896,
+        "legal": 0.9827371835708618,
+        "code": 0.9825559854507446,
+        "science": 0.9826579093933105
+      }
+    },
+    {
+      "probe_idx": 167,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9733295440673828,
+        "legal": 0.9858121871948242,
+        "code": 0.9855506420135498,
+        "science": 0.9853878021240234
+      }
+    },
+    {
+      "probe_idx": 168,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9779955148696899,
+        "legal": 0.9888069033622742,
+        "code": 0.9885134696960449,
+        "science": 0.9884780645370483
+      }
+    },
+    {
+      "probe_idx": 169,
+      "true_domain": "general",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9649219512939453,
+        "legal": 0.9796711206436157,
+        "code": 0.9797579646110535,
+        "science": 0.9795483350753784
+      }
+    },
+    {
+      "probe_idx": 170,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9765280485153198,
+        "legal": 0.9882265329360962,
+        "code": 0.9880161285400391,
+        "science": 0.9880817532539368
+      }
+    },
+    {
+      "probe_idx": 171,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9648944735527039,
+        "legal": 0.9750730991363525,
+        "code": 0.9739978313446045,
+        "science": 0.9748320579528809
+      }
+    },
+    {
+      "probe_idx": 172,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9785737991333008,
+        "legal": 0.9882177114486694,
+        "code": 0.9876682162284851,
+        "science": 0.987949013710022
+      }
+    },
+    {
+      "probe_idx": 173,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9706473350524902,
+        "legal": 0.9841734170913696,
+        "code": 0.9841676950454712,
+        "science": 0.9840435981750488
+      }
+    },
+    {
+      "probe_idx": 174,
+      "true_domain": "general",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9673534631729126,
+        "legal": 0.9817769527435303,
+        "code": 0.9819645285606384,
+        "science": 0.9815610647201538
+      }
+    },
+    {
+      "probe_idx": 175,
+      "true_domain": "general",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9781426191329956,
+        "legal": 0.9896777868270874,
+        "code": 0.989791989326477,
+        "science": 0.989438533782959
+      }
+    },
+    {
+      "probe_idx": 176,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9752388000488281,
+        "legal": 0.9855820536613464,
+        "code": 0.9848775863647461,
+        "science": 0.9853864908218384
+      }
+    },
+    {
+      "probe_idx": 177,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.968817949295044,
+        "legal": 0.9828898906707764,
+        "code": 0.9828674793243408,
+        "science": 0.9824792146682739
+      }
+    },
+    {
+      "probe_idx": 178,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9630239605903625,
+        "legal": 0.9776003360748291,
+        "code": 0.9774097800254822,
+        "science": 0.9775400161743164
+      }
+    },
+    {
+      "probe_idx": 179,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9696798920631409,
+        "legal": 0.9773330688476562,
+        "code": 0.9760158061981201,
+        "science": 0.9770686626434326
+      }
+    },
+    {
+      "probe_idx": 180,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9734127521514893,
+        "legal": 0.9852546453475952,
+        "code": 0.9848490357398987,
+        "science": 0.9850831031799316
+      }
+    },
+    {
+      "probe_idx": 181,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9704038500785828,
+        "legal": 0.9823641777038574,
+        "code": 0.9818387031555176,
+        "science": 0.9822030067443848
+      }
+    },
+    {
+      "probe_idx": 182,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9691264033317566,
+        "legal": 0.9825825095176697,
+        "code": 0.9824835658073425,
+        "science": 0.9824317693710327
+      }
+    },
+    {
+      "probe_idx": 183,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9691324234008789,
+        "legal": 0.9812989234924316,
+        "code": 0.9806995391845703,
+        "science": 0.9812261462211609
+      }
+    },
+    {
+      "probe_idx": 184,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9806846976280212,
+        "legal": 0.991100549697876,
+        "code": 0.9910279512405396,
+        "science": 0.9909578561782837
+      }
+    },
+    {
+      "probe_idx": 185,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9731051921844482,
+        "legal": 0.9831383228302002,
+        "code": 0.9823895692825317,
+        "science": 0.9829409122467041
+      }
+    },
+    {
+      "probe_idx": 186,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9682246446609497,
+        "legal": 0.9808989763259888,
+        "code": 0.9805024862289429,
+        "science": 0.9807727336883545
+      }
+    },
+    {
+      "probe_idx": 187,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9696517586708069,
+        "legal": 0.9821302890777588,
+        "code": 0.9815900325775146,
+        "science": 0.9819774627685547
+      }
+    },
+    {
+      "probe_idx": 188,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9732590913772583,
+        "legal": 0.9853559732437134,
+        "code": 0.9849773645401001,
+        "science": 0.9852395057678223
+      }
+    },
+    {
+      "probe_idx": 189,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9435049891471863,
+        "legal": 0.9567145109176636,
+        "code": 0.9553006291389465,
+        "science": 0.9563775658607483
+      }
+    },
+    {
+      "probe_idx": 190,
+      "true_domain": "general",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9717689752578735,
+        "legal": 0.9844881296157837,
+        "code": 0.9844949245452881,
+        "science": 0.9842065572738647
+      }
+    },
+    {
+      "probe_idx": 191,
+      "true_domain": "general",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9720209836959839,
+        "legal": 0.9855151176452637,
+        "code": 0.9855765104293823,
+        "science": 0.9853358268737793
+      }
+    },
+    {
+      "probe_idx": 192,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9680427312850952,
+        "legal": 0.9808436632156372,
+        "code": 0.9803687930107117,
+        "science": 0.9805251955986023
+      }
+    },
+    {
+      "probe_idx": 193,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "code",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9798044562339783,
+        "legal": 0.9907450675964355,
+        "code": 0.990562379360199,
+        "science": 0.9905194044113159
+      }
+    },
+    {
+      "probe_idx": 194,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9749733805656433,
+        "legal": 0.9808064699172974,
+        "code": 0.9794508218765259,
+        "science": 0.9802407026290894
+      }
+    },
+    {
+      "probe_idx": 195,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9709842205047607,
+        "legal": 0.9835702776908875,
+        "code": 0.9831370115280151,
+        "science": 0.9833126068115234
+      }
+    },
+    {
+      "probe_idx": 196,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9571885466575623,
+        "legal": 0.9700773358345032,
+        "code": 0.9690585136413574,
+        "science": 0.9699028730392456
+      }
+    },
+    {
+      "probe_idx": 197,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.975174069404602,
+        "legal": 0.9868327975273132,
+        "code": 0.9866259098052979,
+        "science": 0.9868106842041016
+      }
+    },
+    {
+      "probe_idx": 198,
+      "true_domain": "general",
+      "top1_retrieved": "legal",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "legal",
+        "science",
+        "code"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.9681036472320557,
+        "legal": 0.9803167581558228,
+        "code": 0.9796335697174072,
+        "science": 0.9802190065383911
+      }
+    },
+    {
+      "probe_idx": 199,
+      "true_domain": "general",
+      "top1_retrieved": "code",
+      "top1_correct": false,
+      "top3_retrieved": [
+        "code",
+        "legal",
+        "science"
+      ],
+      "top3_correct": false,
+      "scores": {
+        "medical": 0.964006781578064,
+        "legal": 0.9795112013816833,
+        "code": 0.9797877669334412,
+        "science": 0.9790825247764587
+      }
+    }
+  ],
+  "summary": {
+    "overall_top1_precision": 0.1625,
+    "overall_top3_recall": 0.56875,
+    "by_domain": {
+      "medical": {
+        "top1_precision": 0.0,
+        "top3_recall": 0.0,
+        "n": 40
+      },
+      "legal": {
+        "top1_precision": 0.575,
+        "top3_recall": 1.0,
+        "n": 40
+      },
+      "code": {
+        "top1_precision": 0.05,
+        "top3_recall": 0.275,
+        "n": 40
+      },
+      "science": {
+        "top1_precision": 0.025,
+        "top3_recall": 1.0,
+        "n": 40
+      }
+    }
+  }
+}

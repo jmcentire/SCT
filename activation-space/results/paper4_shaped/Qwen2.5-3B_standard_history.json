@@ -1,0 +1,72 @@
+[
+  {
+    "iter": 0,
+    "domain": 0.975,
+    "shape": 0.96875
+  },
+  {
+    "iter": 1,
+    "domain": 0.8,
+    "shape": 0.96875
+  },
+  {
+    "iter": 2,
+    "domain": 0.65,
+    "shape": 0.96875
+  },
+  {
+    "iter": 3,
+    "domain": 0.65625,
+    "shape": 0.96875
+  },
+  {
+    "iter": 4,
+    "domain": 0.6125,
+    "shape": 0.96875
+  },
+  {
+    "iter": 5,
+    "domain": 0.5625,
+    "shape": 0.96875
+  },
+  {
+    "iter": 6,
+    "domain": 0.475,
+    "shape": 0.96875
+  },
+  {
+    "iter": 7,
+    "domain": 0.4875,
+    "shape": 0.96875
+  },
+  {
+    "iter": 8,
+    "domain": 0.425,
+    "shape": 0.96875
+  },
+  {
+    "iter": 9,
+    "domain": 0.3625,
+    "shape": 0.96875
+  },
+  {
+    "iter": 10,
+    "domain": 0.3375,
+    "shape": 0.96875
+  },
+  {
+    "iter": 11,
+    "domain": 0.35,
+    "shape": 0.96875
+  },
+  {
+    "iter": 12,
+    "domain": 0.3,
+    "shape": 0.96875
+  },
+  {
+    "iter": 13,
+    "domain": 0.29375,
+    "shape": 0.96875
+  }
+]

@@ -1,0 +1,210 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "seed": 42,
+  "collinearity": 0.9689096808433533,
+  "centroid_mean_norm": 35.21918712863696,
+  "orthogonal_residual_norms": {
+    "medical": 35.04592460858829,
+    "legal": 4.55880942927253,
+    "code": 9.102534348828703,
+    "science": 5.319797164164384
+  },
+  "residual_to_centroid_ratio": 0.3835059093891191,
+  "jensen_gap_tests": [
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        35.04592460858829,
+        4.55880942927253,
+        9.102534348828703,
+        5.319797164164384
+      ],
+      "mean_noisy_norms": [
+        35.88970393629057,
+        12.059802155697964,
+        13.75432207185225,
+        11.13583168406492
+      ],
+      "std_noisy_norms": [
+        0.18719081312246902,
+        0.1730544818209521,
+        0.16190855609108173,
+        0.193410620423476
+      ],
+      "jensen_gap": [
+        0.8437793277022863,
+        7.500992726425435,
+        4.651787723023547,
+        5.816034519900536
+      ],
+      "noise_sigma": 0.1760959356431848,
+      "n_samples": 50
+    },
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        35.04592460858829,
+        4.55880942927253,
+        9.102534348828703,
+        5.319797164164384
+      ],
+      "mean_noisy_norms": [
+        47.2087839159386,
+        40.05184741196358,
+        38.36875150248561,
+        36.22673301151198
+      ],
+      "std_noisy_norms": [
+        0.68121339745546,
+        0.594029385768222,
+        0.5440529903832237,
+        0.6321624850846248
+      ],
+      "jensen_gap": [
+        12.16285930735031,
+        35.49303798269105,
+        29.266217153656903,
+        30.906935847347597
+      ],
+      "noise_sigma": 0.7043837425727392,
+      "n_samples": 50
+    },
+    {
+      "domain_order": [
+        "medical",
+        "legal",
+        "code",
+        "science"
+      ],
+      "clean_norms": [
+        35.04592460858829,
+        4.55880942927253,
+        9.102534348828703,
+        5.319797164164384
+      ],
+      "mean_noisy_norms": [
+        86.80692588884587,
+        86.2416959866303,
+        85.69102505896944,
+        84.30415207855317
+      ],
+      "std_noisy_norms": [
+        1.3663979810775615,
+        1.2625196907841085,
+        1.251701260281779,
+        1.4272965712201782
+      ],
+      "jensen_gap": [
+        51.76100128025758,
+        81.68288655735778,
+        76.58849071014075,
+        78.98435491438879
+      ],
+      "noise_sigma": 1.7609593564318482,
+      "n_samples": 50
+    }
+  ],
+  "condition_check": {
+    "C1_suboptimal": true,
+    "C1_collinearity": 0.9689096808433533,
+    "C2_nonlinear": true,
+    "C2_jensen_gap_positive": true,
+    "C3_accessible": true,
+    "C5_robust": true
+  },
+  "baseline": {
+    "win_rate_vs_gen": 1.0,
+    "win_rate_vs_ta": 0.76,
+    "wins_gen": 150,
+    "wins_ta": 114,
+    "n": 150
+  },
+  "single_shot_sweep": [
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.7733333333333333,
+      "wins_gen": 150,
+      "wins_ta": 116,
+      "n": 150,
+      "noise_fraction": 0.001,
+      "noise_sigma": 0.03521918712863696
+    },
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.7733333333333333,
+      "wins_gen": 150,
+      "wins_ta": 116,
+      "n": 150,
+      "noise_fraction": 0.005,
+      "noise_sigma": 0.1760959356431848
+    },
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.7466666666666667,
+      "wins_gen": 150,
+      "wins_ta": 112,
+      "n": 150,
+      "noise_fraction": 0.01,
+      "noise_sigma": 0.3521918712863696
+    },
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.6666666666666666,
+      "wins_gen": 150,
+      "wins_ta": 100,
+      "n": 150,
+      "noise_fraction": 0.02,
+      "noise_sigma": 0.7043837425727392
+    },
+    {
+      "win_rate_vs_gen": 0.9933333333333333,
+      "win_rate_vs_ta": 0.4666666666666667,
+      "wins_gen": 149,
+      "wins_ta": 70,
+      "n": 150,
+      "noise_fraction": 0.05,
+      "noise_sigma": 1.7609593564318482
+    },
+    {
+      "win_rate_vs_gen": 0.9933333333333333,
+      "win_rate_vs_ta": 0.38666666666666666,
+      "wins_gen": 149,
+      "wins_ta": 58,
+      "n": 150,
+      "noise_fraction": 0.1,
+      "noise_sigma": 3.5219187128636964
+    }
+  ],
+  "ensemble_sweep": [
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.7666666666666667,
+      "wins_gen": 150,
+      "wins_ta": 115,
+      "n": 150,
+      "noise_fraction": 0.001,
+      "noise_sigma": 0.03521918712863696,
+      "n_ensemble": 5
+    },
+    {
+      "win_rate_vs_gen": 1.0,
+      "win_rate_vs_ta": 0.78,
+      "wins_gen": 150,
+      "wins_ta": 117,
+      "n": 150,
+      "noise_fraction": 0.002,
+      "noise_sigma": 0.07043837425727392,
+      "n_ensemble": 5
+    }
+  ]
+}

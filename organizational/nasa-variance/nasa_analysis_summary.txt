@@ -1,0 +1,132 @@
+NASA LINGUISTIC ANALYSIS: COMPLETE TIME SERIES FY1961-2026
+==========================================================
+Generated: 2024-12-14
+Dataset: 66 fiscal years of Congressional budget justifications
+
+HEDGING DENSITY BY ERA (per 1,000 tokens)
+=========================================
+
+PHASE 1: APOLLO ERA (FY1961-1972)
+---------------------------------
+Range: 1.7 - 5.6/1k | Mean: 3.4/1k
+Peak confidence: FY1970 (1.8), FY1972 (1.7)
+This is the baseline for declarative, confident language.
+
+PHASE 2: POST-APOLLO TRANSITION (FY1973-1975)
+---------------------------------------------
+Range: 4.0 - 4.5/1k | Mean: 4.2/1k
+Still within Apollo-era range. Skylab period.
+
+PHASE 3: FIRST INFLECTION POINT (FY1976-1977)  *** KEY FINDING ***
+-------------------------------------------------------------------
+FY1975: 4.2/1k
+FY1976: 7.7/1k  (+83% year-over-year)
+FY1977: 9.8/1k  (+27% year-over-year) << PEAK HEDGING IN ENTIRE DATASET
+
+This is the inflection point. Hedging nearly TRIPLED from 1975 to 1977.
+Correlates with: Post-Vietnam budget politics, Shuttle program approval (1972),
+transition from Apollo's clear mandate to Shuttle's contested justification.
+
+PHASE 4: SHUTTLE ERA (FY1978-1990)
+----------------------------------
+Range: 4.4 - 9.5/1k | Mean: 7.6/1k
+High variability. Notable peaks: FY1987 (9.1), FY1990 (9.5)
+
+PHASE 5: POST-COLD WAR (FY1991-2005)
+------------------------------------
+Range: 4.4 - 8.2/1k | Mean: 6.4/1k
+Decline from Shuttle-era peaks.
+
+PHASE 6: MODERN ERA (FY2006-2026)
+---------------------------------
+Range: 4.5 - 8.4/1k | Mean: 6.5/1k
+SLS/Artemis period (FY2020-2024): 6.4 - 7.5/1k
+
+
+DISASTER IMPACT ANALYSIS
+========================
+
+CHALLENGER (January 28, 1986):
+  FY1985: 8.2/1k (pre-disaster)
+  FY1986: 7.9/1k (budget submitted before disaster)
+  FY1987: 9.1/1k (post-disaster)
+  FY1988: 8.2/1k
+  FINDING: +15% increase FY1986->FY1987, but within normal variance.
+           No sustained linguistic shift detected.
+
+COLUMBIA (February 1, 2003):
+  FY2002: 7.0/1k
+  FY2003: 8.2/1k (budget submitted before disaster)
+  FY2004: 5.4/1k (post-disaster)
+  FY2005: 4.9/1k
+  FINDING: Hedging DECREASED post-Columbia. Possibly reflects
+           renewed clarity of purpose during return-to-flight.
+
+
+NOMINALIZATION TRENDS
+=====================
+Apollo Era (FY1961-1972):   57-70/1k (mean 62)
+Shuttle Era (FY1977-1990):  53-73/1k (mean 68)
+Modern Era (FY2006-2026):   68-77/1k (mean 73)
+
+Nominalization shows gradual INCREASE over time (+18% from Apollo to Modern).
+This reflects general bureaucratic/technical language drift.
+
+
+KEY FINDINGS FOR VARIANCE COMPRESSION THESIS
+============================================
+
+1. INFLECTION POINT IDENTIFIED: FY1976-1977
+   The major linguistic shift occurred in the post-Apollo, pre-Shuttle
+   transition period - NOT gradually over decades.
+
+2. PEAK HEDGING WAS IN 1977, NOT TODAY
+   FY1977 (9.8/1k) remains the highest hedging in 66 years.
+   Modern NASA documents (6.5/1k mean) are actually ~34% LOWER.
+
+3. DISASTERS SHOW NO LASTING LINGUISTIC EFFECT
+   Confirms original hypothesis: hedging is institutional, not event-driven.
+   Both Challenger and Columbia showed no sustained linguistic shift.
+
+4. NOC 2024 COMPARISON (15.5/1k) IS ANOMALOUS
+   If the comparison aerospace document showed 15.5/1k, it represents
+   either a different document type, contractor language, or industry
+   source - not comparable to NASA Congressional budget justifications.
+
+5. NOMINALIZATION IS THE REAL DRIFT
+   While hedging plateaued, nominalization shows steady increase.
+   This may be the better metric for "bureaucratization."
+
+
+HEDGING TIME SERIES (full data)
+===============================
+FY    Hedge/1k  | FY    Hedge/1k  | FY    Hedge/1k  | FY    Hedge/1k
+------|---------|-------|---------|-------|---------|-------|--------
+1961  |   3.8   | 1978  |   7.4   | 1995  |   6.1   | 2012  |   4.5
+1962  |   5.6   | 1979  |   7.6   | 1996  |   6.3   | 2013  |   7.0
+1963  |   3.3   | 1980  |   8.0   | 1997  |   5.9   | 2014  |   6.3
+1964  |   3.0   | 1981  |   6.7   | 1998  |   6.3   | 2015  |   7.4
+1965  |   4.7   | 1982  |   8.4   | 1999  |   6.2   | 2016  |   6.7
+1966  |   4.4   | 1983  |   8.7   | 2000  |   5.8   | 2017  |   7.0
+1967  |   2.9   | 1984  |   8.7   | 2001  |   8.0   | 2018  |   6.5
+1968  |   2.9   | 1985  |   8.2   | 2002  |   7.0   | 2019  |   6.6
+1969  |   3.3   | 1986  |   7.9   | 2003  |   8.2   | 2020  |   7.5
+1970  |   1.8   | 1987  |   9.1   | 2004  |   5.4   | 2021  |   7.3
+1971  |   3.6   | 1988  |   8.2   | 2005  |   4.9   | 2022  |   6.9
+1972  |   1.7   | 1989  |   4.5   | 2006  |   6.0   | 2023  |   6.4
+1973  |   4.5   | 1990  |   9.5   | 2007  |   7.1   | 2024  |   6.4
+1974  |   4.0   | 1991  |   6.0   | 2008  |   6.0   | 2025  |   7.5*
+1975  |   4.2   | 1992  |   4.4   | 2009  |   8.4   | 2026  |   5.5
+1976  |   7.7   | 1993  |   7.0   | 2010  |   6.3   |
+1977  |   9.8** | 1994  |   7.7   | 2011  |   6.6   |
+
+** Peak hedging (entire dataset)
+*  Low token count (4,420) - may be incomplete document
+
+
+NEXT STEPS
+==========
+1. Investigate FY1976-1977 documents qualitatively - what changed?
+2. Compare to non-NASA aerospace (contractors, other agencies) to validate NOC comparison
+3. Consider nominalization as primary metric for institutional drift
+4. Analyze hedging by SECTION TYPE (objectives vs. justification) for finer grain

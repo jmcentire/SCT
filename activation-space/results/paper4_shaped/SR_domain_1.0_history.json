@@ -1,0 +1,252 @@
+[
+  {
+    "iter": 0,
+    "domain": 0.85,
+    "shape": 0.9875
+  },
+  {
+    "iter": 1,
+    "domain": 0.7375,
+    "shape": 0.99375
+  },
+  {
+    "iter": 2,
+    "domain": 0.6875,
+    "shape": 0.99375
+  },
+  {
+    "iter": 3,
+    "domain": 0.7,
+    "shape": 0.99375
+  },
+  {
+    "iter": 4,
+    "domain": 0.70625,
+    "shape": 0.99375
+  },
+  {
+    "iter": 5,
+    "domain": 0.69375,
+    "shape": 0.99375
+  },
+  {
+    "iter": 6,
+    "domain": 0.6875,
+    "shape": 0.99375
+  },
+  {
+    "iter": 7,
+    "domain": 0.675,
+    "shape": 0.99375
+  },
+  {
+    "iter": 8,
+    "domain": 0.675,
+    "shape": 0.99375
+  },
+  {
+    "iter": 9,
+    "domain": 0.66875,
+    "shape": 0.99375
+  },
+  {
+    "iter": 10,
+    "domain": 0.65,
+    "shape": 0.99375
+  },
+  {
+    "iter": 11,
+    "domain": 0.63125,
+    "shape": 0.99375
+  },
+  {
+    "iter": 12,
+    "domain": 0.61875,
+    "shape": 0.99375
+  },
+  {
+    "iter": 13,
+    "domain": 0.61875,
+    "shape": 0.99375
+  },
+  {
+    "iter": 14,
+    "domain": 0.61875,
+    "shape": 0.99375
+  },
+  {
+    "iter": 15,
+    "domain": 0.60625,
+    "shape": 0.99375
+  },
+  {
+    "iter": 16,
+    "domain": 0.575,
+    "shape": 0.99375
+  },
+  {
+    "iter": 17,
+    "domain": 0.575,
+    "shape": 0.99375
+  },
+  {
+    "iter": 18,
+    "domain": 0.55625,
+    "shape": 0.99375
+  },
+  {
+    "iter": 19,
+    "domain": 0.525,
+    "shape": 0.99375
+  },
+  {
+    "iter": 20,
+    "domain": 0.5,
+    "shape": 0.99375
+  },
+  {
+    "iter": 21,
+    "domain": 0.475,
+    "shape": 0.9875
+  },
+  {
+    "iter": 22,
+    "domain": 0.4625,
+    "shape": 0.9875
+  },
+  {
+    "iter": 23,
+    "domain": 0.44375,
+    "shape": 0.98125
+  },
+  {
+    "iter": 24,
+    "domain": 0.425,
+    "shape": 0.98125
+  },
+  {
+    "iter": 25,
+    "domain": 0.40625,
+    "shape": 0.98125
+  },
+  {
+    "iter": 26,
+    "domain": 0.4,
+    "shape": 0.98125
+  },
+  {
+    "iter": 27,
+    "domain": 0.39375,
+    "shape": 0.98125
+  },
+  {
+    "iter": 28,
+    "domain": 0.38125,
+    "shape": 0.98125
+  },
+  {
+    "iter": 29,
+    "domain": 0.3875,
+    "shape": 0.98125
+  },
+  {
+    "iter": 30,
+    "domain": 0.39375,
+    "shape": 0.98125
+  },
+  {
+    "iter": 31,
+    "domain": 0.375,
+    "shape": 0.98125
+  },
+  {
+    "iter": 32,
+    "domain": 0.375,
+    "shape": 0.98125
+  },
+  {
+    "iter": 33,
+    "domain": 0.3625,
+    "shape": 0.98125
+  },
+  {
+    "iter": 34,
+    "domain": 0.3625,
+    "shape": 0.98125
+  },
+  {
+    "iter": 35,
+    "domain": 0.35625,
+    "shape": 0.98125
+  },
+  {
+    "iter": 36,
+    "domain": 0.3625,
+    "shape": 0.98125
+  },
+  {
+    "iter": 37,
+    "domain": 0.36875,
+    "shape": 0.98125
+  },
+  {
+    "iter": 38,
+    "domain": 0.3625,
+    "shape": 0.98125
+  },
+  {
+    "iter": 39,
+    "domain": 0.35,
+    "shape": 0.98125
+  },
+  {
+    "iter": 40,
+    "domain": 0.35625,
+    "shape": 0.98125
+  },
+  {
+    "iter": 41,
+    "domain": 0.35,
+    "shape": 0.98125
+  },
+  {
+    "iter": 42,
+    "domain": 0.33125,
+    "shape": 0.98125
+  },
+  {
+    "iter": 43,
+    "domain": 0.33125,
+    "shape": 0.98125
+  },
+  {
+    "iter": 44,
+    "domain": 0.3125,
+    "shape": 0.98125
+  },
+  {
+    "iter": 45,
+    "domain": 0.33125,
+    "shape": 0.98125
+  },
+  {
+    "iter": 46,
+    "domain": 0.325,
+    "shape": 0.98125
+  },
+  {
+    "iter": 47,
+    "domain": 0.325,
+    "shape": 0.98125
+  },
+  {
+    "iter": 48,
+    "domain": 0.325,
+    "shape": 0.98125
+  },
+  {
+    "iter": 49,
+    "domain": 0.3125,
+    "shape": 0.98125
+  }
+]

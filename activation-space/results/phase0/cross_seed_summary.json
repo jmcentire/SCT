@@ -1,0 +1,41 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "mean_correlation": 0.38849869225748945,
+  "per_seed": {
+    "43": {
+      "stable_frac": 0.3,
+      "chaotic_frac": 0.3,
+      "final_loss": 1.6592964625358582,
+      "total_time": 3488.101951122284
+    },
+    "44": {
+      "stable_frac": 0.3,
+      "chaotic_frac": 0.3,
+      "final_loss": 1.722188971042633,
+      "total_time": 3441.259742975235
+    },
+    "45": {
+      "stable_frac": 0.3,
+      "chaotic_frac": 0.3,
+      "final_loss": 1.696901240348816,
+      "total_time": 3485.4499249458313
+    },
+    "46": {
+      "stable_frac": 0.3,
+      "chaotic_frac": 0.3,
+      "final_loss": 1.6765511584281922,
+      "total_time": 3414.782431125641
+    },
+    "42": {
+      "stable_frac": 0.3,
+      "chaotic_frac": 0.3,
+      "final_loss": 1.7560026037693024
+    }
+  }
+}

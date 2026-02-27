@@ -1,0 +1,977 @@
+# Stigmergic Agent Architecture for Organizational Knowledge Systems
+
+## Technical Architecture Document
+
+---
+
+## 1. Problem Statement
+
+Organizational knowledge systems fail for a structural reason: they impose human taxonomies on inhuman problems.
+
+Information in an organization does not respect departmental boundaries. A bug in an onboarding workflow simultaneously concerns engineering, support, sales, and product. Current systems — wikis, ticket trackers, search tools, AI assistants — require a human to know which silo to query, what question to ask, and when to ask it. This fails in three predictable ways:
+
+1. **The routing problem.** Humans file information where the org chart says it belongs. The org chart is political, not logical. Information ends up where it can be found by people who already know it exists.
+
+2. **The latency problem.** Information sits inert until a human queries it. By the time someone asks the right question, the damage — duplicated work, conflicting decisions, missed context — is already done.
+
+3. **The dimensionality problem.** A single signal (a ticket, a PR, a Slack message) has relevance along dimensions that no human taxonomy can capture. Current systems force categorical assignment. Reality is continuous.
+
+These are not human problems that need faster humans. They are inhuman problems that require a fundamentally different architecture.
+
+---
+
+## 2. Core Principle: Stigmergy Over Orchestration
+
+Stigmergy is coordination through shared environment rather than direct communication. Ants don't talk to each other. They modify pheromone trails. The colony's behavior emerges from simple local rules applied at scale.
+
+This architecture applies stigmergic principles to organizational knowledge:
+
+- **No central orchestrator.** No coordinator assigns tasks or routes signals. Agents act on local state.
+- **Shared state as communication.** Agents read from and write to shared context stores. The stores *are* the coordination mechanism.
+- **Emergent structure.** Contexts (knowledge domains) are not designed. They form from signal clustering and dissolve when signals stop arriving.
+- **Simple rules, complex behavior.** Each agent follows a small set of deterministic rules. The system's intelligence is in the interaction patterns, not in any individual agent.
+
+---
+
+## 3. Primitives
+
+### 3.1 Signal
+
+The atomic unit of information entering the system.
+
+```
+Signal {
+  id:          UUID
+  content:     string | structured_data
+  source:      enum { slack, linear, github, docs, email, deploy, ... }
+  channel:     string              // origin channel, repo, board, etc.
+  author:      string              // human or system that produced it
+  timestamp:   datetime
+  embeddings:  map<strategy, vector[d]>  // multiple embedding representations
+  metadata:    map<string, any>    // source-specific structured fields
+}
+```
+
+Signals are immutable. Once ingested, a signal is never modified. Derived state lives in contexts.
+
+### 3.2 Context
+
+A knowledge domain backed by a vector store. Contexts are the system's equivalent of "areas of concern" — but they are not predefined by org chart or product area. They emerge from signal clustering.
+
+```
+Context {
+  id:              UUID
+  vector_store:    RAG              // embeddings + retrievable chunks
+  active_agents:   set<Agent>       // agents currently bound to this context
+  relevance_decay: float            // exponential decay rate (λ)
+  last_signal:     datetime         // timestamp of most recent relevant signal
+  energy:          float            // current "aliveness" — f(signal_rate, recency)
+  parent:          Context | null   // if forked from another context
+  siblings:        set<Context>     // contexts with high signal overlap
+  business_weight: float            // learned importance to the organization
+}
+```
+
+**Energy** is the key lifecycle metric. It increases with incoming signals and decays exponentially in their absence:
+
+```
+energy(t) = Σ(signal_weights) * e^(-λ * (t - last_signal))
+```
+
+When energy drops below a threshold, the context enters decay. When it hits zero, agents are released and the context archives.
+
+**Business weight** is a learned scalar reflecting how important this context is to the organization. Derived from: frequency of related signals, seniority of people engaging with it, presence in investment decks or strategic documents vs. casual conversation, and downstream financial impact (revenue at risk, cost incurred, opportunity value). A context tracking a bug costing customers $500/day outranks a context tracking the lunch debate. The system already has the data to make this judgment.
+
+### 3.3 Agent
+
+A specialized worker bound to one or more contexts. Agents are not general-purpose. Each has a competency type that determines what it looks for and how it acts.
+
+```
+Agent {
+  id:              UUID
+  competency:      enum { 
+                     duplicate_detector,
+                     conflict_detector,
+                     decision_tracker,
+                     pattern_recognizer,
+                     dead_end_detector,
+                     propagator,
+                     supervisor
+                   }
+  contexts:        map<Context, affinity_weight>  // weighted context bindings
+  confidence:      float            // historical accuracy score
+  rules:           RuleSet          // constraints governing behavior
+  state:           map<string, any> // working memory
+}
+```
+
+**Affinity weight** is a continuous value in [0, 1] representing how strongly an agent is bound to a given context. An agent with 0.9 affinity to Context A and 0.3 affinity to Context B will prioritize A's signals but still process B's when relevant.
+
+### 3.4 Familiarity Score
+
+The routing metric. Given a signal and a context, the familiarity score determines how "close" the signal is to that context's knowledge domain.
+
+```
+familiarity(signal, context) → float [0, 1]
+
+Components:
+  - embedding_similarity:  cosine(signal.embedding, context.centroid)
+  - keyword_overlap:       jaccard(signal.terms, context.terms)  
+  - source_affinity:       learned weight per source-context pair
+  - temporal_proximity:    recency of related signals in this context
+  - author_affinity:       how often this author's signals land in this context
+
+familiarity = weighted_sum(components, learned_weights)
+```
+
+Familiarity is not categorical. A signal doesn't "belong" to a context. It has a continuous degree of relevance to every active context simultaneously.
+
+---
+
+## 4. Signal Flow
+
+### 4.1 Ingestion
+
+Signals arrive continuously from all connected systems via adapters (webhooks, polling, event streams). Each adapter normalizes the source data into the Signal primitive and computes embeddings.
+
+```
+[Slack] ──→ [Adapter] ──→ Signal ──→ Ingestion Queue
+[GitHub] ─→ [Adapter] ──→ Signal ──→ Ingestion Queue
+[Linear] ─→ [Adapter] ──→ Signal ──→ Ingestion Queue
+[Docs]   ─→ [Adapter] ──→ Signal ──→ Ingestion Queue
+```
+
+The ingestion queue is the only centralized component. It is a FIFO buffer, not a coordinator. It does not route. It holds signals until agents claim them.
+
+### 4.2 Classification
+
+Every active agent independently computes familiarity scores for every incoming signal against its bound contexts. This is the **Deterministic Parallel Routing** principle:
+
+> Given identical inputs (signal + context state), every agent computing familiarity for the same signal-context pair arrives at the same score. No coordination required. No voting on routing. The math is the routing.
+
+This is the Guardians principle formalized: each agent solves the whole routing problem but only acts on the slice relevant to its contexts.
+
+```
+for each signal in queue:
+  for each active_context:
+    score = familiarity(signal, context)
+    if score > context.relevance_threshold:
+      context.ingest(signal, score)
+      context.energy += score * signal_weight
+```
+
+### 4.3 Active Inquiry
+
+Classification is not passive pattern matching. When a signal arrives and scores above threshold for a context, the receiving agents don't just file it. They *converse* with their knowledge base.
+
+A message in Slack carries context: who said it, when, what project they're working on, what their recent activity looks like, what words they used, what implicit knowledge they assumed. The system sees the signal and asks itself: *What do I know about this?*
+
+It decomposes the signal — people, projects, tickets, keywords, sentiment, implied questions — and routes each dimension to the contexts that would care. But instead of dumping data, each context is prompted: *Here's what just happened. Anything relevant I should know or bring up?*
+
+```
+for each context where familiarity(signal) > inquiry_threshold:
+  response = context.inquire(signal)
+  // "Nothing relevant."          → move on
+  // "This relates to TICKET-X."  → Assessment: surface
+  // "This contradicts decision Y." → Assessment: conflict
+```
+
+This is the inversion. Current systems wait for humans to ask questions. This system asks its own contexts questions — using statements as prompts. An LLM doesn't need a question mark to produce insight. A signal and a context are sufficient.
+
+The system functions like a new hire onboarding: reading the code, the history, the docs, the channels, the pitch deck. Watching conversations. Listening. Building understanding. Then, when something comes up, connecting it to everything it's absorbed — not because someone asked, but because the connection exists and the system noticed.
+
+### 4.4 Disposition
+
+Once a signal is ingested and inquired upon, the context's bound agents evaluate it according to their competencies:
+
+| Agent Type | Evaluation |
+|---|---|
+| `duplicate_detector` | Is this signal semantically equivalent to an existing signal in this context? |
+| `conflict_detector` | Does this signal contradict active work or established decisions? |
+| `decision_tracker` | Does this signal represent a decision that should propagate? |
+| `pattern_recognizer` | Combined with recent signals, does this suggest an unnamed trend? |
+| `dead_end_detector` | Does this signal relate to a stalled thread or unresolved question? |
+| `propagator` | Should this signal replicate to sibling or child contexts? |
+
+Each agent produces an **Assessment**:
+
+```
+Assessment {
+  agent:       Agent
+  signal:      Signal
+  context:     Context
+  action:      enum { store, surface, replicate, block, ignore }
+  target:      User | Context | null
+  confidence:  float [0, 1]
+  reasoning:   string           // natural language explanation
+}
+```
+
+### 4.5 Consensus
+
+When multiple agents produce assessments for the same signal in the same context, the system resolves via weighted vote:
+
+```
+consensus(assessments) → Action
+
+weight(assessment) = assessment.confidence * assessment.agent.confidence
+
+For each possible action:
+  action_weight = Σ(weights of assessments proposing this action)
+
+If max(action_weight) > consensus_threshold:
+  execute(winning_action)
+Else if max(action_weight) > uncertainty_threshold:
+  store + flag_for_review
+Else:
+  store silently
+```
+
+**No meetings. No escalation chains. No "let's circle back."** Agents disagree, vote, and the system acts on the outcome. The losing agents update their confidence scores based on downstream feedback (did the action produce a positive or negative signal from the user?).
+
+### 4.6 Intervention
+
+When consensus resolves to `surface` or `block`, the system intervenes in the human workflow — but only after passing through the Control Layer (Section 7).
+
+**Surface** (low-to-medium stakes):
+- Slack thread reply: "FYI, this was discussed in #channel on [date] — [link]"
+- PR comment: "This touches the same surface area as PR #N by @engineer"
+- Ticket annotation: "Related tickets: TICKET-1234, TICKET-5678"
+
+**Block** (high stakes):
+- Deploy gate: "This deployment modifies a system under active incident investigation"
+- PR block: "This PR directly conflicts with PR #N — resolve before merge"
+
+Stakes classification is a function of signal metadata, context energy, context business weight, and historical intervention outcomes.
+
+---
+
+## 5. Agent Lifecycle
+
+Agents and contexts are not static. They are born, they evolve, and they die. This is the critical differentiator from orchestrated systems.
+
+### 5.1 Forking
+
+A context forks when it can no longer adequately serve its signal space. Fork triggers:
+
+1. **Volume overload.** Signal rate exceeds the context's agent capacity. Processing latency degrades.
+2. **Coherence degradation.** Average familiarity score of incoming signals drops — the context is absorbing signals that don't fit well. A sub-cluster has formed.
+3. **Dimensional split.** Clustering analysis detects two or more distinct signal populations within the context.
+
+When a fork triggers:
+
+```
+fork(parent_context):
+  child_a, child_b = cluster(parent_context.signals, k=2)
+  
+  child_context_a = Context(
+    vector_store = subset(parent.vector_store, child_a),
+    active_agents = spawn_agents(child_a.competency_profile),
+    parent = parent_context
+  )
+  // analogous for child_b
+  
+  parent_context.energy *= 0.5  // parent decays faster post-fork
+  parent_context.siblings += {child_context_a, child_context_b}
+```
+
+New agents are spawned for each child context. They inherit no state — they learn from the signals in their new context. The parent context persists but decays faster, serving as a bridge until the children are self-sufficient.
+
+### 5.2 Merging
+
+Two contexts merge when they converge — processing the same signals, serving the same consumers, reaching the same conclusions. Merge triggers:
+
+1. **Signal overlap.** > 70% of signals scoring above threshold in Context A also score above threshold in Context B.
+2. **Agent agreement.** Agents in both contexts produce identical assessments for shared signals > 80% of the time.
+3. **Consumer overlap.** The same users are being surfaced information from both contexts.
+
+```
+merge(context_a, context_b):
+  merged = Context(
+    vector_store = union(context_a.vector_store, context_b.vector_store),
+    active_agents = deduplicate(context_a.agents ∪ context_b.agents),
+    energy = max(context_a.energy, context_b.energy)
+  )
+  
+  // Surplus agents from deduplication enter decay
+  release(surplus_agents)
+```
+
+No human decides to merge. The system detects convergence and acts. The taxonomy maintains itself.
+
+### 5.3 Decay
+
+Contexts that stop receiving relevant signals decay exponentially:
+
+```
+energy(t) = energy(t₀) * e^(-λ * (t - t₀))
+
+When energy < decay_threshold:
+  context.status = DECAYING
+  context.agents.forEach(a → a.priority = LOW)
+  
+When energy < archive_threshold:
+  context.status = ARCHIVED
+  release(context.agents)
+  context.vector_store → cold_storage
+```
+
+A project wraps up. A class of bugs gets fixed. A product area sunsets. The agents serving those concerns fade. Resources free. Nothing is manually archived. Relevance is the only survival criterion.
+
+**Resurrection:** If new signals arrive that score high against an archived context's vector store, the context can be reactivated. Agents are respawned. The system remembers what it once knew.
+
+---
+
+## 6. Supervisor Agents
+
+Supervisor agents are a special class bound not to knowledge contexts but to individual users. They are not personalized filters in the consumer sense — they are a manifestation of the same agent pattern applied to the problem of human attention allocation.
+
+A supervisor agent is a specialized agent whose context is a single person's work life. It follows the same rules: ingest signals, evaluate relevance, assess, act. The difference is that its output channel is a human, and humans have preferences, capacity limits, and roles that constrain what they should see.
+
+```
+SupervisorAgent extends Agent {
+  user:               User
+  explicit_rules:     RuleSet         // "don't bother me about X"
+  learned_patterns:   Model           // engagement/dismissal history
+  presentation_prefs: PreferenceSet   // format, timing, channel
+  override_threshold: float           // when to surface despite rules
+}
+```
+
+### Filtering Pipeline
+
+Every signal-to-surface passes through the user's supervisor:
+
+```
+1. System consensus: "Surface signal S to user U"
+2. Supervisor checks explicit rules:
+   - If rule says BLOCK → suppress (log for audit)
+   - If rule says ALLOW → pass through
+   - If no rule matches → continue
+3. Supervisor checks learned patterns:
+   - Has user historically engaged with similar signals? → pass
+   - Has user historically dismissed similar signals? → suppress
+4. Override check:
+   - If signal.stakes > override_threshold → surface regardless
+   - Supervisor learns from user response (engage vs. dismiss)
+```
+
+### Learning
+
+Supervisors update on every interaction:
+
+- User engages with surfaced signal → reinforce pattern
+- User dismisses → attenuate pattern
+- User engages after override → lower override threshold (user wants more)
+- User dismisses after override → raise override threshold (system was wrong)
+
+Over time, each user's supervisor becomes a specialized model of one person's attention — not because it was designed to be a personal assistant, but because that's what happens when you point the agent pattern at a human-shaped context.
+
+---
+
+## 7. Control Layer
+
+The system knows everything. It can see across every context, every signal, every person. This creates a critical requirement: not access control (a human concept — who is *allowed* to see what) but output control (a system concept — what the system is *allowed to say*).
+
+The control layer is the final gate on every outbound message. It does not help craft replies. It kills them.
+
+### Architecture
+
+```
+Agent Assessment → Consensus → Proposed Action → CONTROL LAYER → Output (or null)
+
+The control layer:
+  1. Receives proposed outbound message
+  2. Evaluates against hard constraints
+  3. Passes, modifies (redacts), or kills
+  4. Logs decision for audit
+```
+
+### Hard Filters
+
+The control layer maintains a set of inviolable output constraints:
+
+```
+ControlLayer {
+  kill_patterns:     set<Pattern>     // regex, keyword, semantic classifiers
+  redaction_rules:   set<Rule>        // PII detection, financial data, etc.
+  sensitivity_gates: map<Topic, Action>  // topics that require special handling
+  audit_log:         append_only_log  // every kill/redact decision recorded
+}
+```
+
+**Kill categories** (message is null-routed, never delivered):
+- PII in any form (names + sensitive attributes, SSNs, personal contact info)
+- Financial specifics (compensation, revenue figures, deal terms)
+- HR-sensitive topics (termination, PIP, performance evaluation, hiring decisions, equity grants)
+- Legal-sensitive topics (active litigation, regulatory findings)
+- Credentials, tokens, secrets
+
+**Redaction categories** (message is delivered with sensitive content removed):
+- Partial PII (reference to a person by role instead of name when context is sensitive)
+- Aggregate financials where specifics are restricted but trends are not
+
+### Behavior
+
+The control layer operates on a simple principle: **the system can know. The system cannot say.**
+
+An agent may determine that assigning a ticket to an engineer is suboptimal because HR data suggests that engineer is being terminated next week. The control layer does not allow the system to surface this reasoning. The agent can still influence the assessment — perhaps recommending an alternative assignee with a neutral justification — but the sensitive reasoning is killed at the output layer.
+
+The control layer does not reason about *why* a message should be killed. It pattern-matches against constraints and acts. This makes it fast, deterministic, and resistant to prompt injection or adversarial manipulation of upstream agents. An agent that has been corrupted or manipulated cannot talk its way past the control layer. The control layer doesn't listen.
+
+### Fallback Behavior
+
+When a message is killed:
+1. The originating agent is notified: "Output blocked by control layer — [category]"
+2. The agent may reformulate and resubmit
+3. If the reformulation is also killed, the signal is logged as "undeliverable — control constraint" and stored internally
+4. Persistent kill patterns from a specific agent trigger a confidence review
+
+---
+
+## 8. Embedding Strategy
+
+Signals are not embedded once with a single model. Different dimensions of a signal require different representations.
+
+### Multi-Strategy Embedding
+
+A single Slack message carries multiple types of information simultaneously:
+
+| Dimension | Embedding Strategy | Purpose |
+|---|---|---|
+| **Semantic content** | General-purpose LLM embedding (e.g., text-embedding-3-large) | What is being said |
+| **Technical content** | Code-aware embedding (e.g., CodeBERT, StarCoder embeddings) | Code references, technical terms, system names |
+| **People and roles** | Entity embedding (learned from org graph + interaction patterns) | Who is involved, who is affected |
+| **Temporal context** | Positional encoding relative to project timelines, sprint cycles | When this matters |
+| **Business context** | Embedding against strategic documents, investment decks, OKRs | How important this is to the organization |
+
+```
+Signal.embeddings = {
+  semantic:   embed_semantic(signal.content),
+  technical:  embed_technical(signal.content, signal.code_refs),
+  social:     embed_social(signal.author, signal.mentions, org_graph),
+  temporal:   embed_temporal(signal.timestamp, active_projects),
+  strategic:  embed_strategic(signal.content, strategy_corpus)
+}
+```
+
+### Context-Appropriate Matching
+
+When a context evaluates a signal's familiarity, it weights embedding dimensions according to its own nature:
+
+- A context that has emerged around a specific codebase weights `technical` heavily
+- A context tracking customer issues weights `semantic` and `social`
+- A context monitoring strategic initiatives weights `strategic` and `business_context`
+
+The weights are learned, not assigned. As a context processes signals and receives feedback (accurate assessments vs. false positives), it tunes which embedding dimensions are most predictive of relevance for its domain.
+
+### Active Inquiry Embeddings
+
+When a context performs active inquiry (Section 4.3), it doesn't just compare embeddings passively. It uses the signal's multi-dimensional embedding to construct a targeted query against its RAG store:
+
+```
+inquiry(signal, context):
+  // Decompose signal into queryable dimensions
+  queries = decompose(signal, context.preferred_dimensions)
+  
+  // For each dimension, ask the context's knowledge base
+  for query in queries:
+    results = context.vector_store.search(query)
+    if results.relevance > inquiry_threshold:
+      yield Insight(query, results)
+  
+  // Synthesize insights into assessment
+  return synthesize(insights)
+```
+
+The system asks questions the way a knowledgeable colleague would: not "does this match anything?" but "given what I know about this codebase, this team, this customer, and this quarter's goals — does this signal connect to anything I should raise?"
+
+---
+
+## 9. Business Priority Weighting
+
+Not all signals are equal. The system must internalize organizational priorities without being explicitly told what matters. It learns from structural cues.
+
+### Signal Importance Scoring
+
+```
+importance(signal) → float [0, 1]
+
+Factors:
+  - author_seniority:    Signals from leadership carry more weight (learned from org graph)
+  - channel_gravity:     #incidents > #general > #watercooler (learned from response patterns)
+  - financial_proximity: Signals near revenue (customer-facing, billing, pricing) outrank internal chatter
+  - strategic_alignment: Cosine similarity to active OKRs, investment decks, board materials
+  - downstream_impact:   Historical data — signals of this type have led to incidents, revenue changes, or escalations
+  - engagement_velocity: How quickly and broadly people respond to related signals
+```
+
+A bug costing customers $500/day scores higher than a debate about office snacks. Not because someone tagged it "P0" but because the system can see the customer impact, the revenue exposure, the support ticket volume, and the engineering urgency — simultaneously, across contexts, without anyone synthesizing it manually.
+
+### Resource Allocation
+
+Business priority directly influences resource allocation. Higher-importance signals get:
+- Faster classification (higher priority in the ingestion queue)
+- More agents participating in consensus (higher quorum)
+- Lower intervention thresholds (more willing to surface proactively)
+- More compute budget for active inquiry (deeper RAG searches, more context considered)
+
+Lower-importance signals get:
+- Batch classification during off-peak hours
+- Minimal agent involvement
+- Higher thresholds for intervention (only surface if very confident)
+- Standard embedding, no deep inquiry
+
+This is how the system manages cost without managing agents. The agents don't know about budgets. They respond to the signals they receive. The ingestion queue and priority system determine *which* signals they receive and *how quickly*.
+
+---
+
+## 10. Resource Management
+
+### Token Budget
+
+The system's primary cost driver is LLM token consumption: embeddings, active inquiries, consensus reasoning, and output generation. This is managed through a token budget with hard caps and soft allocation.
+
+```
+TokenBudget {
+  daily_cap:         int              // hard limit on total daily token spend
+  context_budgets:   map<Context, int> // allocated per context based on business_weight
+  reserve_pool:      int              // held for high-priority signals that exceed context budgets
+  current_spend:     int              // real-time tracking
+}
+```
+
+### Allocation Strategy
+
+Token budget is allocated proportionally to context business weight, recalculated daily:
+
+```
+context_budget(context) = daily_cap * (context.business_weight / Σ(all_context_weights))
+```
+
+High-importance contexts get more tokens. Low-importance contexts operate on tight budgets, which naturally constrains them to simpler assessments and less active inquiry. This is not a limitation — it's appropriate. The lunch debate doesn't need deep multi-context reasoning.
+
+### Token Bucket Prioritization
+
+When an agent within a context wants to perform an expensive operation (deep RAG search, multi-step reasoning, cross-context inquiry), it requests tokens from the context's bucket:
+
+```
+request_tokens(agent, operation, estimated_cost):
+  if context.remaining_budget >= estimated_cost:
+    grant(estimated_cost)
+  else if reserve_pool >= estimated_cost AND signal.importance > reserve_threshold:
+    grant_from_reserve(estimated_cost)
+  else:
+    deny → agent falls back to cheaper heuristic evaluation
+```
+
+Denied agents don't stop working. They fall back to embedding-only classification, keyword matching, or cached assessments. The system degrades gracefully under budget pressure — it doesn't stop, it gets less thorough on low-priority signals.
+
+### Off-Peak Processing
+
+Non-urgent work is deferred to off-peak hours when token costs may be lower and system load is reduced:
+
+- Batch classification of low-priority signals
+- Context fitness evaluation and lifecycle decisions (fork/merge/decay)
+- Embedding model fine-tuning on accumulated signal data
+- Cross-context coherence analysis
+- Supervisor model updates
+
+This is asynchronous by design. The system doesn't need to process everything in real time. It needs to process *important* things in real time and everything else eventually.
+
+### Scope Limiting
+
+Additional cost controls that operate at the system boundary:
+
+- **Input limiting:** Not every signal from every source needs full processing. Low-value sources can be sampled or batch-ingested.
+- **Output limiting:** Intervention frequency can be capped per user, per channel, per time window. The system doesn't need to comment on everything it notices.
+- **Audience limiting:** During early deployment, restrict active processing to specific teams or channels. Expand as the system proves its value and the cost model is validated.
+
+---
+
+## 11. Integrity and Traceability
+
+### Signal Lineage
+
+Every action the system takes is traceable back through its full decision chain:
+
+```
+Trace {
+  signal:          Signal              // what triggered this
+  contexts:        set<Context>        // where it was classified
+  inquiries:       set<InquiryResult>  // what the contexts found
+  assessments:     set<Assessment>     // what agents concluded
+  consensus:       ConsensusResult     // how the vote resolved
+  control_decision: ControlDecision    // what the control layer did
+  output:          Output | null       // what the user saw (or didn't)
+}
+```
+
+Every trace is immutable and stored in an append-only log. You can answer: where did this insight come from? Which contexts contributed? Which agents voted? Why did the control layer pass or kill it?
+
+### Adversarial Response
+
+When the system produces incorrect, misleading, or corrupted output, the trace provides the forensic path:
+
+1. **Identify the corrupted component.** Was the signal itself bad (adversarial input)? Was a context's RAG contaminated? Did an agent's model drift? Did the control layer miss something?
+
+2. **Remediate at the source.**
+   - Bad signal from a human → that's a people problem. The system provides the evidence; management handles the human.
+   - Contaminated RAG → edit the vector store. Remove the bad embeddings. Re-embed from clean source data.
+   - Drifted agent → retrain or retire the agent. Spawn a replacement with default confidence.
+   - Control layer gap → add the pattern to the kill list.
+
+3. **Prevent recurrence.**
+   - Human-in-the-loop gates for RAG curation of high-sensitivity contexts
+   - Periodic adversarial testing: inject known-bad signals and verify the system catches them
+   - Confidence floor enforcement: agents below threshold are automatically retired
+
+The system is not immune to adversarial input. No system is. But it is *traceable*. Every decision has a receipt. When something goes wrong, you follow the chain, find the break, fix the component, and handle the human who caused it.
+
+---
+
+## 12. Onboarding
+
+There is no cold start problem.
+
+The system's data sources already exist. Slack history, ticket backlogs, PR archives, documentation, email threads, deploy logs — all available on day one. The aggregation layer (the foundation that tools like Adapt have already built) already connects to these sources and can retrieve from them.
+
+Onboarding the stigmergic layer is not bootstrapping from nothing. It is adding agency and meta-intelligence to an existing knowledge base.
+
+### Process
+
+**Day 1: Ingestion.** Connect adapters. Ingest historical signals. Compute embeddings across all strategies. The system now has the same raw material a new hire would have on their first day: access to everything, understanding of nothing.
+
+**Week 1: Context Formation.** As historical signals are processed, contexts emerge from clustering. The system begins to see the shape of the organization — not the org chart, but the actual topology of information flow. Which people talk to which other people. Which systems touch which other systems. Which tickets recur. Which decisions propagate and which die in their channel.
+
+**Week 2: Passive Observation.** The system classifies incoming signals in real time. It produces assessments but does not act on them. Every proposed intervention is logged. Humans can review: would this have been helpful? Would this have been noise?
+
+**Week 3+: Calibrated Intervention.** Based on observation feedback, thresholds are tuned. The system begins intervening — gently at first, more confidently as its accuracy is validated. Supervisor agents begin learning individual preferences.
+
+This is not different from how a capable new hire onboards. They read the docs, watch the channels, attend the meetings, ask questions, and gradually start contributing. The difference: the system reads *all* the docs, watches *all* the channels, and never forgets.
+
+---
+
+## 13. Implementation Architecture
+
+### 13.1 Infrastructure Layer
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Source Adapters                        │
+│  [Slack] [GitHub] [Linear] [Docs] [Email] [Deploy] ...  │
+└────────────────────────┬────────────────────────────────┘
+                         │ Signals
+                         ▼
+┌─────────────────────────────────────────────────────────┐
+│              Priority Ingestion Queue                    │
+│         (Kafka / Redis Streams + Priority)               │
+└────────────────────────┬────────────────────────────────┘
+                         │
+              ┌──────────┼──────────┐
+              ▼          ▼          ▼
+        ┌──────────┬──────────┬──────────┐
+        │ Context  │ Context  │ Context  │
+        │ Cluster  │ Cluster  │ Cluster  │
+        │    A     │    B     │    N     │
+        └────┬─────┴────┬─────┴────┬─────┘
+             │          │          │
+             ▼          ▼          ▼
+        ┌──────────────────────────────────┐
+        │          Consensus Bus            │
+        └──────────────┬───────────────────┘
+                       │
+                       ▼
+        ┌──────────────────────────────────┐
+        │         CONTROL LAYER            │
+        │   (Kill / Redact / Pass)         │
+        └──────────────┬───────────────────┘
+                       │
+              ┌────────┼────────┐
+              ▼        ▼        ▼
+          [Slack]    [PR]    [Ticket]   ← Output Adapters
+```
+
+### 13.2 Context Cluster Detail
+
+Each context cluster runs as an independent unit:
+
+```
+Context Cluster {
+  Vector Store:      Pinecone / pgvector / Qdrant (multi-index for embedding strategies)
+  Agent Pool:        N agents as async workers (serverless functions or containers)
+  State Store:       Redis (working memory, energy tracking, token budget)
+  Consensus Engine:  Lightweight voting service (in-process)
+  Lifecycle Manager: Monitors energy, triggers fork/merge/decay
+  Token Meter:       Tracks consumption against context budget
+}
+```
+
+Clusters are **horizontally scalable**. Adding a new source adapter doesn't change the architecture. Adding 10x more engineers doesn't change the architecture. The system scales by spawning more contexts and agents, not by redesigning.
+
+### 13.3 Agent Implementation
+
+Agents are lightweight. They are not full LLM instances. They are specialized classifiers and evaluators:
+
+- **Duplicate detector:** Embedding similarity search + structural comparison. No LLM needed for most cases. LLM fallback for semantic deduplication.
+- **Conflict detector:** Graph analysis of signal dependencies. Flags when two signals modify overlapping system surfaces.
+- **Decision tracker:** Pattern matching on signal content (e.g., "we decided," "going with," "approved"). Extracts decision and propagation targets.
+- **Pattern recognizer:** Sliding window over recent signals. Clustering for anomaly detection. This one benefits most from LLM reasoning.
+- **Dead end detector:** Temporal analysis. Threads without resolution, tickets without updates, questions without answers past a staleness threshold.
+- **Propagator:** Cross-context familiarity analysis. When a signal in Context A scores > threshold in Context B, replicate.
+
+Most agents are **small models or heuristic classifiers**, not full LLM calls. LLM reasoning is reserved for ambiguous cases, natural language explanations, active inquiry, and supervisor overrides. This keeps costs manageable and latency low.
+
+---
+
+## 14. Differentiation from Existing Approaches
+
+| Approach | Architecture | Limitation |
+|---|---|---|
+| **RAG + Chat** (most AI tools) | Human queries → retrieval → response | Reactive. Requires humans to know what to ask. |
+| **Auto-Generated Docs** (Sequa, etc.) | AI reads code → writes docs | Solves wrong problem. Produces artifacts humans don't read. |
+| **Orchestrated Multi-Agent** (CrewAI, AutoGen, LangGraph) | Coordinator assigns tasks to agents | Central bottleneck. Predefined workflows. Brittle to novel situations. |
+| **Knowledge Graph** (Neo4j, etc.) | Entities + relationships, human-maintained | Static. Requires manual curation. Doesn't scale with org velocity. |
+| **Stigmergic Agent Architecture** (this document) | Emergent contexts, self-organizing agents, consensus-driven action, control-gated output | No coordinator. No predefined structure. Scales by growing, not redesigning. |
+
+The key differentiator: **this system does not need to be told what matters.** It discovers what matters from signal patterns. It does not need a taxonomy. It grows one. It does not need maintenance. It maintains itself.
+
+---
+
+## 15. Deployment Strategy
+
+### Phase 1: Passive Observation
+- Ingest signals from all connected sources (historical + real-time)
+- Compute embeddings, build initial contexts from signal clustering
+- No intervention — log what the system *would* do
+- Validate: are emergent contexts sensible? Are familiarity scores calibrated?
+
+### Phase 2: Advisory Mode
+- Surface recommendations to a single review channel
+- Human reviews proposed interventions before delivery
+- Feedback loop active — humans rate accuracy
+- Tune: relevance thresholds, consensus confidence floors, intervention triggers
+
+### Phase 3: Direct Intervention (Low Stakes)
+- Duplicate detection active — flag duplicates on ticket creation
+- Decision propagation active — cross-post decisions to affected channels
+- Dead end detection active — nudge stalled threads
+- Supervisors active — personalized filtering begins learning
+
+### Phase 4: Full Autonomy
+- Conflict detection with PR blocking
+- Deploy gates for high-risk changes
+- Pattern recognition with proactive alerting
+- Self-organizing lifecycle (fork/merge/decay) fully autonomous
+- Control layer operating at full constraint set
+
+Each phase builds trust. The system earns authority incrementally, not by assertion.
+
+---
+
+*In this system, humans ideate and deliberate and think aloud and spitball and plan and solve creatively. AI collaborates where it shines — omnipresence, perfect memory, zero ego, tireless pattern recognition across dimensions no human can hold simultaneously.*
+
+*Together, we are the centaur.*
+
+*The system learns the organization faster than the organization learns itself. Not to replace the humans in it, but to make their thinking count.*
+
+
+-----
+
+# Implementation Guidance: Stigmergic Architecture Prototype
+
+## For the AI building this. Read the full technical document first. This covers what it doesn't.
+
+---
+
+## The One Rule
+
+There is ONE agent class. One. If you find yourself creating `DuplicateDetectorAgent`, `SupervisorAgent`, `ControlAgent` as separate classes — stop. You are building a taxonomy. The whole point is that agents differ in their context bindings, learned competencies, and constraints. Not in kind.
+
+```
+// WRONG
+class DuplicateDetector extends Agent { ... }
+class ConflictDetector extends Agent { ... }
+class Supervisor extends Agent { ... }
+
+// RIGHT
+class Agent {
+  contexts: Map<Context, number>    // affinity weights
+  competencies: CompetencyModel     // learned, not typed
+  confidence: number
+  rules: RuleSet
+  weights: Map<string, number>      // domain concern weights
+}
+```
+
+An agent bound to "Jeremy's attention" and an agent bound to "TICKET-7372" and an agent bound to "output compliance" are instantiated from the same class with different configurations.
+
+---
+
+## Build Order
+
+Build in this order. Each step should work independently before the next is added.
+
+### 1. Signal and Ingestion
+Get signals flowing first. Define the Signal type. Build adapters that normalize different sources into Signals. For the prototype, stub the adapters with mock data — but make the mock data realistic. Use actual Slack message shapes, actual Linear ticket shapes, actual GitHub PR shapes. The adapter contract matters more than the implementation.
+
+```
+Signal → Ingestion Queue → available for consumption
+```
+
+This should work and be testable before you write a single agent.
+
+### 2. Context and Vector Store
+Build the Context primitive with its vector store. For the prototype, use an in-memory vector store or a local instance (pgvector, Qdrant). Stub the embedding calls but define the multi-strategy interface — a signal produces multiple embeddings, not one.
+
+```
+interface EmbeddingService {
+  embed(content: string, strategy: string): Promise<number[]>
+}
+```
+
+The strategies (semantic, technical, social, temporal, strategic) are initial seeds. The interface should allow adding and removing strategies without changing the Context code.
+
+### 3. Familiarity Scoring
+Implement the familiarity function. This is the routing core. It must be deterministic — same signal + same context state = same score. No randomness. No LLM calls in the hot path of familiarity scoring.
+
+### 4. Agent + Assessment
+Build the Agent class and the Assessment type. An agent ingests a signal, evaluates it against its contexts, and produces Assessments. For the prototype, the evaluation can be simple — embedding similarity + keyword matching + stubbed LLM call for active inquiry.
+
+### 5. Consensus
+Implement weighted consensus. This is the core algorithm. Agent domain weights feed into vote weights. Get this right. Test it with scenarios: three agents disagree, with different confidence levels and different domain weights. Verify the math produces the right winner.
+
+### 6. Output Constraints
+Agents whose context is compliance. Same Agent class, configured with constraint rules. Pattern match on proposed output. Kill or pass. The constraint evaluation should be the simplest, most boring code in the system. No cleverness. No reasoning. Regex, keyword lists, and simple classifiers.
+
+### 7. Lifecycle (Fork / Merge / Decay)
+This is last because it requires everything else to be working. The lifecycle operates on top of functioning signal flow, not alongside it.
+
+---
+
+## Architecture Decisions
+
+### State
+- **Redis** for working memory, energy tracking, token budgets. This is ephemeral state that changes constantly.
+- **Vector store** (pgvector/Qdrant/Pinecone) for context knowledge. This is the persistent knowledge layer.
+- **Append-only log** for traces. Every assessment, every consensus result, every constraint decision. This is the audit trail. Never delete from it.
+
+### Communication
+- Agents do NOT talk to each other directly. They read from and write to shared state (contexts, the consensus bus). If you find yourself building agent-to-agent messaging, stop. That's orchestration. The context IS the communication channel.
+
+### Async
+- Signal processing is async. An agent claims a signal from the queue, processes it, writes assessments. No blocking. No waiting for other agents to finish.
+- Consensus can be time-boxed: collect assessments for N milliseconds, then resolve with whatever votes are in.
+
+### Stubbing AI Calls
+Every LLM call should go through a single interface:
+
+```
+interface LLMService {
+  complete(prompt: string, context: string, maxTokens: number): Promise<string>
+  classify(content: string, categories: string[]): Promise<Map<string, number>>
+}
+```
+
+Stub it. Return plausible mock responses. But the interface should be exactly what a real implementation would use. When you swap in real API calls, nothing else should change.
+
+Similarly for embeddings:
+
+```
+interface EmbeddingService {
+  embed(content: string, strategy: string): Promise<number[]>
+}
+```
+
+Stub it with random vectors of the right dimensionality for now. The math downstream (cosine similarity, centroids) should work identically with real or fake embeddings.
+
+### Stubbing Data Sources
+Build MCP-shaped stubs for each data source. The adapter should look like it's talking to a real MCP server, returning real-shaped data. When real MCPs are connected, the adapter code shouldn't change.
+
+```
+interface SourceAdapter {
+  connect(): Promise<void>
+  subscribe(callback: (signal: Signal) => void): void
+  backfill(since: Date): AsyncIterator<Signal>
+}
+```
+
+Mock adapters for Slack, Linear, GitHub, Docs. Each returns signals shaped like their real counterparts.
+
+---
+
+## What to Get Right vs. What to Stub
+
+### Get right (these are the architecture):
+- Single Agent class, no type hierarchy
+- Signal → Queue → Context → Agent → Assessment → Consensus → Constraint → Output pipeline
+- Familiarity scoring (deterministic, multi-dimension)
+- Weighted consensus with agent-contributed domain weights
+- Context topology (neighbors, adjacency)
+- Energy model (exponential decay, threshold-based lifecycle)
+- Token budget allocation and request/grant/deny flow
+- Trace logging (every decision recorded)
+
+### Stub (these are integrations):
+- LLM calls (mock responses)
+- Embedding computation (random vectors, correct dimensionality)
+- Data source adapters (mock signals)
+- Vector store operations (in-memory is fine)
+- Output delivery (log to console / file instead of posting to Slack)
+
+---
+
+## Testing Strategy
+
+### Unit test the math:
+- Familiarity scoring: same inputs → same outputs, always
+- Consensus: known agent weights + known assessments → predictable winner
+- Energy decay: verify exponential math, threshold triggers
+- Token budget: allocation proportional to business weight, denial triggers fallback
+
+### Integration test the flow:
+- Signal enters → classified to correct contexts → agents produce assessments → consensus resolves → constraint agents evaluate → output or kill
+- Full trace produced for every signal
+
+### Scenario test the lifecycle:
+- Signals cluster → context forms
+- Context gets incoherent → fork triggers → domain splits
+- Two contexts converge → merge triggers (only if topologically adjacent)
+- Context goes quiet → energy decays → agents released
+- Decaying context near forking neighbor → knowledge folds into fork
+
+### Scenario test the human interactions:
+- Mock a duplicate ticket filing → system catches it
+- Mock two PRs touching same code → conflict surfaces
+- Mock a decision in one channel → propagates to affected contexts
+- Mock a signal that would expose PII → constraint agent kills it
+- Mock a signal the "Jeremy" agent doesn't care about (sales) → low vote weight → doesn't surface
+
+---
+
+## What Not to Build
+
+- **No UI.** This is a backend system. Output is log lines, trace records, and stubbed delivery calls.
+- **No admin panel.** Configuration is code and config files for now.
+- **No persistence layer beyond what's needed.** In-memory where possible. Redis where state needs to survive restarts. Postgres/vector store for knowledge. That's it.
+- **No orchestrator.** If you feel the urge to build a scheduler or coordinator or workflow engine — that's the wrong instinct. Agents pull from queues. Consensus is collected, not directed. The lifecycle manager watches metrics and triggers events. Nothing choreographs.
+
+---
+
+## The Smell Test
+
+If you're building it right, these things should be true:
+
+1. You can add a new "type" of agent by instantiating the same Agent class with different context bindings and initial competency seeds. No new code required.
+
+2. You can add a new data source by implementing SourceAdapter. Nothing else changes.
+
+3. You can add a new embedding strategy by adding a key to the embedding service. Contexts that benefit from it will learn to weight it. No agent code changes.
+
+4. The constraint agents are configured, not coded. Adding a new kill pattern is a config change, not a code change.
+
+5. Removing an agent from the system has no effect on any other agent. They don't know about each other. They share state through contexts.
+
+6. The system works with 3 agents or 300. The architecture doesn't change. Only the resource allocation does.
+
+If any of these aren't true, something has calcified into a taxonomy. Refactor.

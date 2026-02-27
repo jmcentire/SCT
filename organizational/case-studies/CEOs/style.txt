@@ -1,0 +1,299 @@
+# CEO LINGUISTIC VARIANCE SERIES: COMPLETE REFERENCE
+
+This document contains everything needed to produce an essay in the CEO Linguistic Variance series for The Cage and the Mirror.
+
+---
+
+## THE MAXIMS
+
+**Maxim 1:** Always fetch real data.
+
+**Maxim 2:** Always calculate LD/SE according to our methodology.
+
+**Maxim 3:** Always compare apples to apples.
+
+**Maxim 4:** Never mention other CEOs as though the user is familiar; this is not a sequence but a collection of stand-alone pieces.
+
+**Maxim 5:** Never make up data or rely on qualitative measures.
+
+**Maxim 6:** Always match the piece to the theory.
+
+**Maxim 7:** Always follow the ALFS-Prime LinkedIn style.
+
+**Maxim 8:** Always follow the template for the piece for consistent style.
+
+**Maxim 9:** Always double check that you've done all these things.
+
+**Maxim 10:** Never try to fit the data to the theory or rationalize; we test the theory, we don't fake it.
+
+---
+
+## THE THEORY
+
+The Cage thesis: Fiduciary pressure compresses executive language toward defensive mean.
+
+**Core claims being tested:**
+
+1. Public company CEOs face structural pressure (fiduciary duty, shareholder lawsuits, board oversight, compliance review) that systematically eliminates linguistic variance from their communications.
+
+2. This compression is physics, not personality. The role reshapes the occupant. CEOs who begin with distinctive voices converge toward interchangeability.
+
+3. Lexical diversity and hedge-to-assertion ratios are measurable proxies for this compression.
+
+4. Structural protection (dual-class shares, founder control, private ownership) can insulate executives from this pressure, preserving or even expanding linguistic variance.
+
+5. The compression correlates with cognitive and operational constraints—you cannot build what you cannot name.
+
+**What we're looking for:**
+
+- Public company CEOs under standard governance: compression over time (LD declining, hedging increasing)
+- Founder-controlled CEOs with structural protection: preserved or expanded variance
+- Private company executives: unconstrained variance (baseline for comparison)
+- Transitions (IPO, governance changes, litigation): measurable shifts in linguistic patterns
+
+**What would falsify the theory:**
+
+- CEOs under heavy fiduciary pressure showing expanding LD over time
+- Founder-controlled CEOs compressing at the same rate as professional managers
+- No correlation between governance structure and linguistic variance
+
+---
+
+## THE METHODOLOGY
+
+### Corpus Construction
+
+1. **Single content type per analysis.** Never mix earnings calls with keynotes, interviews with shareholder letters, or any other cross-format comparison. Earnings calls compare to earnings calls. Interviews compare to interviews.
+
+2. **Extract only the CEO's speaking portions.** Remove analyst questions, other executives' responses, and moderator text.
+
+3. **Minimum corpus size: 3,000+ words per period.** Smaller corpora produce unreliable LD measurements due to statistical noise.
+
+4. **Document sources.** Record which transcripts, dates, and word counts comprise each corpus.
+
+### Metrics
+
+**Lexical Diversity (LD)**
+- Definition: Unique tokens divided by total tokens
+- Formula: LD = |unique_words| / |total_words|
+- Interpretation: Higher LD = more varied vocabulary; Lower LD = more repetitive/constrained vocabulary
+- Typical ranges: 0.15-0.35 for spoken corporate communications
+
+**Shannon Entropy (SE)**
+- Definition: Information density of word choice, base-2 logarithm
+- Formula: SE = -Σ p(w) × log₂(p(w)) for all words w
+- Interpretation: Higher SE = more unpredictable/information-dense; Lower SE = more predictable/formulaic
+- Typical ranges: 7.5-8.5 bits for corporate communications
+
+**Hedge-to-Assertion Ratio (H2A)**
+- Definition: Count of hedging phrases divided by count of assertion phrases
+- Hedge patterns: "I think," "probably," "might," "we hope," "potentially," "kind of," "sort of," "can't predict," "forward-looking," etc.
+- Assertion patterns: "we will," "absolutely," "definitely," "clearly," "no question," "we're confident," "100%," etc.
+- Interpretation: Higher H2A = more cautious/defensive; Lower H2A = more assertive/confident
+
+**Density metrics**
+- Hedge density: (hedge_count / total_words) × 1000
+- Assertion density: (assertion_count / total_words) × 1000
+
+### Analysis Process
+
+1. Build corpora from real transcripts
+2. Tokenize (lowercase, extract words only)
+3. Compute LD, SE, H2A for each period
+4. Calculate percentage changes from baseline
+5. Report actual numbers, not qualitative impressions
+
+---
+
+## THE TEMPLATE
+
+Target length: ~500 words (450-600 acceptable)
+
+### Structure
+
+**Paragraph 1: Hook**
+Open with the counterintuitive finding or the core tension. State the key metric change. Make the reader want to know why.
+
+**Paragraph 2: Methodology**
+Specify corpus: content type, date range, word counts per period. State metrics being used. This establishes credibility and reproducibility.
+
+**Paragraph 3: Baseline Data**
+Report the starting-state metrics (LD, SE, H2A). Provide representative vocabulary examples from this period. Establish what "normal" looks like for this CEO.
+
+**Paragraph 4: Change Data**
+Report the changed metrics. Show the trajectory. Provide representative vocabulary examples showing the shift. Quantify the change (percentage shifts from baseline).
+
+**Paragraph 5: Governance Explanation**
+Explain the structural conditions that enabled or constrained this pattern. Voting control, share class structure, board composition, ownership percentages. Connect the linguistic pattern to the institutional architecture.
+
+**Paragraph 6: Theory Connection**
+Explicitly connect findings to the Cage thesis. Does this confirm, complicate, or challenge the theory? State the mechanism.
+
+**Paragraph 7: Prediction**
+Based on the physics identified, what should we expect going forward? What would we watch for? What conditions would change the pattern?
+
+**Paragraph 8: Tagline**
+"This is part of ongoing work for The Cage and the Mirror, forthcoming 2026. Visit cageandmirror.com."
+
+---
+
+## THE STYLE: ALFS-PRIME LINKEDIN
+
+### Core Principles
+
+ALFS-Prime is elegant intellectual prose for adults—precise, rich, unhurried, confident, and humane. It assumes the reader wants to understand, not merely feel persuaded. The tone is: "I respect you enough to speak as an adult; I respect myself enough not to posture."
+
+### Lexical Register
+
+- Vocabulary is rich, adult, and unafraid of precision
+- No "SAT-word peacocking"
+- No pandering with over-simplification
+- No pseudo-academic sludge
+- Words appear because they belong there, not because they decorate
+- Clarity first, elegance always
+
+### Structure
+
+- Paragraphs are the unit of meaning—no single-sentence paragraphs except in rare, justified instances
+- Sentence shape: classical, not archaic
+- Periodic sentences when the thought earns it
+- Balanced clauses, well-placed subordinate constructions
+- Rhythmic but not singsong cadence
+
+### The Substrate Principle
+
+Good prose operates on two layers:
+
+1. **Substrate:** Competent, almost invisible writing that connects ideas seamlessly. High quality but not distracting. Does the work of explanation, connection, and setup.
+
+2. **Emphasis:** When you want the reader to stop and absorb a point, break the pattern. A short sentence after several longer ones. A blunt statement after nuanced development.
+
+The substrate builds stored energy. The break releases it. If every sentence tries to be a payoff, nothing lands.
+
+### Prohibited Patterns
+
+**The "Not X, But Y" Construction**
+- Bad: "This is not a bug; it is a feature."
+- Fix: State the affirmative truth directly. Subordinate the negation if distinction is necessary.
+
+**Em-Dash Rationing**
+- Maximum one em-dash per three paragraphs
+- Use for distinct interruptions or abrupt shifts only
+- For simple appositives: use commas or parentheses
+
+**The "Merely" Ban**
+- Excise entirely. If the sentence relies on "merely" to land, rewrite it.
+
+**The Ascending Tricolon**
+- Bad: Lists of three where the third is meant to land as profound
+- Fix: If listing three things, they should be three actual things of equal weight
+
+**Performative Turns**
+- Delete: "And yet." "And still." "But here's the thing." "The truth is." "The reality is." "Make no mistake." "To be clear." "Let that sink in."
+
+**Self-Answering Rhetorical Questions**
+- Delete the question. State the answer directly.
+
+**Throat-Clearing Intensifiers**
+- Delete: "Fundamentally." "Essentially." "At its core." "In essence." "At the end of the day."
+
+**The Empathy Performance**
+- Bad: "We've all been there." "Sound familiar?"
+- Fix: Describe the experience precisely enough that recognition is automatic
+
+**The Mic Drop**
+- No single-word sentences for emphasis: "Period." "Full stop." "Ever."
+
+**The Hedge Cascade**
+- Bad: "In many ways." "To some extent." "It could be argued."
+- Fix: Commit or cut. If uncertain, say why.
+
+### What ALFS-Prime Is
+
+- Rigorous, lucid, stylish, confident, humane
+- The linguistic confidence of someone who reads philosophy and systems theory for pleasure
+- Invites the reader upward
+- Presumes the reader is intelligent, has curiosity, does not need hand-holding
+
+### What ALFS-Prime Is Not
+
+- Minimalist or maximalist
+- Formal for show or breezy for accessibility
+- Bullet-poetry or contemporary managerial mush
+- TED-talk cadence or jargon-riddled dissertation cosplay
+
+---
+
+## CHECKLIST BEFORE SUBMISSION
+
+- [ ] Real data fetched from actual transcripts
+- [ ] LD and SE calculated with documented methodology
+- [ ] Corpus types match across all periods being compared
+- [ ] No other CEOs mentioned as though familiar to reader
+- [ ] All metrics are computed, not invented or qualitative
+- [ ] Findings connected to the Cage thesis
+- [ ] ALFS-Prime style followed (no prohibited patterns)
+- [ ] Template structure followed
+- [ ] Word count ~500 (450-600)
+- [ ] Data reported honestly—theory tested, not faked
+- [ ] Tagline included
+
+---
+
+## EXAMPLE METRICS REPORTING
+
+Good:
+> Lexical diversity registered 0.304; Shannon entropy 7.92 bits; hedge-to-assertion ratio 0.82. [...] During active litigation, hedge-to-assertion ratio collapsed to 0.25—a 69% decline toward assertive language.
+
+Bad:
+> His language became more assertive and his vocabulary expanded significantly during the litigation period.
+
+The first gives numbers. The second is qualitative hand-waving.
+
+---
+
+## CORPUS DOCUMENTATION TEMPLATE
+
+For each essay, document:
+
+```
+CEO: [Name]
+Company: [Company]
+Corpus Type: [Earnings calls / Interviews / Keynotes / etc.]
+
+Period 1: [Label]
+- Date range: [Start] to [End]
+- Sources: [List of specific transcripts]
+- Word count: [N]
+- LD: [X.XXX]
+- SE: [X.XX] bits
+- H2A: [X.XX]
+
+Period 2: [Label]
+- Date range: [Start] to [End]
+- Sources: [List of specific transcripts]
+- Word count: [N]
+- LD: [X.XXX]
+- SE: [X.XX] bits
+- H2A: [X.XX]
+
+Changes from Period 1 to Period 2:
+- LD: [+/-X.X%]
+- SE: [+/-X.X%]
+- H2A: [+/-X.X%]
+```
+
+---
+
+## THE GOAL
+
+These essays are empirical tests of a theoretical claim. The theory says fiduciary pressure compresses language. We measure whether that's true. If it's true, we explain the mechanism. If it's false, we report that honestly.
+
+The reader should finish each essay understanding:
+1. What was measured
+2. What the measurements showed
+3. Why the measurements came out that way (structural explanation)
+4. What this tells us about the Cage
+5. What we'd expect to see next
+
+We are scientists with good prose, not advocates with cherry-picked data.
