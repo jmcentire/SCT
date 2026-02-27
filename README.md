@@ -70,7 +70,9 @@ Each directory maps to specific chapters and appendices. The monograph derives i
 
 ## Citation
 
-McEntire, J. (2026). *Structural Compression Theory: A Unified Information-Theoretic Account of Organizational Dysfunction, Creativity, and Substrate-Independent Selection Dynamics.* SSRN. https://doi.org/[TBD]
+McEntire, J. (2026). *Structural Compression Theory: A Unified Information-Theoretic Account of Organizational Dysfunction, Creativity, and Substrate-Independent Selection Dynamics.* SSRN.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18808428.svg)](https://doi.org/10.5281/zenodo.18808428)
 
 ## License
 
