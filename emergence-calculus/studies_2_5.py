@@ -24,9 +24,9 @@ Study 5: Fork Variance Injection
   - Verify: fork injects variance (sigma^2_L contribution)
 
 Usage:
-    cd ~/WanderRepos/tools/stigmergy
-    export ANTHROPIC_API_KEY=$WANDER_ANTHROPIC_API_KEY
-    python ~/Personal/Research/EmergenceCalculus/studies_2_5.py
+    cd path/to/stigmergy   # checkout of the stigmergy package
+    export ANTHROPIC_API_KEY=<your key>
+    python path/to/SCT/emergence-calculus/studies_2_5.py
 """
 
 from __future__ import annotations
@@ -43,7 +43,12 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import wasserstein_distance
 
-STIGMERGY_ROOT = Path.home() / "WanderRepos" / "tools" / "stigmergy"
+# Resolved before chdir so a relative script path still works.
+SCRIPT_DIR = Path(__file__).resolve().parent
+# Checkout of the stigmergy package: $STIGMERGY_ROOT, else the current directory.
+STIGMERGY_ROOT = Path(os.environ.get("STIGMERGY_ROOT", os.getcwd())).expanduser().resolve()
+# Results directory: $EMERGENCE_CALCULUS_OUTPUT_DIR, else next to this script.
+OUTPUT_DIR = Path(os.environ.get("EMERGENCE_CALCULUS_OUTPUT_DIR", SCRIPT_DIR))
 os.chdir(STIGMERGY_ROOT)
 sys.path.insert(0, str(STIGMERGY_ROOT / "src"))
 
@@ -59,7 +64,6 @@ from stigmergy.services.embedding import StubEmbeddingService
 from stigmergy.tracing.trace import TraceLog
 
 SNAPSHOT_EVERY = 10  # Coarser than Study 1 (we're running many more trials)
-OUTPUT_DIR = Path.home() / "Personal" / "Research" / "EmergenceCalculus"
 
 
 # ---------------------------------------------------------------------------

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Purpose
 
-This repository is one leg of a **trifecta**: (1) a patentable solution, (2) a proof-of-concept implementation, and (3) an academic paper — all centered on **Ambient Structure Discovery (ASD)**. This repo contains the theory, papers, and research. The working code lives at `/Users/jmcentire/WanderRepos/tools/stigmergy`.
+This repository is one leg of a **trifecta**: (1) a patentable solution, (2) a proof-of-concept implementation, and (3) an academic paper — all centered on **Ambient Structure Discovery (ASD)**. This repo contains the theory, papers, and research. The working code lives in the separate `stigmergy` repository (referred to below as `path/to/stigmergy`).
 
 ## Core Thesis
 
@@ -21,7 +21,7 @@ Organizations fail not because they lack information, but because they cannot pe
 
 ## The Proof-of-Concept Code
 
-The implementation lives at **`/Users/jmcentire/WanderRepos/tools/stigmergy`**.
+The implementation lives in a separate checkout of **`stigmergy`** (`path/to/stigmergy`).
 
 ### Tech Stack
 - **Python 3.12+**, Pydantic for data validation, NumPy for numerics
@@ -32,7 +32,7 @@ The implementation lives at **`/Users/jmcentire/WanderRepos/tools/stigmergy`**.
 
 ### Common Commands
 ```bash
-cd /Users/jmcentire/WanderRepos/tools/stigmergy
+cd path/to/stigmergy
 . .venv/bin/activate
 
 # Run all tests
@@ -114,7 +114,7 @@ addopts = "-x -q"
 - **`Alignment.txt`** — Analysis across the four quadrants (Discovery, Normalized Deviance, Noise, Ambient).
 
 ### Dysfunction Paper (Subdirectory)
-- **`dysfunction/paper.tex`** — "The Organizational Physics of Multi-Agent AI: Substrate-Independent Dysfunction in Autonomous Software Engineering Swarms." Empirical paper demonstrating that multi-agent AI systems exhibit identical organizational dysfunction to human organizations. Uses data from the swarm deployment at `/Users/jmcentire/WanderRepos/swarm/arch/.swarm/state.json`. Has its own `CLAUDE.md` with detailed context.
+- **`dysfunction/paper.tex`** — "The Organizational Physics of Multi-Agent AI: Substrate-Independent Dysfunction in Autonomous Software Engineering Swarms." Empirical paper demonstrating that multi-agent AI systems exhibit identical organizational dysfunction to human organizations. Uses data from the swarm deployment's `arch/.swarm/state.json` (in the separate `swarm` checkout). Has its own `CLAUDE.md` with detailed context.
 - **`dysfunction/references.bib`** — Bibliography (35 citations spanning Crawford-Sobel, Goodhart, Lawvere, Akerlof, Liberti-Mian, plus recent 2025 AI multi-agent empirics).
 
 ### Other
@@ -137,7 +137,7 @@ These are the formal results that underpin everything:
 
 ## The Swarm (Empirical Source for Dysfunction Paper)
 
-The multi-agent coding swarm at `/Users/jmcentire/WanderRepos/swarm/` provides the empirical evidence for the dysfunction paper. Key files for the substrate-independence argument:
+The multi-agent coding swarm (separate `swarm` checkout, `path/to/swarm`) provides the empirical evidence for the dysfunction paper. Key files for the substrate-independence argument:
 
 - **`arch/.swarm/state.json`** — Complete audit trail: 89 stages, $57.43, 7.17M tokens, 18 hours. Shows bikeshedding (factual=0, subjective=15-23), governance conflicts, backward pipeline oscillation, verification theater (tests=0/0).
 - **`src/swarm/agents/review.py`** — Six anti-dysfunction mechanisms in code. Critical because the prompts encode anti-dysfunction, not dysfunction. The dysfunction emerged despite countermeasures.
@@ -149,7 +149,7 @@ The multi-agent coding swarm at `/Users/jmcentire/WanderRepos/swarm/` provides t
 ## Related Books by Author
 
 - **`The Cage and the Mirror`** — Organizational dysfunction via Godelian incompleteness. The book-length argument underlying the ASD theoretical framework.
-- **`Privacy: Architecture of Forgetting`** — Cryptographic architecture for a privacy-preserving internet. Six independently adoptable components. Located at `/Users/jmcentire/Personal/Privacy/`. Has its own CLAUDE.md.
+- **`Privacy: Architecture of Forgetting`** — Cryptographic architecture for a privacy-preserving internet. Six independently adoptable components. Maintained separately.
 - **`Applied Synthesis`** (3rd ed.) — Perceptual blindness.
 - **`Uncommon Leadership`** — Leadership theory.
 - **`Emergence: A Programming Paradigm`** — Constraint-based agent systems. Paper at `mcentire2025e` in dysfunction/references.bib.
@@ -184,5 +184,3 @@ kin context asd-patent           # Pull related context
 kin add "<insight>"              # Capture discoveries
 kin link <a> <b> <rel> --why "<reason>"  # Create edges
 ```
-
-Legacy Conv vault (459 nodes, richer historical data): `~/Personal/Projects/Conv/`

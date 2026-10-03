@@ -41,7 +41,7 @@ agent can accomplish the task without coordination overhead.
 
 ### A2: Org Swarm (Gated-Review Hierarchy)
 
-The existing swarm at `/Users/jmcentire/WanderRepos/swarm/`. Hierarchical
+The existing swarm (separate `swarm` checkout). Hierarchical
 pipeline: diagnose → decompose → architect → architect_review → locate →
 execute → test → verify → review. Gated evaluation at multiple stages.
 Six anti-dysfunction mechanisms active.

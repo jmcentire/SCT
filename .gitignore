@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 *.egg-info/
 .env
+
+# Local session-state notes (not published)
+resume
