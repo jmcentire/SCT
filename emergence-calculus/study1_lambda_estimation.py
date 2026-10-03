@@ -11,9 +11,9 @@ Protocol (from emergence_calculus.md Section 9, Study 1):
 - Compare measured lambda with predicted lambda from Theorem 5.1
 
 Usage:
-    cd ~/WanderRepos/tools/stigmergy
-    export ANTHROPIC_API_KEY=$WANDER_ANTHROPIC_API_KEY
-    python ~/Personal/Research/EmergenceCalculus/study1_lambda_estimation.py
+    cd path/to/stigmergy   # checkout of the stigmergy package
+    export ANTHROPIC_API_KEY=<your key>
+    python path/to/SCT/emergence-calculus/study1_lambda_estimation.py
 
 No side effects: signals are fetched read-only from live sources, mesh state
 files are never written. LLM is only used for signal fetching (if needed),
@@ -37,7 +37,12 @@ from scipy.stats import wasserstein_distance
 from scipy.optimize import curve_fit
 
 # Must run from the stigmergy project root for config loading
-STIGMERGY_ROOT = Path.home() / "WanderRepos" / "tools" / "stigmergy"
+# Resolved before chdir so a relative script path still works.
+SCRIPT_DIR = Path(__file__).resolve().parent
+# Checkout of the stigmergy package: $STIGMERGY_ROOT, else the current directory.
+STIGMERGY_ROOT = Path(os.environ.get("STIGMERGY_ROOT", os.getcwd())).expanduser().resolve()
+# Results directory: $EMERGENCE_CALCULUS_OUTPUT_DIR, else next to this script.
+OUTPUT_DIR = Path(os.environ.get("EMERGENCE_CALCULUS_OUTPUT_DIR", SCRIPT_DIR))
 os.chdir(STIGMERGY_ROOT)
 sys.path.insert(0, str(STIGMERGY_ROOT / "src"))
 
@@ -635,7 +640,7 @@ async def main():
                   f"min={np.min(ratios):.4f}, max={np.max(ratios):.4f}")
 
     # Save full results
-    output_path = Path.home() / "Personal" / "Research" / "EmergenceCalculus" / "study1_results.json"
+    output_path = OUTPUT_DIR / "study1_results.json"
     results = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "config": {

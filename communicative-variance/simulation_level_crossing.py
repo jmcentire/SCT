@@ -12,7 +12,11 @@ Also tests boundary violations: what happens when each condition fails.
 
 import numpy as np
 import json
+import os
 from dataclasses import dataclass, asdict
+
+# Results directory: $CV_OUTPUT_DIR, else next to this script.
+OUTPUT_DIR = os.environ.get("CV_OUTPUT_DIR", os.path.dirname(os.path.abspath(__file__)))
 
 @dataclass
 class SimResult:
@@ -308,10 +312,11 @@ def main():
                 return obj.tolist()
             return super().default(obj)
 
-    with open("/Users/jmcentire/Personal/Research/CommunicativeVariance/simulation_results.json", "w") as f:
+    output_path = os.path.join(OUTPUT_DIR, "simulation_results.json")
+    with open(output_path, "w") as f:
         json.dump(output, f, indent=2, cls=NpEncoder)
 
-    print(f"\nFull results saved to simulation_results.json")
+    print(f"\nFull results saved to {output_path}")
 
 if __name__ == "__main__":
     main()

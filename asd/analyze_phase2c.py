@@ -5,14 +5,23 @@ Mirrors Phase 3 (Qwen 1.5B) analysis format exactly.
 """
 
 import json
+import os
+import sys
 import numpy as np
 from collections import defaultdict
+
+# Phase 2c results root: argv[1], else $PHASE2C_RESULTS_DIR, else ./results/phase2c
+RESULTS_DIR = (sys.argv[1] if len(sys.argv) > 1
+               else os.environ.get("PHASE2C_RESULTS_DIR", os.path.join("results", "phase2c")))
+if not os.path.isdir(RESULTS_DIR):
+    sys.exit(f"Phase 2c results not found at {RESULTS_DIR!r}; pass the directory as an "
+             "argument or set PHASE2C_RESULTS_DIR.")
 
 # Load data
 seeds = [42, 43]
 data = {}
 for seed in seeds:
-    path = f"/Users/jmcentire/Code/AI/results/phase2c/seed{seed}/combined_results.json"
+    path = os.path.join(RESULTS_DIR, f"seed{seed}", "combined_results.json")
     with open(path) as f:
         data[seed] = json.load(f)
 

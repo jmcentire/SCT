@@ -18,9 +18,13 @@ Addresses adversarial review holes from v1:
 
 import numpy as np
 import json
+import os
 from dataclasses import dataclass, asdict, field
 from typing import Callable, Optional
 import warnings
+
+# Results directory: $CV_OUTPUT_DIR, else next to this script.
+OUTPUT_DIR = os.environ.get("CV_OUTPUT_DIR", os.path.dirname(os.path.abspath(__file__)))
 
 # ============================================================
 # GLOBAL CONFIG
@@ -831,7 +835,7 @@ def main():
     print(f"   Counterexamples: {mc_results['all_met_no_benefit']}")
 
     # Save
-    output_path = "/Users/jmcentire/Personal/Research/CommunicativeVariance/simulation_results_v2.json"
+    output_path = os.path.join(OUTPUT_DIR, "simulation_results_v2.json")
     with open(output_path, "w") as f:
         json.dump(all_results, f, indent=2, cls=NpEncoder)
     print(f"\nFull results saved to {output_path}")

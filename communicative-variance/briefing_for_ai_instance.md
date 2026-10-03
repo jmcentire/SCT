@@ -1,10 +1,10 @@
 # Briefing: Communicative Variance Theory → Constellation Composition SR
 
-## For the Claude Code instance working in ~/Code/AI
+## For the Claude Code instance working in the AI training-efficiency repository
 
 This document bridges two research streams running in parallel:
-1. **CommunicativeVariance** (`~/Personal/Research/CommunicativeVariance/`): A formal information-theoretic framework for when noise produces net benefit in hierarchical systems
-2. **Constellation Composition** (`~/Code/AI/`): Paper 3's stochastic resonance experiment on model fingerprint decomposition at high collinearity
+1. **CommunicativeVariance** (`communicative-variance/` in this repository): A formal information-theoretic framework for when noise produces net benefit in hierarchical systems
+2. **Constellation Composition** (the AI training-efficiency repository): Paper 3's stochastic resonance experiment on model fingerprint decomposition at high collinearity
 
 ---
 
